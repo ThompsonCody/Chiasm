@@ -1,0 +1,7 @@
+# Keep source code portable between Windows and Netlify's Linux build environment.
+* text=auto eol=lf
+
+# These source-backed records have byte-level SHA-256 checks. Never rewrite line endings.
+/public/texts/** -text
+/public/structures/** -text
+/scripts/structure-sources/*.json -text

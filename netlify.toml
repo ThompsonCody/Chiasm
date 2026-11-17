@@ -1,0 +1,7 @@
+[build]
+  command = "npm test && npm run build"
+  publish = "dist"
+
+# Node 24 is selected by .nvmrc. The imported texts and maps ship from public/;
+# deployment does not download or regenerate source material.
+# Routes use query parameters at /, so no catch-all rewrite is needed.

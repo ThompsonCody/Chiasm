@@ -1,0 +1,218 @@
+{
+  "kjv.zip": {
+    "url": "https://ebible.org/Scriptures/eng-kjv_usfx.zip",
+    "sha256": "4b9b2190ad562bf2d31a4a138fb841fb00cc87814ddd5ef29bb098d98d38ebcc"
+  },
+  "web.zip": {
+    "url": "https://ebible.org/Scriptures/engwebp_usfx.zip",
+    "sha256": "cb45e610f5e3d337987c7ae8820fbfffc7e3a16b827c13ec1eebd2611fc51aff"
+  },
+  "enoch.html": {
+    "url": "https://www.gutenberg.org/files/77935/77935-h/77935-h.htm",
+    "sha256": "d61ea7450d90e3c0682a1ed209b854ecf1755b0075685f6c6b846b0f9909a194"
+  },
+  "jubilees/1.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/1.htm",
+    "sha256": "ffcef08dd15324e16affffed4144076d4d1b9eb1d6f764f2c4ee1808b1ba7545"
+  },
+  "jubilees/2.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/2.htm",
+    "sha256": "350eee324ae5033fbc858b25a1c6ecf94b1141f6d53754eef4d99006e1c5df4e"
+  },
+  "jubilees/3.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/3.htm",
+    "sha256": "f5160eb84e520a40999c4e2d279a67679936d72e2f2417ba18aa4f3bd22490e1"
+  },
+  "jubilees/4.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/4.htm",
+    "sha256": "681258d09af9e3e334026a5ebeae77a2d43d5d34eea5d179122df5ec813d4abc"
+  },
+  "jubilees/5.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/5.htm",
+    "sha256": "38fc6307c43227c3e29a901eba4ea69a89fe58cc9a6aacf4c477b7f50d8d2e86"
+  },
+  "jubilees/6.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/6.htm",
+    "sha256": "f21aff68c1a7d80f8d025c11a43dda3f4d1b455618452fbf5c2c9f4cbbc6c001"
+  },
+  "jubilees/7.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/7.htm",
+    "sha256": "7190044eaaad252b819d873fdf05b56617644ad3f08d9031e0cbe246d861b204"
+  },
+  "jubilees/8.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/8.htm",
+    "sha256": "589a14a7b6546778185d69d45b3c6421c5f3bad65c834f45a07a4a01a47869c2"
+  },
+  "jubilees/9.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/9.htm",
+    "sha256": "424243a359cf2b510325cf9201d60294839edc14ad496f45acfbbca0733af24a"
+  },
+  "jubilees/10.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/10.htm",
+    "sha256": "7d477d94f9a1db6342a31ae58167d4ab6ae4bc9ec5c9fa493d7c69d5a170e85a"
+  },
+  "jubilees/11.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/11.htm",
+    "sha256": "b5cfbe80b6d43f1107e165fce434838b783048757c097eb5e64429d4b9d73d8e"
+  },
+  "jubilees/12.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/12.htm",
+    "sha256": "64fd49ebae629a3410e5b73bd612a548fcf594fa3d1d9a4b599556ed7ed622ae"
+  },
+  "jubilees/13.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/13.htm",
+    "sha256": "1ea7d8a44f09788a5ba013bf534eeb4f268e2181b4eaf8e0dd3adac61c6a2544"
+  },
+  "jubilees/14.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/14.htm",
+    "sha256": "ad1ddc587e3419f1ad3f7eaef1cb1ee1d11ce7733edf1556f7f4207342cf77b9"
+  },
+  "jubilees/15.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/15.htm",
+    "sha256": "c1459e83d9d4c87fdd0e51427ec3ca4017932693972791925247c2c98f7b7b27"
+  },
+  "jubilees/16.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/16.htm",
+    "sha256": "6b57cd6bfa53fe1931a4749cccdeaea94d4a7ba7323af752f4f36548736b4629"
+  },
+  "jubilees/17.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/17.htm",
+    "sha256": "a952aebd890dd4d8ef9eb9084988e0d1b96d1e8c547cfc2b4a43b65d3337d6d0"
+  },
+  "jubilees/18.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/18.htm",
+    "sha256": "fbce6b283465025567e0dd5707d89248b19e7dbde2be22711287effed7de5131"
+  },
+  "jubilees/19.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/19.htm",
+    "sha256": "aa1f1cd100f87213cbac2046112ab1f99b171d09f3c88a5a9acd86b390b26b1c"
+  },
+  "jubilees/20.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/20.htm",
+    "sha256": "5b0c40f7c63a51eb3ba287ba2e4d1c489da25e2d9feecf5de6046055d72204cc"
+  },
+  "jubilees/21.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/21.htm",
+    "sha256": "3602b3f774aaee2f6f50f0898c90989cd197d10f6d06b1cb77d9557782224c7d"
+  },
+  "jubilees/22.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/22.htm",
+    "sha256": "96cf9c277b806ecb18927ebde05b79a6813a741f466c8e95e35c54ab9af2844c"
+  },
+  "jubilees/23.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/23.htm",
+    "sha256": "ef6810cf2ee84fcf9669636053355bbab81dd8336fa821f6956dcea2616b5205"
+  },
+  "jubilees/24.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/24.htm",
+    "sha256": "3951061be4bec4a4079a54f3b6cf2b04276fe752a5c79b908c189fc37c49066d"
+  },
+  "jubilees/25.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/25.htm",
+    "sha256": "f9fba479adff883a7b9d49c7dd038a59e25f3b9e182ecaeee9df76c52bab6939"
+  },
+  "jubilees/26.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/26.htm",
+    "sha256": "7df545233bfafd3f8297feafbadbb6978981c967524c0b1c29fb12ab5ba779fb"
+  },
+  "jubilees/27.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/27.htm",
+    "sha256": "e76507dc32b87f6a65d1fb457fdc949c670ebea52bb42df3b2058255db53b45f"
+  },
+  "jubilees/28.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/28.htm",
+    "sha256": "15d427bc05ad5c7b1fd867a7392abf45604665976039fea096980b6cad22d62b"
+  },
+  "jubilees/29.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/29.htm",
+    "sha256": "bafaa760b0577e32f92afc2ee3eb12279d9c603ceff95a2399b2b61320cd2d9a"
+  },
+  "jubilees/30.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/30.htm",
+    "sha256": "2e1fa50dcd299d37c4e80b7a3f419cc7c94e52a18948be596d66492a1ce0250a"
+  },
+  "jubilees/31.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/31.htm",
+    "sha256": "849f374fde65724f42d81e20927c9333625e5b3dca1e9a46542fc56e9e923312"
+  },
+  "jubilees/32.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/32.htm",
+    "sha256": "dc435f1f4e4168c2fd2703c6c9e0f25339655c6a7467c7d230f0a5ca7ec71ab4"
+  },
+  "jubilees/33.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/33.htm",
+    "sha256": "3dc76bc5f59f5145346475ae175dfcc7b42e7b8afa4930f671c3e6bdf339596d"
+  },
+  "jubilees/34.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/34.htm",
+    "sha256": "fb7dae5dc1ed1dcd192cdc14646370fef35ce27421ebd6163f2d802b817838c2"
+  },
+  "jubilees/35.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/35.htm",
+    "sha256": "ad6f38549cc1bf0c7bf0d9f00b82851e106b5a19f8def9bd408538f7e3290294"
+  },
+  "jubilees/36.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/36.htm",
+    "sha256": "94b96d95e38724d8ecdc86c9ca292a60ea5267d4c04619ab4b4528afdd27e138"
+  },
+  "jubilees/37.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/37.htm",
+    "sha256": "f73912ea9d6ca85c9156596f42700ebb762a4da9c250f1031a7384a531e8a792"
+  },
+  "jubilees/38.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/38.htm",
+    "sha256": "88e3d97047112d28b5ea7803ebe99d6f66e1ae70deb59febd80d77821f96a3f1"
+  },
+  "jubilees/39.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/39.htm",
+    "sha256": "887c4a685c6c4a8a2beb16375f10d4ccde6fc6905c1621221575d5a7774c3a05"
+  },
+  "jubilees/40.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/40.htm",
+    "sha256": "45354708e440e85cc5c594c64135a79bfd67536a6955b343396c834f9e58e208"
+  },
+  "jubilees/41.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/41.htm",
+    "sha256": "9f0bd8a9ae6a2372d09b07e7f8cfcadf18ded98f2bfa1217f0b54924468f065b"
+  },
+  "jubilees/42.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/42.htm",
+    "sha256": "1fd05e324a4759d570b4551f8b9af870e3a4a90d659d3f05dc82beb577b07e90"
+  },
+  "jubilees/43.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/43.htm",
+    "sha256": "0e8ab91de3baf78b0e0cde7026818cc4cb860fcf508c3d0a0310e0260f99f225"
+  },
+  "jubilees/44.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/44.htm",
+    "sha256": "aa2568db7e91cca811203801dc269429a18cb1ed5dd3fdf9d23014f2321b26d7"
+  },
+  "jubilees/45.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/45.htm",
+    "sha256": "ddd7c3ec5493845bb738949eb73101d2e37d75a455d2c353e3ea5e7ea3910720"
+  },
+  "jubilees/46.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/46.htm",
+    "sha256": "bcfa657367a113359ca7b83fdf56878405205ce15936e8670bc731ba870607b1"
+  },
+  "jubilees/47.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/47.htm",
+    "sha256": "b2eafa499ba493fddc5b4633b4d6aaf07c1c13c21f2b89c57c7127a29d0503e9"
+  },
+  "jubilees/48.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/48.htm",
+    "sha256": "815834fdf6ea2c8fd781f78e3cf95424426bc5b1abbce35c09e3018c068347ad"
+  },
+  "jubilees/49.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/49.htm",
+    "sha256": "5d4b9a0f2549c04e32b3da79a7fb0e4a27efee7680812197889cd706ecedb400"
+  },
+  "jubilees/50.html": {
+    "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/50.htm",
+    "sha256": "b9746f11b2817338edb77b493be11e1751521dce89336c38021e01a86418606f"
+  },
+  "pg-license.html": {
+    "url": "https://www.gutenberg.org/policy/license.html",
+    "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"
+  }
+}

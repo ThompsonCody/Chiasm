@@ -1,0 +1,41 @@
+{
+  "reviewed": "2026-11-14",
+  "snapshot": "Murai downloads labelled 2022-02-24; source structure-data licence notice captured separately",
+  "inputs": [
+    {
+      "file": "LiteraryStructureoftheBible_PericopeList_OT.xlsx",
+      "url": "http://www.bible.literarystructure.info/bible/LiteraryStructureoftheBible_PericopeList_OT.xlsx",
+      "sha256": "0e7ef46da8d25fab61622e540f914fce07338b59db77795eeef8549809a9ff7b"
+    },
+    {
+      "file": "LiteraryStructureoftheBible_PericopeList_NT.xlsx",
+      "url": "http://www.bible.literarystructure.info/bible/LiteraryStructureoftheBible_PericopeList_NT.xlsx",
+      "sha256": "de8ff7bf656efe9bbb23e3d7903e46b01495970d6c166c94f66d692fa3d6276e"
+    },
+    {
+      "file": "LiteraryStructureoftheBible_PericopeStructure_OT.xlsx",
+      "url": "http://www.bible.literarystructure.info/bible/LiteraryStructureoftheBible_PericopeStructure_OT.xlsx",
+      "sha256": "5313bc88194f7e5610f320e01a8753bfad0cd438f34a286cc59fc302cc421a62"
+    },
+    {
+      "file": "LiteraryStructureoftheBible_PericopeStructure_NT.xlsx",
+      "url": "http://www.bible.literarystructure.info/bible/LiteraryStructureoftheBible_PericopeStructure_NT.xlsx",
+      "sha256": "ea0659a0d316684786d2470583a80965f0f9483d8b0d25ff5843e3bf84de446b"
+    },
+    {
+      "file": "murai-index.html",
+      "url": "http://www.bible.literarystructure.info/bible/bible_e.html",
+      "sha256": "215621293e12b72429fdb7e5b05730a2791eaac74e1020186e28a4ff1d9b2592"
+    },
+    {
+      "file": "domka.pdf",
+      "url": "https://czasopisma.kul.pl/index.php/ba/article/download/4518/4576/14417",
+      "sha256": "a5cd0715680ba502e50cf842e30f681c46e739f6adb46beaa972858ca96974a4"
+    },
+    {
+      "file": "wenham.pdf",
+      "url": "https://static1.squarespace.com/static/569543b4bfe87360795306d6/t/57f55237d1758e5e8604cc89/1475695183038/CoherenceofFloodNarrative.pdf",
+      "sha256": "1dd2e3f2011b16869ffcd9f3b850c3fc017ddd71ca29b13bf4b637591bd3f864"
+    }
+  ]
+}

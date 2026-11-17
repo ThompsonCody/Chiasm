@@ -1,0 +1,3960 @@
+{
+  "sourceOutlines": 1968,
+  "workingMaps": 972,
+  "mapFiles": [
+    {
+      "id": "domka-enoch-9",
+      "sha256": "a7d291759636c160c8c1e7656a4d9d4b52e1228c9e1079fce6ebf404479e10a3"
+    },
+    {
+      "id": "domka-watchers",
+      "sha256": "1a67c046686e0756012665a4d09e752c1bb06237bb54ad38d5d7d20edc608525"
+    },
+    {
+      "id": "murai-nt-1corinthians-r10",
+      "sha256": "31a9ad46fefb3b4f46b9c984128f0b31f8a7480a8ab4f57576e518a0244b5f4b"
+    },
+    {
+      "id": "murai-nt-1corinthians-r100",
+      "sha256": "d1da4e686f7f3bba0d38f48a0b07696905cc35d4ec7ee485e67e72d2fde9b377"
+    },
+    {
+      "id": "murai-nt-1corinthians-r108",
+      "sha256": "fcd05362b7635ee8355527de9f21002098748329faa556f3c592d2de81599066"
+    },
+    {
+      "id": "murai-nt-1corinthians-r120",
+      "sha256": "ad83157edfb3745b43971dbb0b1b553e43e6e45a476912a3f1010f1fddb038b5"
+    },
+    {
+      "id": "murai-nt-1corinthians-r130",
+      "sha256": "91a06154c7a42d488a9fd39de11eaa61143de4df409730505e5514633cb660f0"
+    },
+    {
+      "id": "murai-nt-1corinthians-r137",
+      "sha256": "e688258a8efe7653fd4e8823fde55a170d98164c1a2fc88ea2a0f0b29c7a2f3c"
+    },
+    {
+      "id": "murai-nt-1corinthians-r146",
+      "sha256": "419c3b433667382e1af3adc4c0f0cfde34f3949ecd44d0bed9eb68d3daac7045"
+    },
+    {
+      "id": "murai-nt-1corinthians-r153",
+      "sha256": "61739693fcff43cce6e8964a9b983ef013db49aeb1685c612eb2e1ec48920d9c"
+    },
+    {
+      "id": "murai-nt-1corinthians-r165",
+      "sha256": "36792fa267e85add1b18ac8abbc5ad1859ff4fa93df6e0590113fca641751f39"
+    },
+    {
+      "id": "murai-nt-1corinthians-r176",
+      "sha256": "faa690e83f457828b8d924ae95485bb8c61e6a78b2e9bb76a5714c80b610f871"
+    },
+    {
+      "id": "murai-nt-1corinthians-r18",
+      "sha256": "e50addc6783c32b8630b198ad43c5cbf2f12e6b7930a1534a428762d39ab6b4e"
+    },
+    {
+      "id": "murai-nt-1corinthians-r186",
+      "sha256": "d8a5ae7c666c1af2cf4465a0632bb8715bb91b56fc1b50a072b1823ead2fd9ec"
+    },
+    {
+      "id": "murai-nt-1corinthians-r194",
+      "sha256": "dbe9a955a1b069e0dc67a668dd5c63e3de09d8d108fb68ac3b0ac74e658ad059"
+    },
+    {
+      "id": "murai-nt-1corinthians-r2",
+      "sha256": "2bc3353442a19451e4eca69fe24b930b0f460239e93db0fd6bc411793c581f6e"
+    },
+    {
+      "id": "murai-nt-1corinthians-r200",
+      "sha256": "53a190058d1260f9409440b66e1840d55575385e605dba30df1221f904532f8f"
+    },
+    {
+      "id": "murai-nt-1corinthians-r208",
+      "sha256": "feba4ed7586a92a648bc002f09f2771b6997be67876fcc148c081d29b6a2370f"
+    },
+    {
+      "id": "murai-nt-1corinthians-r218",
+      "sha256": "d2ebce1f0e52816846f5c9d18428bee97839871c2152f103258e4be9aa76a4d7"
+    },
+    {
+      "id": "murai-nt-1corinthians-r27",
+      "sha256": "6d0e70355a26164173e692601089f43f50f551793d470ae017db1cd59e3c931b"
+    },
+    {
+      "id": "murai-nt-1corinthians-r37",
+      "sha256": "bc7e279436182915322a53820103c9eac9dfcd0086f423c0259638c68f5aaa63"
+    },
+    {
+      "id": "murai-nt-1corinthians-r45",
+      "sha256": "78a859d1dd5eac8c4ffea322779cf0c42157c3dc87c5d3fba6fff6959ee6da62"
+    },
+    {
+      "id": "murai-nt-1corinthians-r53",
+      "sha256": "efa0939abee04aa7da6d96ecb888d880b931c1b1d6229c66004bf096d0c77f17"
+    },
+    {
+      "id": "murai-nt-1corinthians-r62",
+      "sha256": "3ac4141abcf440f7182a7d7309762201adede1f46df53fa257833c0ec51ccffa"
+    },
+    {
+      "id": "murai-nt-1corinthians-r70",
+      "sha256": "023d8984f65a3e5009eb27c6f6da6e0ac4d82f3db27f6da8228a7c831ee57332"
+    },
+    {
+      "id": "murai-nt-1corinthians-r80",
+      "sha256": "f81fb05a6539bdb9c7482cbc6a44eb8db4742f532eed1024ab7570eb6436b214"
+    },
+    {
+      "id": "murai-nt-1corinthians-r87",
+      "sha256": "435fe631cbc2b3d7476f57f4c49ef6ab32d7274603e8d2f148688fe2faff0e45"
+    },
+    {
+      "id": "murai-nt-1peter-r10",
+      "sha256": "cab76088e3dca38c1bba69e3199418b033029c354c292474bb495a5171f84832"
+    },
+    {
+      "id": "murai-nt-1peter-r19",
+      "sha256": "5648330d34aa37200b463920f90eb4c2a6dff4e6c9084b5ce2b495d9b9721a3f"
+    },
+    {
+      "id": "murai-nt-1peter-r2",
+      "sha256": "fe76fd55a33b5d8ffd5dbf9d1d43453d67516bf3cd9e64f7e1304874ac18a069"
+    },
+    {
+      "id": "murai-nt-1peter-r26",
+      "sha256": "43750b55b851a95628bbcd517656d4d8cc4498161cff14d9b82d1c826deb127c"
+    },
+    {
+      "id": "murai-nt-1peter-r32",
+      "sha256": "3572278e711ca6e552bf0dd84138cfc2309e4e161396f63563c71e024faa273f"
+    },
+    {
+      "id": "murai-nt-1peter-r41",
+      "sha256": "e3c3d024ce6ba73b6c271c2b31192823266cc61a742309ea3d304ddfcb5a70d8"
+    },
+    {
+      "id": "murai-nt-1peter-r47",
+      "sha256": "f1ad39b2432d41224939af3e4366f9dd5eef5008f32bb23a32f3eed0ab976a64"
+    },
+    {
+      "id": "murai-nt-1peter-r53",
+      "sha256": "06ba61fd52e3f1fab8c4b0c5b1140de6b2248ef35e4072a69130677f802e04da"
+    },
+    {
+      "id": "murai-nt-1thessalonians-r10",
+      "sha256": "c6665c743070cf69b666b9b470d5a409294e704db6091f857d6406fa5dcf586a"
+    },
+    {
+      "id": "murai-nt-1thessalonians-r20",
+      "sha256": "c6ffb0d747c02a1305e5aa3ab9e4ca1d5ee5751d7ab21738212814cb2c7ff154"
+    },
+    {
+      "id": "murai-nt-1thessalonians-r3",
+      "sha256": "55b8c804572e753ef70b9ed2086df803b2207df667868191fae161e5bb652da2"
+    },
+    {
+      "id": "murai-nt-1thessalonians-r30",
+      "sha256": "5873edeaa523512626032bfa5ff9cf65982ddcdcbc15564f060013ac58a28d2e"
+    },
+    {
+      "id": "murai-nt-1thessalonians-r37",
+      "sha256": "ca13d59431b9cc5323bc45fe197f76aad81e008b1d2ed5bd01a416d9f4424157"
+    },
+    {
+      "id": "murai-nt-1thessalonians-r46",
+      "sha256": "e42e31729a9d0c3c40bab075bf017c48b608f7f1178ea4baf8d345d827f6530f"
+    },
+    {
+      "id": "murai-nt-1thessalonians-r55",
+      "sha256": "8e3f9001f9ca7649b5dfa1dd6ea47bf2e5a1e5e333775d296552da3f310053a3"
+    },
+    {
+      "id": "murai-nt-1timothy-r13",
+      "sha256": "40c1a74b6ee3470c6dcef11c30031aee6bb25da4c332df732c736d97ca0e9658"
+    },
+    {
+      "id": "murai-nt-1timothy-r19",
+      "sha256": "731d6b5e27e8e871bf2d310dfa67acc60514c25426d4c5fd0df4d7a9be5c1102"
+    },
+    {
+      "id": "murai-nt-1timothy-r28",
+      "sha256": "fe329c87956aaa1e6cf0554be36d06d360fe8413edfbfe78b499d5cb15d444e1"
+    },
+    {
+      "id": "murai-nt-1timothy-r3",
+      "sha256": "6058216a71ee599d21138b696496ec29635fe3495f770a9f8c7406354f9e697b"
+    },
+    {
+      "id": "murai-nt-1timothy-r37",
+      "sha256": "3a3b81809486ad335a78c11b914a1cf61862175efaf9acea73a3d258bcb90ac3"
+    },
+    {
+      "id": "murai-nt-1timothy-r43",
+      "sha256": "00e0d13567cd7455d7ba30a0d24362440128addcba2b275f4e9b9b8f97c06265"
+    },
+    {
+      "id": "murai-nt-1timothy-r52",
+      "sha256": "ed2d3b1a0cff10804208a027aa27016f660a9849c270a9d4c66bcf915630dcef"
+    },
+    {
+      "id": "murai-nt-1timothy-r60",
+      "sha256": "9ab1d5937cc46f94860ebe29f23d26f8104649984cbd641be8950c7fdf832c2f"
+    },
+    {
+      "id": "murai-nt-1timothy-r66",
+      "sha256": "997386c8f68fb89818aeca8267baa1ad8fcffd640af0448c5b102b104a9a95d7"
+    },
+    {
+      "id": "murai-nt-2corinthians-r102",
+      "sha256": "580222c97c6fdfba8637efc369935dd92eb80f32182229bc9bb9624385c18395"
+    },
+    {
+      "id": "murai-nt-2corinthians-r110",
+      "sha256": "93ebdc2013c96991bfefb758d2d9ff3dd159b3788d9bd19c4ec3179eab449c31"
+    },
+    {
+      "id": "murai-nt-2corinthians-r117",
+      "sha256": "9faf5aff974a7e0bcd2587b5fbcb9f92e1eefdbc548342928a0d643908269baf"
+    },
+    {
+      "id": "murai-nt-2corinthians-r126",
+      "sha256": "03da70810bdca26e6a2bc9c693cb649847587e38ea3a000d36897dc6ec7b68e2"
+    },
+    {
+      "id": "murai-nt-2corinthians-r15",
+      "sha256": "c74c37b77acd05efb80bbb119dde446bd3a9d09e7193f3f62d9aa3f7cec677eb"
+    },
+    {
+      "id": "murai-nt-2corinthians-r2",
+      "sha256": "8e7e1059ac3e374cba1dabb91751fd8f79ae91b3e9d114ef91973fe865ccd495"
+    },
+    {
+      "id": "murai-nt-2corinthians-r23",
+      "sha256": "b1ccfc52667b1452ecd4f9a4d6cc1fbf2504e5f58bb1dd524c1d18b889f7e222"
+    },
+    {
+      "id": "murai-nt-2corinthians-r33",
+      "sha256": "63ca878a19e999b261470c4a0168fbe33c19dcaa21e11a97d485f0a381aa60b2"
+    },
+    {
+      "id": "murai-nt-2corinthians-r42",
+      "sha256": "bdfe7ae5f0aba233d4a7516c52fa8cc572ca267ba4eda1d29264745994d18715"
+    },
+    {
+      "id": "murai-nt-2corinthians-r50",
+      "sha256": "5fb37f6457ba55b160256d9bb99926b7eb79919bd27ab8eb823484c8c29f66ee"
+    },
+    {
+      "id": "murai-nt-2corinthians-r60",
+      "sha256": "74bf33068b2d46ebde4bb172ba13d11755e96840a200704d1b435f58becbe7a2"
+    },
+    {
+      "id": "murai-nt-2corinthians-r67",
+      "sha256": "892a8b2e4ff689f910f47acb650c4b024435cd61a22c0811c53121cc554a2a29"
+    },
+    {
+      "id": "murai-nt-2corinthians-r77",
+      "sha256": "0899d7fb436a2bd2676d6524506611c984865b8c88c05758cbf4a68f921469b5"
+    },
+    {
+      "id": "murai-nt-2corinthians-r85",
+      "sha256": "f812550efdd6d49815dfb777b561f837f33c1032ae4a8df9184bcdf94a95824e"
+    },
+    {
+      "id": "murai-nt-2corinthians-r9",
+      "sha256": "aefb7090d3cc1238a1181e46ddfc83ddbd02d055cde0f57946430035f3473742"
+    },
+    {
+      "id": "murai-nt-2corinthians-r95",
+      "sha256": "d1c2db5badd67678f8c6c3e3420c1693315ee7cfa785718e6f770553daaff78c"
+    },
+    {
+      "id": "murai-nt-2john-r3",
+      "sha256": "7bac5a796bf4f79b1890b8ec1d8b2ff2b9cc34faee99f750f48e4960aab827c9"
+    },
+    {
+      "id": "murai-nt-2peter-r11",
+      "sha256": "26aebe05382b8121abd3b9e572f24fc5a5caab6c5e7284272adf99fdd6813df5"
+    },
+    {
+      "id": "murai-nt-2peter-r17",
+      "sha256": "5a49114742d6ae65ec92bf8b9207f43f9324a1ba9cdd1e6989402372acd0b282"
+    },
+    {
+      "id": "murai-nt-2peter-r27",
+      "sha256": "0ccfac9efcaa4ae6b188edf1e981df3c77fdc4fdf8951b80387cfb7b8ea9a45b"
+    },
+    {
+      "id": "murai-nt-2peter-r3",
+      "sha256": "879928f1e4fdf039219ac2cfcce78f16250b62021f6769ff9158b066f941532e"
+    },
+    {
+      "id": "murai-nt-2peter-r33",
+      "sha256": "0cd119f1af314a6177329d743ee1a474e310d231c38aa94063a53423a22dc5da"
+    },
+    {
+      "id": "murai-nt-2thessalonians-r17",
+      "sha256": "37143eba9bb54b8f0ae413891e8542c35b39e9fd771e72c00dfc2987a253157f"
+    },
+    {
+      "id": "murai-nt-2thessalonians-r25",
+      "sha256": "ea2e1f9dcef294f1ab9f41b327713206d46aa442f5df8d4699b681fd2d12e7d9"
+    },
+    {
+      "id": "murai-nt-2thessalonians-r3",
+      "sha256": "c9b5ff8f359b0950462a2836a57c18f275a2d9dc3ba2e219a541539fa4253704"
+    },
+    {
+      "id": "murai-nt-2thessalonians-r35",
+      "sha256": "fed4b5a0a06e456913af4669f3c8e0257019b3b10a2e098ce9d6d1e80141e24b"
+    },
+    {
+      "id": "murai-nt-2thessalonians-r8",
+      "sha256": "6a83d09f016a230fe932af5693bdbb5c09d8ebc877b264dbb1f0aeb16150c88d"
+    },
+    {
+      "id": "murai-nt-2timothy-r17",
+      "sha256": "0ae6d58569c8625a23cc8d79beab9fd45aa43662f19b2c4c31ed00789e99926d"
+    },
+    {
+      "id": "murai-nt-2timothy-r25",
+      "sha256": "e6b59bbcfc201f9046e1a00b8198da4f431cb354c1190b777df395967ed547a8"
+    },
+    {
+      "id": "murai-nt-2timothy-r3",
+      "sha256": "a920510d5afc7d38355dd592c11f1f1b117af44f83e02eef21b31feef81ab041"
+    },
+    {
+      "id": "murai-nt-2timothy-r32",
+      "sha256": "b3b0b3bd100cb155ad4a16eed7683203484138a54fc5ca2d66c9dd00201c51dd"
+    },
+    {
+      "id": "murai-nt-2timothy-r38",
+      "sha256": "527d44f96c621e4a355ff6c2c661f5f8831cc29902b7ad4684be70ae29257981"
+    },
+    {
+      "id": "murai-nt-2timothy-r46",
+      "sha256": "6a8f0277a340b2d8fc05ab26b21baba6eb5ea5906651eaf7472fcd7790bc84de"
+    },
+    {
+      "id": "murai-nt-2timothy-r55",
+      "sha256": "5d2ed63cc9712081ef633dd0e3b13433a29599f9f810cd1953122a78149bcbf6"
+    },
+    {
+      "id": "murai-nt-acts-r109",
+      "sha256": "5ace3debacf975bee02e34a607bc0a672a6ef500fa9ed006743ad539804cdc3a"
+    },
+    {
+      "id": "murai-nt-acts-r116",
+      "sha256": "5b35fd37f832a1798e170e252ea7ac2ffb58027fc67eb77eeb1a3051475285ae"
+    },
+    {
+      "id": "murai-nt-acts-r12",
+      "sha256": "b3fc54c665501669fd1722fb51b111219d614b7753de1170b816973d447284a1"
+    },
+    {
+      "id": "murai-nt-acts-r134",
+      "sha256": "046cfbef743bc8fe33d9f87b2edbaf0dcbb46993b84ee953ffb95494c80074a6"
+    },
+    {
+      "id": "murai-nt-acts-r140",
+      "sha256": "2dd7c5a23b25abde0cae71b016733d40452fda00f6f394ef8fd557dc7c92fee3"
+    },
+    {
+      "id": "murai-nt-acts-r148",
+      "sha256": "06115b0f7169ea3d38852d21cfab68e6b7efbf9e4e57c574337f1d544b090601"
+    },
+    {
+      "id": "murai-nt-acts-r160",
+      "sha256": "c1d0a28c0253dcf0d893adc144b0ea0830c899c7519c251fd58db629efcf2416"
+    },
+    {
+      "id": "murai-nt-acts-r173",
+      "sha256": "a82b62cef8a033bc6066a2d60fea3f155bc4d0f6883fde9e734e30af88deef56"
+    },
+    {
+      "id": "murai-nt-acts-r181",
+      "sha256": "1a7198703bf5c3b21367a7e617a75af0beb15332b3f14b666f09f10c471c3814"
+    },
+    {
+      "id": "murai-nt-acts-r191",
+      "sha256": "bcfd7cc3b2e7036816e34ea6cee8a61c237a857ffcb4cec75e83493addf52e8e"
+    },
+    {
+      "id": "murai-nt-acts-r2",
+      "sha256": "92db835bc3a576430a2da0b9fedab82b58fa26acf3d3d393196fa570e589faed"
+    },
+    {
+      "id": "murai-nt-acts-r201",
+      "sha256": "885c5e60bb15a6222849b2d3bcd9bba213cc7811445815c9def28b4ade8d64a7"
+    },
+    {
+      "id": "murai-nt-acts-r209",
+      "sha256": "1e681bd789f572f9ae3bde4c49cb829639df1ea516c3f51943a202ebe6bd1564"
+    },
+    {
+      "id": "murai-nt-acts-r217",
+      "sha256": "abc39cf2df140966a12755653afdf4af6b940e12e08286c0d93c041a3453c23f"
+    },
+    {
+      "id": "murai-nt-acts-r22",
+      "sha256": "8059938471b4d81e809059ad74d923c85150cd6db701863e1d80aab7efbb4c1d"
+    },
+    {
+      "id": "murai-nt-acts-r223",
+      "sha256": "4a81d1855d859a4837d56a0b8722b46fa64768e7eb8a7c177a0102a664ea6bb2"
+    },
+    {
+      "id": "murai-nt-acts-r229",
+      "sha256": "c51944d50e5c553f77572aaa277885de2d62b42e2fec2a11a5566e7a1ea71ccb"
+    },
+    {
+      "id": "murai-nt-acts-r239",
+      "sha256": "c6b9b41c3f6e2e49a7ecf2a80f26a7bf570be3882ebdac29dfafba541c11df8b"
+    },
+    {
+      "id": "murai-nt-acts-r251",
+      "sha256": "20a53a74d3f0ca2c66bdd2fb2bad5c22fb42a19345342c14dfd0d08f3ca95a72"
+    },
+    {
+      "id": "murai-nt-acts-r261",
+      "sha256": "aced22bdb80ea579fc56a7011a20bad8523f8e77bbdbba438b38f367aee78dbc"
+    },
+    {
+      "id": "murai-nt-acts-r273",
+      "sha256": "ef5dd9a85e97a279a91df20aa17148d5e78f84a034aef5a28e3bfa53181e52df"
+    },
+    {
+      "id": "murai-nt-acts-r287",
+      "sha256": "67e4abf24387503a6f3e6f796b02ec2a4497407ba0eaf9f3ecd105741d801485"
+    },
+    {
+      "id": "murai-nt-acts-r29",
+      "sha256": "c0d0140ab63f44368e0482e09415d646ec3adef15a16db7ae40cad72a073b803"
+    },
+    {
+      "id": "murai-nt-acts-r293",
+      "sha256": "0e4b8db057af6459982a4fd726d9ed2cf078e0c348ea69a7b7c81bffdd01e7d4"
+    },
+    {
+      "id": "murai-nt-acts-r307",
+      "sha256": "0597798da41c26b85a92b724d17ac7c29ba882ce496a571b6d4d067359c5145c"
+    },
+    {
+      "id": "murai-nt-acts-r318",
+      "sha256": "27579a9dfdaa550d6053d816cd268dfde5b6ebce9963a6a03cadf638d3388fca"
+    },
+    {
+      "id": "murai-nt-acts-r328",
+      "sha256": "9b8234bf9e958823a5e315d1dc69c86abe2853c8caea4388d76362b4b4bf60dc"
+    },
+    {
+      "id": "murai-nt-acts-r360",
+      "sha256": "814f321b8f0bd8be8666fcf3f8b308725612dc7e4ec1dd8b21a0fbdf17e5bc3f"
+    },
+    {
+      "id": "murai-nt-acts-r369",
+      "sha256": "7b4f89e9f274ba15e4f6b99d9cc3bc15b226406f8b6721354655a621497da8c5"
+    },
+    {
+      "id": "murai-nt-acts-r381",
+      "sha256": "e80e3df4cb179aaefeb312824b421fcf5f4c3ad772a3009fe91a17d5b8ebfcb0"
+    },
+    {
+      "id": "murai-nt-acts-r389",
+      "sha256": "6c2d85118ee0f8d6fe60cceea85fbe53cf51f9f9ff001d4a7c42b86845eddf44"
+    },
+    {
+      "id": "murai-nt-acts-r397",
+      "sha256": "61b4fc3728a7726b5133825b4ecab51b244ba94ed516faa7bdf7f23344ece438"
+    },
+    {
+      "id": "murai-nt-acts-r41",
+      "sha256": "b0ffd2273428927306c3148506a723deced3400c45ee8b37fe137163e629a855"
+    },
+    {
+      "id": "murai-nt-acts-r411",
+      "sha256": "d4e647010c440e71cfdbbda1e79227033bbfb03ff542e881b6fc8f0f507e2e78"
+    },
+    {
+      "id": "murai-nt-acts-r423",
+      "sha256": "39a783f0d91848b661415543a1aab7ab9df7193bc4a9798cd11cb8b792e4d5f8"
+    },
+    {
+      "id": "murai-nt-acts-r433",
+      "sha256": "4a3b25aef1c6551b16cedbd410c7ccb1aabc77b2516b12b4fc167efd03169699"
+    },
+    {
+      "id": "murai-nt-acts-r443",
+      "sha256": "63625877a4a6ec88c8f04ff7489479807c25d07121a2f27b9b823d4ae071c315"
+    },
+    {
+      "id": "murai-nt-acts-r451",
+      "sha256": "3ed7e97e74031bd6dc85a0c91d11166e6a6a4eecc4897643819171ac27f845e6"
+    },
+    {
+      "id": "murai-nt-acts-r465",
+      "sha256": "abbea5c452a8f36f4cb6e85ab22bb6599dac1296f8df3d8a0d3c8d7816ae8ba1"
+    },
+    {
+      "id": "murai-nt-acts-r475",
+      "sha256": "666851c7d5b20d6a68f7de992f4bd977f0b713411989582e28b5ac03165450ac"
+    },
+    {
+      "id": "murai-nt-acts-r483",
+      "sha256": "39e620648c2d1b2b07c9eca80da69a7ea88631e0581a0a1cefd2bb09692490c2"
+    },
+    {
+      "id": "murai-nt-acts-r49",
+      "sha256": "9d8e457bcb2578163e2d553090244478bcc3f62eee6c9f02615a300c59f115f7"
+    },
+    {
+      "id": "murai-nt-acts-r61",
+      "sha256": "a36d9d5c0c0bd171b87fd0bcbeed898a7cd4a78d737425e44637941849614af5"
+    },
+    {
+      "id": "murai-nt-acts-r69",
+      "sha256": "fb685680f48b0d153fac6bc4463a6b5f6e13e569a58bc0ace67e0d27ccb4f583"
+    },
+    {
+      "id": "murai-nt-acts-r78",
+      "sha256": "caf2b0b54fe02d792c2c1deecd119c8430449b317d4947774a53d484ad04f2a6"
+    },
+    {
+      "id": "murai-nt-acts-r84",
+      "sha256": "f13b3532b7195764c7875dfa5fefecb83e30b4a06abef920bc8852063f93c455"
+    },
+    {
+      "id": "murai-nt-acts-r93",
+      "sha256": "410b54b17c2ad94d57474d3804163101e89231079b11655075db033457f20d49"
+    },
+    {
+      "id": "murai-nt-colossians-r13",
+      "sha256": "978ebeb381ee1184fb44e03f4fcf4566069bd4f864e187ba783023d037a84b60"
+    },
+    {
+      "id": "murai-nt-colossians-r21",
+      "sha256": "31d90a2b3b2e8ff174e9e15e27e2514a835c241f2acda718733ed4a608d391a9"
+    },
+    {
+      "id": "murai-nt-colossians-r27",
+      "sha256": "db350d3101625f55583082a721ab0df14ba0ef045d0fa244ab2d741f3be479a3"
+    },
+    {
+      "id": "murai-nt-colossians-r3",
+      "sha256": "ea011f4f4179a2377eec07473800a67d7002294e71643d7cfbc1e4e2e8e20816"
+    },
+    {
+      "id": "murai-nt-colossians-r34",
+      "sha256": "7560449a3284ae44023435050cce615ea3c29445767e4748f5c5e676ce604ebb"
+    },
+    {
+      "id": "murai-nt-colossians-r40",
+      "sha256": "7ac4b89b29cdca68aa583fb0b93afd8aa6f672238018de84e47ca1cdc9ea76ea"
+    },
+    {
+      "id": "murai-nt-colossians-r47",
+      "sha256": "1f5b3d6a660d42f5e7cfbf65ba6e0e2aece54354778beb3f2a877b88eebbf113"
+    },
+    {
+      "id": "murai-nt-colossians-r55",
+      "sha256": "0bad447831df519c7881ffb0a4d67f863b077d27ea1a3168626aaae4788a1fc5"
+    },
+    {
+      "id": "murai-nt-colossians-r73",
+      "sha256": "faf78f314d818c2282e6db3628b386a9e72c8d4dedf8051824a6231fad6662e9"
+    },
+    {
+      "id": "murai-nt-ephesians-r11",
+      "sha256": "4c4a7d5b77c38dc121a3f81949c3ee527657d649152a0b84f93ec9786942dbad"
+    },
+    {
+      "id": "murai-nt-ephesians-r18",
+      "sha256": "8dde8b42977b8bf5bbca58dbb11e207d8d7cdaa4053e7208c7cf3fcff46cb4d7"
+    },
+    {
+      "id": "murai-nt-ephesians-r26",
+      "sha256": "e6b0a276929f2b8c6c94da2b83db99c42d0b466f19475689b1ff64242d7122ba"
+    },
+    {
+      "id": "murai-nt-ephesians-r3",
+      "sha256": "f482dc48ecd91e1af6cc3d298f76a0cab111f92491b344cdf8d2affbdc3827c3"
+    },
+    {
+      "id": "murai-nt-ephesians-r33",
+      "sha256": "368e269d072423a5eb0368c08481e0bcab5f72b460bca9865dcbbc543382a1f8"
+    },
+    {
+      "id": "murai-nt-ephesians-r41",
+      "sha256": "03dcdb9393396a3f842941c7eb3db01e9a6663651d745610ed0ad1e5afd70263"
+    },
+    {
+      "id": "murai-nt-ephesians-r48",
+      "sha256": "9d4a324c9fd262cb666e5ec514679754d0bf25976bd1a6e9abc7569de7e5b018"
+    },
+    {
+      "id": "murai-nt-ephesians-r56",
+      "sha256": "321b22da82d8660af9ef0939f4e7979e49f6aaf8ef7e3915992682b812b4880d"
+    },
+    {
+      "id": "murai-nt-ephesians-r64",
+      "sha256": "aca9ece2db016a366484105df5afa0211b855d8585bff6a1c50fa5e948d684f5"
+    },
+    {
+      "id": "murai-nt-ephesians-r70",
+      "sha256": "8977324a51cce389968b1a0e7f53e675fc32c136c5d444d0d8ee32afd2e48b07"
+    },
+    {
+      "id": "murai-nt-ephesians-r76",
+      "sha256": "d2a35a3503ccc285f833709e92e5b23b558b3b64afb8d156ec4e2a7e3b13d634"
+    },
+    {
+      "id": "murai-nt-ephesians-r81",
+      "sha256": "6918a4a606e2c6db37cfa461ffdcfaf7e32569e63fab3f234eda2bd2920c8235"
+    },
+    {
+      "id": "murai-nt-galatians-r15",
+      "sha256": "de198c77cd4fd1a77876be1ca650f74748848ac0dce9db9d02197f6aaee04db3"
+    },
+    {
+      "id": "murai-nt-galatians-r25",
+      "sha256": "4e38f0d4a6b2d9b266ed303ed04d205fc772ea05d8cf9e02392e8e4dd7bd4a18"
+    },
+    {
+      "id": "murai-nt-galatians-r3",
+      "sha256": "cab44cb8051d6f5b7014ed6ad862a7e69387bf6ea8383257711ea5db922f7755"
+    },
+    {
+      "id": "murai-nt-galatians-r32",
+      "sha256": "cd8309354fdda5f96babcee3b506637ab6af431b929523ea272fb488fd6ccae7"
+    },
+    {
+      "id": "murai-nt-galatians-r41",
+      "sha256": "adca7df8b78f5be6729a73c72ffc3312e4155520403853b3066b255ebafa8fe3"
+    },
+    {
+      "id": "murai-nt-galatians-r48",
+      "sha256": "46b23272c9ef491a2b72c4bf0e1d480a24cd4549f1396496b8239a5c3cb9ac7f"
+    },
+    {
+      "id": "murai-nt-galatians-r55",
+      "sha256": "b935b519aadb721ef3024c4f9806c8759baec04e581179864f486e419621f578"
+    },
+    {
+      "id": "murai-nt-galatians-r65",
+      "sha256": "5515a73c0e84cc6242f9ab3a7fd10e1b593069d99d280f211c446bd59abf1972"
+    },
+    {
+      "id": "murai-nt-galatians-r72",
+      "sha256": "49df15bc0c6e39e519e3d7059c6443a4da021516c202e01963ac64841247285a"
+    },
+    {
+      "id": "murai-nt-galatians-r79",
+      "sha256": "d6609e24b05bb2ee652decdb57c9b293f7127d9bd68bbde6a564bd5483a14ef8"
+    },
+    {
+      "id": "murai-nt-galatians-r88",
+      "sha256": "5d394054a55394301a90e7c17002f111c5a8f32235a7798434e261fcd2695f66"
+    },
+    {
+      "id": "murai-nt-galatians-r9",
+      "sha256": "364902c71d5a424bd36c2c6fa55e9493bc8a12e00282e0df114ac65d68a69f5c"
+    },
+    {
+      "id": "murai-nt-galatians-r96",
+      "sha256": "affeeb4ef3255223d17827e181bf7b8cafa6c0dcadec18dcf828bed3a04a675b"
+    },
+    {
+      "id": "murai-nt-hebrews-r102",
+      "sha256": "02fb342632cdcbde1b22f73656c161ee617cfede5472b5ddf229028469fa85f8"
+    },
+    {
+      "id": "murai-nt-hebrews-r110",
+      "sha256": "cfd33d0b693d74e8ac1ce8dc600ed6d24ee57bc7023e9ea6eacf7e442503c52b"
+    },
+    {
+      "id": "murai-nt-hebrews-r130",
+      "sha256": "2e7e541a00049f2733ebf5351effd97ac5192c0e36493435f11398032d4e2103"
+    },
+    {
+      "id": "murai-nt-hebrews-r140",
+      "sha256": "8013ea16e869531c2521977ac85d8e4c81c81fe39b11836ed60c225d2d1af755"
+    },
+    {
+      "id": "murai-nt-hebrews-r19",
+      "sha256": "bb4f7ab83be82b85cd9980ed66c643e87965d242f6f046e5039d89d20ab2b7cb"
+    },
+    {
+      "id": "murai-nt-hebrews-r2",
+      "sha256": "dce2c0e0ff6b6f8b2b01c13864c6d31b1c39a4133766484d80d40d1b26438427"
+    },
+    {
+      "id": "murai-nt-hebrews-r27",
+      "sha256": "a945d5b3a3fd17c2bf3aefe0cfe531a024349592140ae29f5f10b6a8e840a061"
+    },
+    {
+      "id": "murai-nt-hebrews-r33",
+      "sha256": "f3d788b0c176368a8bc6d47808a0ab1acdd987c630af0ef53e92667701775f18"
+    },
+    {
+      "id": "murai-nt-hebrews-r41",
+      "sha256": "fae93a99e269f6e3ca6425301c796282006bf00a03e20c1bcabacf22d4f38ca4"
+    },
+    {
+      "id": "murai-nt-hebrews-r50",
+      "sha256": "29f1ffceea81d4ab88fd39900d0e58c3eeb399ec1d21126aeeed8118d88229eb"
+    },
+    {
+      "id": "murai-nt-hebrews-r57",
+      "sha256": "6bf7869c69ee707a72548ff30737adda6e15e8f82e86776e501f3bc9b121c744"
+    },
+    {
+      "id": "murai-nt-hebrews-r64",
+      "sha256": "19e9c8e7fd6d60438ca84356fe897cbb34676a6d230569398e2561f60d51b1f9"
+    },
+    {
+      "id": "murai-nt-hebrews-r72",
+      "sha256": "b16bf353bd77ac95c3dcb114f9c3e68c835b541b4fc2874507b02d529840ce8a"
+    },
+    {
+      "id": "murai-nt-hebrews-r79",
+      "sha256": "0ae66ae23f1a8f8c00ac708d72ad2f1df09bdd23f47fe944277889f6eec8e793"
+    },
+    {
+      "id": "murai-nt-hebrews-r89",
+      "sha256": "f62f1fa1cb6877ac37e3edb474b489d5be8c934176c041f15ed39aa970ab8ecb"
+    },
+    {
+      "id": "murai-nt-hebrews-r9",
+      "sha256": "0c34cb4a3a1773f5584e22829515a95a44a74e0b7940a7ce2c1f5e25b68fe11a"
+    },
+    {
+      "id": "murai-nt-hebrews-r95",
+      "sha256": "dfac429cfea182ddf2415a47f7586c2993308b5d44b2c56a64aa1ee6dda3b16c"
+    },
+    {
+      "id": "murai-nt-james-r12",
+      "sha256": "ecb1ee43b05ae57bf8aab32eb2c1ee3b709b99fb5f682f07922ce147189d65d6"
+    },
+    {
+      "id": "murai-nt-james-r20",
+      "sha256": "e8b74ce5cbd28ad1c2ab5059741063aac25358de389379d7b301053482ca84e4"
+    },
+    {
+      "id": "murai-nt-james-r29",
+      "sha256": "8ae8b3852fe52980b2cb6d04ed76376af3d460261ca39adf154d3503e7262ca6"
+    },
+    {
+      "id": "murai-nt-james-r3",
+      "sha256": "d8c679aeec7fcb71d7e3669a319bdbebce795d597bc30166c03d93977fd6e3a5"
+    },
+    {
+      "id": "murai-nt-james-r41",
+      "sha256": "6c6b51028d82b6ffdad08d1d11b8846f193071420d940b99619f95b288923ea7"
+    },
+    {
+      "id": "murai-nt-james-r49",
+      "sha256": "c08ace8783d92bd29a4b943ac5831ce08b7b176c2c82603f1f792b9ac6d9730b"
+    },
+    {
+      "id": "murai-nt-james-r57",
+      "sha256": "07449c674cb1f1ad0ca303db62a65a7bc6905724b18e06f72d65dbc7d687d8e5"
+    },
+    {
+      "id": "murai-nt-james-r64",
+      "sha256": "39080f9c0e8408226705a701defb3c680ee5cabb0c80326e0394ecf087b69779"
+    },
+    {
+      "id": "murai-nt-james-r71",
+      "sha256": "ccc5575f16b20455507ac734151090a6b017ed24fb098b3e95aa85a778492526"
+    },
+    {
+      "id": "murai-nt-john-r1",
+      "sha256": "fdddf207eda7f584a01580a99688d766cafc0a058bffd8ca061b2e95a44fa991"
+    },
+    {
+      "id": "murai-nt-john-r112",
+      "sha256": "2afdcfe25491441435d75cd7f1d05dde3ff3c039e635bd3eb9e020623e287179"
+    },
+    {
+      "id": "murai-nt-john-r120",
+      "sha256": "951c08c8358d840c173766071b0231971ff61a75eef4faf54af30f0534f8a52f"
+    },
+    {
+      "id": "murai-nt-john-r128",
+      "sha256": "eec1c0631c5bae0862c86bde688ddc2db91524099cfa9c611b4fb96eabd2ae1b"
+    },
+    {
+      "id": "murai-nt-john-r146",
+      "sha256": "cc741903f9ace03c80145e8a56b56d8d086c83bcae2f6567c8b4128562362a84"
+    },
+    {
+      "id": "murai-nt-john-r153",
+      "sha256": "a2be3be82485faaa4505075ca2298f05298b4dc2b78dfd2b1f52c67db9f2b0b9"
+    },
+    {
+      "id": "murai-nt-john-r16",
+      "sha256": "5dd7eed5e27690269053e1c6fa26cf213fc49e7d981f7cbb4b02a0d1596d8b48"
+    },
+    {
+      "id": "murai-nt-john-r160",
+      "sha256": "ea4b36c731e30b62fbe1a7cb3471d839265f114f2830651e1bc50729e35c6173"
+    },
+    {
+      "id": "murai-nt-john-r174",
+      "sha256": "c08d67fe5fdbc591b6ee327e20a4d72af9fa4cfda05380c8a9cd84e779e15de1"
+    },
+    {
+      "id": "murai-nt-john-r185",
+      "sha256": "860b4c45fca2aed6486940d9533a20135d905797ea833cd0e819cc10b83370a2"
+    },
+    {
+      "id": "murai-nt-john-r194",
+      "sha256": "b09659ea89e2d3f678e1145411449f10bf9c9162f798325aa2f6ab482b0cd2a4"
+    },
+    {
+      "id": "murai-nt-john-r203",
+      "sha256": "b5038e2e79ae39c212eec8a0f83af30eb1bb7ac6dcf70b6ab42b41c77e148c92"
+    },
+    {
+      "id": "murai-nt-john-r212",
+      "sha256": "39da6fb43a6873c639fa8712268518c3666e3e7ad565ab6265c4e55c67799089"
+    },
+    {
+      "id": "murai-nt-john-r228",
+      "sha256": "8dc768a8c6b901af4227a823e671eabcd81fb510b64022714ea214a9dd446954"
+    },
+    {
+      "id": "murai-nt-john-r238",
+      "sha256": "8b3d1fde32c45c3306126461aa49aa60084566750fb84ee8df2c70ede438e564"
+    },
+    {
+      "id": "murai-nt-john-r244",
+      "sha256": "a283ac1ef71839e48d829b69af049f8e7522890309f791ff7a87aba67081acc7"
+    },
+    {
+      "id": "murai-nt-john-r251",
+      "sha256": "68f23286dc89023a564d8b3970ea8ef58fff641cb6895f50f3327b0f94ebcb42"
+    },
+    {
+      "id": "murai-nt-john-r26",
+      "sha256": "eb9d12ac094ccf86b007614d234a9b1f9502242531f78d7c87496f1e18506b0b"
+    },
+    {
+      "id": "murai-nt-john-r261",
+      "sha256": "c2f3119f0b63df8c264a940d7947252ec2623c47a9db715cc3f8a44dac1b24fa"
+    },
+    {
+      "id": "murai-nt-john-r268",
+      "sha256": "9e79edfe21c8f5251397adad2c0f485604989e70145c8efee061ce53e2150e50"
+    },
+    {
+      "id": "murai-nt-john-r276",
+      "sha256": "3c2006c61b315c29cc6605e3f8834cab0be3b72148df02a8c626eee068a0955c"
+    },
+    {
+      "id": "murai-nt-john-r284",
+      "sha256": "9263fcfd21df8864956cad6f3cf3add093d417d0c4aa5d94cc4306b863d6b128"
+    },
+    {
+      "id": "murai-nt-john-r292",
+      "sha256": "f92d2efc353c2f0965d0e22afedd60fc49efc9d6c88dd22f01eb31c502ca5442"
+    },
+    {
+      "id": "murai-nt-john-r301",
+      "sha256": "ff2650620f958016472ac2ee724ba2299391f6040c6882f48ad4f0156c1be11d"
+    },
+    {
+      "id": "murai-nt-john-r316",
+      "sha256": "584e45ef44a407dbc5f028acf4e3de80220ba81b525cca64a70470cac1f114bd"
+    },
+    {
+      "id": "murai-nt-john-r332",
+      "sha256": "78995fd57bf043d7cbc3e9631f3a732ba0db81c4818af06097daccf33755a70b"
+    },
+    {
+      "id": "murai-nt-john-r338",
+      "sha256": "5d89cdb20c7ffa69bdab4e78b723de7af9feaace75b35f45dcc1d6630b924f53"
+    },
+    {
+      "id": "murai-nt-john-r34",
+      "sha256": "583078e5897d0486f3d6e14c243d208e0918a6769313bb92177cb803960e66e4"
+    },
+    {
+      "id": "murai-nt-john-r344",
+      "sha256": "456eb066a221cda640b680b20f904088839b33491d724e2fa483cfa8cdf4372d"
+    },
+    {
+      "id": "murai-nt-john-r354",
+      "sha256": "da7a5b06fe38463f4c76562a19a1db06753f55b7a1bd317dafc288310730d0dd"
+    },
+    {
+      "id": "murai-nt-john-r366",
+      "sha256": "4e713432a9a2a76f6e377e2b04d1cb9a9aad66a15e55dcf28042f4359743f4fa"
+    },
+    {
+      "id": "murai-nt-john-r373",
+      "sha256": "bbdb3ee0c628c89263ffeef45f7995cc3ec64655b1021eeb315ccbae3a29af67"
+    },
+    {
+      "id": "murai-nt-john-r381",
+      "sha256": "bf3ac4e8f959d2464434d1cc46c4d1405f443f14397bd32519179bffd12bd2ef"
+    },
+    {
+      "id": "murai-nt-john-r392",
+      "sha256": "f59f26c227ce19b9a92d7c0984cea1885f1aea2d46c2123dfa71a3d1539298a1"
+    },
+    {
+      "id": "murai-nt-john-r401",
+      "sha256": "d3d163843280f651ef4962fdaeea7b1e372a364fcd6b584be9498d8745342c3d"
+    },
+    {
+      "id": "murai-nt-john-r406",
+      "sha256": "30c5e9497dc453fefca5c7248b1f3f1fcce8922205808add63b7f6e1606849e0"
+    },
+    {
+      "id": "murai-nt-john-r415",
+      "sha256": "f4cdd9667bd837be9e2727fea3057a35df4831cd6bc86d12c168c5c393295662"
+    },
+    {
+      "id": "murai-nt-john-r423",
+      "sha256": "dc2e8461b3485a61e3230498b419d72e06ed2618537d0aa546c15725bafb7a55"
+    },
+    {
+      "id": "murai-nt-john-r431",
+      "sha256": "df2bbd7de46c0f8a4efe7accd4402c8f63b8d272e6183ea8bdfbe53bb63379eb"
+    },
+    {
+      "id": "murai-nt-john-r439",
+      "sha256": "ecadb9b98f92ee0b2a4f2774c10fb605d6ebd58c6b8d14d73568db29886c65a8"
+    },
+    {
+      "id": "murai-nt-john-r44",
+      "sha256": "80a47881ce2c2517bc1db729957f1c2dffe44c364b4ef947fb8c447278d769e3"
+    },
+    {
+      "id": "murai-nt-john-r449",
+      "sha256": "d61060cf053667212103d41da48647e3f878db03467d50928b20f3819fbe7515"
+    },
+    {
+      "id": "murai-nt-john-r455",
+      "sha256": "ed06dc9a1ddeb513e823be9a5cdc29315a848e0288e19646f3c9e2cb954a53b3"
+    },
+    {
+      "id": "murai-nt-john-r462",
+      "sha256": "5e8eb1c77da00281382c98bd754854ee32f9d712f0f22ac2fe91c33bfac49250"
+    },
+    {
+      "id": "murai-nt-john-r468",
+      "sha256": "357be06e6ec0182a15a90741adc7f6057dad8be8a909ebd20008cb9ee4cf968c"
+    },
+    {
+      "id": "murai-nt-john-r475",
+      "sha256": "3106d495913cf0b349dae61bd67a8feacab69461ae3470a48cf535b1ae30ec65"
+    },
+    {
+      "id": "murai-nt-john-r481",
+      "sha256": "e42a0d76c3c438bcb7d759b1330c9b26e875110e92beddf4d44c761b0420058c"
+    },
+    {
+      "id": "murai-nt-john-r489",
+      "sha256": "2b9ec37cae84f859dca51a3aee3cc07f1b0328e20fb5f40e2ba5f41e1ffcc1e3"
+    },
+    {
+      "id": "murai-nt-john-r496",
+      "sha256": "b7f5567f6f3dd46f652be6760b402c5ad07699c090745efc01338cefc9788173"
+    },
+    {
+      "id": "murai-nt-john-r504",
+      "sha256": "e2246a97160bc6ef2ef3b177ecdac1613bcb0e1e5c7eaa75ff3c50872d18274f"
+    },
+    {
+      "id": "murai-nt-john-r512",
+      "sha256": "0f85b4a3691a25d22457ee05a30c7c1381f61096a0678d0abf7ce693e753564f"
+    },
+    {
+      "id": "murai-nt-john-r519",
+      "sha256": "3ec39a09bf031151f63fc517c711a5fd887171ecd4604156750aafb2786b9002"
+    },
+    {
+      "id": "murai-nt-john-r525",
+      "sha256": "7831261f6203309f0678abcad7e05850097385c9bdeb9a6bc5d8f7136beb37e5"
+    },
+    {
+      "id": "murai-nt-john-r532",
+      "sha256": "7c98a5c527f33464f02a64a8e747c4ff907c70db972492df12fb1d186d7247d8"
+    },
+    {
+      "id": "murai-nt-john-r54",
+      "sha256": "a205953cd9e0087ebe4e9d090b9aba94897795722fe428cfdd715f0fb097c92d"
+    },
+    {
+      "id": "murai-nt-john-r540",
+      "sha256": "f4599a394109e2548cf95a2487c97cf1ca6cdef4612c70951550a18d8186c0cc"
+    },
+    {
+      "id": "murai-nt-john-r546",
+      "sha256": "d4efd24d7b9db697f570ecf134c11e39a042dfdcf274086e2f141525e4d8b981"
+    },
+    {
+      "id": "murai-nt-john-r552",
+      "sha256": "622b9591c6a78fcc43a4cc4256420c1c1ce67689eee4627307eb346228c14b01"
+    },
+    {
+      "id": "murai-nt-john-r559",
+      "sha256": "d4167607eaa38b2043a661b7e115e75b845ee0a63778ceed3f79806bb132d026"
+    },
+    {
+      "id": "murai-nt-john-r565",
+      "sha256": "0f0c88fe3ef2dbd875a9cc20411ad34c75ea4104931f5b034b3651e36e74a8b4"
+    },
+    {
+      "id": "murai-nt-john-r574",
+      "sha256": "8135b27856e68cbc3f0d23107dc6175c29ed45d9e55bab193cc0e0dd336197a9"
+    },
+    {
+      "id": "murai-nt-john-r581",
+      "sha256": "f2c4ae8a4d64672b5768780e6b7adfd29b4d490a67ef77614a51b20bdcd9fc1e"
+    },
+    {
+      "id": "murai-nt-john-r589",
+      "sha256": "09d1d1afff6c89c0473b7343861836edcf2620312ab5b3ecdb916b45a2b2f45f"
+    },
+    {
+      "id": "murai-nt-john-r599",
+      "sha256": "e919b5dde11827ade6f0dc27f5de8c50a8e331e4bad420324b790f81a11e2202"
+    },
+    {
+      "id": "murai-nt-john-r606",
+      "sha256": "c6f573c44332c47ce4f13d6158e18e389337b6b4ecaad939d2a46e7ddb4d488b"
+    },
+    {
+      "id": "murai-nt-john-r612",
+      "sha256": "8973a8808f8b5ee06858387d4189b8f744400e4d5615087617bb4ce676659b4b"
+    },
+    {
+      "id": "murai-nt-john-r620",
+      "sha256": "ef8ac3fe957d75d0bfcb4a84fd6bd9b5f14e4a7b170d2a3c55bfd0f8242d0723"
+    },
+    {
+      "id": "murai-nt-john-r625",
+      "sha256": "63e7d4f01bfdf25d3f85c6d11813f5dd022686bce6a5e2a0c790b5952bb1215b"
+    },
+    {
+      "id": "murai-nt-john-r63",
+      "sha256": "49f4da5c94b276cfababcce35c4e73999b8c2692bf0c05f293d8fc55bc44b664"
+    },
+    {
+      "id": "murai-nt-john-r637",
+      "sha256": "067635cce430015e009cbcaf147fe6d534bcd5d1f1c605c91c165600ce355b63"
+    },
+    {
+      "id": "murai-nt-john-r649",
+      "sha256": "c7cef727d974547fb316ef3168ee24c0ab054d09d36d31cd0bb3ab19d834ad3c"
+    },
+    {
+      "id": "murai-nt-john-r656",
+      "sha256": "56aa29e72c2029ab23d434853a4cae3879826baf35e9ca504859d1ddf33177c3"
+    },
+    {
+      "id": "murai-nt-john-r663",
+      "sha256": "a4d009b02bcc3080b32a47986df08f3195e1a35411ae51df64f2fc5be9144068"
+    },
+    {
+      "id": "murai-nt-john-r669",
+      "sha256": "c2a4a8216e3bbc182ce6a77aeae033c1c4829a44a0909d49d7c23e4d2856b116"
+    },
+    {
+      "id": "murai-nt-john-r675",
+      "sha256": "64dfee5bae8acda811b30c12d1fc14b407cd5d77c52576467d25508adba5a1a4"
+    },
+    {
+      "id": "murai-nt-john-r682",
+      "sha256": "7346a5bb1af907c8fbc321884149508bf03b3c325eb16eaeef29971bcd9d7e77"
+    },
+    {
+      "id": "murai-nt-john-r690",
+      "sha256": "c48aaadcd45fc51a341296030e9a46de9b4c1cbfd1c49b71a8d37a5776ee64ff"
+    },
+    {
+      "id": "murai-nt-john-r700",
+      "sha256": "2432ac70750c82566c424208f967e40dba0c56d90ecf4e7bdf46a9c40326191b"
+    },
+    {
+      "id": "murai-nt-john-r709",
+      "sha256": "ca967003b52d7f947aecd2e8198b923e525f52b1ea9dd6e0cdd5631dabd52f48"
+    },
+    {
+      "id": "murai-nt-john-r717",
+      "sha256": "ca3020d0d3a791aa012713584c70d507efd0526888e3445388505abef31abdba"
+    },
+    {
+      "id": "murai-nt-john-r724",
+      "sha256": "4a969f54fcc76a63e2513e7571e445ff28b3d28a549a5ab3cb2b0cb2220d96e4"
+    },
+    {
+      "id": "murai-nt-john-r73",
+      "sha256": "c049b19ff3955ca218caab6b03312f156886980878545727b4146634b21494ca"
+    },
+    {
+      "id": "murai-nt-john-r734",
+      "sha256": "8f36c77891245b468eb46b466647c969120f9e83db69194152daabf96819a53d"
+    },
+    {
+      "id": "murai-nt-john-r747",
+      "sha256": "331a778bad10d42e52e9fdb9f30da7eb3da6c2440a3de8a7b03874af8f9f8b47"
+    },
+    {
+      "id": "murai-nt-john-r85",
+      "sha256": "4c56075363882b9c6b5bcd9b0574bdc1ba34b6b075a345cba03130cba3fcfc8e"
+    },
+    {
+      "id": "murai-nt-john-r95",
+      "sha256": "2352944a0bd60a91b5983ec6dc44572c10294ef9065d30e77375a054de1f85ce"
+    },
+    {
+      "id": "murai-nt-jude-r3",
+      "sha256": "df135d08b321e489ad608cd121e86fbe1fc7c20e91030028aba570ab6813a11c"
+    },
+    {
+      "id": "murai-nt-luke-r10",
+      "sha256": "a3fd0760881b30a1d5737b4b15a6ba075d31f4f6b668682137d143e52036394e"
+    },
+    {
+      "id": "murai-nt-luke-r1002",
+      "sha256": "666336f5ede73933470048d9c30608bffcc5253198b3f4cc73c9d3cb2e2e9d7a"
+    },
+    {
+      "id": "murai-nt-luke-r1010",
+      "sha256": "ae09dd632869a8a1494950529438986b14cc6067d1844bd05921442236110598"
+    },
+    {
+      "id": "murai-nt-luke-r1016",
+      "sha256": "d07dcf03640fb7512c3b809f38c8911f61fb81f45d7594a5b728445a565b3f4e"
+    },
+    {
+      "id": "murai-nt-luke-r1025",
+      "sha256": "9d538b128b7bd334bd71026494e5846dfab8d15e98cc9410af070690ab6b672f"
+    },
+    {
+      "id": "murai-nt-luke-r1032",
+      "sha256": "0723fcb42eae7ef44a3eed4b3d9a1ad3fe3a788fd07d041b039bb3102913446c"
+    },
+    {
+      "id": "murai-nt-luke-r1038",
+      "sha256": "330c1101b9a72daab59aa893f2b376c5ec17d27b6acb4624d98a72640aa49e5c"
+    },
+    {
+      "id": "murai-nt-luke-r104",
+      "sha256": "dc4c9a48da119d568a98a9377fcd1250120a861ba3e086792ae60409daca2c54"
+    },
+    {
+      "id": "murai-nt-luke-r1046",
+      "sha256": "e7df19fcfdeb4ce3efb5c01a1ca2b02c87c50efcc27caa400d3476544b6b8c0b"
+    },
+    {
+      "id": "murai-nt-luke-r1054",
+      "sha256": "db895a70f68c7af61b0c55dcece03fa67d8603c9d27824eda4c2a202a1718b0b"
+    },
+    {
+      "id": "murai-nt-luke-r1064",
+      "sha256": "878449ced2bca56192c22d630f8a8c76eb7d35d2bc9eda23283b767e883a96d1"
+    },
+    {
+      "id": "murai-nt-luke-r1072",
+      "sha256": "501248813674cff2c33cc73591cd162e32b7acb0b9f618cedd6844bee37787a9"
+    },
+    {
+      "id": "murai-nt-luke-r1080",
+      "sha256": "778c9675a7de68ea0997d7860bab1130aaa9c81fa71870ea9e92a3fcae86c641"
+    },
+    {
+      "id": "murai-nt-luke-r1088",
+      "sha256": "3434c845914f54a5627b379c97025961b6810e1f5b47f0d9a7e109faeba72295"
+    },
+    {
+      "id": "murai-nt-luke-r1094",
+      "sha256": "f5787869f4f56a531a32a54e703413d99c478b3939d475cc02170466a0589cd4"
+    },
+    {
+      "id": "murai-nt-luke-r1104",
+      "sha256": "fffb05469ae9a080bcce3c3a4e898c6bfab409af9915f432d60066e7e772bf0e"
+    },
+    {
+      "id": "murai-nt-luke-r1112",
+      "sha256": "7a787cdb2d418a0a35a13cb02de691e78e003eec7074a297d3277882dd81e054"
+    },
+    {
+      "id": "murai-nt-luke-r1118",
+      "sha256": "79015d2bd9b1f3254ec2f5b864e72707e7fb0184c8bd3d42c93fbedc9b880233"
+    },
+    {
+      "id": "murai-nt-luke-r1126",
+      "sha256": "70815b94c282f5a28a313ac5a50e4c4e6c2658201d0e8541e0cee794fa60e05e"
+    },
+    {
+      "id": "murai-nt-luke-r1133",
+      "sha256": "2ec28fbcf99b2bb1436823f983ba83973712f22e5ced0b1964eb4ec5ee884967"
+    },
+    {
+      "id": "murai-nt-luke-r1141",
+      "sha256": "04f98d8048827977eeee431a359f658ea7846d6695419b873c0846f3e0ee4259"
+    },
+    {
+      "id": "murai-nt-luke-r1149",
+      "sha256": "7a58a0db97d505b7cfde4e6603c5a76324862a5964ecf24914bd316a9f23b1a5"
+    },
+    {
+      "id": "murai-nt-luke-r1159",
+      "sha256": "eb9a5a70dca988b1bad5916a0ba987194786bfd91bdfa5fb37a36e43e6fbec89"
+    },
+    {
+      "id": "murai-nt-luke-r116",
+      "sha256": "ba5add6684a57e60815faad0ebe84fe486d6860e63df0c4da9fd098b207fe375"
+    },
+    {
+      "id": "murai-nt-luke-r1171",
+      "sha256": "d0f6e380ce982553840ada005f7eb68f6608d99d0390f345304d4f33e0f573f3"
+    },
+    {
+      "id": "murai-nt-luke-r127",
+      "sha256": "7f53e4ed084b9dd34b9234733b0fd8028bb6fd524096dcc7175d0e57e80ebaac"
+    },
+    {
+      "id": "murai-nt-luke-r139",
+      "sha256": "579656d0f59d6b3d24198e0e7dbd61f343a55a5a3fea3c637ef71186eba3f4b1"
+    },
+    {
+      "id": "murai-nt-luke-r149",
+      "sha256": "4eae0961b08dde189af2cc911b88cb7bda8424668db5fce576bd21ee015bc2f5"
+    },
+    {
+      "id": "murai-nt-luke-r157",
+      "sha256": "b895a8d9c5038b2c3610f2fc095d24e009c5dffe93dcc3ed8b803c0d03444e85"
+    },
+    {
+      "id": "murai-nt-luke-r169",
+      "sha256": "5df68e6966e7c992b12c66dd291f87b15a6e19ebab777c8ccd77d8373a06e453"
+    },
+    {
+      "id": "murai-nt-luke-r177",
+      "sha256": "4a1f5cc90d9023ed5379275a29b95bffe94803bbd9d5f1fbcae74ae13b5dd8ca"
+    },
+    {
+      "id": "murai-nt-luke-r187",
+      "sha256": "84ff7fe96d51de22c258270a2c59a1c744d48f45a8db18b0c0ee5e71e355a6ec"
+    },
+    {
+      "id": "murai-nt-luke-r194",
+      "sha256": "9e5436526929ddb20a06e7661f949de60316312e9c832212abf2c40805426c61"
+    },
+    {
+      "id": "murai-nt-luke-r20",
+      "sha256": "189f227ea3fefd76c3def2a92b6e6596ede4ec2a036b3932500ec853fa5557c9"
+    },
+    {
+      "id": "murai-nt-luke-r201",
+      "sha256": "0064d1bcf805c69ca66b27fcdf3713a4f97d85d176e7e09bc9766df77043aa8e"
+    },
+    {
+      "id": "murai-nt-luke-r207",
+      "sha256": "22c4f2d949c5d76e91d839fad696510406fd84662f4d34778b5d37cfd12caaa6"
+    },
+    {
+      "id": "murai-nt-luke-r214",
+      "sha256": "393b068b08b0f381883e5de7b43ca4162ced583ff006e0dbc39dda5351efef70"
+    },
+    {
+      "id": "murai-nt-luke-r222",
+      "sha256": "1a44c7296b1caf9bdb014255de00bf4634b5ff0ec69431b38aadadffc3f2d255"
+    },
+    {
+      "id": "murai-nt-luke-r229",
+      "sha256": "4ff4439cb9afc46a4a28d86ac2e35626111650dc501e6b4c0099e35e3efdbdd8"
+    },
+    {
+      "id": "murai-nt-luke-r240",
+      "sha256": "f16b5e368be620427900982eda3c98c8f32a2ffeef0db7dfb9b93954784610cd"
+    },
+    {
+      "id": "murai-nt-luke-r248",
+      "sha256": "89f114308d7440f73b56e59b54971903ab863d4c740a46bcc713c947e6021568"
+    },
+    {
+      "id": "murai-nt-luke-r259",
+      "sha256": "a71248f6b18d4e3ac2fbe1d231f8076151a28683761017a2b02a09fbbf2080b8"
+    },
+    {
+      "id": "murai-nt-luke-r266",
+      "sha256": "b0434ac255ec3aee196c705bf63e61cb5618cd5323d6c18e70822f01680c4485"
+    },
+    {
+      "id": "murai-nt-luke-r272",
+      "sha256": "48dc3abeb2fb6eca25c3d039f7caade7add32905bf579a1fd239ae9de0ca3255"
+    },
+    {
+      "id": "murai-nt-luke-r279",
+      "sha256": "e3e25d626668fc1c762921f63788120461d9af8e39cf0fa086b6bd87391fe451"
+    },
+    {
+      "id": "murai-nt-luke-r287",
+      "sha256": "403a46cf877d1210524678bb994432a013f8006cd87f24c3cf64a0739439f9ac"
+    },
+    {
+      "id": "murai-nt-luke-r296",
+      "sha256": "80de71c35da02cba56222c76a194776feb9288719f10f5a9727a1f565bb9ada3"
+    },
+    {
+      "id": "murai-nt-luke-r3",
+      "sha256": "723265297d8c8b0e5e498d5e2c2ed84d152cb35bbd60a645938ae267b505a423"
+    },
+    {
+      "id": "murai-nt-luke-r30",
+      "sha256": "35823331f5ec62ee61592877b508c592992a2f1b0a60061463cd1c72b606bbaf"
+    },
+    {
+      "id": "murai-nt-luke-r306",
+      "sha256": "10769a48887e24e21ae626c769c0d358ccc0d24ab777b1e95dff46c217108edf"
+    },
+    {
+      "id": "murai-nt-luke-r313",
+      "sha256": "618a08babd92d16f8fa5af0026b662e6a99958b7af77d97887dabaa77bcac80c"
+    },
+    {
+      "id": "murai-nt-luke-r319",
+      "sha256": "7796185ccb4d2297443c61593e73a9d89358d169129db994b24c3c461a0ffbb8"
+    },
+    {
+      "id": "murai-nt-luke-r326",
+      "sha256": "baf72f2f3fa256ce3d5cc117f4540778502853040f8a4b95a698d442f3a1e1dc"
+    },
+    {
+      "id": "murai-nt-luke-r335",
+      "sha256": "19046dc74d9bc4f46ce525cb7f63648df4de2f433f215fcf1e448c4c7b77b6a4"
+    },
+    {
+      "id": "murai-nt-luke-r342",
+      "sha256": "654d2829cdd73b50e754a42f5c3bf1da0dfdbe0acb4e833414bf6b224757d303"
+    },
+    {
+      "id": "murai-nt-luke-r351",
+      "sha256": "d3ed66cb5afe95efc27141e53ebf4b79903d16bb13a7a59aec7859012c03a3c0"
+    },
+    {
+      "id": "murai-nt-luke-r358",
+      "sha256": "24dae7f5d84b32cc166cf38b4db2f37239f0c75679445e7a8391d7943edcb0f8"
+    },
+    {
+      "id": "murai-nt-luke-r366",
+      "sha256": "deb4a4a8eb808a6488e4d44cd6e7e4f1382cf9e7fea8aed59efe74be9cd4ca97"
+    },
+    {
+      "id": "murai-nt-luke-r37",
+      "sha256": "bda236a0090853c2352ef8b4fdaa8ef03a5dbd3ff5e09c0a3165cc61bfaee1ac"
+    },
+    {
+      "id": "murai-nt-luke-r373",
+      "sha256": "c779efed4951d31359c562050d86f1f17b4f48119ae1352dc91afca2854d1ee1"
+    },
+    {
+      "id": "murai-nt-luke-r381",
+      "sha256": "a67a2530df5ec13f938a4ddf77d292502937ed58ab097adafa157674f23b1596"
+    },
+    {
+      "id": "murai-nt-luke-r388",
+      "sha256": "43ecd0e57a10d5fa8bdd5998d25b8f313f7ea58e61cf0528092c576650face26"
+    },
+    {
+      "id": "murai-nt-luke-r397",
+      "sha256": "bea2934c68b427c7a5b13bf2678483432b7edf3e90db2dff7d227ec26be60ce0"
+    },
+    {
+      "id": "murai-nt-luke-r407",
+      "sha256": "94fcbc3deee1f1a746034cde70f667e301b5bf7ca38a2ee878cc137397a6cc6e"
+    },
+    {
+      "id": "murai-nt-luke-r417",
+      "sha256": "a83ae6ecc26e6bd029695e5d19b9ef4389ddedb00c67e0719bf5786e81a5f368"
+    },
+    {
+      "id": "murai-nt-luke-r423",
+      "sha256": "e7154a13de3df45ad1736a10ad2e2e8b8a944176090eef8b09436198288c3bc7"
+    },
+    {
+      "id": "murai-nt-luke-r431",
+      "sha256": "a2e5e1876e5429e17821debd13c842dd55d9080bfe7e73a6b4a97a729fae4695"
+    },
+    {
+      "id": "murai-nt-luke-r441",
+      "sha256": "390f20a204012c0f58ca954497dbccb8d4f9faadb734b76ad7ddf3c5a62f83f1"
+    },
+    {
+      "id": "murai-nt-luke-r452",
+      "sha256": "442bb94434f3ef3be53223f99b9914b58f07cd603fb34ab1feef1089f42abe07"
+    },
+    {
+      "id": "murai-nt-luke-r459",
+      "sha256": "8f83089c8e7ebaf31f9c52d906ee0d2c22a4c4ecdc013393f84a60653fb9f199"
+    },
+    {
+      "id": "murai-nt-luke-r47",
+      "sha256": "18ca207e0d2e27094562050fac964732af9702f7a3c9e1686f8281f98e20b7cd"
+    },
+    {
+      "id": "murai-nt-luke-r470",
+      "sha256": "daa9f3413b1430cf1b1aa248711ff46352c742cbe08ca796bcdd1b1d8bfca6c6"
+    },
+    {
+      "id": "murai-nt-luke-r478",
+      "sha256": "27412d0ca0ba62272baff81535351942aebd3c033c98699b7d5b755b20b1cb49"
+    },
+    {
+      "id": "murai-nt-luke-r484",
+      "sha256": "0edb70e3fb9452bc0a76ea6cd4440257fce1dc38d96b91e87fe2cfdfa3c61a74"
+    },
+    {
+      "id": "murai-nt-luke-r491",
+      "sha256": "1baf0fb0acbb61e6bb739f271a711703b939495740fd7eb14e0341040ae02cdd"
+    },
+    {
+      "id": "murai-nt-luke-r500",
+      "sha256": "0c4dc92df768bbabd5b9239e4d173f218d2e45e260cef0f1525f43219b798148"
+    },
+    {
+      "id": "murai-nt-luke-r506",
+      "sha256": "0b7ea7581fd31cb21da9dc67873151b5643cd5ba30f056afa55ee714efc6e200"
+    },
+    {
+      "id": "murai-nt-luke-r513",
+      "sha256": "ec11cd3918cf0661d18d42d3520015b33b4f2e4f70760ab4d4f0a6a1eb232320"
+    },
+    {
+      "id": "murai-nt-luke-r519",
+      "sha256": "199aba80865068ee4920773590ff8ecd880b166e02821427635481f9b90f81b5"
+    },
+    {
+      "id": "murai-nt-luke-r527",
+      "sha256": "61f5a677176644db27bacae18c24f01cfdd71dd45908d37fe5452f6cbc725623"
+    },
+    {
+      "id": "murai-nt-luke-r534",
+      "sha256": "f0c7d151823eebb757085fc2f1770054d73006802335b75c073eb6afe9cf41d9"
+    },
+    {
+      "id": "murai-nt-luke-r545",
+      "sha256": "ab2bf78553085730854879bf02485200345b0b759a08f35f2edf5f32aa138383"
+    },
+    {
+      "id": "murai-nt-luke-r552",
+      "sha256": "7a717aa148919c22f884d23782b0d98bbb6f37109463ff9314f8498829925a34"
+    },
+    {
+      "id": "murai-nt-luke-r561",
+      "sha256": "765104075353d31c9e69c981885f0db91106b151122d704bae5e713199d7c1be"
+    },
+    {
+      "id": "murai-nt-luke-r568",
+      "sha256": "cf006b3dfde98365f16377fd8f2db2ce56b17dd047fa1fe11050ea0bd4d8ff5e"
+    },
+    {
+      "id": "murai-nt-luke-r57",
+      "sha256": "e1a88b63d6c20a3640a7b07f2b9595615cd107272fdd3a4bc780646cbf4e1e35"
+    },
+    {
+      "id": "murai-nt-luke-r579",
+      "sha256": "4064a3f676673d73f1d6fbfa163062162ff06b6b0371625fab2d91133e21d8ba"
+    },
+    {
+      "id": "murai-nt-luke-r584",
+      "sha256": "022ec7ab88d37f64fae5df48e9688674afeb09156ab4129915c075a24002268d"
+    },
+    {
+      "id": "murai-nt-luke-r592",
+      "sha256": "2100378d0bdb9aa7e37e68ba3774bc3d167c0406e7a78c775fbc232faa74e6b5"
+    },
+    {
+      "id": "murai-nt-luke-r599",
+      "sha256": "71415473cdd5a8044b74e676b9baa10361ea2728d0aa18aa80ddf9a9c39b6ad9"
+    },
+    {
+      "id": "murai-nt-luke-r607",
+      "sha256": "c677db7c51e44e5be077109b45a3fb38ad3e96b3f77be51f5a01380171076c60"
+    },
+    {
+      "id": "murai-nt-luke-r613",
+      "sha256": "4d95d66e3076ad0613dadec0fa98341c878f55bcdc6684f7f3c772b4ef8bc929"
+    },
+    {
+      "id": "murai-nt-luke-r629",
+      "sha256": "c17519be6895feafdaaaf74f535cc5a172750f1322b7f28c7748764e6e396932"
+    },
+    {
+      "id": "murai-nt-luke-r637",
+      "sha256": "1b722e0b9d708aeaa64b67b5900257ac6a8f480a20c92c16fd744aec5ee17a16"
+    },
+    {
+      "id": "murai-nt-luke-r642",
+      "sha256": "8fb5ca1ef279f40414784ca033703b3310d5fc2c018db77723f701926186c667"
+    },
+    {
+      "id": "murai-nt-luke-r650",
+      "sha256": "8b945cc4936041797d78fc721dd99d96d31cc0f8e9639f0db6d03b8dbe976bb0"
+    },
+    {
+      "id": "murai-nt-luke-r657",
+      "sha256": "c6d7348f491bbca00bc067795a80b58257ba5703419f7ccc3e34789e4436dd55"
+    },
+    {
+      "id": "murai-nt-luke-r664",
+      "sha256": "357f3eb8a0430e953040b79706c9d4f71885eec03b5407e6cea8ef773bba3db0"
+    },
+    {
+      "id": "murai-nt-luke-r670",
+      "sha256": "f717d791eea410360de0347a7fa4af56cec3a3362e966416ce6188a99663dcf3"
+    },
+    {
+      "id": "murai-nt-luke-r677",
+      "sha256": "732deb59808742f5255ac0c54566a66a54c5f507c53ea11d9025cdd4a88b137e"
+    },
+    {
+      "id": "murai-nt-luke-r685",
+      "sha256": "862efe04f152e36c919ed26c446fa8129a76d732fb44d110d912445f2860995e"
+    },
+    {
+      "id": "murai-nt-luke-r693",
+      "sha256": "d56f1770d833b1d73712e619fa4092786928d9c80a89cdd6634b54b6e8023fd1"
+    },
+    {
+      "id": "murai-nt-luke-r70",
+      "sha256": "8eeac23fbdf8273938370943b55a80de47197666fef336c411f3e4a426951ad8"
+    },
+    {
+      "id": "murai-nt-luke-r702",
+      "sha256": "b50294ed6bdd27ee09114654bfcf9b27032fb75fd3f8484e39e9b394f8c37447"
+    },
+    {
+      "id": "murai-nt-luke-r709",
+      "sha256": "0cdf6aff10dcfe4d0581b4944a15cb39976b00eb8ae544e25b931caa79d25aa9"
+    },
+    {
+      "id": "murai-nt-luke-r719",
+      "sha256": "399dc0beee5015ac8f6604a92bc8a920aa346f183b5cbafce84521d3f6b7207c"
+    },
+    {
+      "id": "murai-nt-luke-r726",
+      "sha256": "04c19afb6d3a7e27a37d1fb6875fe68178e4d24500dcaec685253cd1d3c88e6d"
+    },
+    {
+      "id": "murai-nt-luke-r735",
+      "sha256": "ccd2996b25f035eb7b97429bff8deb87adabaf8c1c0d77ebbec70bcb1ae90aa2"
+    },
+    {
+      "id": "murai-nt-luke-r744",
+      "sha256": "97d1c548c89a1d4962d8ae7a3812e6f564f224bc2aee35913aa156cbb2a153b6"
+    },
+    {
+      "id": "murai-nt-luke-r751",
+      "sha256": "d421540d855530b6bce9b70e28adb9b41c4b4678268024a38904592cbf00a153"
+    },
+    {
+      "id": "murai-nt-luke-r757",
+      "sha256": "e4be214a1cbb0a9d767cdcc31c414a8ed82d5e384b0770089d812f29af3987d2"
+    },
+    {
+      "id": "murai-nt-luke-r769",
+      "sha256": "35bb7d559155ba5fc47a05a8dcaded688aabf900c88f3da54a9c675a906f309f"
+    },
+    {
+      "id": "murai-nt-luke-r781",
+      "sha256": "f345bb78b0174a9d38c7fbeed8eaaf970a05c3e51e7220c87b19a767e4a46ec4"
+    },
+    {
+      "id": "murai-nt-luke-r789",
+      "sha256": "4f53ac5c8c515620344f56f9240303587806b6056e253ebfdf8f13bb78741f8b"
+    },
+    {
+      "id": "murai-nt-luke-r801",
+      "sha256": "e0defa4c2ac0e248a0914ad0e3a05d405beef824755c214bdc722e920593ddbf"
+    },
+    {
+      "id": "murai-nt-luke-r807",
+      "sha256": "935479ca4f15aa023619041f7c2ab9f37f01d98e329d56d5c75449e7cd2d990d"
+    },
+    {
+      "id": "murai-nt-luke-r815",
+      "sha256": "caa1b18d03495be750355cf3dbf1dbca4aaeb3272942b225c8a4051f2c9d2e2a"
+    },
+    {
+      "id": "murai-nt-luke-r824",
+      "sha256": "6b3e6691a15b0e3f8f462575ffad2826ae366e8d7956b3de21964099215bc901"
+    },
+    {
+      "id": "murai-nt-luke-r834",
+      "sha256": "e299d7a5964ddf1441f52b4752aec50dea35dc8a89011d266af2be051165f140"
+    },
+    {
+      "id": "murai-nt-luke-r84",
+      "sha256": "489a02000abf74dff8278555a911ee5c2d214c4791750165675126e125293570"
+    },
+    {
+      "id": "murai-nt-luke-r843",
+      "sha256": "0afd8845726b43ea6a7cbe51664b70611dcfe913417177dbbe73ec808560034e"
+    },
+    {
+      "id": "murai-nt-luke-r852",
+      "sha256": "ec15e5ace47fd1f7d61b3565bb031ae25e83446dd4edb93317acd27da79a95d5"
+    },
+    {
+      "id": "murai-nt-luke-r861",
+      "sha256": "c9a2723ce56b6e3ac96ebb961feed81c8ff1591609aed2b1b40073cf864f3129"
+    },
+    {
+      "id": "murai-nt-luke-r867",
+      "sha256": "817df61d38bac7697f82a2252a61f36b0e57e54e139c2a458d28bbf0e36946e7"
+    },
+    {
+      "id": "murai-nt-luke-r876",
+      "sha256": "4ad9e1971ec2baec3d82360bf9b655194b4212b578fb41c61c124e736bc22f33"
+    },
+    {
+      "id": "murai-nt-luke-r885",
+      "sha256": "ab8baa16d9216ca919a03727fa87c9e12f02f654d6fc9e4baec98a0bc44ce23c"
+    },
+    {
+      "id": "murai-nt-luke-r894",
+      "sha256": "5c7933aa828b62d5f9690847332c72b2769e414e3079f32943bed5dd556dd80f"
+    },
+    {
+      "id": "murai-nt-luke-r903",
+      "sha256": "e806d7afc92c2056d4e8211936bec598478944e9f511b87524bbdea33b0290ca"
+    },
+    {
+      "id": "murai-nt-luke-r910",
+      "sha256": "b93997c0026d005178564a92f652831bd86eaebce14ce5638d2394d6427a6b30"
+    },
+    {
+      "id": "murai-nt-luke-r917",
+      "sha256": "19368e0abd71481b0a0030891c1814802690523b6d068bd40b9ea4c1bab35541"
+    },
+    {
+      "id": "murai-nt-luke-r924",
+      "sha256": "4282ed4369b4bccd5482df4c3cd4cfb90be52874863b5a083a711eb50c51d6a4"
+    },
+    {
+      "id": "murai-nt-luke-r932",
+      "sha256": "1d5c739e432f249fc3f66de42130e308e2cb1fee39fdbb1181dec06f88502223"
+    },
+    {
+      "id": "murai-nt-luke-r939",
+      "sha256": "4a4581dc24c48dfd9cc111c829676ec1fa5362b9885674b3f20354c85062441b"
+    },
+    {
+      "id": "murai-nt-luke-r94",
+      "sha256": "0dcedced92380295a60bc2c32f839b40ef453dfa2a8044555655ddbb744ce0a1"
+    },
+    {
+      "id": "murai-nt-luke-r945",
+      "sha256": "67058934af0c3abaceaf166c6b2601764b35e7709fd0a9fec449326a13fd8244"
+    },
+    {
+      "id": "murai-nt-luke-r951",
+      "sha256": "65dc4545dffb69eb052623ece068cd75638a55d95173d71f83861b0aab47cf03"
+    },
+    {
+      "id": "murai-nt-luke-r958",
+      "sha256": "070a05baa3128569d63d8d4de004a7cc2d76b0ff04d3f1290d3722ac18c01838"
+    },
+    {
+      "id": "murai-nt-luke-r964",
+      "sha256": "fe405d43aa97aca7476ff5299d910213ed496da804036488bccd03e88826bc11"
+    },
+    {
+      "id": "murai-nt-luke-r970",
+      "sha256": "b99908e2f8124ce95ac059efe8ee0e3bb805aa2e4f09e32a7f741cf82d0958e3"
+    },
+    {
+      "id": "murai-nt-luke-r980",
+      "sha256": "297a64873a0421367938d7b74aef84fdc401bbd4b7cf4dfc6548e18a54199b2b"
+    },
+    {
+      "id": "murai-nt-luke-r986",
+      "sha256": "200825034a82b4851fc19d31c94f5027c049789e39ead8ec264b1be8a9b623b6"
+    },
+    {
+      "id": "murai-nt-luke-r994",
+      "sha256": "8cdfdd18452f9d6fee1b590754954f590405a7103da1c95501cc13fc0428f2d6"
+    },
+    {
+      "id": "murai-nt-mark-r10",
+      "sha256": "3063949748eb75c72693c77035f75f07861ca4de0e75b76d0339720f4c24d948"
+    },
+    {
+      "id": "murai-nt-mark-r103",
+      "sha256": "31774274d457f4096527ba0cae9f12d7399373f6e89e828f79aff6e04107cd2b"
+    },
+    {
+      "id": "murai-nt-mark-r111",
+      "sha256": "e20d25bfdac7ff01d5fddf4a039549fe9b3e2b17d340f0db0adb841ae46bd2b7"
+    },
+    {
+      "id": "murai-nt-mark-r117",
+      "sha256": "d3811d625b718968b13447f170a857762f1afa8ff00aae9c03979873ddcf919c"
+    },
+    {
+      "id": "murai-nt-mark-r126",
+      "sha256": "173a1a533c1d57ad79332e7b55eecf2ceb8f86d0c5a0288ebe0cf740d4d8ff30"
+    },
+    {
+      "id": "murai-nt-mark-r135",
+      "sha256": "41ea8f74f6e1d29695075598768481cb7bf87f22487782155b2c505f36ea104a"
+    },
+    {
+      "id": "murai-nt-mark-r143",
+      "sha256": "3547bda1de7ee85d0fadfd43cbcc0cf098aa3464854c418863c27b318a9b69a5"
+    },
+    {
+      "id": "murai-nt-mark-r152",
+      "sha256": "e30382a9bfc56bf73db5bcb4759bb8ced297b4e0daf35236771ff7e81a8eaaf9"
+    },
+    {
+      "id": "murai-nt-mark-r163",
+      "sha256": "1f3c11776023e865dedbd42cd00210353282cdf92e44fb191d032b1089f280a4"
+    },
+    {
+      "id": "murai-nt-mark-r177",
+      "sha256": "4c1c98e80082cc320eabd32a06a4597880b3b69b8c98fc5750910b5a2ff74abc"
+    },
+    {
+      "id": "murai-nt-mark-r18",
+      "sha256": "cec436adf230b2d9de22bdbe43473a6b1c2281d2fbaa4751e755cd2d21c97fe6"
+    },
+    {
+      "id": "murai-nt-mark-r193",
+      "sha256": "5f77630864a5d03f168753d4f5dfe963a1a7e0e0367a5fa50167fb5d9badc461"
+    },
+    {
+      "id": "murai-nt-mark-r2",
+      "sha256": "d84090c0e73ee8fc54398ff1e118d528c572f40e808d7097b95fd5ac455e5df2"
+    },
+    {
+      "id": "murai-nt-mark-r203",
+      "sha256": "78f6d85b9c97c06b18ac18e01fcf3670b007ab31dba971a5a050ee633e74f218"
+    },
+    {
+      "id": "murai-nt-mark-r210",
+      "sha256": "1fb0d40d105a85cb93a0308f298bc1392a6e719f4a32187464c54c18ad0e13a8"
+    },
+    {
+      "id": "murai-nt-mark-r220",
+      "sha256": "ae3a5ca8c7df68168ffe8642f29c8ffa026088f6a98914aa69a3d463457c3eaa"
+    },
+    {
+      "id": "murai-nt-mark-r232",
+      "sha256": "457d1f05a57774b2a4643732b2af2e795e78889c55e11cb7cd082c53ee5dedd9"
+    },
+    {
+      "id": "murai-nt-mark-r240",
+      "sha256": "8d6b8f066977a55a5d5bf29bcd66f74ea76bae8c4f406b867459d77db285ff37"
+    },
+    {
+      "id": "murai-nt-mark-r247",
+      "sha256": "22a1a02d8af999ab08746e828c13284a39168678f211d81834f5546b893bfbbc"
+    },
+    {
+      "id": "murai-nt-mark-r256",
+      "sha256": "7b79b85696cd1018d0fbf1b07e77130518079feb900c40186b01ffbb3f2433ab"
+    },
+    {
+      "id": "murai-nt-mark-r26",
+      "sha256": "edf2ecf38374effa0b2d9826775a6b387706dd5fa26b982259c97ab515e8e465"
+    },
+    {
+      "id": "murai-nt-mark-r265",
+      "sha256": "4dc1bc7f472f6ab9955d11250ea13c96da210b5e72394ded39ed2332f0301c98"
+    },
+    {
+      "id": "murai-nt-mark-r273",
+      "sha256": "103c47eb20eec4bebc24ad9468e2f72af6e0d441c285611f50d39823a36eb84c"
+    },
+    {
+      "id": "murai-nt-mark-r283",
+      "sha256": "66dad49a99a5bd981363f0610386f7a1e8045eeddfe0dc584af631cae2fd8575"
+    },
+    {
+      "id": "murai-nt-mark-r291",
+      "sha256": "18ebf51ddd79654860195450409f39c985c9f2d218431ff1c1fe8654ee58400d"
+    },
+    {
+      "id": "murai-nt-mark-r299",
+      "sha256": "e84c1fb5d3574c19c0e864c052abe9e9214911d0e60716d9b2e9602b12600dee"
+    },
+    {
+      "id": "murai-nt-mark-r306",
+      "sha256": "b2c91c1521686ad35904fb8498bd5fd772c4970621cd12a3480ba77cc0095245"
+    },
+    {
+      "id": "murai-nt-mark-r313",
+      "sha256": "d4819246e93439b918879ec33c037fe5fd525ae7dabf564a420972a712e9b4f3"
+    },
+    {
+      "id": "murai-nt-mark-r32",
+      "sha256": "c36d19e0c6c1c441b7f6444ad355ae9e1e7c8af381a2de06ad1c89b4d716e0b0"
+    },
+    {
+      "id": "murai-nt-mark-r324",
+      "sha256": "43e846102b0ed98404b04a7360ebd7ffe7980ad3ce61717dcf97108182798408"
+    },
+    {
+      "id": "murai-nt-mark-r336",
+      "sha256": "5695b847822b80afff910430e637a5ade39fc6616a1a88025f7288f81a3dc5cb"
+    },
+    {
+      "id": "murai-nt-mark-r348",
+      "sha256": "56e20d88211d810d199a409eebcc3e6086e3954f324f468fd55262c136519b37"
+    },
+    {
+      "id": "murai-nt-mark-r354",
+      "sha256": "627b5878361c01c98471928882ddf03abf5bd5a5cc2d4e8e1d0dad9b75e1ff1b"
+    },
+    {
+      "id": "murai-nt-mark-r364",
+      "sha256": "59ed1894e4deded4f4c37a457b20010a2127a3b2e7ae0fb8dd51054227dd713c"
+    },
+    {
+      "id": "murai-nt-mark-r373",
+      "sha256": "1e4d61d3aa2a30d69e525617cf7e01f36df446549be5ffbae8ac7c9f9fedce6d"
+    },
+    {
+      "id": "murai-nt-mark-r381",
+      "sha256": "62dde1c4f170e45d85de5a08058dc92138ac0ee1111a376d4c2bdd0a16c1447e"
+    },
+    {
+      "id": "murai-nt-mark-r392",
+      "sha256": "643d750baa18cf7c615fe0c925a07bb8546c209a115dd6a1c6a5e1d130059503"
+    },
+    {
+      "id": "murai-nt-mark-r399",
+      "sha256": "b70791224c865c74125248237d90544091b68543d2d68823e8490064e2a45c1f"
+    },
+    {
+      "id": "murai-nt-mark-r408",
+      "sha256": "1b44e9cf1236dbbcf6a695d025116ffb6f94cb935c3dc637cb3f0b12e6a4b29f"
+    },
+    {
+      "id": "murai-nt-mark-r41",
+      "sha256": "7f49ec503065de8d2dc38d6a35a7505b2749e0e233afbfe606c9490d1d1beecc"
+    },
+    {
+      "id": "murai-nt-mark-r418",
+      "sha256": "702486720d79d8b2a273728acaa96bbc70ba0fbfb11c9f1af68cf286471af450"
+    },
+    {
+      "id": "murai-nt-mark-r428",
+      "sha256": "8702cd269a7890f8d11f83fbe2943c8df7ab6635af0fc7adf9ef4cbc9228607e"
+    },
+    {
+      "id": "murai-nt-mark-r436",
+      "sha256": "83d8efb3f52d994ae76d36c9e265fde0eb18bc2b8fb7cbc84e533a41871a1a64"
+    },
+    {
+      "id": "murai-nt-mark-r444",
+      "sha256": "fc796c21f031b6b32ae4ddd4b79e30cb407b6d5f2443474746906e54350e0633"
+    },
+    {
+      "id": "murai-nt-mark-r451",
+      "sha256": "cad97fe3baf58abb4db90131701ca90add71e9bf52dbc6302249fb9ecf9bb3f6"
+    },
+    {
+      "id": "murai-nt-mark-r460",
+      "sha256": "fd6cca8c615d12d2ba8a8275626932ae10e2304917e89f6378cd785dcc7b4019"
+    },
+    {
+      "id": "murai-nt-mark-r468",
+      "sha256": "6efb5463a4e077f93c1fd4c00dda1e5bd6dfc3e649ccf69228180b3947b170b5"
+    },
+    {
+      "id": "murai-nt-mark-r477",
+      "sha256": "dbccf45060e3f34b14dd38e5c39c4f25b95220be8fb52438ffe5272b142a52ee"
+    },
+    {
+      "id": "murai-nt-mark-r487",
+      "sha256": "1d1be451d439a2089c66c71e1d9d618924d38510f6893bd8b84f4a1735b8221e"
+    },
+    {
+      "id": "murai-nt-mark-r49",
+      "sha256": "64ac7fd105d347c73a26c78d9881f11ae64a97ac920bf080b48e069f24d6c659"
+    },
+    {
+      "id": "murai-nt-mark-r494",
+      "sha256": "4e5b9fb8951dd8fd843f5e4bb829ac83a89941584664eb75d05cb2ed6a7f2f95"
+    },
+    {
+      "id": "murai-nt-mark-r502",
+      "sha256": "6d7a5f12ff279fa6c6daeff8aa434c2fe5434308da1153c3ff34c19b9bd81555"
+    },
+    {
+      "id": "murai-nt-mark-r508",
+      "sha256": "03b28ec01b39be8fd0df98bc30201cb5bc8fb5d608d3877ba3dbe9248d8b2459"
+    },
+    {
+      "id": "murai-nt-mark-r514",
+      "sha256": "de1ed0b2da08b33ee599530677b2565a1b1c368119fc553d3a8495bbb2219fd6"
+    },
+    {
+      "id": "murai-nt-mark-r528",
+      "sha256": "4874a40afdaea82c5743312df3504cc4121421b3fb0fe1008cb0d22fe241279c"
+    },
+    {
+      "id": "murai-nt-mark-r534",
+      "sha256": "c962759bfae1464e992d16d5e9dcf88636f95d8d4dfa0f7603f508470760f596"
+    },
+    {
+      "id": "murai-nt-mark-r541",
+      "sha256": "53f802c8c09e3f37864d9d7a9ba72c60ef1e60be86b755f2e467d56b17dd26c0"
+    },
+    {
+      "id": "murai-nt-mark-r548",
+      "sha256": "89d690566302357ef51a7b31023578f56af9bd15e7a9f6c65091f6e8367a6370"
+    },
+    {
+      "id": "murai-nt-mark-r554",
+      "sha256": "b9f0b65b89b06f7e90c477fcee7f1da2e55077498c0579c5ed180dc7a829c729"
+    },
+    {
+      "id": "murai-nt-mark-r562",
+      "sha256": "97895c7690cdd7f4abe5e97cd85c7df51baf69734511b561efade0f442ad9826"
+    },
+    {
+      "id": "murai-nt-mark-r568",
+      "sha256": "a794e531a9914cc65f4f6b933117fc4e9aa9f4847620aa1ff4481936d0c8139d"
+    },
+    {
+      "id": "murai-nt-mark-r574",
+      "sha256": "66c5ca79cd3f07de557676dd1109e42729240a1fdbcac4b02b44035fbffdf6e6"
+    },
+    {
+      "id": "murai-nt-mark-r58",
+      "sha256": "64871e13174e8bcfad92fd48ff1bd8ba09ef265d435cdf2f70cdb137adcca3dd"
+    },
+    {
+      "id": "murai-nt-mark-r580",
+      "sha256": "669374fa1399b8d6f9be18471f92f349d8b094eb542ae82cd4d13753000110a6"
+    },
+    {
+      "id": "murai-nt-mark-r588",
+      "sha256": "3dedce050b45d20483168ea651b59e5657602e9a1a3a919173c363b79a9879dd"
+    },
+    {
+      "id": "murai-nt-mark-r595",
+      "sha256": "338499a42c9a8d217846f8092a3bf4f251216b98e94ad10bde1ff9c8df7a52bd"
+    },
+    {
+      "id": "murai-nt-mark-r603",
+      "sha256": "7511b63aeaf54686d62f532c86dca7efb84acab397ca21b16dbbbf1345a8ae51"
+    },
+    {
+      "id": "murai-nt-mark-r612",
+      "sha256": "eed33d6ed23cfbb4218bef15c966621600e577ec7af90d182383529da963fc40"
+    },
+    {
+      "id": "murai-nt-mark-r624",
+      "sha256": "b88c40b51e023fde7b36ecc5736e661b9734d65c17bd3e10517dc0403ed0eb46"
+    },
+    {
+      "id": "murai-nt-mark-r630",
+      "sha256": "fcac3bca2f9b1dd5fbd67e21b8f54caff121ed1e50fa3c59c3aafb99ca67216a"
+    },
+    {
+      "id": "murai-nt-mark-r639",
+      "sha256": "0ab20b6311b1b7acb3beeb796572664b48c325f5e018dbf3894c74c377bbe1f4"
+    },
+    {
+      "id": "murai-nt-mark-r649",
+      "sha256": "81bb86e24416b11f5728568100c0572df915d34cd05ffabd03da76b5e8391428"
+    },
+    {
+      "id": "murai-nt-mark-r658",
+      "sha256": "89a377554ac101e953eec756dab4aa75313e53bd2a65ca3e7b845a3522fe6377"
+    },
+    {
+      "id": "murai-nt-mark-r66",
+      "sha256": "91e4fd16ec682cc59ec009d5e2e3425e11eef66a8a3b67fba959eb005116251f"
+    },
+    {
+      "id": "murai-nt-mark-r668",
+      "sha256": "2b11facafb22ca63363e90c701c63c17ad6f484094bc2c5cdc23d07251869166"
+    },
+    {
+      "id": "murai-nt-mark-r676",
+      "sha256": "6cb3f349d217097ea33251dfb4b4dbb1cba5a964950e899534ea1b003ed19d39"
+    },
+    {
+      "id": "murai-nt-mark-r75",
+      "sha256": "2470a236a0e6f831fe343e7e855cef599bb4e696fed8dac61f412dbd36d290d0"
+    },
+    {
+      "id": "murai-nt-mark-r82",
+      "sha256": "2672dc5ef353ed16aea5a96df408397876cc941463690be802b7a26ca53b42ad"
+    },
+    {
+      "id": "murai-nt-mark-r89",
+      "sha256": "5c68a1910f354cc05f41175a9399d8354f36ca407ec5c6299e5edbdcb47e24b6"
+    },
+    {
+      "id": "murai-nt-mark-r95",
+      "sha256": "83a2a4f25f772a5cb14ad8ba0e39aab110d95b9b540f5177a488a593b5582336"
+    },
+    {
+      "id": "murai-nt-matthew-r10",
+      "sha256": "b82e48db9c1b9610da20eab43b99a184c1abfff4323bc19a16f81bda58caa4c8"
+    },
+    {
+      "id": "murai-nt-matthew-r1000",
+      "sha256": "7bbbf910389ea9c0b6ee083a1cfb46bd0c65bb85cb452beb398adedbe3236ef4"
+    },
+    {
+      "id": "murai-nt-matthew-r1010",
+      "sha256": "ddb6395435fd15477cea44c3b56d1ae8a3e4c01dcf9f13e790d8f5507956973c"
+    },
+    {
+      "id": "murai-nt-matthew-r1017",
+      "sha256": "0ce3bb805c7ec7056d9083adfc6100d5f49ac0449f7316044e378ed051958c8a"
+    },
+    {
+      "id": "murai-nt-matthew-r1024",
+      "sha256": "4acf03aa1c249f88304ebf2b04aba4b231bf2aa364c60e48674d2b18036efe14"
+    },
+    {
+      "id": "murai-nt-matthew-r1034",
+      "sha256": "ac4fdc70973fcc6e4007f093bb7a965e6532d188df1080add6d296edc52f7cd5"
+    },
+    {
+      "id": "murai-nt-matthew-r1043",
+      "sha256": "9074d238b3bb62397a7ca8156cdc0f8ac33f6f8241e5370259383499b79fce0a"
+    },
+    {
+      "id": "murai-nt-matthew-r1057",
+      "sha256": "6b3e7c312b5ffefd61055153d7c5906197831eda1512c397b3f141057f74035e"
+    },
+    {
+      "id": "murai-nt-matthew-r1069",
+      "sha256": "568ba41536523118b55f4f7b683c6cf10d9ce70fb78dc81c8df518d55b67187b"
+    },
+    {
+      "id": "murai-nt-matthew-r107",
+      "sha256": "e2a727f9533a4596ae5f42d796c66e69dc1d6c20bdb3bb0abeb2942bbe1dfd01"
+    },
+    {
+      "id": "murai-nt-matthew-r1076",
+      "sha256": "9785f7d9fd558f4aa519283826960e1c32907546ef8a2d6fe31917e8f21804e3"
+    },
+    {
+      "id": "murai-nt-matthew-r1083",
+      "sha256": "88170b1f53fcd23a68341e2c91847dbcce1e749348135324b7e9305ca9fe65b4"
+    },
+    {
+      "id": "murai-nt-matthew-r1091",
+      "sha256": "e8c602f310884033fa7df678cea499eecb1e08205d9fbc6369f03d238e8d6188"
+    },
+    {
+      "id": "murai-nt-matthew-r1098",
+      "sha256": "75a1a37402a7c1a1b4c097b0aae5d91ecd32497008c3d864483090e11075c8e6"
+    },
+    {
+      "id": "murai-nt-matthew-r1105",
+      "sha256": "6b0f196c26881b5d9ac946e401508b78f0fd1d5ab0b69c2cfd1bc03aec91dc7e"
+    },
+    {
+      "id": "murai-nt-matthew-r1113",
+      "sha256": "94fd6b2e2944e8001b0bd23afc39d9eef206f266eaec43b86e006cf7e95986b0"
+    },
+    {
+      "id": "murai-nt-matthew-r1120",
+      "sha256": "cd9fcb9caea84df0b3673009fdcd45ade676355457489902fe999f6695293251"
+    },
+    {
+      "id": "murai-nt-matthew-r1130",
+      "sha256": "4e1ed121f1a972b96f55746dfe6e2027d83051018c56410a3c02895a393f121e"
+    },
+    {
+      "id": "murai-nt-matthew-r1138",
+      "sha256": "f517187802beb55a49a8407456417ca1b3f2d5e58f26cb86e18bcd58c4c54fd0"
+    },
+    {
+      "id": "murai-nt-matthew-r114",
+      "sha256": "2bb4abb87cac2404294b5fd1c8a3a0d8fe566bcd26b432e14cbbbe481c1444ad"
+    },
+    {
+      "id": "murai-nt-matthew-r1147",
+      "sha256": "f2abbecbb41d9b3099b9c772deedd9c345c952dd2ac0592def9c881477cc8eaf"
+    },
+    {
+      "id": "murai-nt-matthew-r1155",
+      "sha256": "794f1b41c015c675541c4976e4cde5365d5b43abcee4391b739ec63ac018bdec"
+    },
+    {
+      "id": "murai-nt-matthew-r120",
+      "sha256": "3fb5652e3ec06a80ed983758b8ac73f54a15ebeb025514e164d43845b0b24a9a"
+    },
+    {
+      "id": "murai-nt-matthew-r127",
+      "sha256": "4e7294a815f8cde566185539c52b424c14f4a865097d4460bcde1d9266f85dd8"
+    },
+    {
+      "id": "murai-nt-matthew-r136",
+      "sha256": "58ae431235c42de7732ae713941e02a56e04a753ad12bba37dbfc20d5097f4dc"
+    },
+    {
+      "id": "murai-nt-matthew-r144",
+      "sha256": "b41bd50f303fcfbba565a360e5d2fd8720048f7411bfb3362c862bca08318ed6"
+    },
+    {
+      "id": "murai-nt-matthew-r151",
+      "sha256": "fb159eb1a7294971aeccfb51370e0619924b9c818333be752460110bc19fc843"
+    },
+    {
+      "id": "murai-nt-matthew-r159",
+      "sha256": "6da9f3eac6cc361bac5338f7e18314d258e90db2232c2a800994ae0841bb2777"
+    },
+    {
+      "id": "murai-nt-matthew-r166",
+      "sha256": "953722f9e75f352a6c98e1025dd22c654dc77d3b284451af7a21ae3408cd5727"
+    },
+    {
+      "id": "murai-nt-matthew-r178",
+      "sha256": "2a4f422fd66d6bcdb714f4d1a93b88f379e939b3f8c29168661c77cea280d1db"
+    },
+    {
+      "id": "murai-nt-matthew-r18",
+      "sha256": "60adb95c4cf2cd4cee0c8f04ac876d7ab0a2f36f827c9b2b18ecb5f7532d0339"
+    },
+    {
+      "id": "murai-nt-matthew-r187",
+      "sha256": "46455f055ba11fc9d49d684c006e0f5ed19984cbf35706b018fc84d247b39906"
+    },
+    {
+      "id": "murai-nt-matthew-r195",
+      "sha256": "0e60e3493dd3cf9ed1143706dc130d092cc1d02f880b230e3f30574d2ad264ea"
+    },
+    {
+      "id": "murai-nt-matthew-r2",
+      "sha256": "3986a0a0496dbfce3e29850b85a95e70531dbd6c4b12d50c4f732fead0280432"
+    },
+    {
+      "id": "murai-nt-matthew-r202",
+      "sha256": "ba2fcff2ef2b8d6605204cba92d108618cdb5e0ec29222baa80b78cdd24bccad"
+    },
+    {
+      "id": "murai-nt-matthew-r212",
+      "sha256": "fb38b7c5933f55b9e01f6b7a25acf7439f55fdc35c0754c263a51b3e2636ec31"
+    },
+    {
+      "id": "murai-nt-matthew-r219",
+      "sha256": "df0e78a6549fb3331681faba3307453f000b9b9db2fb7f86d00dbdbd7c2ccef8"
+    },
+    {
+      "id": "murai-nt-matthew-r226",
+      "sha256": "3bf3a059ca225abd7199a9ef0d672007a8b9cacb5078bf4c277ebde6c1035524"
+    },
+    {
+      "id": "murai-nt-matthew-r232",
+      "sha256": "cfb6dac1a007fa505a8c5bf2b1e12f3e1a87c7ed5ae9fc4436d7514824026385"
+    },
+    {
+      "id": "murai-nt-matthew-r239",
+      "sha256": "22b7abe299f8869199e6b307ce6f8f7ac8a87b2f4d93658f5f155551b67752be"
+    },
+    {
+      "id": "murai-nt-matthew-r246",
+      "sha256": "c7a91238e6ee51ad05d062c3c8c7237db39a0fec05b1220098e9eda6536bec3f"
+    },
+    {
+      "id": "murai-nt-matthew-r254",
+      "sha256": "fdab6ef35415308cb81db036acbccdbcabb304d89e7e54fbe2bb655c85721117"
+    },
+    {
+      "id": "murai-nt-matthew-r261",
+      "sha256": "fa68da4b215aa13096950050e7402e82d432c51cff6ff3b64644b752d5751222"
+    },
+    {
+      "id": "murai-nt-matthew-r270",
+      "sha256": "4a9420560350c6fb201b8c91f4d9e2991c0f3f31feba26a66d48c8aed3f07bd6"
+    },
+    {
+      "id": "murai-nt-matthew-r278",
+      "sha256": "8e714715d6c495caa8476b01f73c3914e835ccfc4c0df995d6d6439f20de971e"
+    },
+    {
+      "id": "murai-nt-matthew-r28",
+      "sha256": "0da59c906ed942994b2090c0ce383dbb140474e58beb5cce4dfec7bdd31feb2e"
+    },
+    {
+      "id": "murai-nt-matthew-r286",
+      "sha256": "3f36727bddd39e0eb54e0dd7dbda1838aacd5820f3c2c3d00e9fafc8db4c84b4"
+    },
+    {
+      "id": "murai-nt-matthew-r293",
+      "sha256": "4e4a650520f23a63f0b75c7ca56f161d920e7926ffe964e0ee333246a93bd693"
+    },
+    {
+      "id": "murai-nt-matthew-r305",
+      "sha256": "312c4391930a2d0c47c29c6691822418bde2017b8b8921e8c84dfbec31f29468"
+    },
+    {
+      "id": "murai-nt-matthew-r313",
+      "sha256": "aa54f5ad9e6435a2c73f8f5c1e35774cb76c51f080c21817a19e69a476718f9b"
+    },
+    {
+      "id": "murai-nt-matthew-r320",
+      "sha256": "a98ef847b1a6fa7c27e7d6dc25db77fc9b8fb126b35f9ae8cd31789f96862ba9"
+    },
+    {
+      "id": "murai-nt-matthew-r329",
+      "sha256": "7db6805def70f877c1a5704453f86f7f8e32c151101adc670df44bce9b934866"
+    },
+    {
+      "id": "murai-nt-matthew-r338",
+      "sha256": "f058a89fd368b355048754b8c66133bac8bbd983b567b3d754877dc5a0ead6f2"
+    },
+    {
+      "id": "murai-nt-matthew-r34",
+      "sha256": "08b7a660303327669fd5fe167c288f7a5b819b1dd03fc38061a4ed663df99933"
+    },
+    {
+      "id": "murai-nt-matthew-r346",
+      "sha256": "8178badb7feb265a751e0e42cfb2a087015288b1328ced7f33c96b9a4d16c086"
+    },
+    {
+      "id": "murai-nt-matthew-r352",
+      "sha256": "3c8de3e680aff99f89417ba0e575a16e2a430112ae1e5ea5b04538b6e21d11c5"
+    },
+    {
+      "id": "murai-nt-matthew-r362",
+      "sha256": "f0b0b3d3e8a2475be79edc903f276a0bf8b94bc648a80ca906cf1e10457ddc48"
+    },
+    {
+      "id": "murai-nt-matthew-r374",
+      "sha256": "32247d6a1bd147602897ceed136492004ee277cba72196e314fcdfe317103c3f"
+    },
+    {
+      "id": "murai-nt-matthew-r383",
+      "sha256": "26c201bba3fd7aeea3c1329268a18ed5ce6c9b5c910444d93f371abc684b9d27"
+    },
+    {
+      "id": "murai-nt-matthew-r392",
+      "sha256": "abc755ed683ab996882387f59a9dad53a72ad7809136aaf267ddeb15b7692444"
+    },
+    {
+      "id": "murai-nt-matthew-r399",
+      "sha256": "8c1c3e1e0ff1b0691ace0aadc260555106e217049fbe4ee13e7ed6ab95472442"
+    },
+    {
+      "id": "murai-nt-matthew-r40",
+      "sha256": "bf9f80c957cb19e35bc612d9153a2c5ff196c15f92c74de9b71476949659b27b"
+    },
+    {
+      "id": "murai-nt-matthew-r407",
+      "sha256": "059ca3d168f20921e4854b19840c3977714c6055b8c4fe1608635ceffa323b5e"
+    },
+    {
+      "id": "murai-nt-matthew-r417",
+      "sha256": "0cfd29b056f15f4068de77fd1c139ca243165a9f329255f80c118ce3288fb513"
+    },
+    {
+      "id": "murai-nt-matthew-r425",
+      "sha256": "3c01de19ec9bdc153e36511947d952dbf83cb9fcbf8c1a1edfe3ad1363153eb5"
+    },
+    {
+      "id": "murai-nt-matthew-r432",
+      "sha256": "55ed48fe7626e49eb1fb389dda5e22c896b034ab8bda132e3fd759d23eb9ac36"
+    },
+    {
+      "id": "murai-nt-matthew-r441",
+      "sha256": "892beb4f0e4965dd598792cb88052e9dbffb1c6c71e09360fcc0a2a8697b91ac"
+    },
+    {
+      "id": "murai-nt-matthew-r451",
+      "sha256": "e5ec3e2e9edca4a157baac2cba3675964188ce0b93c9c78e1bf34e554c2bfe2c"
+    },
+    {
+      "id": "murai-nt-matthew-r457",
+      "sha256": "446082448a3672ea2229d5702a5a21fb01bbfc1bd0d3efea27f8ad8e813ecf5c"
+    },
+    {
+      "id": "murai-nt-matthew-r468",
+      "sha256": "28c43a3f0406dfe0763b1e7fe68359cc7a74e908346105f650e2d50d0e236c21"
+    },
+    {
+      "id": "murai-nt-matthew-r47",
+      "sha256": "49f85f538eb55e3a9bbc2a1588fd059a5a689b9890529846f8ff19b5cd36b61c"
+    },
+    {
+      "id": "murai-nt-matthew-r475",
+      "sha256": "946bfd0361065fe6721e78304cf21e3ca62693aeeeba8a2bfcb123350d2d15bc"
+    },
+    {
+      "id": "murai-nt-matthew-r482",
+      "sha256": "c8c51ad03e24dd0755030ce77657208dba456a5d9f4be297880e330901c51dac"
+    },
+    {
+      "id": "murai-nt-matthew-r489",
+      "sha256": "4126c2c023c77bd440b991606246b16f0591756d7cc99e41834d9ef6c527afd0"
+    },
+    {
+      "id": "murai-nt-matthew-r498",
+      "sha256": "41e6df7569c4c2c75fa9d090353b6252c8373963a2b8f3be40ea4b45bc5809dc"
+    },
+    {
+      "id": "murai-nt-matthew-r506",
+      "sha256": "fd5f369dc26814bc0654d93eb776f363d5ec840c99b5bb73f99c9084ed0eb667"
+    },
+    {
+      "id": "murai-nt-matthew-r513",
+      "sha256": "0150862ccd223758a1296f545eb581754102fa5a2ff4b6492c8be109491c0c5e"
+    },
+    {
+      "id": "murai-nt-matthew-r520",
+      "sha256": "7bf5521b4fc6ae8bc40180874ba65e4a397e06b6ede831d9d85f2b86117eee06"
+    },
+    {
+      "id": "murai-nt-matthew-r526",
+      "sha256": "d34ad031e88d7e4ef97a037c7ad4aaee90805f210b66cd2d043bd24c04ef7dc4"
+    },
+    {
+      "id": "murai-nt-matthew-r534",
+      "sha256": "a7e0210d90f788374d2500ecfd38e10b6e34db21dd493a2ceeeb6496dc69561b"
+    },
+    {
+      "id": "murai-nt-matthew-r544",
+      "sha256": "ec95295e81247b3d214df9fa2436583114b8034f1a237db7ca996ea51a284b2b"
+    },
+    {
+      "id": "murai-nt-matthew-r55",
+      "sha256": "52703fee3a98a0fe81c9908576cfefa7ae966532f442c282bccd2a01e246bcb3"
+    },
+    {
+      "id": "murai-nt-matthew-r554",
+      "sha256": "b8f89bbeeca62e50f3a28e75912de23099656127479740b085f5bb1408a15726"
+    },
+    {
+      "id": "murai-nt-matthew-r564",
+      "sha256": "80352d08df8de02c719775caeaed986e9d1b0e91f6197c72b76460e33e6258f6"
+    },
+    {
+      "id": "murai-nt-matthew-r571",
+      "sha256": "71abc2c6c53284930b39a34f643d3a91b55bb2f37d0bbad73866827a8e2ce47f"
+    },
+    {
+      "id": "murai-nt-matthew-r579",
+      "sha256": "d98d3b8258dd8d4ccf372c168f85c011d45548336aaaeaa3da56a022244c6a89"
+    },
+    {
+      "id": "murai-nt-matthew-r589",
+      "sha256": "ff688acd51392e5eea8d98deb48cf31e9ceec33f96a3494292bd2b2c77dc45e0"
+    },
+    {
+      "id": "murai-nt-matthew-r596",
+      "sha256": "fdf29d0c1d4c55847ed8bcbf1022e5a3d980e5f600ae434773515fcc5c7a3e75"
+    },
+    {
+      "id": "murai-nt-matthew-r606",
+      "sha256": "03a8febd73289e52f186c6b8cde37d68d00afe01293c1dbc5aa0185a7e38690d"
+    },
+    {
+      "id": "murai-nt-matthew-r613",
+      "sha256": "7c52ef1d08fac8375af27e2b3078001885233896fa774e38e603c5301b0c93b8"
+    },
+    {
+      "id": "murai-nt-matthew-r62",
+      "sha256": "2a5d3d908dbc8a5caee482e9bd38136715c773dcbb35c5f103a7f749444814af"
+    },
+    {
+      "id": "murai-nt-matthew-r622",
+      "sha256": "25355599c9ce33bd0d4b3ae4866578ecc22efbf59e9ed02953ff923205b09f47"
+    },
+    {
+      "id": "murai-nt-matthew-r630",
+      "sha256": "5e1fdffcb54984ddb898d8e7d59529e2fde7cf6317b9422b296534be53417aba"
+    },
+    {
+      "id": "murai-nt-matthew-r636",
+      "sha256": "bad3ac263fc421912dd815e50c02dd284d25064a229667ec32d5d41d4e4b1689"
+    },
+    {
+      "id": "murai-nt-matthew-r645",
+      "sha256": "5a309c3b5e2033cefaea1e5ae778d20f1ce0e5928c8ffa4c538ecff749956e16"
+    },
+    {
+      "id": "murai-nt-matthew-r653",
+      "sha256": "84d6395c3c0037d9bde7d6fd1619bfd03c7cff67458977b44f38b88b118a301e"
+    },
+    {
+      "id": "murai-nt-matthew-r660",
+      "sha256": "9792a78f10a0828b786acd33af92a40a85bc97c813f48ae2292c0ade8bf36636"
+    },
+    {
+      "id": "murai-nt-matthew-r671",
+      "sha256": "9da14e0b0905e04bedeb7c3fe3f43ed20d21b012b47a674be3da0f9417cc689f"
+    },
+    {
+      "id": "murai-nt-matthew-r679",
+      "sha256": "ce150a36ec686a5044a859022c3eb3e9eff5e92bb83a660fdef6667897c2eb2f"
+    },
+    {
+      "id": "murai-nt-matthew-r686",
+      "sha256": "51264bcaf8ab12b8c0b009ba73b0843de2846c0990f226767235e4d5d42f7e4e"
+    },
+    {
+      "id": "murai-nt-matthew-r694",
+      "sha256": "dc614c39bfd0c28821e74f226cd31aa8acfd0f8d02dd62ac511c4d53114606a1"
+    },
+    {
+      "id": "murai-nt-matthew-r70",
+      "sha256": "f905fa621264ac53b01510a52dcf354db800df67ace6bcb684b743395ebec71d"
+    },
+    {
+      "id": "murai-nt-matthew-r701",
+      "sha256": "1b47b0ba8e1e7d6887e1d6594af5160315e468584239638986e53650983993e2"
+    },
+    {
+      "id": "murai-nt-matthew-r708",
+      "sha256": "754e1dfd42d2369502b091dcdd80028faab14276f023da9e9b9282c9c48904e5"
+    },
+    {
+      "id": "murai-nt-matthew-r718",
+      "sha256": "07131406d99e950c7c78f6e6ce9e1bd5d3aeeedbd5a2c665364ef5b24b7d9a2e"
+    },
+    {
+      "id": "murai-nt-matthew-r727",
+      "sha256": "6b6910b50b9c037f0d70b9e3a4dd435953761a414286dec524e5019a6e47b574"
+    },
+    {
+      "id": "murai-nt-matthew-r733",
+      "sha256": "b366be488516d0a0d69823c4889c651b1feb5df53876d1b58f193a0ead76ca55"
+    },
+    {
+      "id": "murai-nt-matthew-r743",
+      "sha256": "10f555c70240352208529e8e0b214bf21f19394a0d13b15143186c0f662ae28d"
+    },
+    {
+      "id": "murai-nt-matthew-r751",
+      "sha256": "921b949d5dc664d85d5a4cc99a0b62444947de251770e9bb1caf910af4ed89e4"
+    },
+    {
+      "id": "murai-nt-matthew-r767",
+      "sha256": "00576cf31780b1d5bdfdbde28727ca9bbe610c01e14e801ea98efb5752664afd"
+    },
+    {
+      "id": "murai-nt-matthew-r774",
+      "sha256": "2e0bf7fb050aeebc4fd418c77ee65fba16588576be817d2374649da9a907902c"
+    },
+    {
+      "id": "murai-nt-matthew-r78",
+      "sha256": "37e8390f3d48a964144645f730525d01618c047f4b01c79a6795a1e71f785015"
+    },
+    {
+      "id": "murai-nt-matthew-r782",
+      "sha256": "5f9a93989fe657256ad2e5f7986a1407bd4b84b9277408b8f8c4f95c7f7c74a0"
+    },
+    {
+      "id": "murai-nt-matthew-r792",
+      "sha256": "e73493cf4617f86a9bb7b11be0aa1f97f18b8bf9cc2d8efa6e726fd0c786dc8a"
+    },
+    {
+      "id": "murai-nt-matthew-r801",
+      "sha256": "1ab39a0b0714274031560ff94140ac1d598224dd993c7a6144db1817942a9c52"
+    },
+    {
+      "id": "murai-nt-matthew-r810",
+      "sha256": "01f530e9154fd98e88b396136ba031cf6c98734969188dbb6c35b0b15c2fe8ac"
+    },
+    {
+      "id": "murai-nt-matthew-r817",
+      "sha256": "adbdca448314a6ecd3da0fcda38399caf9378f49bfba35494c19812c24ce7de4"
+    },
+    {
+      "id": "murai-nt-matthew-r824",
+      "sha256": "2efed6ad80c8fe98bab914561dbd0304a09bcdf1dc32af16916baae3f8d716e1"
+    },
+    {
+      "id": "murai-nt-matthew-r830",
+      "sha256": "d5f374cbadb397af341ee4d6be0e6cbbc4696cb23d355f956dada37702effe8e"
+    },
+    {
+      "id": "murai-nt-matthew-r838",
+      "sha256": "450bfdd6e1f2da64988b64152f65ffd4fc30194d5b55cc9ab98ed27c55a09c08"
+    },
+    {
+      "id": "murai-nt-matthew-r847",
+      "sha256": "b85357b4648e16856bab5e4f58061494a09b7ae8bed880ae88c9bf2a7f42c18a"
+    },
+    {
+      "id": "murai-nt-matthew-r856",
+      "sha256": "e317e359f8645c72eae2d75448fb0bab89e15f38619cc12fa91d86e4e869a62f"
+    },
+    {
+      "id": "murai-nt-matthew-r866",
+      "sha256": "23343ada536ce23b17e116cfd23e050180cbf18e1abf74f712408e364b5d1d07"
+    },
+    {
+      "id": "murai-nt-matthew-r87",
+      "sha256": "eec48f5f1ae66f5e9bf2870293993f6ada1967062ef2f17004a763e2d3e7a394"
+    },
+    {
+      "id": "murai-nt-matthew-r875",
+      "sha256": "c88dba6089058e4a7311759ae2e578643db8510cad45408609a7f766574c6672"
+    },
+    {
+      "id": "murai-nt-matthew-r885",
+      "sha256": "dd51d109fdae9cd3b5ef11068ac4446a73455ba228a7aec2b38f56b917d8645c"
+    },
+    {
+      "id": "murai-nt-matthew-r897",
+      "sha256": "fad9388491d380e74395c03d3e18d0b893f59ad0914d142a68ad7be43cdd8b7b"
+    },
+    {
+      "id": "murai-nt-matthew-r907",
+      "sha256": "c6d1f62b5909e82304fce5b824343c82f31313514d43810f27728bcc0a12d41e"
+    },
+    {
+      "id": "murai-nt-matthew-r915",
+      "sha256": "18a622f45af44aad8e548da77f7231cf02bc6200f1552a31411237934516050f"
+    },
+    {
+      "id": "murai-nt-matthew-r922",
+      "sha256": "2eadaec686963ca1052821796d6fe4105145928d4bd18c3e88c257d2a7aa0692"
+    },
+    {
+      "id": "murai-nt-matthew-r929",
+      "sha256": "24632a494d90dc3a9e45f6f2b59790edc78ceb782eb47747da5ddd19643c204f"
+    },
+    {
+      "id": "murai-nt-matthew-r938",
+      "sha256": "98bd9a7fa882d3ff14258fa68d6265f29cb177381bdd9c09bf130516832a8589"
+    },
+    {
+      "id": "murai-nt-matthew-r947",
+      "sha256": "895fb1ba37bda4d414e68cb5eff05003979e831a407f1d6291e14203f8416cb0"
+    },
+    {
+      "id": "murai-nt-matthew-r956",
+      "sha256": "9fc494d0dfd127bcc0497b8cfeb1a8a8464b599004df9851935a285f5015ea60"
+    },
+    {
+      "id": "murai-nt-matthew-r967",
+      "sha256": "c8b4b5fc10353d30cfbc89992d489408b2efc2c336470f3cb9b753e0999e3544"
+    },
+    {
+      "id": "murai-nt-matthew-r978",
+      "sha256": "21621503a1f1657974cb5fbcc0e8a51d78cb4866b91898a07cc628bd1a576a91"
+    },
+    {
+      "id": "murai-nt-matthew-r98",
+      "sha256": "e83960531f4e5ee5a30fb194b899bc31f46687475aefd573cdac05aac48ed2b5"
+    },
+    {
+      "id": "murai-nt-matthew-r986",
+      "sha256": "8fe28c834d06c3610aa64a28c02874d9d43779515903cc9d780918c2c162c705"
+    },
+    {
+      "id": "murai-nt-matthew-r994",
+      "sha256": "007987be771ba702a05ac5ec39e729f434f047039f4d8bd97e82226dc62c818b"
+    },
+    {
+      "id": "murai-nt-philemon-r3",
+      "sha256": "e4ffff8fa533668aa6b5e35bd7d99eed29009b201d656ee8155c18bee4b8f172"
+    },
+    {
+      "id": "murai-nt-philippians-r11",
+      "sha256": "8d020f20570fd7f2c445eed9ae3eb32070b4accebc433930b13bb1c5343e1a7c"
+    },
+    {
+      "id": "murai-nt-philippians-r22",
+      "sha256": "6b78151d87ad22cfb3911963d2a0206c01382a5a9428863d217025a3c194d6b2"
+    },
+    {
+      "id": "murai-nt-philippians-r3",
+      "sha256": "a9aa23d3e9d85cfce686c1b539c8a4dbc49e94e0388f43aa9890fea1fcd18320"
+    },
+    {
+      "id": "murai-nt-philippians-r30",
+      "sha256": "cb8504ebc41e597f35402f70aff4adcef281efc202b4904e43ad8e3fc0ea1520"
+    },
+    {
+      "id": "murai-nt-philippians-r36",
+      "sha256": "1ea97dc174674db9fa8ee0cd68ec7c6ce21f74f8294efeb9eacaebd6bb3d7da5"
+    },
+    {
+      "id": "murai-nt-philippians-r44",
+      "sha256": "7bd4f0005f459e9d73c98b168a8802539a8f0f787ff515967b994c65aaf88206"
+    },
+    {
+      "id": "murai-nt-philippians-r52",
+      "sha256": "a09d263ddd2c42c2f5c504689891a6aa34ed305059aacb183962f607c167bae6"
+    },
+    {
+      "id": "murai-nt-philippians-r59",
+      "sha256": "eaa8dbcf7d29d0a74b637676f270b345115394b3a9a6757885a2892b87f8999e"
+    },
+    {
+      "id": "murai-nt-philippians-r66",
+      "sha256": "4bf890ec9de58a3e57e58b5ba4a113d1961628d4b45400e9c8575ec77cc4e015"
+    },
+    {
+      "id": "murai-nt-revelation-r1",
+      "sha256": "101870db331c9724dfbd9a3b16f87196e19cf467c714963072dafbed13d26336"
+    },
+    {
+      "id": "murai-nt-revelation-r109",
+      "sha256": "c1ec4551c049dec938df0b50d7f29d3fc9c08068dc08fa4737972e32e3dde0ff"
+    },
+    {
+      "id": "murai-nt-revelation-r115",
+      "sha256": "b4325756e5cc57849be17821f2b99c5862b3e956542e563ceced16f7cda55375"
+    },
+    {
+      "id": "murai-nt-revelation-r121",
+      "sha256": "2ce83df9626f9740aefc6c49f8633877d13e8eb7849ebe8c2241dac27acf2f3c"
+    },
+    {
+      "id": "murai-nt-revelation-r127",
+      "sha256": "1df09e2ec78ee09cf926cb2befd0293270fb79022ec80041bdaefd45296ed408"
+    },
+    {
+      "id": "murai-nt-revelation-r134",
+      "sha256": "65d6f9d762afbb6c56f9e5db31491f606dbcc1612eff6d5e3e359c48c72dce7c"
+    },
+    {
+      "id": "murai-nt-revelation-r14",
+      "sha256": "9ca8c2276043b6eb11df7a466b9c944bd1b51105a127f0d5e8a3100af00542c1"
+    },
+    {
+      "id": "murai-nt-revelation-r140",
+      "sha256": "c347dcba160849d33f1e35bedd55f3d1c6ba3fa110ec68fb5f9e25c466778dfa"
+    },
+    {
+      "id": "murai-nt-revelation-r163",
+      "sha256": "44952a5930af691e7755d515704ec1ed7c79241e8276d39469f7b782d5fd304f"
+    },
+    {
+      "id": "murai-nt-revelation-r171",
+      "sha256": "8587f2e81c9bf7663db08ea4acb81f3ab5669448c75cb4d5c4e6bc73818cfbc1"
+    },
+    {
+      "id": "murai-nt-revelation-r178",
+      "sha256": "9c6fd8368a374c0355a430ebe2d9710c697676fb67bbff34d4eb98954b00b6fb"
+    },
+    {
+      "id": "murai-nt-revelation-r185",
+      "sha256": "9e2786a5fd358b17658a82da0a0b365399dae7b24bdf83f3106a7cf7dd197599"
+    },
+    {
+      "id": "murai-nt-revelation-r191",
+      "sha256": "2455e2deec06ab69ef7048d9bd633efd48b40e75ced81d373ddab68f00b77bba"
+    },
+    {
+      "id": "murai-nt-revelation-r196",
+      "sha256": "451f731cf4877ad1272ba02c6fc7907c92b5189995240aef01a1070d318908f5"
+    },
+    {
+      "id": "murai-nt-revelation-r203",
+      "sha256": "f99dd0d07790bd724738f7c180552a5ecf5c299fab54b592d8f0b79a0cec9fee"
+    },
+    {
+      "id": "murai-nt-revelation-r211",
+      "sha256": "bbf5987dea15dee9b80461280e267cb806074685bcba89b66da7c5a02d3f4862"
+    },
+    {
+      "id": "murai-nt-revelation-r216",
+      "sha256": "1626253bde9791d3b7d5b825d791b2f8ce2980f63ab720dda2a0bc105608558d"
+    },
+    {
+      "id": "murai-nt-revelation-r22",
+      "sha256": "9a41b4de76962cf353f0619e699cec924f42367df19e3adedb6f14c3aa6f0689"
+    },
+    {
+      "id": "murai-nt-revelation-r221",
+      "sha256": "fe72e3680209b649fcbeeef622cf8fcd06bf60e49444eedaadcb826f5d573da9"
+    },
+    {
+      "id": "murai-nt-revelation-r229",
+      "sha256": "269a082cbe13af7c4efe5c40aa995f9a8d43990c672ceae444763b7085e45830"
+    },
+    {
+      "id": "murai-nt-revelation-r236",
+      "sha256": "4bd001a8ef28011328d839f81c1877a2324a2a7bec0ad1d4473cad9f59d892d1"
+    },
+    {
+      "id": "murai-nt-revelation-r29",
+      "sha256": "c9d0849aa5147b17e00181d075d87810d2c385b352861341040a263a6003095e"
+    },
+    {
+      "id": "murai-nt-revelation-r303",
+      "sha256": "df8dbd7ebfd30d0bd1a523091d80ac554fcca6276fe349ae7a86cb081ea62735"
+    },
+    {
+      "id": "murai-nt-revelation-r309",
+      "sha256": "b3ec6600dd003d3cbbb32621635e6859a0347b7128c286c718c7f5fe261c91a1"
+    },
+    {
+      "id": "murai-nt-revelation-r316",
+      "sha256": "b6133082e05a48110f52f7b9757300d110ad4055d5a4185d3226da5fcacacb10"
+    },
+    {
+      "id": "murai-nt-revelation-r321",
+      "sha256": "9c0a0ad94fa35f4ba04dc30cd1aac8f32a5e19ce3eeea34016705b2ce8a40ffe"
+    },
+    {
+      "id": "murai-nt-revelation-r330",
+      "sha256": "54440ff9798f0d9bc4d99059d0127e139efa6775e59560389b148344a2dc5b88"
+    },
+    {
+      "id": "murai-nt-revelation-r336",
+      "sha256": "9f34785a4deacfce2c0682e0d4cada414257247154eeef5be900e868c0d861c8"
+    },
+    {
+      "id": "murai-nt-revelation-r342",
+      "sha256": "9c3a346f21b628bdbff7a9ec93bd53640529a4988c0dea87bc08a10eafa6db83"
+    },
+    {
+      "id": "murai-nt-revelation-r356",
+      "sha256": "5a471d6bc3463e35db84a22ffcd0dcfc8e5c39a3e7713f362d8cebe4a756e119"
+    },
+    {
+      "id": "murai-nt-revelation-r363",
+      "sha256": "5e7058aba319f7dc12bc66960bed7c7420f4679c6d62829be922fc6f891841aa"
+    },
+    {
+      "id": "murai-nt-revelation-r37",
+      "sha256": "aa06e56e770382a410f0d2b2b6ea23671b5ad2fd7a8dbd3ad42d6a2c01b1f6d2"
+    },
+    {
+      "id": "murai-nt-revelation-r370",
+      "sha256": "995a6fca971f2ad4f387b4cfdef4d7d28242bc249ae2f5fdd045c5641f59b624"
+    },
+    {
+      "id": "murai-nt-revelation-r376",
+      "sha256": "2b35d3c1d9d4034a23747add92db6fa6b98a9624dd6401e2af42ad279090dacc"
+    },
+    {
+      "id": "murai-nt-revelation-r383",
+      "sha256": "4302815cc7bd5b690b066e3ce01884df0dc1af4de845a9c7fa4f999c1b78b558"
+    },
+    {
+      "id": "murai-nt-revelation-r390",
+      "sha256": "8df486367d08f79e1af54ed286eef085e7ed41fa7184a8c0b83642cdaf79c1df"
+    },
+    {
+      "id": "murai-nt-revelation-r396",
+      "sha256": "8c1c586abac24a42822df7c18f778e60ee0a704bb1c8ddd214b27f4ccd90b204"
+    },
+    {
+      "id": "murai-nt-revelation-r402",
+      "sha256": "cacff92080347288ed31b5ac640f791c8c35ad630d88fcb6046f1a749165813a"
+    },
+    {
+      "id": "murai-nt-revelation-r413",
+      "sha256": "7c87d139ed2073c4cdc496edf33134c8648ff4851ee926ccb9a6e9e776671aeb"
+    },
+    {
+      "id": "murai-nt-revelation-r419",
+      "sha256": "7c87c28869b31eee9ddf13a12bb41781ff0b0f0a7c211b4c6ef4bc76050702f2"
+    },
+    {
+      "id": "murai-nt-revelation-r425",
+      "sha256": "4451f773bb5b6f176cf65aded0b8f0b26acc6d20e3a1dac7ed28247a987ecfc1"
+    },
+    {
+      "id": "murai-nt-revelation-r435",
+      "sha256": "b651995b1f3bbc48ce42ee90c637caab594b9e1ca1a290c60578b81530c2967e"
+    },
+    {
+      "id": "murai-nt-revelation-r441",
+      "sha256": "c86037b3a2fb02d3af13f7d1f45643cec52281b06082191032720a9ccd3a5bfa"
+    },
+    {
+      "id": "murai-nt-revelation-r447",
+      "sha256": "ba75ed6672dbe989cd65a528566db820b5321408635b387f675b3bf1c3da54a3"
+    },
+    {
+      "id": "murai-nt-revelation-r45",
+      "sha256": "9ab4e7fe00b0e62eb1dd74151a0fb0668280e9b454009ed925337a276823bc00"
+    },
+    {
+      "id": "murai-nt-revelation-r454",
+      "sha256": "15be37b86dccc076edb8f11346669cf5cc0e34a8cfc859564c850d5b0e389f96"
+    },
+    {
+      "id": "murai-nt-revelation-r460",
+      "sha256": "3393523cfc57c6eeb3c3574cb81840d70ba0b593ce57bca8e8b7ace5dcdfc660"
+    },
+    {
+      "id": "murai-nt-revelation-r467",
+      "sha256": "f33a5346ef4ad5944a027c0f1c0982ca7e65d057607245992ae10fe7a1968e23"
+    },
+    {
+      "id": "murai-nt-revelation-r474",
+      "sha256": "a44afc40af899975c5df6d82276b321589d3670d960fd7e0a5464a5cc625d614"
+    },
+    {
+      "id": "murai-nt-revelation-r480",
+      "sha256": "bda2fff5779d980063d83326658f93adbe20ff4fdeda34626a00582a1770a52d"
+    },
+    {
+      "id": "murai-nt-revelation-r487",
+      "sha256": "0bc70bdc6d9fcc4e80d781413db8236aaa9dc78de577c7502d0f6ba2fd6b0c00"
+    },
+    {
+      "id": "murai-nt-revelation-r494",
+      "sha256": "e963610f33747f05b4ad92cd2df90df907f6655ecd42431ab7ea7b2c345f952e"
+    },
+    {
+      "id": "murai-nt-revelation-r503",
+      "sha256": "c86939d3d65a6298ccfd41976eae1456f5522c5dd6b61bda6ad15b4ed8d2ca62"
+    },
+    {
+      "id": "murai-nt-revelation-r509",
+      "sha256": "5da06d4e7957e61581cfa666fadfb36154c396d91f3b35ebf5a3504385240b4b"
+    },
+    {
+      "id": "murai-nt-revelation-r53",
+      "sha256": "86676f2e7347c7f8ebddb76e68181c13e00b9a711979bcb72c6c7cd780528677"
+    },
+    {
+      "id": "murai-nt-revelation-r61",
+      "sha256": "a696bdc8eb599553fbde80b9d6841c2f982581fecf36567fba66278ea67508b9"
+    },
+    {
+      "id": "murai-nt-revelation-r69",
+      "sha256": "b779f80e28cb3a7ff3784438925a9eadfc7a8faa718304661a3e0bfc5b6312d0"
+    },
+    {
+      "id": "murai-nt-revelation-r78",
+      "sha256": "e1bf1a1208f3180dfa2e943f4d827ec000399ea344126d567809207c877ad017"
+    },
+    {
+      "id": "murai-nt-revelation-r8",
+      "sha256": "1881a3207dc0e841d7679be66bd239e34f693678aa4c7dea51a27edff3a3dadf"
+    },
+    {
+      "id": "murai-nt-revelation-r85",
+      "sha256": "f8d57e5b09717fdbd2e8d37e463ed1bf7c0da3f3fb580021ae83326c2794247d"
+    },
+    {
+      "id": "murai-nt-romans-r10",
+      "sha256": "11bc97207231daf5d60a03745eb1cba90e98ea789e3a4d93162bedac330b96bc"
+    },
+    {
+      "id": "murai-nt-romans-r105",
+      "sha256": "10608cbae658ac8e55141bd0ff9ac126bcdd61a77b58354dbd3ad93e2a1db4b4"
+    },
+    {
+      "id": "murai-nt-romans-r114",
+      "sha256": "0192e189e33b97cced923711fa78dfdcc548f3c357a1e00ec53784024bdf6ca6"
+    },
+    {
+      "id": "murai-nt-romans-r121",
+      "sha256": "3092fe42bef7da45bc3ddb4f8afcfe42b69b8261b6efa7444688911b3af8e79a"
+    },
+    {
+      "id": "murai-nt-romans-r128",
+      "sha256": "6e7fe80d8bc3ed7b307fc9c3514b6229a022e210e8424b047345095ca4da1582"
+    },
+    {
+      "id": "murai-nt-romans-r136",
+      "sha256": "cc80f8438e5cd295b37d65b9c30ff46385c827a5b484d7008d4119b42213cdaa"
+    },
+    {
+      "id": "murai-nt-romans-r144",
+      "sha256": "25eafdee10ddd52e8a93c975f284e4c7eb2d42b36382bc9ef7c0cbc02b5a54c1"
+    },
+    {
+      "id": "murai-nt-romans-r151",
+      "sha256": "af43abf7a2b6bf6f80165f59a84f426bb5d04a746c9c718d68c4ed213be0bcb2"
+    },
+    {
+      "id": "murai-nt-romans-r162",
+      "sha256": "048d3c485b6de95bdca3d0352b3a8c11c44139c80f03e9a5610991d4c72abfcb"
+    },
+    {
+      "id": "murai-nt-romans-r170",
+      "sha256": "22143ab9b5d62f9fc92841dcb85f62ac493b2be051b3a2fab0a729c7b1f86165"
+    },
+    {
+      "id": "murai-nt-romans-r176",
+      "sha256": "b9b13cf446c54c1d3d6566467313c94dfd3fccfab4fd08afdd093db966deb39c"
+    },
+    {
+      "id": "murai-nt-romans-r18",
+      "sha256": "af45a1e5688986e7edb449bd90727e4ee8f2bbfd67b0e71a19a8e75a33f9b0ea"
+    },
+    {
+      "id": "murai-nt-romans-r184",
+      "sha256": "925be6383ea2dc579d740509da1d92acb9b7a6dfe15738f75d48c2cacc697fd6"
+    },
+    {
+      "id": "murai-nt-romans-r191",
+      "sha256": "fca89f3f8a90ba88b7f3b0718a5e4063f474b1701ce696106f23281f50aa1ce2"
+    },
+    {
+      "id": "murai-nt-romans-r201",
+      "sha256": "bf1dc0a8e50b1465dbb06a8b21b007c4cb166d29aa79497901c51aad29fe6a87"
+    },
+    {
+      "id": "murai-nt-romans-r214",
+      "sha256": "3d712808f5150e4145c41c129084e37990ea6eabce9438cc33b5ddf055cbdc51"
+    },
+    {
+      "id": "murai-nt-romans-r222",
+      "sha256": "3d170d7f43f5b0d53680e77dfb8594c76fb26f333c398b23f4c8fe341e648a76"
+    },
+    {
+      "id": "murai-nt-romans-r234",
+      "sha256": "12cd39a4616041ee67f82d1abd3e123b4860af7e3928486887e682e7e45875c1"
+    },
+    {
+      "id": "murai-nt-romans-r24",
+      "sha256": "8f2de9c8b622efe8c546b90ae7c86c111b7e5c3085ae1dbb8a1c88cd84d7e5e0"
+    },
+    {
+      "id": "murai-nt-romans-r244",
+      "sha256": "e4ccd203528fabce3b9ff54d11a27e8818bcb45238118d6c934c0c010eb0d1ff"
+    },
+    {
+      "id": "murai-nt-romans-r255",
+      "sha256": "0af40b22c3441b9b7f62760f88ef093aae0d334cf27b1decf3d942bae9e32f9f"
+    },
+    {
+      "id": "murai-nt-romans-r263",
+      "sha256": "3f9b1ac8e00f94175dec9c30a2172242d3f963682549dac2cfa90789a79b3739"
+    },
+    {
+      "id": "murai-nt-romans-r271",
+      "sha256": "30389c142209579cd9759a3c463dec21f2f3120334dde63af7b3ac77629e3c6e"
+    },
+    {
+      "id": "murai-nt-romans-r3",
+      "sha256": "c8ed09e960a9997964ddd65e179c5833219649bfa62727170e09c13cfcb57ed9"
+    },
+    {
+      "id": "murai-nt-romans-r34",
+      "sha256": "2eeb24269fe8000325e364f2527a434869469317b39e609cddf8bbdb017d6dcc"
+    },
+    {
+      "id": "murai-nt-romans-r45",
+      "sha256": "db9564c8ccb59d4df68433c524731c0795465de8351b838fcb367345a5439330"
+    },
+    {
+      "id": "murai-nt-romans-r53",
+      "sha256": "d9741b81f1cf9ae44acb3643894a1efb7ea635a2c5cff75cc60953686fefba77"
+    },
+    {
+      "id": "murai-nt-romans-r61",
+      "sha256": "395768cbfe3145833b39479690c00311cf4768e3586a65fd49957be9920c723c"
+    },
+    {
+      "id": "murai-nt-romans-r71",
+      "sha256": "42505b6977d7145b801cadabc6789b3ca6d95cbb379603ea674efde725775f68"
+    },
+    {
+      "id": "murai-nt-romans-r80",
+      "sha256": "fef5ecd59c282491e9d95fd399ffcf547095a1520cec8261fb530814692fbeb4"
+    },
+    {
+      "id": "murai-nt-romans-r88",
+      "sha256": "73d95ff80239e50c34eeabc09939ee455e6d8bd8b2c93c21c75742536417cb0c"
+    },
+    {
+      "id": "murai-nt-romans-r97",
+      "sha256": "819af5bc436cb0413172db397650092bf5f3857b6c39443759fa9e7cc53f7706"
+    },
+    {
+      "id": "murai-nt-titus-r10",
+      "sha256": "61f00a0b9e775d1846eef48bceb2bc76e01ca6d48feb1fc8d8fa4ee2a81d4694"
+    },
+    {
+      "id": "murai-nt-titus-r18",
+      "sha256": "c4fe400b65f82530484ab0b2664a1e724e7e7d8f9552e51112ac719171c52350"
+    },
+    {
+      "id": "murai-nt-titus-r25",
+      "sha256": "c7ae79158818ee6de0fd64e4203473b7381a7879ab70dd215a1496132eb3eee6"
+    },
+    {
+      "id": "murai-nt-titus-r3",
+      "sha256": "0a6ac529680312facd2f60866dd34c872752fc46b238b7673e11b6c7bf5fdf65"
+    },
+    {
+      "id": "murai-nt-titus-r36",
+      "sha256": "58cbb8c71544e186acc9475414310c3e763080d1c77dad928477ce824ceafa6f"
+    },
+    {
+      "id": "murai-ot-amos-r103",
+      "sha256": "09d675fab3f596a65029de50bf19598753ac6f72a9e2bef33c2275f2f8e81db3"
+    },
+    {
+      "id": "murai-ot-amos-r14",
+      "sha256": "83802db9dbe53d2bcd578b112aecd8272245026f9295703d5b86f618cca6a039"
+    },
+    {
+      "id": "murai-ot-amos-r21",
+      "sha256": "93b214baddf49de58fc556c309d43f93b8e5698f743a788a9e7a63ca2b8fb35a"
+    },
+    {
+      "id": "murai-ot-amos-r29",
+      "sha256": "39fd3e07f799aae57453eb000194dc3776b971a227a52ca265626da1df555305"
+    },
+    {
+      "id": "murai-ot-amos-r3",
+      "sha256": "69a50f40f7c573c44698db83e9bcde4e0a557ec1b3802d33b926de83d7ad8ab1"
+    },
+    {
+      "id": "murai-ot-amos-r38",
+      "sha256": "697c2c3cbb29ffe376dc4ca7f94e18095aab7e64140377df5f915930b720651c"
+    },
+    {
+      "id": "murai-ot-amos-r47",
+      "sha256": "1f2119c8e719ac990ff47998f4f0a53021ff92050571c8cb1d880ea39853b672"
+    },
+    {
+      "id": "murai-ot-amos-r54",
+      "sha256": "7c3b6b0cfce2be548b7a6f81e9c25f774be9b4442fb40956e51bde816ae4b0db"
+    },
+    {
+      "id": "murai-ot-amos-r62",
+      "sha256": "140005fdfec88a573221f60220601e44316c87e5ae0ccc6cc5e4d361a522e37b"
+    },
+    {
+      "id": "murai-ot-amos-r83",
+      "sha256": "2f30d613e82a873100bd35dd1bf62ea2ed841ac13aa8ad67f4b3668ace4e88e4"
+    },
+    {
+      "id": "murai-ot-amos-r91",
+      "sha256": "16fe4b2f666542f31594bba8449c1d4cdf6286a744f8fbe1b33c09564f4f8c30"
+    },
+    {
+      "id": "murai-ot-amos-r97",
+      "sha256": "6463bffcabd3dd1e50c90c28c19b611e59a40e90c4a4407d069b45e48536913e"
+    },
+    {
+      "id": "murai-ot-esther-r1",
+      "sha256": "db44b2ba503fd64544a7c90936bc0391a54af4c9dd2e7b8897835bfa1bc19d73"
+    },
+    {
+      "id": "murai-ot-esther-r19",
+      "sha256": "6074283051b29835656955fbf606016d80ca74790bfd2c24c7cedb29543e63c5"
+    },
+    {
+      "id": "murai-ot-esther-r26",
+      "sha256": "3f964d787e02a34c5cb0eedbe9b22be3e62270e7abb2101d53d3e68bff0cd6f0"
+    },
+    {
+      "id": "murai-ot-esther-r34",
+      "sha256": "78e5fa6d242760bc63b965c0ce25e03148ade4bcfca70bcc70b7047fce71cdee"
+    },
+    {
+      "id": "murai-ot-esther-r44",
+      "sha256": "71a607ee98b1fb9f65f8c15b4d6a5df90ddc6845d5eea29b20229118ddfae337"
+    },
+    {
+      "id": "murai-ot-esther-r51",
+      "sha256": "a68522fd5c105bbfdbe457f5a1ad29ca707881304e36e43966574ac8e08d0e0a"
+    },
+    {
+      "id": "murai-ot-esther-r61",
+      "sha256": "f47b4b8e2dc43170464eae0cbad715a26c164498694a0775ad07798835e0fdc8"
+    },
+    {
+      "id": "murai-ot-esther-r69",
+      "sha256": "93b5d2a7d5b468e55ef886823ec47d10475cb8f1788af854bad6e3aaba7e828c"
+    },
+    {
+      "id": "murai-ot-esther-r75",
+      "sha256": "02a7c592b03c17da8f2e8aa2f17e36a764586a3bb8308ef788a2fe5fccabbaa5"
+    },
+    {
+      "id": "murai-ot-esther-r83",
+      "sha256": "fd940c27f800664b44f8e46e85833b4ece97bea29f535d31a66d9df902652877"
+    },
+    {
+      "id": "murai-ot-esther-r9",
+      "sha256": "2320f82c55c3e20a50998c3614f53168ca65ebe60672fe9a336ec48d0d38a611"
+    },
+    {
+      "id": "murai-ot-esther-r91",
+      "sha256": "3a103634928e6009be99526acda600454d069eceb7cd89bce1613d776c96c187"
+    },
+    {
+      "id": "murai-ot-ezranehemiah-r15",
+      "sha256": "bb722b1d8400713b1e6732205c8843e69ce8a82e4a01a38275e01863ec4958f6"
+    },
+    {
+      "id": "murai-ot-ezranehemiah-r21",
+      "sha256": "6e417f9decbec4c97efd946588ed9b1b6e56052e4f408446518cabbaffe790af"
+    },
+    {
+      "id": "murai-ot-ezranehemiah-r28",
+      "sha256": "04282d8f765bbf77f66def83016b47fb4a12d0351d2a028f3711e20e407d38f3"
+    },
+    {
+      "id": "murai-ot-ezranehemiah-r3",
+      "sha256": "7958d34e21e4eb659d9770268a29e41099e3f7d9f3a54e1def29915bb267281f"
+    },
+    {
+      "id": "murai-ot-ezranehemiah-r35",
+      "sha256": "0ddbc0ed821f50e6e8029ffa09f1263ec5d99f00ec00d91598abc070ea5cae10"
+    },
+    {
+      "id": "murai-ot-ezranehemiah-r41",
+      "sha256": "28ff9182b714ef42731593d8e2d0d8205a007187b86ce24f84785b9b6a890fcd"
+    },
+    {
+      "id": "murai-ot-ezranehemiah-r47",
+      "sha256": "812a12b38feab6453bf880e6ccf5d3cf7664bd757db75f00899f72be44293759"
+    },
+    {
+      "id": "murai-ot-ezranehemiah-r55",
+      "sha256": "13d46374a03038bd21ff5540438190fe848a8f137f68e3e44dba4c760d318ef0"
+    },
+    {
+      "id": "murai-ot-ezranehemiah-r63",
+      "sha256": "ab93ad8b41ef658582a7d73bae8b4291c0bfcb16bdd9b181e999d1ceab8672da"
+    },
+    {
+      "id": "murai-ot-ezranehemiah-r69",
+      "sha256": "6103a40c93f24e9d52593c94858afff715d106ac7965d246adc474cc42fd3c52"
+    },
+    {
+      "id": "murai-ot-ezranehemiah-r9",
+      "sha256": "a3ebeffab3948e2a8ae43f2f0698614bb39ebc6635705c40c16c2a4e416ce1cb"
+    },
+    {
+      "id": "murai-ot-genesis-r1",
+      "sha256": "9c1f4e683fdb52434520c9d28884ebf624a0d455917b5b0d361459fb2bd70e18"
+    },
+    {
+      "id": "murai-ot-genesis-r100",
+      "sha256": "d4c9602c22b515d5266aad40c01412b15258dcb34a18eb9ee96513a5d9a50bb2"
+    },
+    {
+      "id": "murai-ot-genesis-r108",
+      "sha256": "f7c37d83948dc29bc91fc080c5c6c440fbe0fc7c10e992a6c41c6ad7970e3dcb"
+    },
+    {
+      "id": "murai-ot-genesis-r119",
+      "sha256": "f87326e5645af0e2b3ebb9f70498ebecf997d30841475cfa867ceb0d090032e7"
+    },
+    {
+      "id": "murai-ot-genesis-r12",
+      "sha256": "039442eceb2826fe5e63905efd9d29556546e09c7dd5fce0bd44dc54d2713736"
+    },
+    {
+      "id": "murai-ot-genesis-r127",
+      "sha256": "781fb134c5882ac51f3736fc8f70d4196b07fca4de305122807fd38c96a0fd58"
+    },
+    {
+      "id": "murai-ot-genesis-r143",
+      "sha256": "a452a4ccb993c868b76062cbaab0f710da343d4447911592de4202654b9b329c"
+    },
+    {
+      "id": "murai-ot-genesis-r150",
+      "sha256": "ab2a6355bd03e26d93f6d1f91f6687d741c73da2ac7dc7bd34d5c3f128085ee6"
+    },
+    {
+      "id": "murai-ot-genesis-r160",
+      "sha256": "56145a51cb67d6737392e8a225ba9499df2de5d435030b43f557e877fbc810b8"
+    },
+    {
+      "id": "murai-ot-genesis-r170",
+      "sha256": "32dd609d3ddef203116b47a0644148639e3aceaa835386fc9cfc7ea72b79edc3"
+    },
+    {
+      "id": "murai-ot-genesis-r178",
+      "sha256": "20997c4d0efa7cc37c0360b437a3f616ee421f8af1fd2f85760abcedf331da6e"
+    },
+    {
+      "id": "murai-ot-genesis-r186",
+      "sha256": "3f3a961d783659241a88912ea8e05e75a6d4e96bcd2fec1a3d155e4623d3c898"
+    },
+    {
+      "id": "murai-ot-genesis-r194",
+      "sha256": "0c3cf5462fa22826204efc9432c8879c92eacd06719b3422bf96c5b962602e27"
+    },
+    {
+      "id": "murai-ot-genesis-r20",
+      "sha256": "d9e54f9a00b5eb526ee592721ba80b770804a3297b6fff584e4372ea1224e3e3"
+    },
+    {
+      "id": "murai-ot-genesis-r205",
+      "sha256": "84f5a112757d9cd81b4fd087ed83a2dc0210553cf21e26f4968f59b6d941bb1e"
+    },
+    {
+      "id": "murai-ot-genesis-r213",
+      "sha256": "5e67908a2688f8f33b88c8efb6f7c74d586b669ea73cf17233e9970669edd2ae"
+    },
+    {
+      "id": "murai-ot-genesis-r222",
+      "sha256": "d505585bf571b9e7fc5162895b9a9be827d3a67f961a14cfd26a329d2d10e7ed"
+    },
+    {
+      "id": "murai-ot-genesis-r232",
+      "sha256": "2817126675645a2b0c913b797404684d0026977b9fec1180b22955785c576615"
+    },
+    {
+      "id": "murai-ot-genesis-r243",
+      "sha256": "206ad7a1f85530505cc773a659066be1bc3f6cca5eed67a10b93c6788a7714e4"
+    },
+    {
+      "id": "murai-ot-genesis-r251",
+      "sha256": "df2b10ff72f6aecfea1469016a9efcb392640dedd9ae9cb75a2d5af5e35e3bda"
+    },
+    {
+      "id": "murai-ot-genesis-r261",
+      "sha256": "b76fb99493e62f8fc6daf4cb71c64f82c2947e6927a3b1a1c1482c93582657d2"
+    },
+    {
+      "id": "murai-ot-genesis-r268",
+      "sha256": "62c6a7f9120f5956029fe61d99d39b58646bb4af325ba4bab395bda021272cbc"
+    },
+    {
+      "id": "murai-ot-genesis-r278",
+      "sha256": "6a290ad2c6f92b1b714cddcac9e4986c02df7970b0085c491056a36237c4fd2e"
+    },
+    {
+      "id": "murai-ot-genesis-r286",
+      "sha256": "159438bae104d4ebd5074695b5650bdf85d6bfed99bd87b6a1b96163e92ee4eb"
+    },
+    {
+      "id": "murai-ot-genesis-r29",
+      "sha256": "5adc544fa7cbabd417875b8855e8a8f23547d4ebf716f707ca81c219a21bfa40"
+    },
+    {
+      "id": "murai-ot-genesis-r295",
+      "sha256": "2d3d5e0bdd0a780ab7e715aac20656af4a46569c454f51fd8f14ae37fb1ae16d"
+    },
+    {
+      "id": "murai-ot-genesis-r305",
+      "sha256": "dc2974f76dcfaea309fe3222e2f98f469c0ef60dcf460d8a9314b85ff641d8c7"
+    },
+    {
+      "id": "murai-ot-genesis-r313",
+      "sha256": "435e1b988ec5e9c22e05a8e8a91b92a76ebc3ba16c69d875afd0e720d4b9f2a8"
+    },
+    {
+      "id": "murai-ot-genesis-r319",
+      "sha256": "1868f0ca35e8ac5557b35f47a9003b7e9e1a680dfa0e4d4c0d1304bcbf1881c0"
+    },
+    {
+      "id": "murai-ot-genesis-r329",
+      "sha256": "62130006e71b75a5ede2ea8bbf4fa8f2842455360cfc902d859e5a1053524a30"
+    },
+    {
+      "id": "murai-ot-genesis-r341",
+      "sha256": "1409bbbfa7816ac2de101e46d3366f43de6828dae0ed41d6f33745bba5957917"
+    },
+    {
+      "id": "murai-ot-genesis-r347",
+      "sha256": "8cf0440f9b54c47ddfad2a987a96c259082c8afb5f55c60f985de1b4f00ff179"
+    },
+    {
+      "id": "murai-ot-genesis-r359",
+      "sha256": "8ce9cd4c4e69bde6d09e0e347852bbcc4ec6aad979c7c6bdebf702207ca46adf"
+    },
+    {
+      "id": "murai-ot-genesis-r367",
+      "sha256": "1941bcc31d024023e5c11471542e55bdc236b0c1bd80cd6265c2c71cbc014057"
+    },
+    {
+      "id": "murai-ot-genesis-r37",
+      "sha256": "435975f5577823ed02611be2ef62bedd9d0dce3a50d73e6109c5cea22ec53f28"
+    },
+    {
+      "id": "murai-ot-genesis-r375",
+      "sha256": "96070cd164b74a8fc086a89bb72138c6c79bb79460bcf01c39292367d5d59b07"
+    },
+    {
+      "id": "murai-ot-genesis-r383",
+      "sha256": "62acdfb26f7895b62ba329b0c0ede01ece64a803397d28852257e9d818dafc94"
+    },
+    {
+      "id": "murai-ot-genesis-r390",
+      "sha256": "97fe41fb8a64a16851781deacdc717cfa9802a1dcf24432b625af6ea9dc6b2d3"
+    },
+    {
+      "id": "murai-ot-genesis-r397",
+      "sha256": "086da65a9dbe28e4ee98e388da5b714b8d39ff2ee6befc42a69156867cfe1012"
+    },
+    {
+      "id": "murai-ot-genesis-r409",
+      "sha256": "c5bb6393541e9d37d5f1da77230f821f64d041d7e1452a61dbc5231492766ecc"
+    },
+    {
+      "id": "murai-ot-genesis-r419",
+      "sha256": "88749bcff66d6ee7ae9a2cfaa74ce4cea2a55e1a1bbd0080b1f3ccd6074c7090"
+    },
+    {
+      "id": "murai-ot-genesis-r427",
+      "sha256": "3fa99418cd379e9123e9faf8a93429416f802914499a9dd78c514416d7ce2b29"
+    },
+    {
+      "id": "murai-ot-genesis-r435",
+      "sha256": "04b70245ab7f270e31663a3de878221863bc0eaa38f5a151a3ea669957b25e85"
+    },
+    {
+      "id": "murai-ot-genesis-r442",
+      "sha256": "018ef29d305e602f8df122afcbf7d5a8156b25c81c59423b421e353c6863d430"
+    },
+    {
+      "id": "murai-ot-genesis-r449",
+      "sha256": "c72d49dfd3104d7388bea742981de255b9bd313c61a7c16aab44d2ee48a810a0"
+    },
+    {
+      "id": "murai-ot-genesis-r456",
+      "sha256": "edaa96598f18411db30835ce4ffe87d449f3975871f5cf50abb2685f876a8e5c"
+    },
+    {
+      "id": "murai-ot-genesis-r467",
+      "sha256": "6a77544d49a3ee4a039a3c66ce38fcdbf5e7e733dd04a4b6f68b8c90c4878b1b"
+    },
+    {
+      "id": "murai-ot-genesis-r47",
+      "sha256": "f311b45cf75afc9f9f833c69bbd61ac7669415f499657347cb8b2f8db2d4b420"
+    },
+    {
+      "id": "murai-ot-genesis-r527",
+      "sha256": "1eb29e0e94cec0b91108a83460875e86a596e349ba6d8aedde99de2d529908b6"
+    },
+    {
+      "id": "murai-ot-genesis-r537",
+      "sha256": "964a8a695fdb14e8b4a0b94faae832bc7ebfc7e2da60f3c3e22375d505371944"
+    },
+    {
+      "id": "murai-ot-genesis-r545",
+      "sha256": "28e10c9eb109e1b4d8e981261a8203369a7cdcd34e87deea0c9e29978064f422"
+    },
+    {
+      "id": "murai-ot-genesis-r552",
+      "sha256": "1bfda44ba8690405fd3454c009a11339aa699c380f8de2a5788c63f864a64540"
+    },
+    {
+      "id": "murai-ot-genesis-r559",
+      "sha256": "d30316b55c7aba22d605f69d73b54b45ff9ebaa9f0eafe286e4543dfb9182c0a"
+    },
+    {
+      "id": "murai-ot-genesis-r568",
+      "sha256": "aa80b5d5922d1e9bcdce88161aa8716324cc21c1bb4f8fd3feb9a782f3b3a6be"
+    },
+    {
+      "id": "murai-ot-genesis-r575",
+      "sha256": "244674e9bb3c035f7b94e48f1a43e6528520e45bb3b1410bea92b070b3a696f2"
+    },
+    {
+      "id": "murai-ot-genesis-r581",
+      "sha256": "4987ec359fb44b25fa426c27775b4ff5a726e87b7fe5b750658efa833ce28cd4"
+    },
+    {
+      "id": "murai-ot-genesis-r587",
+      "sha256": "a9467a75c44c641ae2a5c409f499f04b321495d739e491f47f2aca3d7e10e984"
+    },
+    {
+      "id": "murai-ot-genesis-r59",
+      "sha256": "53f5cfa36c84c824c8a8f53f3f652a190e06ddd4db8fbe10dc6cfe4d749594ca"
+    },
+    {
+      "id": "murai-ot-genesis-r595",
+      "sha256": "71260d76ed384ffcd1a38b217009f4caa5f3c276d8a616946b3bd2d039861ecc"
+    },
+    {
+      "id": "murai-ot-genesis-r605",
+      "sha256": "d99af3d0f7c834819fd990a3cb0725cd469be28a1e01e849f313d910913ffc47"
+    },
+    {
+      "id": "murai-ot-genesis-r614",
+      "sha256": "69b942f66d4e37d1d08dd73e13b9f44dbe8df4b8dce461f735d0b076e5ce8fc5"
+    },
+    {
+      "id": "murai-ot-genesis-r622",
+      "sha256": "37be674957353756458541c0333d1acfe11016a8b98226ff68a3c61d003d6b8c"
+    },
+    {
+      "id": "murai-ot-genesis-r632",
+      "sha256": "0d3f4ca0d08283cc8f39736d52a34ec2edffaf3978eb9ac018dd5f65885c1683"
+    },
+    {
+      "id": "murai-ot-genesis-r640",
+      "sha256": "52850e63950c87c39fc4f52520bad0cdff2b06cb71be08fc78dc95e052fefb23"
+    },
+    {
+      "id": "murai-ot-genesis-r650",
+      "sha256": "3ec462c93a0fdf6ff47920c97a1c3dd77f6a5355ef89588a934a113dd60f9a7a"
+    },
+    {
+      "id": "murai-ot-genesis-r664",
+      "sha256": "baee844fbfcbeb8ced8c690c500aebd70b3529d8469dcf94a3a0ce44299a9491"
+    },
+    {
+      "id": "murai-ot-genesis-r674",
+      "sha256": "e3768b96acea3674dd740bf4cb5937ee5be7c52a2136389f25848fc00d7751e5"
+    },
+    {
+      "id": "murai-ot-genesis-r683",
+      "sha256": "6776c6dae5dbb76bb8a6cc1d253224bfc8e9190185a9e869b78df67ea07e187d"
+    },
+    {
+      "id": "murai-ot-genesis-r699",
+      "sha256": "963c8431597e697b076781e723d22b96229d74a3e2ee474447796bfba50c8105"
+    },
+    {
+      "id": "murai-ot-genesis-r709",
+      "sha256": "b8098be3e3a469f2dd346ebcde9b86888c19fd857f42b9d3eece5cad4d7bf76a"
+    },
+    {
+      "id": "murai-ot-genesis-r725",
+      "sha256": "76046c5e22414d563a38b6fa90080d84b4961cd8df4137089c50e3302a052445"
+    },
+    {
+      "id": "murai-ot-genesis-r735",
+      "sha256": "ea7d4842ffe9586bb044ccb89f0894c932bac8a223dbbef1cc78184128205d40"
+    },
+    {
+      "id": "murai-ot-genesis-r741",
+      "sha256": "14bdd9dd38c4f3604f601fb6b35e43fa72ebe28ac747b705527b8db7cbe6dd5c"
+    },
+    {
+      "id": "murai-ot-genesis-r75",
+      "sha256": "8c971cc58b37efc1184e9239a8a185b71744f058ff5924cf13e845139bbb6c06"
+    },
+    {
+      "id": "murai-ot-genesis-r84",
+      "sha256": "48f3ad6692ee587bfd52b939fde611934a97b1cab65e18720463b634901f2e07"
+    },
+    {
+      "id": "murai-ot-genesis-r94",
+      "sha256": "f3c7c043bc7c5e7d7714ad7d347772728b580a3ea8b3050e1d454bb7afb56e21"
+    },
+    {
+      "id": "murai-ot-habakkuk-r11",
+      "sha256": "2eb12e93d45332d9cefb3c27ecd6aeed1de13824b3e28c73fa3e7e3575c8fb4b"
+    },
+    {
+      "id": "murai-ot-habakkuk-r19",
+      "sha256": "39f628dff9828f536c9d4479946fb9b0721b65616f4ce0ebe84943399de9d512"
+    },
+    {
+      "id": "murai-ot-habakkuk-r3",
+      "sha256": "ba5719619da800294d7ffd2483f90e8ac004586782a3e5afeb25d236b46fc4ad"
+    },
+    {
+      "id": "murai-ot-haggai-r11",
+      "sha256": "ebcc78519fbed1bb50c4c4f3ce155dcbc2644efd9f1a225a280112f114193617"
+    },
+    {
+      "id": "murai-ot-haggai-r17",
+      "sha256": "f3bc1af12a0221f2c25dbc932e977c5ac10b38fffcc159b0fd7a607d878eec82"
+    },
+    {
+      "id": "murai-ot-haggai-r24",
+      "sha256": "d0cdd2fcdf7745e73aead4a7594bf9f5da4f8c983c7a97dda63f9719a9a50880"
+    },
+    {
+      "id": "murai-ot-haggai-r3",
+      "sha256": "05d6be2bdcf6779c2d63558cbe69692f192571e5af1131d0391200acbaa395fb"
+    },
+    {
+      "id": "murai-ot-haggai-r32",
+      "sha256": "8df50e951241f474f59ffcfa9ba4363bd8a7918bf6a1d5f7593461770109de44"
+    },
+    {
+      "id": "murai-ot-joshua-r106",
+      "sha256": "e5d387f5b29a252bf6832b0b24ea1f391b149b0c21e2f0805e22bdd47a268035"
+    },
+    {
+      "id": "murai-ot-joshua-r115",
+      "sha256": "9ef5ed098a077a16997b8615f53bc3eed5d409fa71fa5878a8e6754d13b55c3a"
+    },
+    {
+      "id": "murai-ot-joshua-r129",
+      "sha256": "672c8cb84cb240ac04fd0fbd94dd6dddac44dd15a8d6ab92ed378fa4091bccd0"
+    },
+    {
+      "id": "murai-ot-joshua-r139",
+      "sha256": "a41441b8733ef2a9d82d9a9cfd47a2f7268b96458cf72a9c9de43785cfe62595"
+    },
+    {
+      "id": "murai-ot-joshua-r147",
+      "sha256": "e32f30e3f5f1a66e21353524ddc2b01c91578b0b3583adb42a3c8e7ad3ce1655"
+    },
+    {
+      "id": "murai-ot-joshua-r155",
+      "sha256": "de43d4cea614956c8c036a6bf8002fdaa8f89de94cf7770b35f108aab0d27470"
+    },
+    {
+      "id": "murai-ot-joshua-r166",
+      "sha256": "009d716ad4147d38a3fe48ff1685a48e06cda917200984d61cb913a66ab5da2a"
+    },
+    {
+      "id": "murai-ot-joshua-r178",
+      "sha256": "014b8a57370427901dab793e1b23f686cee80aa8b9587ba1d1cab424fb8e9cdd"
+    },
+    {
+      "id": "murai-ot-joshua-r185",
+      "sha256": "49618e99e34f65ef46036fe972305a0ca35e5dc6ff45985355e118fa7bcc695e"
+    },
+    {
+      "id": "murai-ot-joshua-r192",
+      "sha256": "c3173e809848aa5e480c11c839f1275a4b767e4c051bb26ccab76950d46f03fd"
+    },
+    {
+      "id": "murai-ot-joshua-r199",
+      "sha256": "58b513cc0717154b7b1bbc8f01dfb7398805bb2af29951bc16a673adff19114d"
+    },
+    {
+      "id": "murai-ot-joshua-r2",
+      "sha256": "59fb5e05f4a9fff99c0ca8206682d6aedf3f60a448f7810238ecb15bf095761f"
+    },
+    {
+      "id": "murai-ot-joshua-r206",
+      "sha256": "24436ef066859349e066aedd427ed665678358d42f72bd840d563f0f87a9417f"
+    },
+    {
+      "id": "murai-ot-joshua-r21",
+      "sha256": "e53c66bbbb6677511e203f5c65f7cb6ff1a5b57bf472fb3752173d8256d08cfe"
+    },
+    {
+      "id": "murai-ot-joshua-r216",
+      "sha256": "b798350c4d4cfb36afa8cf6eb241b84580c3674e06d632c5730926d56a9e5ec4"
+    },
+    {
+      "id": "murai-ot-joshua-r228",
+      "sha256": "6a95e9c0c8a099d0714bae8e960ec9c251bf0ceafe590185a96314a9d0ea5c0c"
+    },
+    {
+      "id": "murai-ot-joshua-r234",
+      "sha256": "a07771b1bbed2d84a1e1b17d31b8257a6cc1b15b8ce4830d4c5d7802040a8a1f"
+    },
+    {
+      "id": "murai-ot-joshua-r247",
+      "sha256": "88ad74c14a01b00c6cec8e1845c766884f5878341907df55587dad291ab77e6c"
+    },
+    {
+      "id": "murai-ot-joshua-r255",
+      "sha256": "67c07fa62f7dbc7cdc5cabf85535eba3d08a34cef851527756524b9dc2487bf7"
+    },
+    {
+      "id": "murai-ot-joshua-r265",
+      "sha256": "e13e93db6b9963f423e86f71b56506f7470b3a797bb43219bef5ac565535f529"
+    },
+    {
+      "id": "murai-ot-joshua-r273",
+      "sha256": "7897c6ac0d65441383ef79dca26d41f058259c41167d8f7976cf97ba7a630bb7"
+    },
+    {
+      "id": "murai-ot-joshua-r286",
+      "sha256": "195d0b57a0bf75bc9fbc85533982d3a5ec1e5602a78ada6b3d1bba293aaecaa4"
+    },
+    {
+      "id": "murai-ot-joshua-r32",
+      "sha256": "94570b31c300b799c9fbc4151c5ac4a59ac2936dc9d3913e45dd3d263dbfd713"
+    },
+    {
+      "id": "murai-ot-joshua-r41",
+      "sha256": "85624bbe18bd86ac1b33416b35fd738008d840da9ec6d4ca873be2869f850a93"
+    },
+    {
+      "id": "murai-ot-joshua-r51",
+      "sha256": "f4a1f852f147fc42ddb1703f0b164456906a3ef0f0cbd7b7a7394a90aeb7da40"
+    },
+    {
+      "id": "murai-ot-joshua-r57",
+      "sha256": "a4481e85acf8259d2e0af2f891a857786b795c5956be7e503c9906403672550a"
+    },
+    {
+      "id": "murai-ot-joshua-r65",
+      "sha256": "c4265ec4b102010f00964448c2dda0480c1af40f2aa5c6ddcd3fd148754167ba"
+    },
+    {
+      "id": "murai-ot-joshua-r75",
+      "sha256": "de5af853222c1adfbd0bf76be51ada0f010b9623413511b4407fb93d2afbde87"
+    },
+    {
+      "id": "murai-ot-joshua-r83",
+      "sha256": "4c776d3c56abb271672b27db1e9993e3f2a51ea4269855c9b42bb3d805b03d32"
+    },
+    {
+      "id": "murai-ot-joshua-r9",
+      "sha256": "8a47e3b9564bae93d1e3a512d0711f2e417fac28c7ea7a28ec9e58f1a403cda4"
+    },
+    {
+      "id": "murai-ot-joshua-r97",
+      "sha256": "50d07b574f491cd1ac44d144d045d46807afed6e055bfd84b7ca23dd94136af2"
+    },
+    {
+      "id": "murai-ot-judges-r1",
+      "sha256": "5b39f78bddacbc782f09a2551f9dc9a0aa07ca107f3472cbc753230f23ad57fe"
+    },
+    {
+      "id": "murai-ot-judges-r10",
+      "sha256": "a8db76a05d50b118617436e9f86ba2fce5a409a5f67e7b17c9a05e4f888b1b8d"
+    },
+    {
+      "id": "murai-ot-judges-r104",
+      "sha256": "a91d77869f57aec27f1b7f71b2d686ac8caa3a71907f5505c3e6091a83611d96"
+    },
+    {
+      "id": "murai-ot-judges-r110",
+      "sha256": "cf534a18679d6c48b91f3ccce89dc90a0106b23ca7ca2c0cb7fe3ba55e8e8e8d"
+    },
+    {
+      "id": "murai-ot-judges-r118",
+      "sha256": "ae3514a0be8c048fd098b6527f4c0896e39a763d1ae9e120972c07560b3b29a5"
+    },
+    {
+      "id": "murai-ot-judges-r125",
+      "sha256": "54f38826999132fe88b04d4464d352cf833f90cf3205b6ed06d71f8c8bcf22e2"
+    },
+    {
+      "id": "murai-ot-judges-r134",
+      "sha256": "2509e8d9cb642be7dbf7154c8c5f0ad1d1844c08f0fa57c68a9b01ce6c36d530"
+    },
+    {
+      "id": "murai-ot-judges-r142",
+      "sha256": "6ed9c561348720e569aab9478100ea17189abfd6cf00d565ab34c2302c42cde6"
+    },
+    {
+      "id": "murai-ot-judges-r149",
+      "sha256": "3b1ac1107dfd045b0ab1aa47bfcd8cac6b9be13384de979d8c65b35a41560177"
+    },
+    {
+      "id": "murai-ot-judges-r167",
+      "sha256": "ef1f0bd0057c2eaeffcaae22510f34d2a2322a616bac5cb4476884729eace53e"
+    },
+    {
+      "id": "murai-ot-judges-r175",
+      "sha256": "cdd3a5fbbe1be05f0f494a453c9c85f9726332829938d93a9dc38fbb355792d3"
+    },
+    {
+      "id": "murai-ot-judges-r185",
+      "sha256": "1827449644316cc6cf59ee44afd8ec5a01099dc85df4556c5e54037911160889"
+    },
+    {
+      "id": "murai-ot-judges-r207",
+      "sha256": "eea82831300cd98e7aba1b21dad041b9507022827fe008744d72476c60f0f545"
+    },
+    {
+      "id": "murai-ot-judges-r22",
+      "sha256": "06a998bdc460d8dacb9705c1e2fde6fed099a333cdf2eea01d236cca6bdf3c19"
+    },
+    {
+      "id": "murai-ot-judges-r220",
+      "sha256": "0cab416ce52dd8e855bb4cb9e048e7b3d37b9d09cd6546018f79631a58dd662d"
+    },
+    {
+      "id": "murai-ot-judges-r232",
+      "sha256": "ac8ca78718eb413a61717b80c5140fc267e0513754252147cfd4519c83370d7a"
+    },
+    {
+      "id": "murai-ot-judges-r239",
+      "sha256": "39ba728956270084a18f6d420a98b12a8fa6d91f92f671c9127cad930526fdd9"
+    },
+    {
+      "id": "murai-ot-judges-r247",
+      "sha256": "bdd701020190f79d15265a4eb382a15448a1a3137ecf54a809c62c6c62a61eb2"
+    },
+    {
+      "id": "murai-ot-judges-r257",
+      "sha256": "e98869f3aa4bcb73f9f6e2da16fa879f6397954ca089a7abe98c2d178960348d"
+    },
+    {
+      "id": "murai-ot-judges-r266",
+      "sha256": "1a97927dd27799149ff8845b491d6e3049e61dced4523dfae04aec8e11068877"
+    },
+    {
+      "id": "murai-ot-judges-r277",
+      "sha256": "c5582397e866e1774f6d89c5a573828aee67bdbeabde4d57440690093d0df57b"
+    },
+    {
+      "id": "murai-ot-judges-r29",
+      "sha256": "2e9606f1ce1e5c8f053c0c8509de6a213ba409af0be96ca47b56b99704dc516f"
+    },
+    {
+      "id": "murai-ot-judges-r299",
+      "sha256": "673b90b23622edcefc43de8b279eeb90afda13b33d352c2756e8e30e8c131c3c"
+    },
+    {
+      "id": "murai-ot-judges-r45",
+      "sha256": "c36a71521c153397a08388c8c58c29ed1adcd353ca249c0c7a06982fca42f687"
+    },
+    {
+      "id": "murai-ot-judges-r55",
+      "sha256": "4e88a8369de8aafbc5b325f023a3d03eca41551935a99dc28ea0e3883abe33f6"
+    },
+    {
+      "id": "murai-ot-judges-r71",
+      "sha256": "c6d0c5c0c5e0fad1fa37be7c900036e127fd3b6f869058f1413eaf527a4acd37"
+    },
+    {
+      "id": "murai-ot-judges-r82",
+      "sha256": "802d3409508741c5b0378a17c423a88529993b484d612c52f5012c7729d92119"
+    },
+    {
+      "id": "murai-ot-judges-r94",
+      "sha256": "1aa49c2f2ae74fc360f4b727a61e480785da959a03bb7febe636a479593bb1a2"
+    },
+    {
+      "id": "murai-ot-lamentation-r1",
+      "sha256": "4b66d6e4d2a49dd27e54df026b203add3b078accd05b95fa01a2e99d34792f00"
+    },
+    {
+      "id": "murai-ot-lamentation-r101",
+      "sha256": "eee50a9efeb4c71569f38c44c0f3108907087564decc76c149f2a1dccdb6d6f4"
+    },
+    {
+      "id": "murai-ot-lamentation-r26",
+      "sha256": "1cf18a4489c62ae22a1c11e0acedd7ec658ce1666625e74caa6662a2a0359a11"
+    },
+    {
+      "id": "murai-ot-lamentation-r51",
+      "sha256": "0f590ffc69fff02418eaa4a46000f779ebffd56c244692e5b8cda27577edaa0b"
+    },
+    {
+      "id": "murai-ot-lamentation-r76",
+      "sha256": "a1af9bdea5d2572a682b8a1211f82a05a643444c83ac3f02db57cdaef85f3333"
+    },
+    {
+      "id": "murai-ot-obadiah-r3",
+      "sha256": "b8b15653d1269fbb14a3ad78ba2f9d7775629a2819fa5d30e846230e230f57d8"
+    },
+    {
+      "id": "murai-ot-proverbs-r1",
+      "sha256": "565a28ca4092cc12778471fd5814412474437626ad980c99cd2bc6bed0cd8819"
+    },
+    {
+      "id": "murai-ot-proverbs-r101",
+      "sha256": "b02c065f81d5208a5a4f03a45dadadbc86dc4e35c49c18d1b9ce45ba74dec045"
+    },
+    {
+      "id": "murai-ot-proverbs-r109",
+      "sha256": "43b098ff78da9d28dc1764b906b55c29ed39eb49eaa54117b1ff1d74c594f98d"
+    },
+    {
+      "id": "murai-ot-proverbs-r116",
+      "sha256": "5da5b2c38dd43fb6b5be494a62314866095c706d9051e297c956b474ef625ebb"
+    },
+    {
+      "id": "murai-ot-proverbs-r124",
+      "sha256": "6dec98a441f1a7e500e1c0d29067f013179d974821777ffdce871d6c1a57b050"
+    },
+    {
+      "id": "murai-ot-proverbs-r131",
+      "sha256": "7b10dc9620498344a46a766ef61071c30142bdc6443340002b348ff8959b6e67"
+    },
+    {
+      "id": "murai-ot-proverbs-r141",
+      "sha256": "bfc9f7c6e305e17a66312e7ddecb27f8e73dbd83dcdd4522a956ff27eb4cad9a"
+    },
+    {
+      "id": "murai-ot-proverbs-r150",
+      "sha256": "a468dee804af38b0562eaeadd0fa7a1d990a65e4472da6c87b5946eb512dc180"
+    },
+    {
+      "id": "murai-ot-proverbs-r156",
+      "sha256": "10908100455af7bbd41e851409e87522d37304c0a4b1993de08a18ae566c37e0"
+    },
+    {
+      "id": "murai-ot-proverbs-r162",
+      "sha256": "44e149ebd57a98ccc733b677001ca1675f10ffbb7e8323a925a45b6cb6adef74"
+    },
+    {
+      "id": "murai-ot-proverbs-r168",
+      "sha256": "ae1246b67dc543518af147ea1ab30e0b204ca57bc941ae0d9e7c72691cb5ea5b"
+    },
+    {
+      "id": "murai-ot-proverbs-r17",
+      "sha256": "a0ddc2c62c4beffe7e7e7ce6930c1b1b7a2a822c689e2df649e93520f1e8ee5b"
+    },
+    {
+      "id": "murai-ot-proverbs-r175",
+      "sha256": "85e537e99df31b85e9cb8c547b47f0f44c91b49b99b5a39fe02eeca75fdb6e10"
+    },
+    {
+      "id": "murai-ot-proverbs-r182",
+      "sha256": "3774e4f25b2e3b562eb14f5024826fce25eb105c7aad4400848d45f9a0c1bf17"
+    },
+    {
+      "id": "murai-ot-proverbs-r188",
+      "sha256": "0d493b768290e7d237adde88f730bc94efbeac77ab2ce9d04aab3d1712189a58"
+    },
+    {
+      "id": "murai-ot-proverbs-r201",
+      "sha256": "cc271f8dbdde95e37cb687c148a820c08818773a56a79cf3cbb55070eff92ad3"
+    },
+    {
+      "id": "murai-ot-proverbs-r213",
+      "sha256": "fb9d0f969761d5e8d52b0716073ab43472549994a986dc5dea0aa493e87f3981"
+    },
+    {
+      "id": "murai-ot-proverbs-r221",
+      "sha256": "74efad9ae1449cc51ece737f198e14315463baf9f83449bf68937790b8ed2a92"
+    },
+    {
+      "id": "murai-ot-proverbs-r24",
+      "sha256": "af63b35ff86c9c3c2627a725a1bac35aa9d653bfc52883b458a1577dd88f3c87"
+    },
+    {
+      "id": "murai-ot-proverbs-r32",
+      "sha256": "61f11e8efdb1fa910d2cbbb2b11687e96596520339d3327d941f536e03ceb735"
+    },
+    {
+      "id": "murai-ot-proverbs-r40",
+      "sha256": "6666d87798afc667267640158d72ced5869fc6f6c0aaf1c024a76fc1268e2a91"
+    },
+    {
+      "id": "murai-ot-proverbs-r49",
+      "sha256": "d849d414a6f9443c359c4780776f59527756e32f3b9f98e43885fea8bcc8d727"
+    },
+    {
+      "id": "murai-ot-proverbs-r56",
+      "sha256": "84633cd0fad42f1ccd34fe4d1348f294baac1114fde314e7ecdbe0b411527c9a"
+    },
+    {
+      "id": "murai-ot-proverbs-r63",
+      "sha256": "6def6c19bd8b03714debaa5e4e86a0be05d03834ef4bed1817079b23cfe95080"
+    },
+    {
+      "id": "murai-ot-proverbs-r70",
+      "sha256": "7d9329ad175fc4314d07008cfaeaaeeadafd629dca57adcb5db8e6e0dcc1332c"
+    },
+    {
+      "id": "murai-ot-proverbs-r77",
+      "sha256": "fa32fecc09e323173f7fdea5b3560b00f8b4e6b4dece0de118bf0a20312f031b"
+    },
+    {
+      "id": "murai-ot-proverbs-r8",
+      "sha256": "8b8aef7b86f000e70d3ebd49d603de4cda86b8f1a2a15221ca2534ebae83d2ef"
+    },
+    {
+      "id": "murai-ot-proverbs-r84",
+      "sha256": "dbde657f428928f9768c2e0345297c0680a44cc59bbbfd30d12da1cf9c6f6eda"
+    },
+    {
+      "id": "murai-ot-proverbs-r93",
+      "sha256": "53598f1df53145d9a8746d1b0c4dc0fb1f06a1a8656be39ab63ef4c4d6167e41"
+    },
+    {
+      "id": "murai-ot-ruth-r1",
+      "sha256": "75d1d11995ee2ba2499cd04612f718cbc4695378eabf002748fef0ec4996c35d"
+    },
+    {
+      "id": "murai-ot-ruth-r19",
+      "sha256": "0ba52ac960d6e7cb16ee08d78aa5d8b98a9006b45f2195c2a9119197cabbac45"
+    },
+    {
+      "id": "murai-ot-ruth-r33",
+      "sha256": "07c5c7a29929abdcc9360c7cc7e67f6f61afb30daecfa3bd8549e0a20fa1faab"
+    },
+    {
+      "id": "murai-ot-ruth-r43",
+      "sha256": "07d9c1e519dc1b3f932cdfb67f115cba1f39979253f87993326c6cfeca507cfe"
+    },
+    {
+      "id": "murai-ot-ruth-r53",
+      "sha256": "1b61b9968532e2d651fab1a8507c4ec19556e1074cb64eb40427a83c8e6cd49f"
+    },
+    {
+      "id": "murai-ot-ruth-r8",
+      "sha256": "67f8bf24ac2e80f56efc2381e337e6830d4a8cd8e6a9f101e0d3e3e76aba7d7b"
+    },
+    {
+      "id": "murai-ot-zephaniah-r13",
+      "sha256": "af156acb3e88e644653972e7b711fb9f9a0eb16226440fd821b73627e1e582a5"
+    },
+    {
+      "id": "murai-ot-zephaniah-r18",
+      "sha256": "690967b114f98861b230b7e0999028095a3ac08c7837c30297b0c56fbbec3cd7"
+    },
+    {
+      "id": "murai-ot-zephaniah-r27",
+      "sha256": "ef45a547268c2d272d8c81942d15b2176ab8ae8cf83f2646aedbad7d31b9bb32"
+    },
+    {
+      "id": "murai-ot-zephaniah-r3",
+      "sha256": "e986259d1938115cc27031700dc1b0d8929e649481a95a42089e1b97ca9dc65d"
+    },
+    {
+      "id": "murai-ot-zephaniah-r35",
+      "sha256": "0a0617bbf05c7fa281e3c8bcd75bcca2cb599b729b48b3dee972ea490a40a059"
+    },
+    {
+      "id": "wenham-flood",
+      "sha256": "f51d289365410f41a508206f46de9ede61f0d221d17fb29bd605af9dc7d534a6"
+    }
+  ],
+  "citationOnly": 1007,
+  "byBookAndSource": {
+    "1-enoch / domka-2019": 2,
+    "genesis / wenham-1978": 1,
+    "genesis / murai-2022": 76,
+    "joshua / murai-2022": 31,
+    "judges / murai-2022": 28,
+    "ruth / murai-2022": 6,
+    "ezra / murai-2022": 11,
+    "esther / murai-2022": 12,
+    "proverbs / murai-2022": 29,
+    "lamentations / murai-2022": 5,
+    "amos / murai-2022": 12,
+    "obadiah / murai-2022": 1,
+    "habakkuk / murai-2022": 3,
+    "zephaniah / murai-2022": 5,
+    "haggai / murai-2022": 5,
+    "matthew / murai-2022": 139,
+    "mark / murai-2022": 80,
+    "luke / murai-2022": 142,
+    "john / murai-2022": 86,
+    "acts / murai-2022": 47,
+    "romans / murai-2022": 32,
+    "1-corinthians / murai-2022": 25,
+    "2-corinthians / murai-2022": 16,
+    "galatians / murai-2022": 13,
+    "ephesians / murai-2022": 12,
+    "philippians / murai-2022": 9,
+    "colossians / murai-2022": 9,
+    "1-thessalonians / murai-2022": 7,
+    "2-thessalonians / murai-2022": 5,
+    "1-timothy / murai-2022": 9,
+    "2-timothy / murai-2022": 7,
+    "titus / murai-2022": 5,
+    "philemon / murai-2022": 1,
+    "hebrews / murai-2022": 17,
+    "james / murai-2022": 9,
+    "1-peter / murai-2022": 8,
+    "2-peter / murai-2022": 5,
+    "2-john / murai-2022": 1,
+    "jude / murai-2022": 1,
+    "revelation / murai-2022": 60
+  },
+  "sourceInputs": [
+    {
+      "file": "LiteraryStructureoftheBible_PericopeList_OT.xlsx",
+      "url": "http://www.bible.literarystructure.info/bible/LiteraryStructureoftheBible_PericopeList_OT.xlsx",
+      "sha256": "0e7ef46da8d25fab61622e540f914fce07338b59db77795eeef8549809a9ff7b"
+    },
+    {
+      "file": "LiteraryStructureoftheBible_PericopeStructure_OT.xlsx",
+      "url": "http://www.bible.literarystructure.info/bible/LiteraryStructureoftheBible_PericopeStructure_OT.xlsx",
+      "sha256": "5313bc88194f7e5610f320e01a8753bfad0cd438f34a286cc59fc302cc421a62"
+    },
+    {
+      "file": "LiteraryStructureoftheBible_PericopeList_NT.xlsx",
+      "url": "http://www.bible.literarystructure.info/bible/LiteraryStructureoftheBible_PericopeList_NT.xlsx",
+      "sha256": "de8ff7bf656efe9bbb23e3d7903e46b01495970d6c166c94f66d692fa3d6276e"
+    },
+    {
+      "file": "LiteraryStructureoftheBible_PericopeStructure_NT.xlsx",
+      "url": "http://www.bible.literarystructure.info/bible/LiteraryStructureoftheBible_PericopeStructure_NT.xlsx",
+      "sha256": "ea0659a0d316684786d2470583a80965f0f9483d8b0d25ff5843e3bf84de446b"
+    }
+  ],
+  "normalizedInputSha256": "17c6f2d2f11cda52887250e374e2ebc141d0fdeb13884acc8398ce0eaf4173f0"
+}
