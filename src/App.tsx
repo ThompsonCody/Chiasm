@@ -9,6 +9,7 @@ import { ChapterReader } from "./components/ChapterReader";
 import { AppHeader } from "./components/AppHeader";
 import { StructuresView } from "./components/StructuresView";
 import { HomeView } from "./components/HomeView";
+import { returnContextLabel } from "./lib/returnContext";
 import {
   getReferenceForPassage,
   resolveBookEdition,
@@ -29,6 +30,7 @@ export default function App() {
   const structureId = reader.structureId ?? FEATURED_STRUCTURE_ID;
   const proposal = getStructureSummary(structureId);
   const isFlood = structureId === FEATURED_STRUCTURE_ID;
+  const returnLabel = returnContextLabel(reader.trail?.at(-1));
   useEffect(() => {
     const title = view === "reader" && reference
       ? formatReference(reference)
@@ -141,8 +143,9 @@ export default function App() {
         ) : null}
         {inStudy ? <header className="study-heading">
           <div className="study-heading-title">
-            <p className="study-kicker">Structure study <span>· {proposal?.boundaries}</span></p>
+            {view === "chiasm" && returnLabel ? <button className="study-return" type="button" onClick={reader.returnToReading}>← {returnLabel}</button> : null}
             <h1>{isFlood ? <>The Flood, <em>folded.</em></> : proposal?.title ?? "Structure unavailable"}</h1>
+            <p className="study-kicker">{proposal?.boundaries} <span>· Published literary interpretation</span></p>
           </div>
           <div className="study-heading-actions">
           <nav className="view-nav" aria-label="Structure study navigation">
@@ -161,7 +164,6 @@ export default function App() {
             Across texts ↗
           </button> : null}
           </nav>
-          {view === "chiasm" && reader.trail?.length ? <button className="study-return" type="button" onClick={reader.returnToReading}>{reader.trail.at(-1)?.view === "home" ? "← Return home" : "← Return to reading"}</button> : null}
           </div>
         </header> : null}
         {view === "trace" ? (
@@ -189,7 +191,7 @@ export default function App() {
               navigationKey={reader.navigationKey}/>
           </>
         ) : view === "library" ? null : view === "structures" ? (
-          <StructuresView onOpen={id => reader.openMap(undefined,id)} />
+          <StructuresView filters={reader.catalogue} onChange={reader.changeCatalogue} onOpen={id => reader.openMap(undefined,id)} />
         ) : view === "reader" && reference ? (
           <ChapterReader
             key={reader.navigationKey ?? 0}

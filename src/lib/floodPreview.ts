@@ -4,12 +4,24 @@ import { getMapSelection } from "./structures.ts";
 
 export const previewChoices = [
   { id: "forty-days", label: "40 days" },
+  { id: "mountains", label: "Mountains" },
   { id: "150-days", label: "150 days" },
 ] as const;
-export type PreviewSelection = typeof previewChoices[number]["id"];
+export type PreviewSelection = typeof previewChoices[number]["id"] | "god-remembers";
+
+function isPreviewSelection(id: string): id is PreviewSelection {
+  return id === "god-remembers" || previewChoices.some(choice => choice.id === id);
+}
 
 export function previewSelection(id: string): PreviewSelection {
-  return id === "forty-days" ? id : "150-days";
+  return isPreviewSelection(id) ? id : "150-days";
+}
+
+/** Only a source group containing this actual node can be selected from the preview. */
+export function previewSelectionForNode(map: StructureMap, nodeId: string): PreviewSelection | undefined {
+  if (!map.nodes.some(node => node.id === nodeId)) return undefined;
+  const group = map.groups.find(group => isPreviewSelection(group.id) && group.nodeIds.includes(nodeId));
+  return group && isPreviewSelection(group.id) ? group.id : undefined;
 }
 
 /** A disclosed excerpt of the existing map. No invented or decorative arcs. */

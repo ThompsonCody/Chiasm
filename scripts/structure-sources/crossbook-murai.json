@@ -1,0 +1,3458 @@
+{
+  "inputs": [
+    {
+      "file": "97_ExodusNumbers_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/97_ExodusNumbers_e.html",
+      "sha256": "c85c62040fbae447502860adb9bc7ac627fb854fd8f829be154253899f33e1a7"
+    },
+    {
+      "file": "98_JohnRevelation_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/98_JohnRevelation_e.html",
+      "sha256": "16640e8eabf332f0e42b6a048831b6974f9ee5c9ce4ff24ad3d75158ba86aeda"
+    },
+    {
+      "file": "99_LukeActs_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/99_LukeActs_e.html",
+      "sha256": "c0cea668ccacea9c73f405eed08e519ea65dc2cab45567980d3e2d4b0251552a"
+    }
+  ],
+  "maps": [
+    {
+      "id": "murai-exodus-numbers",
+      "title": "Exodus and Numbers: parallel journeys",
+      "sourceId": "murai-web-2026",
+      "sourceFile": "97_ExodusNumbers_e.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/97_ExodusNumbers_e.html",
+      "locator": "Complete relationships table: 49 left-side source segments; 49 paired right-side segments",
+      "boundaries": "Exodus 1:1–40:38; Numbers 1:1–36:13",
+      "nodes": [
+        {
+          "label": "A",
+          "ref": "Exodus1:1-7",
+          "title": "Introduction",
+          "sourcePosition": 1,
+          "sourceTableRow": 2
+        },
+        {
+          "label": "B",
+          "ref": "Exodus1:8-14",
+          "title": "Construction of Cities",
+          "sourcePosition": 2,
+          "sourceTableRow": 4
+        },
+        {
+          "label": "C",
+          "ref": "Exodus1:15-22",
+          "title": "Command to Kill Boys",
+          "sourcePosition": 3,
+          "sourceTableRow": 6
+        },
+        {
+          "label": "D",
+          "ref": "Exodus2:1-10",
+          "title": "Birth and Youth of Moses",
+          "sourcePosition": 4,
+          "sourceTableRow": 8
+        },
+        {
+          "label": "E",
+          "ref": "Exodus2:11-15",
+          "title": "Moses flees to Midian",
+          "sourcePosition": 5,
+          "sourceTableRow": 10
+        },
+        {
+          "label": "F",
+          "ref": "Exodus2:16-22",
+          "title": "Marriage of Moses",
+          "sourcePosition": 6,
+          "sourceTableRow": 12
+        },
+        {
+          "label": "G",
+          "ref": "Exodus2:23-25",
+          "title": "The LORD's Mercy for Israel",
+          "sourcePosition": 7,
+          "sourceTableRow": 14
+        },
+        {
+          "label": "H",
+          "ref": "Exodus3:1-22 4:1-17",
+          "title": "Moses at the Burning Bush",
+          "sourcePosition": 8,
+          "sourceTableRow": 16
+        },
+        {
+          "label": "I",
+          "ref": "Exodus4:18-31",
+          "title": "Moses Returns to Egypt",
+          "sourcePosition": 9,
+          "sourceTableRow": 18
+        },
+        {
+          "label": "J",
+          "ref": "Exodus5:1-23",
+          "title": "Bricks without Straw",
+          "sourcePosition": 10,
+          "sourceTableRow": 20
+        },
+        {
+          "label": "K",
+          "ref": "Exodus6:1-12",
+          "title": "Israel's Deliverance Assured",
+          "sourcePosition": 11,
+          "sourceTableRow": 22
+        },
+        {
+          "label": "L",
+          "ref": "Exodus6:13-27",
+          "title": "The Genealogy of Moses and Aaron",
+          "sourcePosition": 12,
+          "sourceTableRow": 24
+        },
+        {
+          "label": "M",
+          "ref": "Exodus6:28-30 7:1-7",
+          "title": "Moses and Aaron obey Commands of God",
+          "sourcePosition": 13,
+          "sourceTableRow": 26
+        },
+        {
+          "label": "N",
+          "ref": "Exodus7:8-29 8:1-28 9:1-35 10:1-29",
+          "title": "Ten Miracles",
+          "sourcePosition": 14,
+          "sourceTableRow": 28
+        },
+        {
+          "label": "O",
+          "ref": "Exodus11:1-10",
+          "title": "Warning of the Final Plague",
+          "sourcePosition": 15,
+          "sourceTableRow": 30
+        },
+        {
+          "label": "P",
+          "ref": "Exodus12:1-28",
+          "title": "The First Passover Instituted",
+          "sourcePosition": 16,
+          "sourceTableRow": 32
+        },
+        {
+          "label": "Q",
+          "ref": "Exodus12:29-32",
+          "title": "The Tenth Plague",
+          "sourcePosition": 17,
+          "sourceTableRow": 34
+        },
+        {
+          "label": "R",
+          "ref": "Exodus12:33-41",
+          "title": "The Exodus",
+          "sourcePosition": 18,
+          "sourceTableRow": 36
+        },
+        {
+          "label": "S",
+          "ref": "Exodus12:42-51",
+          "title": "Directions for the Passover",
+          "sourcePosition": 19,
+          "sourceTableRow": 38
+        },
+        {
+          "label": "T",
+          "ref": "Exodus13:1-2",
+          "title": "The Consecration of the First-born",
+          "sourcePosition": 20,
+          "sourceTableRow": 40
+        },
+        {
+          "label": "U",
+          "ref": "Exodus13:3-10",
+          "title": "The Festival of Unleavened Bread",
+          "sourcePosition": 21,
+          "sourceTableRow": 42
+        },
+        {
+          "label": "V",
+          "ref": "Exodus13:11-16",
+          "title": "The Consecration of the First-born",
+          "sourcePosition": 22,
+          "sourceTableRow": 44
+        },
+        {
+          "label": "W",
+          "ref": "Exodus13:17-22",
+          "title": "The Pillars of Cloud and Fire",
+          "sourcePosition": 23,
+          "sourceTableRow": 46
+        },
+        {
+          "label": "X",
+          "ref": "Exodus14:1-18",
+          "title": "Crossing the Red Sea",
+          "sourcePosition": 24,
+          "sourceTableRow": 48
+        },
+        {
+          "label": "Y",
+          "ref": "Exodus14:19-31",
+          "title": "The Pursuers Drowned",
+          "sourcePosition": 25,
+          "sourceTableRow": 50
+        },
+        {
+          "label": "Z",
+          "ref": "Exodus15:1-19",
+          "title": "The Song of Moses",
+          "sourcePosition": 26,
+          "sourceTableRow": 52
+        },
+        {
+          "label": "AA",
+          "ref": "Exodus15:20-21",
+          "title": "The Song of Miriam",
+          "sourcePosition": 27,
+          "sourceTableRow": 54
+        },
+        {
+          "label": "AB",
+          "ref": "Exodus15:22-27",
+          "title": "Bitter Water Made Sweet",
+          "sourcePosition": 28,
+          "sourceTableRow": 56
+        },
+        {
+          "label": "AC",
+          "ref": "Exodus16:1-36",
+          "title": "Bread from Heaven",
+          "sourcePosition": 29,
+          "sourceTableRow": 58
+        },
+        {
+          "label": "AD",
+          "ref": "Exodus17:1-7",
+          "title": "Water from the Rock",
+          "sourcePosition": 30,
+          "sourceTableRow": 60
+        },
+        {
+          "label": "AE",
+          "ref": "Exodus17:8-16",
+          "title": "Amalek Attacks Israel and Is Defeated",
+          "sourcePosition": 31,
+          "sourceTableRow": 62
+        },
+        {
+          "label": "AF",
+          "ref": "Exodus18:1-27",
+          "title": "Jethro's Advice",
+          "sourcePosition": 32,
+          "sourceTableRow": 64
+        },
+        {
+          "label": "AG",
+          "ref": "Exodus19:1-9",
+          "title": "The Israelites Reach Mount Sinai",
+          "sourcePosition": 33,
+          "sourceTableRow": 66
+        },
+        {
+          "label": "AH",
+          "ref": "Exodus19:10-19",
+          "title": "The LORD Comes Down upon Mount Sinai",
+          "sourcePosition": 34,
+          "sourceTableRow": 68
+        },
+        {
+          "label": "AI",
+          "ref": "Exodus19:20-25",
+          "title": "Moses goes up to Mount Sinai",
+          "sourcePosition": 35,
+          "sourceTableRow": 70
+        },
+        {
+          "label": "AJ",
+          "ref": "Exodus20:1-21",
+          "title": "The Ten Commandments",
+          "sourcePosition": 36,
+          "sourceTableRow": 72
+        },
+        {
+          "label": "AK",
+          "ref": "Exodus20:22-26 21:1-37 22:1-30 23:1-33",
+          "title": "The Book of the Covenant",
+          "sourcePosition": 37,
+          "sourceTableRow": 74
+        },
+        {
+          "label": "AL",
+          "ref": "Exodus24:1-18",
+          "title": "The Blood of the Covenant",
+          "sourcePosition": 38,
+          "sourceTableRow": 76
+        },
+        {
+          "label": "AM",
+          "ref": "Exodus25:1-40 26:1-37 27:1-21 28:1-43 29:1-46 30:1-38 31:1-12",
+          "title": "The Command to Make the Tabernacle",
+          "sourcePosition": 39,
+          "sourceTableRow": 78
+        },
+        {
+          "label": "AN",
+          "ref": "Exodus31:12-18",
+          "title": "Sabbath Regulations",
+          "sourcePosition": 40,
+          "sourceTableRow": 80
+        },
+        {
+          "label": "AO",
+          "ref": "Exodus32:1-35 33:1-6",
+          "title": "The Golden Calf",
+          "sourcePosition": 41,
+          "sourceTableRow": 82
+        },
+        {
+          "label": "AP",
+          "ref": "Exodus33:7-11",
+          "title": "The Tent Outside the Camp",
+          "sourcePosition": 42,
+          "sourceTableRow": 84
+        },
+        {
+          "label": "AQ",
+          "ref": "Exodus33:12-17",
+          "title": "The LORD goes with Israelites",
+          "sourcePosition": 43,
+          "sourceTableRow": 86
+        },
+        {
+          "label": "AR",
+          "ref": "Exodus33:18-23",
+          "title": "The Glory of God",
+          "sourcePosition": 44,
+          "sourceTableRow": 88
+        },
+        {
+          "label": "AS",
+          "ref": "Exodus34:1-28",
+          "title": "The Covenant Renewed",
+          "sourcePosition": 45,
+          "sourceTableRow": 90
+        },
+        {
+          "label": "AT",
+          "ref": "Exodus34:29-35",
+          "title": "The shining face of Moses",
+          "sourcePosition": 46,
+          "sourceTableRow": 92
+        },
+        {
+          "label": "AU",
+          "ref": "Exodus35:1-35 36:1-38 37:1-29 38:1-31 39:1-43",
+          "title": "Preparation for Constructing the Tabernacle",
+          "sourcePosition": 47,
+          "sourceTableRow": 94
+        },
+        {
+          "label": "AV",
+          "ref": "Exodus40:1-33",
+          "title": "Construction of the Tabernacle",
+          "sourcePosition": 48,
+          "sourceTableRow": 96
+        },
+        {
+          "label": "AW",
+          "ref": "Exodus40:34-38",
+          "title": "The Cloud and the Glory",
+          "sourcePosition": 49,
+          "sourceTableRow": 98
+        },
+        {
+          "label": "A′",
+          "ref": "Numbers1:1-47",
+          "title": "1:1-47",
+          "sourcePosition": 1,
+          "sourceTableRow": 2
+        },
+        {
+          "label": "B′",
+          "ref": "Numbers1:48-54",
+          "title": "1:48-54",
+          "sourcePosition": 2,
+          "sourceTableRow": 4
+        },
+        {
+          "label": "C′",
+          "ref": "Numbers2:1-34",
+          "title": "2:1-34",
+          "sourcePosition": 3,
+          "sourceTableRow": 6
+        },
+        {
+          "label": "D′",
+          "ref": "Numbers3:1-51",
+          "title": "3:1-51",
+          "sourcePosition": 4,
+          "sourceTableRow": 8
+        },
+        {
+          "label": "E′",
+          "ref": "Numbers4:1-49",
+          "title": "4:1-49",
+          "sourcePosition": 5,
+          "sourceTableRow": 10
+        },
+        {
+          "label": "F′",
+          "ref": "Numbers5:1-31 6:1-27",
+          "title": "5:1-31 6:1-27",
+          "sourcePosition": 6,
+          "sourceTableRow": 12
+        },
+        {
+          "label": "G′",
+          "ref": "Numbers7:1-88",
+          "title": "7:1-88",
+          "sourcePosition": 7,
+          "sourceTableRow": 14
+        },
+        {
+          "label": "H′",
+          "ref": "Numbers7:89 8:1-26",
+          "title": "7:89 8:1-26",
+          "sourcePosition": 8,
+          "sourceTableRow": 16
+        },
+        {
+          "label": "I′",
+          "ref": "Numbers9:1-14",
+          "title": "9:1-14",
+          "sourcePosition": 9,
+          "sourceTableRow": 18
+        },
+        {
+          "label": "J′",
+          "ref": "Numbers9:15-23",
+          "title": "9:15-23",
+          "sourcePosition": 10,
+          "sourceTableRow": 20
+        },
+        {
+          "label": "K′",
+          "ref": "Numbers10:1-10",
+          "title": "10:1-10",
+          "sourcePosition": 11,
+          "sourceTableRow": 22
+        },
+        {
+          "label": "L′",
+          "ref": "Numbers10:11-28",
+          "title": "10:11-28",
+          "sourcePosition": 12,
+          "sourceTableRow": 24
+        },
+        {
+          "label": "M′",
+          "ref": "Numbers10:29-32",
+          "title": "10:29-32",
+          "sourcePosition": 13,
+          "sourceTableRow": 26
+        },
+        {
+          "label": "N′",
+          "ref": "Numbers10:33-36",
+          "title": "10:33-36",
+          "sourcePosition": 14,
+          "sourceTableRow": 28
+        },
+        {
+          "label": "O′",
+          "ref": "Numbers11:1-35",
+          "title": "11:1-35",
+          "sourcePosition": 15,
+          "sourceTableRow": 30
+        },
+        {
+          "label": "P′",
+          "ref": "Numbers12:1-16",
+          "title": "12:1-16",
+          "sourcePosition": 16,
+          "sourceTableRow": 32
+        },
+        {
+          "label": "Q′",
+          "ref": "Numbers13:1-24",
+          "title": "13:1-24",
+          "sourcePosition": 17,
+          "sourceTableRow": 34
+        },
+        {
+          "label": "R′",
+          "ref": "Numbers13:25-33",
+          "title": "13:25-33",
+          "sourcePosition": 18,
+          "sourceTableRow": 36
+        },
+        {
+          "label": "S′",
+          "ref": "Numbers14:1-10",
+          "title": "14:1-10",
+          "sourcePosition": 19,
+          "sourceTableRow": 38
+        },
+        {
+          "label": "T′",
+          "ref": "Numbers14:11-35",
+          "title": "14:11-35",
+          "sourcePosition": 20,
+          "sourceTableRow": 40
+        },
+        {
+          "label": "U′",
+          "ref": "Numbers14:36-45",
+          "title": "14:36-45",
+          "sourcePosition": 21,
+          "sourceTableRow": 42
+        },
+        {
+          "label": "V′",
+          "ref": "Numbers15:1-31",
+          "title": "15:1-31",
+          "sourcePosition": 22,
+          "sourceTableRow": 44
+        },
+        {
+          "label": "W′",
+          "ref": "Numbers15:32-36",
+          "title": "15:32-36",
+          "sourcePosition": 23,
+          "sourceTableRow": 46
+        },
+        {
+          "label": "X′",
+          "ref": "Numbers15:37-41",
+          "title": "15:37-41",
+          "sourcePosition": 24,
+          "sourceTableRow": 48
+        },
+        {
+          "label": "Y′",
+          "ref": "Numbers16:1-35 17:1-5",
+          "title": "16:1-35 17:1-5",
+          "sourcePosition": 25,
+          "sourceTableRow": 50
+        },
+        {
+          "label": "Z′",
+          "ref": "Numbers17:6-15",
+          "title": "17:6-15",
+          "sourcePosition": 26,
+          "sourceTableRow": 52
+        },
+        {
+          "label": "AA′",
+          "ref": "Numbers17:16-28",
+          "title": "17:16-28",
+          "sourcePosition": 27,
+          "sourceTableRow": 54
+        },
+        {
+          "label": "AB′",
+          "ref": "Numbers18:1-32",
+          "title": "18:1-32",
+          "sourcePosition": 28,
+          "sourceTableRow": 56
+        },
+        {
+          "label": "AC′",
+          "ref": "Numbers19:1-22",
+          "title": "19:1-22",
+          "sourcePosition": 29,
+          "sourceTableRow": 58
+        },
+        {
+          "label": "AD′",
+          "ref": "Numbers20:1-13",
+          "title": "20:1-13",
+          "sourcePosition": 30,
+          "sourceTableRow": 60
+        },
+        {
+          "label": "AE′",
+          "ref": "Numbers20:14-21",
+          "title": "20:14-21",
+          "sourcePosition": 31,
+          "sourceTableRow": 62
+        },
+        {
+          "label": "AF′",
+          "ref": "Numbers20:22-29",
+          "title": "20:22-29",
+          "sourcePosition": 32,
+          "sourceTableRow": 64
+        },
+        {
+          "label": "AG′",
+          "ref": "Numbers21:1-3",
+          "title": "21:1-3",
+          "sourcePosition": 33,
+          "sourceTableRow": 66
+        },
+        {
+          "label": "AH′",
+          "ref": "Numbers21:4-9",
+          "title": "21:4-9",
+          "sourcePosition": 34,
+          "sourceTableRow": 68
+        },
+        {
+          "label": "AI′",
+          "ref": "Numbers21:10-20",
+          "title": "21:10-20",
+          "sourcePosition": 35,
+          "sourceTableRow": 70
+        },
+        {
+          "label": "AJ′",
+          "ref": "Numbers21:21-35",
+          "title": "21:21-35",
+          "sourcePosition": 36,
+          "sourceTableRow": 72
+        },
+        {
+          "label": "AK′",
+          "ref": "Numbers22:1-40",
+          "title": "22:1-40",
+          "sourcePosition": 37,
+          "sourceTableRow": 74
+        },
+        {
+          "label": "AL′",
+          "ref": "Numbers22:41 23:1-30 24:1-25",
+          "title": "22:41 23:1-30 24:1-25",
+          "sourcePosition": 38,
+          "sourceTableRow": 76
+        },
+        {
+          "label": "AM′",
+          "ref": "Numbers25:1-19",
+          "title": "25:1-19",
+          "sourcePosition": 39,
+          "sourceTableRow": 78
+        },
+        {
+          "label": "AN′",
+          "ref": "Numbers26:1-65",
+          "title": "26:1-65",
+          "sourcePosition": 40,
+          "sourceTableRow": 80
+        },
+        {
+          "label": "AO′",
+          "ref": "Numbers27:1-11",
+          "title": "27:1-11",
+          "sourcePosition": 41,
+          "sourceTableRow": 82
+        },
+        {
+          "label": "AP′",
+          "ref": "Numbers27:12-23",
+          "title": "27:12-23",
+          "sourcePosition": 42,
+          "sourceTableRow": 84
+        },
+        {
+          "label": "AQ′",
+          "ref": "Numbers28:1-31 29:1-39 30:1-17",
+          "title": "28:1-31 29:1-39 30:1-17",
+          "sourcePosition": 43,
+          "sourceTableRow": 86
+        },
+        {
+          "label": "AR′",
+          "ref": "Numbers31:1-54",
+          "title": "31:1-54",
+          "sourcePosition": 44,
+          "sourceTableRow": 88
+        },
+        {
+          "label": "AS′",
+          "ref": "Numbers32:1-42",
+          "title": "32:1-42",
+          "sourcePosition": 45,
+          "sourceTableRow": 90
+        },
+        {
+          "label": "AT′",
+          "ref": "Numbers33:1-49",
+          "title": "33:1-49",
+          "sourcePosition": 46,
+          "sourceTableRow": 92
+        },
+        {
+          "label": "AU′",
+          "ref": "Numbers33:50-56 34:1-29",
+          "title": "33:50-56 34:1-29",
+          "sourcePosition": 47,
+          "sourceTableRow": 94
+        },
+        {
+          "label": "AV′",
+          "ref": "Numbers35:1-34",
+          "title": "35:1-34",
+          "sourcePosition": 48,
+          "sourceTableRow": 96
+        },
+        {
+          "label": "AW′",
+          "ref": "Numbers36:1-13",
+          "title": "36:1-13",
+          "sourcePosition": 49,
+          "sourceTableRow": 98
+        }
+      ],
+      "relationships": {
+        "A": "The people of Israel",
+        "B": "The task to build",
+        "C": "Descendants were multiplied",
+        "D": "The house of Levi",
+        "E": "Avoiding being killed",
+        "F": "Wife",
+        "G": "The leader of Israel",
+        "H": "Vocation",
+        "I": "Death caused by sins",
+        "J": "Insubordination / obedience to the Lord",
+        "K": "Salvation",
+        "L": "The list of the people of Israel",
+        "M": "The helpers of Moses",
+        "N": "The disasters of the enemy",
+        "O": "Death by the Lord",
+        "P": "Seven days for preparation",
+        "Q": "Order to go to Canaan",
+        "R": "Robbing from different ethnic groups",
+        "S": "The Lord brought the Israelites",
+        "T": "Sacrifices of descendants",
+        "U": "Israel can obtain the land by the Lord",
+        "V": "Offerings",
+        "W": "Waiting for the Lord to show the way",
+        "X": "Understanding the meaning of \"I am the Lord\"",
+        "Y": "Enemies were swallowed in the sea / earth",
+        "Z": "The wrath of the Lord",
+        "AA": "The brother and the sister of Moses led the people",
+        "AB": "If you listen carefully to the LORD, the wrath may never again come upon",
+        "AC": "The seventh day",
+        "AD": "The waters of Meribah",
+        "AE": "Conflicts with different ethnic group",
+        "AF": "The child of Moses/ Aaron",
+        "AG": "Oaths of the israel people",
+        "AH": "Death by the Lord",
+        "AI": "Climbing up to the top of mountain",
+        "AJ": "Do not be afraid",
+        "AK": "Telling the truth",
+        "AL": "Building altars",
+        "AM": "Priesthood of Aaron and his descendants",
+        "AN": "Death penalty",
+        "AO": "Promise to give the land",
+        "AP": "Joshua son of Nun",
+        "AQ": "The Lord is with the people",
+        "AR": "Passing through",
+        "AS": "Betrayals and contracts",
+        "AT": "Sinai",
+        "AU": "The list of the people of Israel",
+        "AV": "Regulations about priests",
+        "AW": "Remaining"
+      },
+      "kind": "Parallel / multi-part structure",
+      "note": "Complete quotation-free extraction of the source comparison table. Source pericope positions are retained; pair letters are ChiFold display labels, not labels printed in the table. Scripture quotation rows are excluded. Source references including subverse letters and compound ranges remain unchanged. The source comparisons run in the same direction. This is parallel organization, not a reverse-order chiasm; no unique center is specified."
+    },
+    {
+      "id": "murai-john-revelation",
+      "title": "John and Revelation: reversed correspondences",
+      "sourceId": "murai-web-2026",
+      "sourceFile": "98_JohnRevelation_e.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/98_JohnRevelation_e.html",
+      "locator": "Complete relationships table: 81 left-side source segments; 81 paired right-side segments",
+      "boundaries": "John 1:1–21:25; Revelation 1:1–22:21",
+      "nodes": [
+        {
+          "label": "A",
+          "ref": "John1:1-18",
+          "title": "The word became flesh",
+          "sourcePosition": 1,
+          "sourceTableRow": 2
+        },
+        {
+          "label": "B",
+          "ref": "John1:19-28",
+          "title": "The testimony of John the Baptist",
+          "sourcePosition": 2,
+          "sourceTableRow": 4
+        },
+        {
+          "label": "C",
+          "ref": "John1:29-34",
+          "title": "The lamb of God",
+          "sourcePosition": 3,
+          "sourceTableRow": 6
+        },
+        {
+          "label": "D",
+          "ref": "John1:35-42",
+          "title": "The first disciple of Jesus",
+          "sourcePosition": 4,
+          "sourceTableRow": 8
+        },
+        {
+          "label": "E",
+          "ref": "John1:43-51",
+          "title": "Jesus calls Philip and Nathanael",
+          "sourcePosition": 5,
+          "sourceTableRow": 10
+        },
+        {
+          "label": "F",
+          "ref": "John2:1-12",
+          "title": "The wedding at Cana",
+          "sourcePosition": 6,
+          "sourceTableRow": 12
+        },
+        {
+          "label": "G",
+          "ref": "John2:13-25",
+          "title": "Jesus cleanses the temple",
+          "sourcePosition": 7,
+          "sourceTableRow": 14
+        },
+        {
+          "label": "H",
+          "ref": "John3:1-21",
+          "title": "Nicodemus visits Jesus",
+          "sourcePosition": 8,
+          "sourceTableRow": 16
+        },
+        {
+          "label": "I",
+          "ref": "John3:22-36",
+          "title": "John the Baptist's Final Witness",
+          "sourcePosition": 9,
+          "sourceTableRow": 18
+        },
+        {
+          "label": "J",
+          "ref": "John4:1-26",
+          "title": "Jesus and the Woman of Samaria",
+          "sourcePosition": 10,
+          "sourceTableRow": 20
+        },
+        {
+          "label": "K",
+          "ref": "John4:27-38",
+          "title": "One sows and another reaps",
+          "sourcePosition": 11,
+          "sourceTableRow": 22
+        },
+        {
+          "label": "L",
+          "ref": "John4:39-42",
+          "title": "Faith of Samaria",
+          "sourcePosition": 12,
+          "sourceTableRow": 24
+        },
+        {
+          "label": "M",
+          "ref": "John4:43-45",
+          "title": "Jesus returns to Galilee",
+          "sourcePosition": 13,
+          "sourceTableRow": 26
+        },
+        {
+          "label": "N",
+          "ref": "John4:46-54",
+          "title": "Healing the Official's Son",
+          "sourcePosition": 14,
+          "sourceTableRow": 28
+        },
+        {
+          "label": "O",
+          "ref": "John5:1-18",
+          "title": "Jesus heals on the Sabbath",
+          "sourcePosition": 15,
+          "sourceTableRow": 30
+        },
+        {
+          "label": "P",
+          "ref": "John5:19-30",
+          "title": "The authority of the son",
+          "sourcePosition": 16,
+          "sourceTableRow": 32
+        },
+        {
+          "label": "Q",
+          "ref": "John5:31-47",
+          "title": "Witnesses to Jesus",
+          "sourcePosition": 17,
+          "sourceTableRow": 34
+        },
+        {
+          "label": "R",
+          "ref": "John6:1-15",
+          "title": "Feeding the five thousand",
+          "sourcePosition": 18,
+          "sourceTableRow": 36
+        },
+        {
+          "label": "S",
+          "ref": "John6:16-21",
+          "title": "Jesus walks on the water",
+          "sourcePosition": 19,
+          "sourceTableRow": 38
+        },
+        {
+          "label": "T",
+          "ref": "John6:22-59",
+          "title": "The bread from heaven",
+          "sourcePosition": 20,
+          "sourceTableRow": 40
+        },
+        {
+          "label": "U",
+          "ref": "John6:60-71",
+          "title": "The words of eternal life",
+          "sourcePosition": 21,
+          "sourceTableRow": 42
+        },
+        {
+          "label": "V",
+          "ref": "John7:1-9",
+          "title": "The unbelief of Jesus' brothers",
+          "sourcePosition": 22,
+          "sourceTableRow": 44
+        },
+        {
+          "label": "W",
+          "ref": "John7:10-24",
+          "title": "Jesus at the festival of booths",
+          "sourcePosition": 23,
+          "sourceTableRow": 46
+        },
+        {
+          "label": "X",
+          "ref": "John7:25-36",
+          "title": "Is this the Christ",
+          "sourcePosition": 24,
+          "sourceTableRow": 48
+        },
+        {
+          "label": "Y",
+          "ref": "John7:37-44",
+          "title": "River of living water",
+          "sourcePosition": 25,
+          "sourceTableRow": 50
+        },
+        {
+          "label": "Z",
+          "ref": "John7:45-53",
+          "title": "The unbelief of those in authority",
+          "sourcePosition": 26,
+          "sourceTableRow": 52
+        },
+        {
+          "label": "AA",
+          "ref": "John8:1-11",
+          "title": "The woman caught in adultery",
+          "sourcePosition": 27,
+          "sourceTableRow": 54
+        },
+        {
+          "label": "AB",
+          "ref": "John8:12-20",
+          "title": "Jesus the light of the world",
+          "sourcePosition": 28,
+          "sourceTableRow": 56
+        },
+        {
+          "label": "AC",
+          "ref": "John8:21-30",
+          "title": "Jesus foretells his death",
+          "sourcePosition": 29,
+          "sourceTableRow": 58
+        },
+        {
+          "label": "AD",
+          "ref": "John8:31-59",
+          "title": "\"Before Abraham was born, I am\"",
+          "sourcePosition": 30,
+          "sourceTableRow": 60
+        },
+        {
+          "label": "AE",
+          "ref": "John9:1-12",
+          "title": "A man born blind receives sight",
+          "sourcePosition": 31,
+          "sourceTableRow": 62
+        },
+        {
+          "label": "AF",
+          "ref": "John9:13-34",
+          "title": "The Pharisees investigate the healing",
+          "sourcePosition": 32,
+          "sourceTableRow": 64
+        },
+        {
+          "label": "AG",
+          "ref": "John9:35-41",
+          "title": "Spiritual blindness",
+          "sourcePosition": 33,
+          "sourceTableRow": 66
+        },
+        {
+          "label": "AH",
+          "ref": "John10:1-6",
+          "title": "\"The sheep, the Shepherd, and sheep robbers\"",
+          "sourcePosition": 34,
+          "sourceTableRow": 68
+        },
+        {
+          "label": "AI",
+          "ref": "John10:7-21",
+          "title": "Jesus' application of the parables",
+          "sourcePosition": 35,
+          "sourceTableRow": 70
+        },
+        {
+          "label": "AJ",
+          "ref": "John10:22-39",
+          "title": "Jesus is rejected by the Jews",
+          "sourcePosition": 36,
+          "sourceTableRow": 72
+        },
+        {
+          "label": "AK",
+          "ref": "John10:40-42",
+          "title": "Across the Jordan",
+          "sourcePosition": 37,
+          "sourceTableRow": 74
+        },
+        {
+          "label": "AL",
+          "ref": "John11:1-16",
+          "title": "The death of Lazarus",
+          "sourcePosition": 38,
+          "sourceTableRow": 76
+        },
+        {
+          "label": "AM",
+          "ref": "John11:17-27",
+          "title": "Dialogs with Martha",
+          "sourcePosition": 39,
+          "sourceTableRow": 78
+        },
+        {
+          "label": "AN",
+          "ref": "John11:28-37",
+          "title": "Dialogs with Mary",
+          "sourcePosition": 40,
+          "sourceTableRow": 80
+        },
+        {
+          "label": "AO",
+          "ref": "John11:38-44",
+          "title": "Jesus raises Lazarus to life",
+          "sourcePosition": 41,
+          "sourceTableRow": 82
+        },
+        {
+          "label": "AP",
+          "ref": "John11:45-57",
+          "title": "The plot to kill Jesus",
+          "sourcePosition": 42,
+          "sourceTableRow": 84
+        },
+        {
+          "label": "AQ",
+          "ref": "John12:1-8",
+          "title": "Mary anoints Jesus",
+          "sourcePosition": 43,
+          "sourceTableRow": 86
+        },
+        {
+          "label": "AR",
+          "ref": "John12:9-11",
+          "title": "The plot to kill Lazarus",
+          "sourcePosition": 44,
+          "sourceTableRow": 88
+        },
+        {
+          "label": "AS",
+          "ref": "John12:12-19",
+          "title": "Jesus' triumphal entry into Jerusalem",
+          "sourcePosition": 45,
+          "sourceTableRow": 90
+        },
+        {
+          "label": "AT",
+          "ref": "John12:20-26",
+          "title": "Some Greeks wish to see Jesus",
+          "sourcePosition": 46,
+          "sourceTableRow": 92
+        },
+        {
+          "label": "AU",
+          "ref": "John12:27-36a",
+          "title": "Jesus speaks about his death",
+          "sourcePosition": 47,
+          "sourceTableRow": 94
+        },
+        {
+          "label": "AV",
+          "ref": "John12:36b-41",
+          "title": "The unbelief of the people",
+          "sourcePosition": 48,
+          "sourceTableRow": 96
+        },
+        {
+          "label": "AW",
+          "ref": "John12:42-50",
+          "title": "The judgement by word of Jesus",
+          "sourcePosition": 49,
+          "sourceTableRow": 98
+        },
+        {
+          "label": "AX",
+          "ref": "John13:1-20",
+          "title": "Jesus washes the disciples' feet",
+          "sourcePosition": 50,
+          "sourceTableRow": 100
+        },
+        {
+          "label": "AY",
+          "ref": "John13:21-30",
+          "title": "Jesus foretells his betrayal",
+          "sourcePosition": 51,
+          "sourceTableRow": 102
+        },
+        {
+          "label": "AZ",
+          "ref": "John13:31-35",
+          "title": "The new commandment",
+          "sourcePosition": 52,
+          "sourceTableRow": 104
+        },
+        {
+          "label": "BA",
+          "ref": "John13:36-38",
+          "title": "Jesus foretells Peter's denial",
+          "sourcePosition": 53,
+          "sourceTableRow": 106
+        },
+        {
+          "label": "BB",
+          "ref": "John14:1-14",
+          "title": "Jesus the way to the father",
+          "sourcePosition": 54,
+          "sourceTableRow": 108
+        },
+        {
+          "label": "BC",
+          "ref": "John14:15-24",
+          "title": "The promise of the holy spirit",
+          "sourcePosition": 55,
+          "sourceTableRow": 110
+        },
+        {
+          "label": "BD",
+          "ref": "John14:25-31",
+          "title": "Do not let your hearts be troubled",
+          "sourcePosition": 56,
+          "sourceTableRow": 112
+        },
+        {
+          "label": "BE",
+          "ref": "John15:1-10",
+          "title": "Jesus the true vine",
+          "sourcePosition": 57,
+          "sourceTableRow": 114
+        },
+        {
+          "label": "BF",
+          "ref": "John15:11-17",
+          "title": "love one another",
+          "sourcePosition": 58,
+          "sourceTableRow": 116
+        },
+        {
+          "label": "BG",
+          "ref": "John15:18-27 16:1-4a",
+          "title": "The world's hatred",
+          "sourcePosition": 59,
+          "sourceTableRow": 118
+        },
+        {
+          "label": "BH",
+          "ref": "John16:4b-15",
+          "title": "The work of the Spirit",
+          "sourcePosition": 60,
+          "sourceTableRow": 120
+        },
+        {
+          "label": "BI",
+          "ref": "John16:16-33",
+          "title": "Sorrow will turn into joy",
+          "sourcePosition": 61,
+          "sourceTableRow": 122
+        },
+        {
+          "label": "BJ",
+          "ref": "John17:1-26",
+          "title": "Jesus prays for his disciples",
+          "sourcePosition": 62,
+          "sourceTableRow": 124
+        },
+        {
+          "label": "BK",
+          "ref": "John18:1-14",
+          "title": "The betrayal and arrest of Jesus",
+          "sourcePosition": 63,
+          "sourceTableRow": 126
+        },
+        {
+          "label": "BL",
+          "ref": "John18:15-18",
+          "title": "Denial of Peter",
+          "sourcePosition": 64,
+          "sourceTableRow": 128
+        },
+        {
+          "label": "BM",
+          "ref": "John18:19-24",
+          "title": "The Jewish Trial and Peter's Denial",
+          "sourcePosition": 65,
+          "sourceTableRow": 130
+        },
+        {
+          "label": "BN",
+          "ref": "John18:25-27",
+          "title": "Denial of Peter again",
+          "sourcePosition": 66,
+          "sourceTableRow": 132
+        },
+        {
+          "label": "BO",
+          "ref": "John18:28-38b",
+          "title": "Jesus before Pilate",
+          "sourcePosition": 67,
+          "sourceTableRow": 134
+        },
+        {
+          "label": "BP",
+          "ref": "John18:38c-40 19:1-16a",
+          "title": "Jesus sentenced to death",
+          "sourcePosition": 68,
+          "sourceTableRow": 136
+        },
+        {
+          "label": "BQ",
+          "ref": "John19:16b-22",
+          "title": "The crucifixion of Jesus",
+          "sourcePosition": 69,
+          "sourceTableRow": 138
+        },
+        {
+          "label": "BR",
+          "ref": "John19:23-27",
+          "title": "People with crucified Jesus",
+          "sourcePosition": 70,
+          "sourceTableRow": 140
+        },
+        {
+          "label": "BS",
+          "ref": "John19:28-30",
+          "title": "The death of Jesus",
+          "sourcePosition": 71,
+          "sourceTableRow": 142
+        },
+        {
+          "label": "BT",
+          "ref": "John19:31-37",
+          "title": "Jesus' side is pierced",
+          "sourcePosition": 72,
+          "sourceTableRow": 144
+        },
+        {
+          "label": "BU",
+          "ref": "John19:38-42",
+          "title": "The burial of Jesus",
+          "sourcePosition": 73,
+          "sourceTableRow": 146
+        },
+        {
+          "label": "BV",
+          "ref": "John20:1-10",
+          "title": "The resurrection of Jesus",
+          "sourcePosition": 74,
+          "sourceTableRow": 148
+        },
+        {
+          "label": "BW",
+          "ref": "John20:11-18",
+          "title": "Jesus appears to Mary Magdalene",
+          "sourcePosition": 75,
+          "sourceTableRow": 150
+        },
+        {
+          "label": "BX",
+          "ref": "John20:19-23",
+          "title": "Jesus appears to the disciple",
+          "sourcePosition": 76,
+          "sourceTableRow": 152
+        },
+        {
+          "label": "BY",
+          "ref": "John20:24-29",
+          "title": "Jesus and Thomas",
+          "sourcePosition": 77,
+          "sourceTableRow": 154
+        },
+        {
+          "label": "BZ",
+          "ref": "John20:30-31",
+          "title": "The purpose of this book",
+          "sourcePosition": 78,
+          "sourceTableRow": 156
+        },
+        {
+          "label": "CA",
+          "ref": "John21:1-14",
+          "title": "Jesus appears to seven disciples",
+          "sourcePosition": 79,
+          "sourceTableRow": 158
+        },
+        {
+          "label": "CB",
+          "ref": "John21:15-19",
+          "title": "Jesus and Peter",
+          "sourcePosition": 80,
+          "sourceTableRow": 160
+        },
+        {
+          "label": "CC",
+          "ref": "John21:20-25",
+          "title": "Jesus and the beloved disciple",
+          "sourcePosition": 81,
+          "sourceTableRow": 162
+        },
+        {
+          "label": "CC′",
+          "ref": "Revelation1:1-7",
+          "title": "1:1-7",
+          "sourcePosition": 1,
+          "sourceTableRow": 162
+        },
+        {
+          "label": "CB′",
+          "ref": "Revelation1:8-20",
+          "title": "1:8-20",
+          "sourcePosition": 2,
+          "sourceTableRow": 160
+        },
+        {
+          "label": "CA′",
+          "ref": "Revelation2:1-7",
+          "title": "2:1-7",
+          "sourcePosition": 3,
+          "sourceTableRow": 158
+        },
+        {
+          "label": "BZ′",
+          "ref": "Revelation2:8-11",
+          "title": "2:8-11",
+          "sourcePosition": 4,
+          "sourceTableRow": 156
+        },
+        {
+          "label": "BY′",
+          "ref": "Revelation2:12-17",
+          "title": "2:12-17",
+          "sourcePosition": 5,
+          "sourceTableRow": 154
+        },
+        {
+          "label": "BX′",
+          "ref": "Revelation2:18-29",
+          "title": "2:18-29",
+          "sourcePosition": 6,
+          "sourceTableRow": 152
+        },
+        {
+          "label": "BW′",
+          "ref": "Revelation3:1-6",
+          "title": "3:1-6",
+          "sourcePosition": 7,
+          "sourceTableRow": 150
+        },
+        {
+          "label": "BV′",
+          "ref": "Revelation3:7-13",
+          "title": "3:7-13",
+          "sourcePosition": 8,
+          "sourceTableRow": 148
+        },
+        {
+          "label": "BU′",
+          "ref": "Revelation3:14-22",
+          "title": "3:14-22",
+          "sourcePosition": 9,
+          "sourceTableRow": 146
+        },
+        {
+          "label": "BT′",
+          "ref": "Revelation4:1-11",
+          "title": "4:1-11",
+          "sourcePosition": 10,
+          "sourceTableRow": 144
+        },
+        {
+          "label": "BS′",
+          "ref": "Revelation5:1-7",
+          "title": "5:1-7",
+          "sourcePosition": 11,
+          "sourceTableRow": 142
+        },
+        {
+          "label": "BR′",
+          "ref": "Revelation5:8-14",
+          "title": "5:8-14",
+          "sourcePosition": 12,
+          "sourceTableRow": 140
+        },
+        {
+          "label": "BQ′",
+          "ref": "Revelation6:1-2",
+          "title": "6:1-2",
+          "sourcePosition": 13,
+          "sourceTableRow": 138
+        },
+        {
+          "label": "BP′",
+          "ref": "Revelation6:3-4",
+          "title": "6:3-4",
+          "sourcePosition": 14,
+          "sourceTableRow": 136
+        },
+        {
+          "label": "BO′",
+          "ref": "Revelation6:5-6",
+          "title": "6:5-6",
+          "sourcePosition": 15,
+          "sourceTableRow": 134
+        },
+        {
+          "label": "BN′",
+          "ref": "Revelation6:7-8",
+          "title": "6:7-8",
+          "sourcePosition": 16,
+          "sourceTableRow": 132
+        },
+        {
+          "label": "BM′",
+          "ref": "Revelation6:9-11",
+          "title": "6:9-11",
+          "sourcePosition": 17,
+          "sourceTableRow": 130
+        },
+        {
+          "label": "BL′",
+          "ref": "Revelation6:12-17",
+          "title": "6:12-17",
+          "sourcePosition": 18,
+          "sourceTableRow": 128
+        },
+        {
+          "label": "BK′",
+          "ref": "Revelation7:1-10",
+          "title": "7:1-10",
+          "sourcePosition": 19,
+          "sourceTableRow": 126
+        },
+        {
+          "label": "BJ′",
+          "ref": "Revelation7:11-12",
+          "title": "7:11-12",
+          "sourcePosition": 20,
+          "sourceTableRow": 124
+        },
+        {
+          "label": "BI′",
+          "ref": "Revelation7:13-17",
+          "title": "7:13-17",
+          "sourcePosition": 21,
+          "sourceTableRow": 122
+        },
+        {
+          "label": "BH′",
+          "ref": "Revelation8:1-5",
+          "title": "8:1-5",
+          "sourcePosition": 22,
+          "sourceTableRow": 120
+        },
+        {
+          "label": "BG′",
+          "ref": "Revelation8:6-7",
+          "title": "8:6-7",
+          "sourcePosition": 23,
+          "sourceTableRow": 118
+        },
+        {
+          "label": "BF′",
+          "ref": "Revelation8:8-9",
+          "title": "8:8-9",
+          "sourcePosition": 24,
+          "sourceTableRow": 116
+        },
+        {
+          "label": "BE′",
+          "ref": "Revelation8:10-11",
+          "title": "8:10-11",
+          "sourcePosition": 25,
+          "sourceTableRow": 114
+        },
+        {
+          "label": "BD′",
+          "ref": "Revelation8:12-13",
+          "title": "8:12-13",
+          "sourcePosition": 26,
+          "sourceTableRow": 112
+        },
+        {
+          "label": "BC′",
+          "ref": "Revelation9:1-12",
+          "title": "9:1-12",
+          "sourcePosition": 27,
+          "sourceTableRow": 110
+        },
+        {
+          "label": "BB′",
+          "ref": "Revelation9:13-16",
+          "title": "9:13-16",
+          "sourcePosition": 28,
+          "sourceTableRow": 108
+        },
+        {
+          "label": "BA′",
+          "ref": "Revelation9:17-21",
+          "title": "9:17-21",
+          "sourcePosition": 29,
+          "sourceTableRow": 106
+        },
+        {
+          "label": "AZ′",
+          "ref": "Revelation10:1-3",
+          "title": "10:1-3",
+          "sourcePosition": 30,
+          "sourceTableRow": 104
+        },
+        {
+          "label": "AY′",
+          "ref": "Revelation10:4",
+          "title": "10:4",
+          "sourcePosition": 31,
+          "sourceTableRow": 102
+        },
+        {
+          "label": "AX′",
+          "ref": "Revelation10:5-7",
+          "title": "10:5-7",
+          "sourcePosition": 32,
+          "sourceTableRow": 100
+        },
+        {
+          "label": "AW′",
+          "ref": "Revelation10:8-11",
+          "title": "10:8-11",
+          "sourcePosition": 33,
+          "sourceTableRow": 98
+        },
+        {
+          "label": "AV′",
+          "ref": "Revelation11:1-4",
+          "title": "11:1-4",
+          "sourcePosition": 34,
+          "sourceTableRow": 96
+        },
+        {
+          "label": "AU′",
+          "ref": "Revelation11:5-6",
+          "title": "11:5-6",
+          "sourcePosition": 35,
+          "sourceTableRow": 94
+        },
+        {
+          "label": "AT′",
+          "ref": "Revelation11:7-10",
+          "title": "11:7-10",
+          "sourcePosition": 36,
+          "sourceTableRow": 92
+        },
+        {
+          "label": "AS′",
+          "ref": "Revelation11:11-14",
+          "title": "11:11-14",
+          "sourcePosition": 37,
+          "sourceTableRow": 90
+        },
+        {
+          "label": "AR′",
+          "ref": "Revelation11:15-19",
+          "title": "11:15-19",
+          "sourcePosition": 38,
+          "sourceTableRow": 88
+        },
+        {
+          "label": "AQ′",
+          "ref": "Revelation12:1-5",
+          "title": "12:1-5",
+          "sourcePosition": 39,
+          "sourceTableRow": 86
+        },
+        {
+          "label": "AP′",
+          "ref": "Revelation12:6-9",
+          "title": "12:6-9",
+          "sourcePosition": 40,
+          "sourceTableRow": 84
+        },
+        {
+          "label": "AO′",
+          "ref": "Revelation12:10-12",
+          "title": "12:10-12",
+          "sourcePosition": 41,
+          "sourceTableRow": 82
+        },
+        {
+          "label": "AN′",
+          "ref": "Revelation12:13-14",
+          "title": "12:13-14",
+          "sourcePosition": 42,
+          "sourceTableRow": 80
+        },
+        {
+          "label": "AM′",
+          "ref": "Revelation12:15-16",
+          "title": "12:15-16",
+          "sourcePosition": 43,
+          "sourceTableRow": 78
+        },
+        {
+          "label": "AL′",
+          "ref": "Revelation12:17-18",
+          "title": "12:17-18",
+          "sourcePosition": 44,
+          "sourceTableRow": 76
+        },
+        {
+          "label": "AK′",
+          "ref": "Revelation13:1-7",
+          "title": "13:1-7",
+          "sourcePosition": 45,
+          "sourceTableRow": 74
+        },
+        {
+          "label": "AJ′",
+          "ref": "Revelation13:8-10",
+          "title": "13:8-10",
+          "sourcePosition": 46,
+          "sourceTableRow": 72
+        },
+        {
+          "label": "AI′",
+          "ref": "Revelation13:11-15",
+          "title": "13:11-15",
+          "sourcePosition": 47,
+          "sourceTableRow": 70
+        },
+        {
+          "label": "AH′",
+          "ref": "Revelation13:16-18",
+          "title": "13:16-18",
+          "sourcePosition": 48,
+          "sourceTableRow": 68
+        },
+        {
+          "label": "AG′",
+          "ref": "Revelation14:1-5",
+          "title": "14:1-5",
+          "sourcePosition": 49,
+          "sourceTableRow": 66
+        },
+        {
+          "label": "AF′",
+          "ref": "Revelation14:6-12",
+          "title": "14:6-12",
+          "sourcePosition": 50,
+          "sourceTableRow": 64
+        },
+        {
+          "label": "AE′",
+          "ref": "Revelation14:13",
+          "title": "14:13",
+          "sourcePosition": 51,
+          "sourceTableRow": 62
+        },
+        {
+          "label": "AD′",
+          "ref": "Revelation14:14-20",
+          "title": "14:14-20",
+          "sourcePosition": 52,
+          "sourceTableRow": 60
+        },
+        {
+          "label": "AC′",
+          "ref": "Revelation15:1-8",
+          "title": "15:1-8",
+          "sourcePosition": 53,
+          "sourceTableRow": 58
+        },
+        {
+          "label": "AB′",
+          "ref": "Revelation16:1-3",
+          "title": "16:1-3",
+          "sourcePosition": 54,
+          "sourceTableRow": 56
+        },
+        {
+          "label": "AA′",
+          "ref": "Revelation16:3-7",
+          "title": "16:3-7",
+          "sourcePosition": 55,
+          "sourceTableRow": 54
+        },
+        {
+          "label": "Z′",
+          "ref": "Revelation16:8-9",
+          "title": "16:8-9",
+          "sourcePosition": 56,
+          "sourceTableRow": 52
+        },
+        {
+          "label": "Y′",
+          "ref": "Revelation16:10-11",
+          "title": "16:10-11",
+          "sourcePosition": 57,
+          "sourceTableRow": 50
+        },
+        {
+          "label": "X′",
+          "ref": "Revelation16:12-16",
+          "title": "16:12-16",
+          "sourcePosition": 58,
+          "sourceTableRow": 48
+        },
+        {
+          "label": "W′",
+          "ref": "Revelation16:17-21",
+          "title": "16:17-21",
+          "sourcePosition": 59,
+          "sourceTableRow": 46
+        },
+        {
+          "label": "V′",
+          "ref": "Revelation17:1-2",
+          "title": "17:1-2",
+          "sourcePosition": 60,
+          "sourceTableRow": 44
+        },
+        {
+          "label": "U′",
+          "ref": "Revelation17:3-6",
+          "title": "17:3-6",
+          "sourcePosition": 61,
+          "sourceTableRow": 42
+        },
+        {
+          "label": "T′",
+          "ref": "Revelation17:7-14",
+          "title": "17:7-14",
+          "sourcePosition": 62,
+          "sourceTableRow": 40
+        },
+        {
+          "label": "S′",
+          "ref": "Revelation17:15-18",
+          "title": "17:15-18",
+          "sourcePosition": 63,
+          "sourceTableRow": 38
+        },
+        {
+          "label": "R′",
+          "ref": "Revelation18:1-3",
+          "title": "18:1-3",
+          "sourcePosition": 64,
+          "sourceTableRow": 36
+        },
+        {
+          "label": "Q′",
+          "ref": "Revelation18:4-8",
+          "title": "18:4-8",
+          "sourcePosition": 65,
+          "sourceTableRow": 34
+        },
+        {
+          "label": "P′",
+          "ref": "Revelation18:9-10",
+          "title": "18:9-10",
+          "sourcePosition": 66,
+          "sourceTableRow": 32
+        },
+        {
+          "label": "O′",
+          "ref": "Revelation18:11-17a",
+          "title": "18:11-17a",
+          "sourcePosition": 67,
+          "sourceTableRow": 30
+        },
+        {
+          "label": "N′",
+          "ref": "Revelation18:17b-20",
+          "title": "18:17b-20",
+          "sourcePosition": 68,
+          "sourceTableRow": 28
+        },
+        {
+          "label": "M′",
+          "ref": "Revelation18:21-24",
+          "title": "18:21-24",
+          "sourcePosition": 69,
+          "sourceTableRow": 26
+        },
+        {
+          "label": "L′",
+          "ref": "Revelation19:1-5",
+          "title": "19:1-5",
+          "sourcePosition": 70,
+          "sourceTableRow": 24
+        },
+        {
+          "label": "K′",
+          "ref": "Revelation19:6-10",
+          "title": "19:6-10",
+          "sourcePosition": 71,
+          "sourceTableRow": 22
+        },
+        {
+          "label": "J′",
+          "ref": "Revelation19:11-16",
+          "title": "19:11-16",
+          "sourcePosition": 72,
+          "sourceTableRow": 20
+        },
+        {
+          "label": "I′",
+          "ref": "Revelation19:17-21",
+          "title": "19:17-21",
+          "sourcePosition": 73,
+          "sourceTableRow": 18
+        },
+        {
+          "label": "H′",
+          "ref": "Revelation20:1-3",
+          "title": "20:1-3",
+          "sourcePosition": 74,
+          "sourceTableRow": 16
+        },
+        {
+          "label": "G′",
+          "ref": "Revelation20:4-6",
+          "title": "20:4-6",
+          "sourcePosition": 75,
+          "sourceTableRow": 14
+        },
+        {
+          "label": "F′",
+          "ref": "Revelation20:7-10",
+          "title": "20:7-10",
+          "sourcePosition": 76,
+          "sourceTableRow": 12
+        },
+        {
+          "label": "E′",
+          "ref": "Revelation20:11-15",
+          "title": "20:11-15",
+          "sourcePosition": 77,
+          "sourceTableRow": 10
+        },
+        {
+          "label": "D′",
+          "ref": "Revelation21:1-8",
+          "title": "21:1-8",
+          "sourcePosition": 78,
+          "sourceTableRow": 8
+        },
+        {
+          "label": "C′",
+          "ref": "Revelation21:9-27 22:1-5",
+          "title": "21:9-27 22:1-5",
+          "sourcePosition": 79,
+          "sourceTableRow": 6
+        },
+        {
+          "label": "B′",
+          "ref": "Revelation22:6-16",
+          "title": "22:6-16",
+          "sourcePosition": 80,
+          "sourceTableRow": 4
+        },
+        {
+          "label": "A′",
+          "ref": "Revelation22:17-21",
+          "title": "22:17-21",
+          "sourcePosition": 81,
+          "sourceTableRow": 2
+        }
+      ],
+      "relationships": {
+        "A": "Word and life",
+        "B": "I am a fellow servant",
+        "C": "Coming down out of heaven",
+        "D": "God's dwelling is with the human race",
+        "E": "King",
+        "F": "Container for purification",
+        "G": "Resurrection",
+        "H": "Serpent",
+        "I": "Capture",
+        "J": "Lord (kurios in Greek)",
+        "K": "Righteous deeds",
+        "L": "Truly",
+        "M": "Prophet",
+        "N": "Immediately",
+        "O": "Immediately",
+        "P": "Judgment",
+        "Q": "Deeds",
+        "R": "King",
+        "S": "On a water",
+        "T": "Life",
+        "U": "Spirit",
+        "V": "Evil deeds",
+        "W": "Blasphemy",
+        "X": "Not being able to find",
+        "Y": "Blasphemy",
+        "Z": "Blasphemy",
+        "AA": "Judgment",
+        "AB": "Temple",
+        "AC": "True",
+        "AD": "Martyrdom",
+        "AE": "Being saved",
+        "AF": "Keeping the faith",
+        "AG": "No deceit",
+        "AH": "Hostile",
+        "AI": "Fake",
+        "AJ": "Martyrdom",
+        "AK": "Giving a authority",
+        "AL": "Going to a battle",
+        "AM": "Helping a woman",
+        "AN": "Chasing a woman",
+        "AO": "Appeared glory",
+        "AP": "Going to a desert",
+        "AQ": "A woman and a hostile",
+        "AR": "People who want to kill",
+        "AS": "Glory",
+        "AT": "Martyrdom",
+        "AU": "Coming from heaven",
+        "AV": "Prophet",
+        "AW": "Accepting the words",
+        "AX": "No time",
+        "AY": "Being kept secret",
+        "AZ": "Glory",
+        "BA": "Three calamity",
+        "BB": "Preparation",
+        "BC": "Beloved / not beloved",
+        "BD": "Fear",
+        "BE": "People who are taken away",
+        "BF": "Survive / do not survive",
+        "BG": "Sufferings",
+        "BH": "Going to God",
+        "BI": "End of a sorrow",
+        "BJ": "Glory",
+        "BK": "a great multitude of crowd",
+        "BL": "People who can not withstand",
+        "BM": "Testimony",
+        "BN": "Sword",
+        "BO": "Judgment",
+        "BP": "To take peace away",
+        "BQ": "King",
+        "BR": "People who are standing by",
+        "BS": "Fulfillment",
+        "BT": "Prophecy",
+        "BU": "Incomplete faith",
+        "BV": "Love of Jesus",
+        "BW": "White clothes",
+        "BX": "As the Father has sent me",
+        "BY": "Faith",
+        "BZ": "Giving a life",
+        "CA": "Giving a food",
+        "CB": "Belt (zwnh in Greek)",
+        "CC": "John testifies"
+      },
+      "kind": "Chiasm",
+      "note": "Complete quotation-free extraction of the source comparison table. Source pericope positions are retained; pair letters are ChiFold display labels, not labels printed in the table. Scripture quotation rows are excluded. Source references including subverse letters and compound ranges remain unchanged. All81 pairs form a reverse-order comparison across John and Revelation. No unique center is specified. This is Murai’s proposed inter-book structure, not an assertion of common authorship or direct borrowing."
+    },
+    {
+      "id": "murai-luke-acts",
+      "title": "Luke and Acts: parallel correspondences",
+      "sourceId": "murai-web-2026",
+      "sourceFile": "99_LukeActs_e.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/99_LukeActs_e.html",
+      "locator": "Complete relationships table: 145 left-side source segments; 49 paired right-side segments",
+      "boundaries": "Luke 1:1–24:53; Acts 1:1–28:31",
+      "nodes": [
+        {
+          "label": "A",
+          "ref": "Luke1:1-4",
+          "title": "Dedication to Theophilus",
+          "sourcePosition": 1,
+          "sourceTableRow": 2
+        },
+        {
+          "label": "UnpairedB",
+          "ref": "Luke1:5-25",
+          "title": "The birth of John the Baptist foretold",
+          "sourcePosition": 2,
+          "sourceTableRow": 4
+        },
+        {
+          "label": "UnpairedC",
+          "ref": "Luke1:26-38",
+          "title": "The birth of Jesus foretold",
+          "sourcePosition": 3,
+          "sourceTableRow": 5
+        },
+        {
+          "label": "B",
+          "ref": "Luke1:39-45",
+          "title": "Mary visits Elizabeth",
+          "sourcePosition": 4,
+          "sourceTableRow": 6
+        },
+        {
+          "label": "UnpairedE",
+          "ref": "Luke1:46-56",
+          "title": "Mary's song of praise",
+          "sourcePosition": 5,
+          "sourceTableRow": 8
+        },
+        {
+          "label": "UnpairedF",
+          "ref": "Luke1:57-66",
+          "title": "The birth of John the Baptist",
+          "sourcePosition": 6,
+          "sourceTableRow": 9
+        },
+        {
+          "label": "C",
+          "ref": "Luke1:67-80",
+          "title": "Zachariah's prophecy",
+          "sourcePosition": 7,
+          "sourceTableRow": 10
+        },
+        {
+          "label": "UnpairedH",
+          "ref": "Luke2:1-20",
+          "title": "The birth of Jesus",
+          "sourcePosition": 8,
+          "sourceTableRow": 12
+        },
+        {
+          "label": "UnpairedI",
+          "ref": "Luke2:21-40",
+          "title": "Jesus is presented in the temple",
+          "sourcePosition": 9,
+          "sourceTableRow": 13
+        },
+        {
+          "label": "D",
+          "ref": "Luke2:41-52",
+          "title": "The boy Jesus in the temple",
+          "sourcePosition": 10,
+          "sourceTableRow": 14
+        },
+        {
+          "label": "UnpairedK",
+          "ref": "Luke3:1-20",
+          "title": "The proclamation of John the Baptist",
+          "sourcePosition": 11,
+          "sourceTableRow": 16
+        },
+        {
+          "label": "UnpairedL",
+          "ref": "Luke3:21-22",
+          "title": "The baptism of Jesus",
+          "sourcePosition": 12,
+          "sourceTableRow": 17
+        },
+        {
+          "label": "E",
+          "ref": "Luke3:23-38",
+          "title": "The ancestors of Jesus",
+          "sourcePosition": 13,
+          "sourceTableRow": 18
+        },
+        {
+          "label": "UnpairedN",
+          "ref": "Luke4:1-15",
+          "title": "The temptation of Jesus",
+          "sourcePosition": 14,
+          "sourceTableRow": 20
+        },
+        {
+          "label": "UnpairedO",
+          "ref": "Luke4:16-30",
+          "title": "The rejection of Jesus at Nazareth",
+          "sourcePosition": 15,
+          "sourceTableRow": 21
+        },
+        {
+          "label": "F",
+          "ref": "Luke4:31-44",
+          "title": "Jesus drives out an evil spirit",
+          "sourcePosition": 16,
+          "sourceTableRow": 22
+        },
+        {
+          "label": "UnpairedQ",
+          "ref": "Luke5:1-11",
+          "title": "Jesus calls the first disciples",
+          "sourcePosition": 17,
+          "sourceTableRow": 24
+        },
+        {
+          "label": "UnpairedR",
+          "ref": "Luke5:12-16",
+          "title": "Jesus cleanses a leper",
+          "sourcePosition": 18,
+          "sourceTableRow": 25
+        },
+        {
+          "label": "G",
+          "ref": "Luke5:17-26",
+          "title": "Jesus heals a paralytic",
+          "sourcePosition": 19,
+          "sourceTableRow": 26
+        },
+        {
+          "label": "UnpairedT",
+          "ref": "Luke5:27-32",
+          "title": "Jesus calls Levi",
+          "sourcePosition": 20,
+          "sourceTableRow": 28
+        },
+        {
+          "label": "UnpairedU",
+          "ref": "Luke5:33-35",
+          "title": "The question about fasting",
+          "sourcePosition": 21,
+          "sourceTableRow": 29
+        },
+        {
+          "label": "H",
+          "ref": "Luke5:36-39",
+          "title": "The parables of wine and cloak",
+          "sourcePosition": 22,
+          "sourceTableRow": 30
+        },
+        {
+          "label": "UnpairedW",
+          "ref": "Luke6:1-5",
+          "title": "The question about the Sabbath",
+          "sourcePosition": 23,
+          "sourceTableRow": 32
+        },
+        {
+          "label": "UnpairedX",
+          "ref": "Luke6:6-11",
+          "title": "The man with a withered hand",
+          "sourcePosition": 24,
+          "sourceTableRow": 33
+        },
+        {
+          "label": "I",
+          "ref": "Luke6:12-19",
+          "title": "Jesus choose the twelve apostles",
+          "sourcePosition": 25,
+          "sourceTableRow": 34
+        },
+        {
+          "label": "UnpairedZ",
+          "ref": "Luke6:20-26",
+          "title": "Blessings and woes",
+          "sourcePosition": 26,
+          "sourceTableRow": 36
+        },
+        {
+          "label": "UnpairedAA",
+          "ref": "Luke6:27-36",
+          "title": "Love for enemies",
+          "sourcePosition": 27,
+          "sourceTableRow": 37
+        },
+        {
+          "label": "J",
+          "ref": "Luke6:37-38",
+          "title": "Judging others",
+          "sourcePosition": 28,
+          "sourceTableRow": 38
+        },
+        {
+          "label": "UnpairedAC",
+          "ref": "Luke6:39-40",
+          "title": "The disciple and the teacher",
+          "sourcePosition": 29,
+          "sourceTableRow": 40
+        },
+        {
+          "label": "UnpairedAD",
+          "ref": "Luke6:41-42",
+          "title": "The splinter in your brother's eye",
+          "sourcePosition": 30,
+          "sourceTableRow": 41
+        },
+        {
+          "label": "K",
+          "ref": "Luke6:43-45",
+          "title": "A tree and its fruits",
+          "sourcePosition": 31,
+          "sourceTableRow": 42
+        },
+        {
+          "label": "UnpairedAF",
+          "ref": "Luke6:46-49",
+          "title": "The two foundations",
+          "sourcePosition": 32,
+          "sourceTableRow": 44
+        },
+        {
+          "label": "UnpairedAG",
+          "ref": "Luke7:1-10",
+          "title": "Jesus heals a centurion's servant",
+          "sourcePosition": 33,
+          "sourceTableRow": 45
+        },
+        {
+          "label": "L",
+          "ref": "Luke7:11-17",
+          "title": "Jesus raises the widow's son at Nain",
+          "sourcePosition": 34,
+          "sourceTableRow": 46
+        },
+        {
+          "label": "UnpairedAI",
+          "ref": "Luke7:18-23",
+          "title": "Messengers from John the Baptist",
+          "sourcePosition": 35,
+          "sourceTableRow": 48
+        },
+        {
+          "label": "UnpairedAJ",
+          "ref": "Luke7:24-28",
+          "title": "No one is greater than John",
+          "sourcePosition": 36,
+          "sourceTableRow": 49
+        },
+        {
+          "label": "M",
+          "ref": "Luke7:29-35",
+          "title": "The people of this generation",
+          "sourcePosition": 37,
+          "sourceTableRow": 50
+        },
+        {
+          "label": "UnpairedAL",
+          "ref": "Luke7:36-50",
+          "title": "A sinful woman forgiven",
+          "sourcePosition": 38,
+          "sourceTableRow": 52
+        },
+        {
+          "label": "UnpairedAM",
+          "ref": "Luke8:1-3",
+          "title": "Some woman accompany Jesus",
+          "sourcePosition": 39,
+          "sourceTableRow": 53
+        },
+        {
+          "label": "N",
+          "ref": "Luke8:4-8",
+          "title": "The parable of the sower",
+          "sourcePosition": 40,
+          "sourceTableRow": 54
+        },
+        {
+          "label": "UnpairedAO",
+          "ref": "Luke8:9-10",
+          "title": "They may look but not see",
+          "sourcePosition": 41,
+          "sourceTableRow": 56
+        },
+        {
+          "label": "UnpairedAP",
+          "ref": "Luke8:11-15",
+          "title": "Meaning of the parable of the sower",
+          "sourcePosition": 42,
+          "sourceTableRow": 57
+        },
+        {
+          "label": "O",
+          "ref": "Luke8:16-18",
+          "title": "A lamp under a jar",
+          "sourcePosition": 43,
+          "sourceTableRow": 58
+        },
+        {
+          "label": "UnpairedAR",
+          "ref": "Luke8:19-21",
+          "title": "The true kindred of Jesus",
+          "sourcePosition": 44,
+          "sourceTableRow": 60
+        },
+        {
+          "label": "UnpairedAS",
+          "ref": "Luke8:22-25",
+          "title": "Jesus calms a storm",
+          "sourcePosition": 45,
+          "sourceTableRow": 61
+        },
+        {
+          "label": "P",
+          "ref": "Luke8:26-39",
+          "title": "Jesus heals the Gerasene demoniac",
+          "sourcePosition": 46,
+          "sourceTableRow": 62
+        },
+        {
+          "label": "UnpairedAU",
+          "ref": "Luke8:40-48",
+          "title": "A woman healed",
+          "sourcePosition": 47,
+          "sourceTableRow": 64
+        },
+        {
+          "label": "UnpairedAV",
+          "ref": "Luke8:49-56",
+          "title": "A girl restored to life",
+          "sourcePosition": 48,
+          "sourceTableRow": 65
+        },
+        {
+          "label": "Q",
+          "ref": "Luke9:1-6",
+          "title": "The mission of the twelve",
+          "sourcePosition": 49,
+          "sourceTableRow": 66
+        },
+        {
+          "label": "UnpairedAX",
+          "ref": "Luke9:7-9",
+          "title": "Herod's perplexity",
+          "sourcePosition": 50,
+          "sourceTableRow": 68
+        },
+        {
+          "label": "UnpairedAY",
+          "ref": "Luke9:10-17",
+          "title": "Feeding the five thousand",
+          "sourcePosition": 51,
+          "sourceTableRow": 69
+        },
+        {
+          "label": "R",
+          "ref": "Luke9:18-20",
+          "title": "Peter's declaration about Jesus",
+          "sourcePosition": 52,
+          "sourceTableRow": 70
+        },
+        {
+          "label": "UnpairedBA",
+          "ref": "Luke9:21-22",
+          "title": "Jesus fortells his death and resurrection",
+          "sourcePosition": 53,
+          "sourceTableRow": 72
+        },
+        {
+          "label": "UnpairedBB",
+          "ref": "Luke9:23-27",
+          "title": "The nature of discipleship",
+          "sourcePosition": 54,
+          "sourceTableRow": 73
+        },
+        {
+          "label": "S",
+          "ref": "Luke9:28-36",
+          "title": "The transfiguration",
+          "sourcePosition": 55,
+          "sourceTableRow": 74
+        },
+        {
+          "label": "UnpairedBD",
+          "ref": "Luke9:37-43",
+          "title": "Jesus heals a boy with a demon",
+          "sourcePosition": 56,
+          "sourceTableRow": 76
+        },
+        {
+          "label": "UnpairedBE",
+          "ref": "Luke9:44-45",
+          "title": "Jesus again fortells his death",
+          "sourcePosition": 57,
+          "sourceTableRow": 77
+        },
+        {
+          "label": "T",
+          "ref": "Luke9:46-50",
+          "title": "Ambition and Jealousy Rebuked",
+          "sourcePosition": 58,
+          "sourceTableRow": 78
+        },
+        {
+          "label": "UnpairedBG",
+          "ref": "Luke9:51-56",
+          "title": "A Samaritan village reguses to receive Jesus",
+          "sourcePosition": 59,
+          "sourceTableRow": 80
+        },
+        {
+          "label": "UnpairedBH",
+          "ref": "Luke9:57-62",
+          "title": "Would-be followers of Jesus",
+          "sourcePosition": 60,
+          "sourceTableRow": 81
+        },
+        {
+          "label": "U",
+          "ref": "Luke10:1-12",
+          "title": "The mission of the seventy",
+          "sourcePosition": 61,
+          "sourceTableRow": 82
+        },
+        {
+          "label": "UnpairedBJ",
+          "ref": "Luke10:13-16",
+          "title": "Woes to unrepentant cities",
+          "sourcePosition": 62,
+          "sourceTableRow": 84
+        },
+        {
+          "label": "UnpairedBK",
+          "ref": "Luke10:17-20",
+          "title": "The return of the seventy",
+          "sourcePosition": 63,
+          "sourceTableRow": 85
+        },
+        {
+          "label": "V",
+          "ref": "Luke10:21-24",
+          "title": "Jesus rejoices",
+          "sourcePosition": 64,
+          "sourceTableRow": 86
+        },
+        {
+          "label": "UnpairedBM",
+          "ref": "Luke10:25-37",
+          "title": "The parable of the good Samaritan",
+          "sourcePosition": 65,
+          "sourceTableRow": 88
+        },
+        {
+          "label": "UnpairedBN",
+          "ref": "Luke10:38-42",
+          "title": "Jesus visits Martha and Mary",
+          "sourcePosition": 66,
+          "sourceTableRow": 89
+        },
+        {
+          "label": "W",
+          "ref": "Luke11:1-4",
+          "title": "The LORD's prayer",
+          "sourcePosition": 67,
+          "sourceTableRow": 90
+        },
+        {
+          "label": "UnpairedBP",
+          "ref": "Luke11:5-13",
+          "title": "About prayer",
+          "sourcePosition": 68,
+          "sourceTableRow": 92
+        },
+        {
+          "label": "UnpairedBQ",
+          "ref": "Luke11:14-26",
+          "title": "Jesus and Beelzebul",
+          "sourcePosition": 69,
+          "sourceTableRow": 93
+        },
+        {
+          "label": "X",
+          "ref": "Luke11:27-28",
+          "title": "True blessedness",
+          "sourcePosition": 70,
+          "sourceTableRow": 94
+        },
+        {
+          "label": "UnpairedBS",
+          "ref": "Luke11:29-32",
+          "title": "The sign of Jonah",
+          "sourcePosition": 71,
+          "sourceTableRow": 96
+        },
+        {
+          "label": "UnpairedBT",
+          "ref": "Luke11:33-36",
+          "title": "The light of the body",
+          "sourcePosition": 72,
+          "sourceTableRow": 97
+        },
+        {
+          "label": "Y",
+          "ref": "Luke11:37-54",
+          "title": "Jesus denounces Pharisees and Lawyers",
+          "sourcePosition": 73,
+          "sourceTableRow": 98
+        },
+        {
+          "label": "UnpairedBV",
+          "ref": "Luke12:1-3",
+          "title": "A warning against hypocrisy",
+          "sourcePosition": 74,
+          "sourceTableRow": 100
+        },
+        {
+          "label": "UnpairedBW",
+          "ref": "Luke12:4-12",
+          "title": "Whom to fear",
+          "sourcePosition": 75,
+          "sourceTableRow": 101
+        },
+        {
+          "label": "Z",
+          "ref": "Luke12:13-21",
+          "title": "The parable of the rich fool",
+          "sourcePosition": 76,
+          "sourceTableRow": 102
+        },
+        {
+          "label": "UnpairedBY",
+          "ref": "Luke12:22-32",
+          "title": "Do not worry",
+          "sourcePosition": 77,
+          "sourceTableRow": 104
+        },
+        {
+          "label": "UnpairedBZ",
+          "ref": "Luke12:33-34",
+          "title": "Treasure in heaven",
+          "sourcePosition": 78,
+          "sourceTableRow": 105
+        },
+        {
+          "label": "AA",
+          "ref": "Luke12:35-40",
+          "title": "Watchful slaves",
+          "sourcePosition": 79,
+          "sourceTableRow": 106
+        },
+        {
+          "label": "UnpairedCB",
+          "ref": "Luke12:41-48",
+          "title": "The faithfiul or the unfaithful slave",
+          "sourcePosition": 80,
+          "sourceTableRow": 108
+        },
+        {
+          "label": "UnpairedCC",
+          "ref": "Luke12:49-53",
+          "title": "Jesus is the cause of division",
+          "sourcePosition": 81,
+          "sourceTableRow": 109
+        },
+        {
+          "label": "AB",
+          "ref": "Luke12:54-56",
+          "title": "With the Multitude about the Signs of the Time",
+          "sourcePosition": 82,
+          "sourceTableRow": 110
+        },
+        {
+          "label": "UnpairedCE",
+          "ref": "Luke12:57-59",
+          "title": "Your opponent will turn you over to the judge",
+          "sourcePosition": 83,
+          "sourceTableRow": 112
+        },
+        {
+          "label": "UnpairedCF",
+          "ref": "Luke13:1-5",
+          "title": "Repent or perish",
+          "sourcePosition": 84,
+          "sourceTableRow": 113
+        },
+        {
+          "label": "AC",
+          "ref": "Luke13:6-9",
+          "title": "The parable of the barren fig tree",
+          "sourcePosition": 85,
+          "sourceTableRow": 114
+        },
+        {
+          "label": "UnpairedCH",
+          "ref": "Luke13:10-17",
+          "title": "Jesus heals a crippled woman",
+          "sourcePosition": 86,
+          "sourceTableRow": 116
+        },
+        {
+          "label": "UnpairedCI",
+          "ref": "Luke13:18-21",
+          "title": "The parable of the Mustard seed and yeast",
+          "sourcePosition": 87,
+          "sourceTableRow": 117
+        },
+        {
+          "label": "AD",
+          "ref": "Luke13:22-30",
+          "title": "The narrow door",
+          "sourcePosition": 88,
+          "sourceTableRow": 118
+        },
+        {
+          "label": "UnpairedCK",
+          "ref": "Luke13:31-35",
+          "title": "The lament over Jerusalem",
+          "sourcePosition": 89,
+          "sourceTableRow": 120
+        },
+        {
+          "label": "UnpairedCL",
+          "ref": "Luke14:1-6",
+          "title": "Jesus heals the man with dropsy",
+          "sourcePosition": 90,
+          "sourceTableRow": 121
+        },
+        {
+          "label": "AE",
+          "ref": "Luke14:7-24",
+          "title": "The parable of the great dinner",
+          "sourcePosition": 91,
+          "sourceTableRow": 122
+        },
+        {
+          "label": "UnpairedCN",
+          "ref": "Luke14:25-35",
+          "title": "The cost of discipleship",
+          "sourcePosition": 92,
+          "sourceTableRow": 124
+        },
+        {
+          "label": "UnpairedCO",
+          "ref": "Luke15:1-10",
+          "title": "The parable of the lost sheep and coin",
+          "sourcePosition": 93,
+          "sourceTableRow": 125
+        },
+        {
+          "label": "AF",
+          "ref": "Luke15:11-32",
+          "title": "The parable of the prodigal and his brother",
+          "sourcePosition": 94,
+          "sourceTableRow": 126
+        },
+        {
+          "label": "UnpairedCQ",
+          "ref": "Luke16:1-13",
+          "title": "The parable of the dishonest manager",
+          "sourcePosition": 95,
+          "sourceTableRow": 128
+        },
+        {
+          "label": "UnpairedCR",
+          "ref": "Luke16:14-18",
+          "title": "The law and the kingdom of God",
+          "sourcePosition": 96,
+          "sourceTableRow": 129
+        },
+        {
+          "label": "AG",
+          "ref": "Luke16:19-31",
+          "title": "The rich man and Lazarus",
+          "sourcePosition": 97,
+          "sourceTableRow": 130
+        },
+        {
+          "label": "UnpairedCT",
+          "ref": "Luke17:1-10",
+          "title": "Some sayings of Jesus",
+          "sourcePosition": 98,
+          "sourceTableRow": 132
+        },
+        {
+          "label": "UnpairedCU",
+          "ref": "Luke17:11-19",
+          "title": "Jesus cleanses ten lepers",
+          "sourcePosition": 99,
+          "sourceTableRow": 133
+        },
+        {
+          "label": "AH",
+          "ref": "Luke17:20-37",
+          "title": "The coming of the kingdom",
+          "sourcePosition": 100,
+          "sourceTableRow": 134
+        },
+        {
+          "label": "UnpairedCW",
+          "ref": "Luke18:1-8",
+          "title": "The parable of the widow and the unjust judge",
+          "sourcePosition": 101,
+          "sourceTableRow": 136
+        },
+        {
+          "label": "UnpairedCX",
+          "ref": "Luke18:9-14",
+          "title": "The parable of the Pharisee and the tax collector",
+          "sourcePosition": 102,
+          "sourceTableRow": 137
+        },
+        {
+          "label": "AI",
+          "ref": "Luke18:15-17",
+          "title": "Jesus blesses little children",
+          "sourcePosition": 103,
+          "sourceTableRow": 138
+        },
+        {
+          "label": "UnpairedCZ",
+          "ref": "Luke18:18-30",
+          "title": "The rich ruler",
+          "sourcePosition": 104,
+          "sourceTableRow": 140
+        },
+        {
+          "label": "UnpairedDA",
+          "ref": "Luke18:31-34",
+          "title": "A third time Jesus foretells his death and resurrection",
+          "sourcePosition": 105,
+          "sourceTableRow": 141
+        },
+        {
+          "label": "AJ",
+          "ref": "Luke18:35-43",
+          "title": "Jesus heals a blind beggar near Jericho",
+          "sourcePosition": 106,
+          "sourceTableRow": 142
+        },
+        {
+          "label": "UnpairedDC",
+          "ref": "Luke19:1-10",
+          "title": "Jesus and Zacchaeus",
+          "sourcePosition": 107,
+          "sourceTableRow": 144
+        },
+        {
+          "label": "UnpairedDD",
+          "ref": "Luke19:11-27",
+          "title": "The parable of the ten Pounds",
+          "sourcePosition": 108,
+          "sourceTableRow": 145
+        },
+        {
+          "label": "AK",
+          "ref": "Luke19:28-44",
+          "title": "Jesus' triumphal entry into Jerusalem",
+          "sourcePosition": 109,
+          "sourceTableRow": 146
+        },
+        {
+          "label": "UnpairedDF",
+          "ref": "Luke19:45-48",
+          "title": "Jesus cleanses the temple",
+          "sourcePosition": 110,
+          "sourceTableRow": 148
+        },
+        {
+          "label": "UnpairedDG",
+          "ref": "Luke20:1-8",
+          "title": "The authority of Jesus questioned",
+          "sourcePosition": 111,
+          "sourceTableRow": 149
+        },
+        {
+          "label": "AL",
+          "ref": "Luke20:9-19",
+          "title": "The parable of the wicked tenants",
+          "sourcePosition": 112,
+          "sourceTableRow": 150
+        },
+        {
+          "label": "UnpairedDI",
+          "ref": "Luke20:20-26",
+          "title": "The question about paying taxes",
+          "sourcePosition": 113,
+          "sourceTableRow": 152
+        },
+        {
+          "label": "UnpairedDJ",
+          "ref": "Luke20:27-40",
+          "title": "The qusetion about the resurrection",
+          "sourcePosition": 114,
+          "sourceTableRow": 153
+        },
+        {
+          "label": "AM",
+          "ref": "Luke20:41-44",
+          "title": "The question about david's son",
+          "sourcePosition": 115,
+          "sourceTableRow": 154
+        },
+        {
+          "label": "UnpairedDL",
+          "ref": "Luke20:45-47",
+          "title": "Jesus denounces the scribes",
+          "sourcePosition": 116,
+          "sourceTableRow": 156
+        },
+        {
+          "label": "UnpairedDM",
+          "ref": "Luke21:1-4",
+          "title": "The widow's offering",
+          "sourcePosition": 117,
+          "sourceTableRow": 157
+        },
+        {
+          "label": "AN",
+          "ref": "Luke21:5-9",
+          "title": "The destruction of the temple foretold",
+          "sourcePosition": 118,
+          "sourceTableRow": 158
+        },
+        {
+          "label": "UnpairedDO",
+          "ref": "Luke21:10-19",
+          "title": "The end of the world",
+          "sourcePosition": 119,
+          "sourceTableRow": 160
+        },
+        {
+          "label": "UnpairedDP",
+          "ref": "Luke21:20-24",
+          "title": "The destruction of Jerusalem foretold",
+          "sourcePosition": 120,
+          "sourceTableRow": 161
+        },
+        {
+          "label": "AO",
+          "ref": "Luke21:25-28",
+          "title": "The coming of the Son of Man",
+          "sourcePosition": 121,
+          "sourceTableRow": 162
+        },
+        {
+          "label": "UnpairedDR",
+          "ref": "Luke21:29-33",
+          "title": "The parable of the fig tree",
+          "sourcePosition": 122,
+          "sourceTableRow": 164
+        },
+        {
+          "label": "UnpairedDS",
+          "ref": "Luke21:34-38",
+          "title": "Exhortation to watch",
+          "sourcePosition": 123,
+          "sourceTableRow": 165
+        },
+        {
+          "label": "AP",
+          "ref": "Luke22:1-6",
+          "title": "The plot to kill Jesus",
+          "sourcePosition": 124,
+          "sourceTableRow": 166
+        },
+        {
+          "label": "UnpairedDU",
+          "ref": "Luke22:7-13",
+          "title": "The preparation of the passover",
+          "sourcePosition": 125,
+          "sourceTableRow": 168
+        },
+        {
+          "label": "UnpairedDV",
+          "ref": "Luke22:14-23",
+          "title": "The institution of the Lord's supper",
+          "sourcePosition": 126,
+          "sourceTableRow": 169
+        },
+        {
+          "label": "AQ",
+          "ref": "Luke22:24-30",
+          "title": "The dispute about greatness",
+          "sourcePosition": 127,
+          "sourceTableRow": 170
+        },
+        {
+          "label": "UnpairedDX",
+          "ref": "Luke22:31-34",
+          "title": "Jesus predicts Peter's denial",
+          "sourcePosition": 128,
+          "sourceTableRow": 172
+        },
+        {
+          "label": "UnpairedDY",
+          "ref": "Luke22:35-39",
+          "title": "\"Purse, bag, and sword\"",
+          "sourcePosition": 129,
+          "sourceTableRow": 173
+        },
+        {
+          "label": "AR",
+          "ref": "Luke22:40-46",
+          "title": "Jesus prays on the Mount of Olives",
+          "sourcePosition": 130,
+          "sourceTableRow": 174
+        },
+        {
+          "label": "UnpairedEA",
+          "ref": "Luke22:47-53",
+          "title": "The betrayal and arrest of Jesus",
+          "sourcePosition": 131,
+          "sourceTableRow": 176
+        },
+        {
+          "label": "UnpairedEB",
+          "ref": "Luke22:54-65",
+          "title": "Peter denies Jesus",
+          "sourcePosition": 132,
+          "sourceTableRow": 177
+        },
+        {
+          "label": "AS",
+          "ref": "Luke22:66-71",
+          "title": "Jesus before the council",
+          "sourcePosition": 133,
+          "sourceTableRow": 178
+        },
+        {
+          "label": "UnpairedED",
+          "ref": "Luke23:1-5",
+          "title": "Jesus before Pilate",
+          "sourcePosition": 134,
+          "sourceTableRow": 180
+        },
+        {
+          "label": "UnpairedEE",
+          "ref": "Luke23:6-12",
+          "title": "Jesus before Herod",
+          "sourcePosition": 135,
+          "sourceTableRow": 181
+        },
+        {
+          "label": "AT",
+          "ref": "Luke23:13-25",
+          "title": "Jesus sentenced to death",
+          "sourcePosition": 136,
+          "sourceTableRow": 182
+        },
+        {
+          "label": "UnpairedEG",
+          "ref": "Luke23:26-32",
+          "title": "Jesus led away",
+          "sourcePosition": 137,
+          "sourceTableRow": 184
+        },
+        {
+          "label": "UnpairedEH",
+          "ref": "Luke23:33-38",
+          "title": "the crucifixion",
+          "sourcePosition": 138,
+          "sourceTableRow": 185
+        },
+        {
+          "label": "AU",
+          "ref": "Luke23:39-43",
+          "title": "Jesus and the two criminals",
+          "sourcePosition": 139,
+          "sourceTableRow": 186
+        },
+        {
+          "label": "UnpairedEJ",
+          "ref": "Luke23:44-49",
+          "title": "The death of Jesus",
+          "sourcePosition": 140,
+          "sourceTableRow": 188
+        },
+        {
+          "label": "UnpairedEK",
+          "ref": "Luke23:50-56",
+          "title": "The burial of Jesus",
+          "sourcePosition": 141,
+          "sourceTableRow": 189
+        },
+        {
+          "label": "AV",
+          "ref": "Luke24:1-12",
+          "title": "The resurrection of Jesus",
+          "sourcePosition": 142,
+          "sourceTableRow": 190
+        },
+        {
+          "label": "UnpairedEM",
+          "ref": "Luke24:13-35",
+          "title": "The walk to Emmaus",
+          "sourcePosition": 143,
+          "sourceTableRow": 192
+        },
+        {
+          "label": "UnpairedEN",
+          "ref": "Luke24:36-49",
+          "title": "Jesus appears to his desciples",
+          "sourcePosition": 144,
+          "sourceTableRow": 193
+        },
+        {
+          "label": "AW",
+          "ref": "Luke24:50-53",
+          "title": "The ascension of Jesus",
+          "sourcePosition": 145,
+          "sourceTableRow": 194
+        },
+        {
+          "label": "A′",
+          "ref": "Acts1:1-11",
+          "title": "1:1-11",
+          "sourcePosition": 1,
+          "sourceTableRow": 2
+        },
+        {
+          "label": "B′",
+          "ref": "Acts1:12-26",
+          "title": "1:12-26",
+          "sourcePosition": 2,
+          "sourceTableRow": 6
+        },
+        {
+          "label": "C′",
+          "ref": "Acts2:1-13",
+          "title": "2:1-13",
+          "sourcePosition": 3,
+          "sourceTableRow": 10
+        },
+        {
+          "label": "D′",
+          "ref": "Acts2:14-39",
+          "title": "2:14-39",
+          "sourcePosition": 4,
+          "sourceTableRow": 14
+        },
+        {
+          "label": "E′",
+          "ref": "Acts2:40-47",
+          "title": "2:40-47",
+          "sourcePosition": 5,
+          "sourceTableRow": 18
+        },
+        {
+          "label": "F′",
+          "ref": "Acts3:1-26 4:1-4",
+          "title": "3:1-26 4:1-4",
+          "sourcePosition": 6,
+          "sourceTableRow": 22
+        },
+        {
+          "label": "G′",
+          "ref": "Acts4:5-22",
+          "title": "4:5-22",
+          "sourcePosition": 7,
+          "sourceTableRow": 26
+        },
+        {
+          "label": "H′",
+          "ref": "Acts4:23-31",
+          "title": "4:23-31",
+          "sourcePosition": 8,
+          "sourceTableRow": 30
+        },
+        {
+          "label": "I′",
+          "ref": "Acts4:32-37",
+          "title": "4:32-37",
+          "sourcePosition": 9,
+          "sourceTableRow": 34
+        },
+        {
+          "label": "J′",
+          "ref": "Acts5:1-11",
+          "title": "5:1-11",
+          "sourcePosition": 10,
+          "sourceTableRow": 38
+        },
+        {
+          "label": "K′",
+          "ref": "Acts5:12-42",
+          "title": "5:12-42",
+          "sourcePosition": 11,
+          "sourceTableRow": 42
+        },
+        {
+          "label": "L′",
+          "ref": "Acts6:1-7",
+          "title": "6:1-7",
+          "sourcePosition": 12,
+          "sourceTableRow": 46
+        },
+        {
+          "label": "M′",
+          "ref": "Acts6:8-15 7:1-60",
+          "title": "6:8-15 7:1-60",
+          "sourcePosition": 13,
+          "sourceTableRow": 50
+        },
+        {
+          "label": "N′",
+          "ref": "Acts8:1-3",
+          "title": "8:1-3",
+          "sourcePosition": 14,
+          "sourceTableRow": 54
+        },
+        {
+          "label": "O′",
+          "ref": "Acts8:4-25",
+          "title": "8:4-25",
+          "sourcePosition": 15,
+          "sourceTableRow": 58
+        },
+        {
+          "label": "P′",
+          "ref": "Acts8:26-40",
+          "title": "8:26-40",
+          "sourcePosition": 16,
+          "sourceTableRow": 62
+        },
+        {
+          "label": "Q′",
+          "ref": "Acts9:1-22",
+          "title": "9:1-22",
+          "sourcePosition": 17,
+          "sourceTableRow": 66
+        },
+        {
+          "label": "R′",
+          "ref": "Acts9:23-31",
+          "title": "9:23-31",
+          "sourcePosition": 18,
+          "sourceTableRow": 70
+        },
+        {
+          "label": "S′",
+          "ref": "Acts9:32-43",
+          "title": "9:32-43",
+          "sourcePosition": 19,
+          "sourceTableRow": 74
+        },
+        {
+          "label": "T′",
+          "ref": "Acts10:1-23",
+          "title": "10:1-23",
+          "sourcePosition": 20,
+          "sourceTableRow": 78
+        },
+        {
+          "label": "U′",
+          "ref": "Acts10:24-48",
+          "title": "10:24-48",
+          "sourcePosition": 21,
+          "sourceTableRow": 82
+        },
+        {
+          "label": "V′",
+          "ref": "Acts11:1-18",
+          "title": "11:1-18",
+          "sourcePosition": 22,
+          "sourceTableRow": 86
+        },
+        {
+          "label": "W′",
+          "ref": "Acts11:19-24",
+          "title": "11:19-24",
+          "sourcePosition": 23,
+          "sourceTableRow": 90
+        },
+        {
+          "label": "X′",
+          "ref": "Acts11:25-30",
+          "title": "11:25-30",
+          "sourcePosition": 24,
+          "sourceTableRow": 94
+        },
+        {
+          "label": "Y′",
+          "ref": "Acts12:1-24",
+          "title": "12:1-24",
+          "sourcePosition": 25,
+          "sourceTableRow": 98
+        },
+        {
+          "label": "Z′",
+          "ref": "Acts12:25 13:1-13",
+          "title": "12:25 13:1-13",
+          "sourcePosition": 26,
+          "sourceTableRow": 102
+        },
+        {
+          "label": "AA′",
+          "ref": "Acts13:14-49",
+          "title": "13:14-49",
+          "sourcePosition": 27,
+          "sourceTableRow": 106
+        },
+        {
+          "label": "AB′",
+          "ref": "Acts13:50-52 14:1-28",
+          "title": "13:50-52 14:1-28",
+          "sourcePosition": 28,
+          "sourceTableRow": 110
+        },
+        {
+          "label": "AC′",
+          "ref": "Acts15:1-41 16:1-5",
+          "title": "15:1-41 16:1-5",
+          "sourcePosition": 29,
+          "sourceTableRow": 114
+        },
+        {
+          "label": "AD′",
+          "ref": "Acts16:6-10",
+          "title": "16:6-10",
+          "sourcePosition": 30,
+          "sourceTableRow": 118
+        },
+        {
+          "label": "AE′",
+          "ref": "Acts16:11-40",
+          "title": "16:11-40",
+          "sourcePosition": 31,
+          "sourceTableRow": 122
+        },
+        {
+          "label": "AF′",
+          "ref": "Acts17:1-15",
+          "title": "17:1-15",
+          "sourcePosition": 32,
+          "sourceTableRow": 126
+        },
+        {
+          "label": "AG′",
+          "ref": "Acts17:16-34",
+          "title": "17:16-34",
+          "sourcePosition": 33,
+          "sourceTableRow": 130
+        },
+        {
+          "label": "AH′",
+          "ref": "Acts18:1-23",
+          "title": "18:1-23",
+          "sourcePosition": 34,
+          "sourceTableRow": 134
+        },
+        {
+          "label": "AI′",
+          "ref": "Acts18:24-28 19:1-20",
+          "title": "18:24-28 19:1-20",
+          "sourcePosition": 35,
+          "sourceTableRow": 138
+        },
+        {
+          "label": "AJ′",
+          "ref": "Acts19:21-40 20:1-2",
+          "title": "19:21-40 20:1-2",
+          "sourcePosition": 36,
+          "sourceTableRow": 142
+        },
+        {
+          "label": "AK′",
+          "ref": "Acts20:3-14",
+          "title": "20:3-14",
+          "sourcePosition": 37,
+          "sourceTableRow": 146
+        },
+        {
+          "label": "AL′",
+          "ref": "Acts20:15-38",
+          "title": "20:15-38",
+          "sourcePosition": 38,
+          "sourceTableRow": 150
+        },
+        {
+          "label": "AM′",
+          "ref": "Acts21:1-17",
+          "title": "21:1-17",
+          "sourcePosition": 39,
+          "sourceTableRow": 154
+        },
+        {
+          "label": "AN′",
+          "ref": "Acts21:18-26",
+          "title": "21:18-26",
+          "sourcePosition": 40,
+          "sourceTableRow": 158
+        },
+        {
+          "label": "AO′",
+          "ref": "Acts21:27-40 22:1-30 23:1-10",
+          "title": "21:27-40 22:1-30 23:1-10",
+          "sourcePosition": 41,
+          "sourceTableRow": 162
+        },
+        {
+          "label": "AP′",
+          "ref": "Acts23:11-35",
+          "title": "23:11-35",
+          "sourcePosition": 42,
+          "sourceTableRow": 166
+        },
+        {
+          "label": "AQ′",
+          "ref": "Acts24:1-26",
+          "title": "24:1-26",
+          "sourcePosition": 43,
+          "sourceTableRow": 170
+        },
+        {
+          "label": "AR′",
+          "ref": "Acts24:27 25:1-12",
+          "title": "24:27 25:1-12",
+          "sourcePosition": 44,
+          "sourceTableRow": 174
+        },
+        {
+          "label": "AS′",
+          "ref": "Acts25:13-22",
+          "title": "25:13-22",
+          "sourcePosition": 45,
+          "sourceTableRow": 178
+        },
+        {
+          "label": "AT′",
+          "ref": "Acts25:23-27 26:1-32",
+          "title": "25:23-27 26:1-32",
+          "sourcePosition": 46,
+          "sourceTableRow": 182
+        },
+        {
+          "label": "AU′",
+          "ref": "Acts27:1-44",
+          "title": "27:1-44",
+          "sourcePosition": 47,
+          "sourceTableRow": 186
+        },
+        {
+          "label": "AV′",
+          "ref": "Acts28:1-15",
+          "title": "28:1-15",
+          "sourcePosition": 48,
+          "sourceTableRow": 190
+        },
+        {
+          "label": "AW′",
+          "ref": "Acts28:16-31",
+          "title": "28:16-31",
+          "sourcePosition": 49,
+          "sourceTableRow": 194
+        }
+      ],
+      "relationships": {
+        "A": "Dedication to Theophilus",
+        "B": "Words of the Holy Spirit",
+        "C": "Filled with the holy Spirit",
+        "D": "To know the Son of God",
+        "E": "People to be saved",
+        "F": "Jesus of Nazareth",
+        "G": "Power",
+        "H": "Rejection against new things",
+        "I": "Apostles",
+        "J": "To give / not to give",
+        "K": "Judgement based on behaviors",
+        "L": "Widows",
+        "M": "To rebel against the LORD",
+        "N": "Being persecuted and scattered",
+        "O": "Possession",
+        "P": "Driven by spirits",
+        "Q": "Mission",
+        "R": "Misunderstandings of the disciples",
+        "S": "Resurrection",
+        "T": "Acceptance by the command of the LORD",
+        "U": "Mission",
+        "V": "People who are saved",
+        "W": "Teachings",
+        "X": "Fulfilment of teachings",
+        "Y": "Martyrdom",
+        "Z": "Destiny of wicked person",
+        "AA": "Not being prepared for the Son of Man",
+        "AB": "The heaven and the earth",
+        "AC": "Mistakes of ancestors",
+        "AD": "Not being able to enter",
+        "AE": "To serve a meal",
+        "AF": "Resurrection",
+        "AG": "Unbelief of resurrection of dead",
+        "AH": "Persecution",
+        "AI": "The kingdom of God",
+        "AJ": "Keeping on crying",
+        "AK": "Being smashed to the ground",
+        "AL": "Death of the son",
+        "AM": "Jesus is the Messiah",
+        "AN": "Offerings for the temple",
+        "AO": "Confusion of people",
+        "AP": "Plot to kill",
+        "AQ": "Resurrection of the dead",
+        "AR": "Acceptance of sufferings",
+        "AS": "The chief priests wished death penalty",
+        "AT": "The people wished death penalty",
+        "AU": "Prophecy about salvation",
+        "AV": "Immortal",
+        "AW": "Keep on speaking about the LORD"
+      },
+      "kind": "Parallel / multi-part structure",
+      "note": "Complete quotation-free extraction of the source comparison table. Source pericope positions are retained; pair letters are ChiFold display labels, not labels printed in the table. Scripture quotation rows are excluded. Source references including subverse letters and compound ranges remain unchanged. The source comparisons run in the same direction. This is parallel organization, not a reverse-order chiasm; no unique center is specified. All96 unpaired Luke sections are retained as independent sections, not assigned invented Acts counterparts."
+    }
+  ],
+  "inventory": [
+    {
+      "sourceFile": "97_ExodusNumbers_e.html",
+      "tables": 1,
+      "importedTables": 1,
+      "excludedTables": 0,
+      "nodes": 98,
+      "pairs": 49,
+      "unpairedNodes": 0,
+      "classification": "Parallel / multi-part structure",
+      "verification": "Every numbered left source segment and every paired right segment retained; ordinal sequences checked independently; quotation-only second rows excluded."
+    },
+    {
+      "sourceFile": "98_JohnRevelation_e.html",
+      "tables": 1,
+      "importedTables": 1,
+      "excludedTables": 0,
+      "nodes": 162,
+      "pairs": 81,
+      "unpairedNodes": 0,
+      "classification": "Chiasm",
+      "verification": "Every numbered left source segment and every paired right segment retained; ordinal sequences checked independently; quotation-only second rows excluded."
+    },
+    {
+      "sourceFile": "99_LukeActs_e.html",
+      "tables": 1,
+      "importedTables": 1,
+      "excludedTables": 0,
+      "nodes": 194,
+      "pairs": 49,
+      "unpairedNodes": 96,
+      "classification": "Parallel / multi-part structure",
+      "verification": "Every numbered left source segment and every paired right segment retained; ordinal sequences checked independently; quotation-only second rows excluded."
+    }
+  ]
+}

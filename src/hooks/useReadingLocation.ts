@@ -112,6 +112,7 @@ export function useReadingLocation() {
   }
   return {
     ...state,
+    changeCatalogue: (value: import('../lib/structureCatalogue').StructureCatalogueState) => update({ type: 'catalogue', value }),
     selectPair: (value: string) => update({ type: "pair", value }),
     changeView: (value: ReaderState["view"]) => update({ type: "view", value }),
     selectEdition: (value: string) => update({ type: "edition", value }),

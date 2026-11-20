@@ -1,0 +1,88 @@
+{
+  "inputs": [
+    {
+      "file": "bethlehem-jesus-continued.html",
+      "url": "https://bethlehem.church/sermon/jesus-continued/",
+      "sha256": "a11c40da7576d2ff1f8b531952251de2106146d00a9c1a8ead220a996686186e"
+    }
+  ],
+  "maps": [
+    {
+      "id": "meyer-luke-acts",
+      "sourceId": "meyer-2020",
+      "sourceFile": "bethlehem-jesus-continued.html",
+      "sourceUrl": "https://bethlehem.church/sermon/jesus-continued/",
+      "title": "Luke and Acts: Jesus’s ministry and its continuation",
+      "kind": "Chiasm",
+      "boundaries": "Luke 1:1–24:53; Acts 1:1–28:31",
+      "locator": "Sermon transcript, section “Chiastic Structure of Luke-Acts”, ten labeled units",
+      "nodes": [
+        {
+          "label": "A",
+          "ref": "Luke1:1-4:13",
+          "title": "Jesus’s birth under Roman rule"
+        },
+        {
+          "label": "B",
+          "ref": "Luke4:14-9:50",
+          "title": "Jesus’s ministry in Galilee"
+        },
+        {
+          "label": "C",
+          "ref": "Luke9:51-18:34",
+          "title": "Jesus in Samaria and Judea"
+        },
+        {
+          "label": "D",
+          "ref": "Luke18:35-23:56",
+          "title": "Jesus in Jerusalem"
+        },
+        {
+          "label": "E",
+          "ref": "Luke24:1-53",
+          "title": "Jesus’s resurrection and ascension"
+        },
+        {
+          "label": "E′",
+          "ref": "Acts1:1-11",
+          "title": "The risen Jesus and his ascension"
+        },
+        {
+          "label": "D′",
+          "ref": "Acts1:12-7:60",
+          "title": "The church in Jerusalem"
+        },
+        {
+          "label": "C′",
+          "ref": "Acts8:1-12:25",
+          "title": "The church in Judea and Samaria"
+        },
+        {
+          "label": "B′",
+          "ref": "Acts13:1-20:38",
+          "title": "The church among Gentiles"
+        },
+        {
+          "label": "A′",
+          "ref": "Acts21:1-28:31",
+          "title": "Paul before Roman authorities and on the way to Rome"
+        }
+      ],
+      "relationships": {
+        "A": "Meyer frames the two volumes with Jesus’s birth under Roman rule and Paul’s encounters with Roman authorities and journey to Rome.",
+        "B": "Meyer pairs Jesus’s Galilean ministry with the church’s mission among Gentiles.",
+        "C": "Meyer pairs Jesus’s movement through Samaria and Judea with the church’s activity in those regions.",
+        "D": "Meyer pairs Jesus’s Jerusalem ministry and suffering with the church’s Jerusalem beginnings.",
+        "E": "Meyer places the resurrection and ascension accounts at the paired inner hinge."
+      },
+      "note": "Published pastoral interpretation, not a peer-reviewed consensus claim. Jason Meyer, Bethlehem Baptist Church, “Jesus, Continued”, November1,2020. All ten published source units retained; titles and explanations paraphrased by ChiFold. No unique singleton center is specified: the E/E′ hinge joins Luke24 with Acts1. This proposal is independent of Wolfe’s different Luke–Acts boundaries; do not merge them."
+    }
+  ],
+  "inventory": [
+    {
+      "sourceFile": "bethlehem-jesus-continued.html",
+      "sourceUnits": 10,
+      "importedUnits": 10
+    }
+  ]
+}

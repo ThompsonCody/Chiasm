@@ -1,6 +1,6 @@
 {
   "sourceOutlines": 1968,
-  "workingMaps": 972,
+  "workingMaps": 1323,
   "mapFiles": [
     {
       "id": "domka-enoch-9",
@@ -9,6 +9,474 @@
     {
       "id": "domka-watchers",
       "sha256": "1a67c046686e0756012665a4d09e752c1bb06237bb54ad38d5d7d20edc608525"
+    },
+    {
+      "id": "meyer-luke-acts",
+      "sha256": "380e522af7864d5035c66b7dc72f31c3c2d96be7d70d7a28035b8354241a280e"
+    },
+    {
+      "id": "murai-exodus-numbers",
+      "sha256": "2652def2c6a6919d839f060fe92b44c0094316a679463e7d99442248efee1f5c"
+    },
+    {
+      "id": "murai-john-revelation",
+      "sha256": "a87067c734bb2ef7c5a3204907eb82f699a6cf65f7387045b00c198dae00ff35"
+    },
+    {
+      "id": "murai-luke-acts",
+      "sha256": "55f2f70525a0538a97fe7bb3f0e19eb5aafe013d9298b39a46f9b3f093757706"
+    },
+    {
+      "id": "murai-minorprophets-1-1",
+      "sha256": "875d05f21ffb8c639c62c0b259c0a09116c0783e631c3b0172361819a179facd"
+    },
+    {
+      "id": "murai-minorprophets-2-1",
+      "sha256": "f925ca1247ddfa7ffdea9499d972896922b076834d81a6b11de4e63f8f4d3b38"
+    },
+    {
+      "id": "murai-minorprophets-2-2",
+      "sha256": "44ad375bb2de550445aafa09432832062b46ec705b65e533cfa4042147769cab"
+    },
+    {
+      "id": "murai-minorprophets-4-1",
+      "sha256": "6b224bc87d24bdc424d10c4bcbdd25e1c9c5b84cc8368cad73f0a7e80b07e7fe"
+    },
+    {
+      "id": "murai-minorprophets-4-2",
+      "sha256": "923cbb3f831e4768d01d9c819842beb77c03342c6236faa82dbe724ca0535b0a"
+    },
+    {
+      "id": "murai-minorprophets-4-3",
+      "sha256": "86006a77bbb3822618ae54193e6e83113ac490725171303eda4eaf8915429bb7"
+    },
+    {
+      "id": "murai-minorprophets-4-4",
+      "sha256": "03063dd49800dcb884031724b360a9a7774ccc45275e37b5ea62832c6e1bb708"
+    },
+    {
+      "id": "murai-minorprophets-5-1",
+      "sha256": "544295e8e8760f2d5538c03ba5e5bc426b8e13b8b87b251f2ec8f3ed9ecb6376"
+    },
+    {
+      "id": "murai-minorprophets-5-2",
+      "sha256": "11f0c6a0559b4150742e780fccb09f9f93353e6469e6118687c7ce5b5a572206"
+    },
+    {
+      "id": "murai-minorprophets-5-3",
+      "sha256": "0b0fba6ab14e2f72905afe55498f8928982e152cab697c9467c98e67daf545f3"
+    },
+    {
+      "id": "murai-minorprophets-5-4",
+      "sha256": "b1d3d461e78cf036e9c0dc20730489236b1392c9c8219c98d9281bcebd26d371"
+    },
+    {
+      "id": "murai-minorprophets-5-5",
+      "sha256": "d37aa825b3a35f1b020f6f57bc2c9207686d046330da3d67fdce447879db8a0b"
+    },
+    {
+      "id": "murai-minorprophets-pericope-1",
+      "sha256": "2c4a9e1496446d7cc5e3ce41a20195be5469b5674aaff9f9957d9bf8726f368b"
+    },
+    {
+      "id": "murai-minorprophets-pericope-10",
+      "sha256": "d876c5a3bb43daea7d38701bcd393b29a5a503a8a3af27e6497b276809db0349"
+    },
+    {
+      "id": "murai-minorprophets-pericope-100",
+      "sha256": "2c9445f364a83ec17453da675bfb38f162ed18595decd0cf3c509401c3e86878"
+    },
+    {
+      "id": "murai-minorprophets-pericope-101",
+      "sha256": "b6b94e33d677aecc4fc01f099ba38f67179304329c9a003bb8ac1ab428b14c3a"
+    },
+    {
+      "id": "murai-minorprophets-pericope-11",
+      "sha256": "990c5337bc2d93a9885c9447495dbb175c285576a56f7fa9a496c71b1664a012"
+    },
+    {
+      "id": "murai-minorprophets-pericope-12",
+      "sha256": "fc17dc4a47158cb468ac96c4217a932c67e59c071d03614dfc8cafad9cc680c5"
+    },
+    {
+      "id": "murai-minorprophets-pericope-13",
+      "sha256": "9f3e7a598b1a656b7269aeb9144d69ee0d37b74cf8df2abd5d0d49d8f42f82b5"
+    },
+    {
+      "id": "murai-minorprophets-pericope-14",
+      "sha256": "49ab32851faa60f84cb2db42fb525d085f0ae54ebf25184f49e6341babe4a6d8"
+    },
+    {
+      "id": "murai-minorprophets-pericope-15",
+      "sha256": "efc762bcf177e6275e48b3213d9af14f05fc26b8ced6729b9f9deffbe533fcd6"
+    },
+    {
+      "id": "murai-minorprophets-pericope-16",
+      "sha256": "2cc4f95713da5d61ee950a77ccb0f1fd2f43786aeb5d26f6d8fbc54ddae171d8"
+    },
+    {
+      "id": "murai-minorprophets-pericope-17",
+      "sha256": "32b2f936acfe3b8c349c689e2a4c6f255ed9118738aadd5baf511d880faa2fa8"
+    },
+    {
+      "id": "murai-minorprophets-pericope-18",
+      "sha256": "8c14b270bca6237655085518c55194a4c58c04f490e94a3dade3412242b027b8"
+    },
+    {
+      "id": "murai-minorprophets-pericope-19",
+      "sha256": "71c14fcdb23c8fb6ba951b123e6a516d68cfb5be12b3d3f96ecb3123671d2a27"
+    },
+    {
+      "id": "murai-minorprophets-pericope-2",
+      "sha256": "70fa2bd1a3d337dba82a57e3b0f8ba5e2c221244cce5fceb8f036d97d3d680a2"
+    },
+    {
+      "id": "murai-minorprophets-pericope-20",
+      "sha256": "4aee13a080f83e7196619af83dc834833866506dc242d5004a3ba06892d6ad2a"
+    },
+    {
+      "id": "murai-minorprophets-pericope-21",
+      "sha256": "7e07abf9cba27f4062b75ac14dc8e80efe86195bde53ec23127091ca1acb67ce"
+    },
+    {
+      "id": "murai-minorprophets-pericope-22",
+      "sha256": "a363c69836011f4facc1043b3a88bbe57c4e96e0715df8e1da935723b83feb11"
+    },
+    {
+      "id": "murai-minorprophets-pericope-23",
+      "sha256": "c2420ef6b735df101c29f619306f11cd8575e277d8b52e85db45de9f5629f15d"
+    },
+    {
+      "id": "murai-minorprophets-pericope-24",
+      "sha256": "f8daaa508c6707c7ce56c211b5dd1657ac1894119abe678519808792011406c0"
+    },
+    {
+      "id": "murai-minorprophets-pericope-25",
+      "sha256": "fc6585b28b92b70554311d39cf3b540b2ab1fafb4f0c495298034d9d72f4fa9b"
+    },
+    {
+      "id": "murai-minorprophets-pericope-26",
+      "sha256": "1fd48482502a7374e9be7ebf1ece843729e35181abcb1b77426d499eb276d7bd"
+    },
+    {
+      "id": "murai-minorprophets-pericope-27",
+      "sha256": "d36d027529a46cf67c9d10ea27942edcce34cb1be30cc85a898bc4770e845c0a"
+    },
+    {
+      "id": "murai-minorprophets-pericope-28",
+      "sha256": "2e6a62515e71800de5339091849050b6ec214e9c093c2299b3d95d47d1d9185c"
+    },
+    {
+      "id": "murai-minorprophets-pericope-29",
+      "sha256": "6280a2efb026ae44fc0235406d7d992aa05bf604beaabcd3aec364e5a28b3d3c"
+    },
+    {
+      "id": "murai-minorprophets-pericope-3",
+      "sha256": "4b9aa1ef5cbb84773553f9320014c068fa61f946659b3478daecf6925b698ef9"
+    },
+    {
+      "id": "murai-minorprophets-pericope-30",
+      "sha256": "e3b5cdea5c68045997d8b2417987131b5bc34b54ff255c8a1a8d43bcff2bbf04"
+    },
+    {
+      "id": "murai-minorprophets-pericope-31",
+      "sha256": "c934fd661b750cb1225a3a7716b237d5a3ca3f5470913264abd4d8125927b63c"
+    },
+    {
+      "id": "murai-minorprophets-pericope-32",
+      "sha256": "239bfc4104a67fcf0a6a2dde21728fd0ed17854eef8c2dd272b00de3156a7716"
+    },
+    {
+      "id": "murai-minorprophets-pericope-33",
+      "sha256": "68328a53ac5957601b6805abda52a0bdeb2a9e483f66400dbc63ee2281b97941"
+    },
+    {
+      "id": "murai-minorprophets-pericope-34",
+      "sha256": "b539a05965f1eb2d0134c38003f6b374273d818e2972d780a60c39c4fb5ea936"
+    },
+    {
+      "id": "murai-minorprophets-pericope-35",
+      "sha256": "8ed3562d861e995d5c88a0ccd617fe7d752dcf1877ea102536711332eb0e8eeb"
+    },
+    {
+      "id": "murai-minorprophets-pericope-36",
+      "sha256": "7c1996112d48646fae781ee4361eb972262d1a90b4cfe20cfdfb39c01de237d0"
+    },
+    {
+      "id": "murai-minorprophets-pericope-37",
+      "sha256": "1d84ae7aece0afbaee8246f710b51eed1c8445f17df152213d6ca71e2d51eae8"
+    },
+    {
+      "id": "murai-minorprophets-pericope-38",
+      "sha256": "3407a06bad60fde3b33be13bb56de3ce36c1e2a03edd8a738a5edecb1b19233d"
+    },
+    {
+      "id": "murai-minorprophets-pericope-39",
+      "sha256": "f6aa610d64c14fd7cf1297c22af9387fa3fe416eff4089bb6625c247f8d5695c"
+    },
+    {
+      "id": "murai-minorprophets-pericope-4",
+      "sha256": "70840b505d9829b1ac985f977975753e6a67ed575ebfa982025e5bd7f817fd16"
+    },
+    {
+      "id": "murai-minorprophets-pericope-40",
+      "sha256": "66559add9ae527267e8d29033b01399ce0e6c4faca545c2b20002feca8ebd18f"
+    },
+    {
+      "id": "murai-minorprophets-pericope-41",
+      "sha256": "c2ada775cbd549f134aa0c7b41b116b485951fb69526e86e18754c601561293c"
+    },
+    {
+      "id": "murai-minorprophets-pericope-42",
+      "sha256": "952a31afe6a67d834e1dfe3e85253c2ec4be51ddcaeaefcb3bc9dc98ed2b293b"
+    },
+    {
+      "id": "murai-minorprophets-pericope-43",
+      "sha256": "09ab075e0c2591b76d9dc039ec8db41e7a1850ae176f609fb2e76949c7896fcd"
+    },
+    {
+      "id": "murai-minorprophets-pericope-44",
+      "sha256": "e41c886833227334340e40f47032326f93534a3ccb91895aa41248ac70d52e8c"
+    },
+    {
+      "id": "murai-minorprophets-pericope-45",
+      "sha256": "9c962c9dc9274aa2b67483c1ba9cabe75ca32df0fa4548a96296ee85b4ebfba4"
+    },
+    {
+      "id": "murai-minorprophets-pericope-46",
+      "sha256": "34c661d7023e67406e41fcb68976f88e0b989ca8036ab571148383fa37a9740c"
+    },
+    {
+      "id": "murai-minorprophets-pericope-47",
+      "sha256": "79ed5827a30fb66b76a550d11f364b9a275fc0d2f2bc57e80f7eda60e538c1cb"
+    },
+    {
+      "id": "murai-minorprophets-pericope-48",
+      "sha256": "dca051723728c7715a89203ab6051c026eb51adf32e82f194fdfb57df9545e81"
+    },
+    {
+      "id": "murai-minorprophets-pericope-49",
+      "sha256": "21fb9414b228e06937bf1b4bd443296c474b703091f337b037742739b6222ba3"
+    },
+    {
+      "id": "murai-minorprophets-pericope-5",
+      "sha256": "cab5fa277d41d79e1f9a4301003dd034a7ca6c2200df50e4a060f17cf1bf50ae"
+    },
+    {
+      "id": "murai-minorprophets-pericope-50",
+      "sha256": "882ecb241276ad01dbf4060e5f0bc47cda2478e5523df4503f86fcbd3101a4f1"
+    },
+    {
+      "id": "murai-minorprophets-pericope-51",
+      "sha256": "4b32392be56311e5cc05068eb6a0a5ec36f1edf9a82bb141cffbba144572f69f"
+    },
+    {
+      "id": "murai-minorprophets-pericope-52",
+      "sha256": "4a11d48088a7175f2bc70c7c019d86e1ab9677c1cd6945e544961f9605a6ff6b"
+    },
+    {
+      "id": "murai-minorprophets-pericope-53",
+      "sha256": "79697ffda3adaf51e05b2cfb4b7744cc317e03e5fa19cfa5c2281f99f3d86d7f"
+    },
+    {
+      "id": "murai-minorprophets-pericope-54",
+      "sha256": "a64493c0d080e9dffdf3b7268d488066c1fb70f0fbffeccde3ac259b60041dce"
+    },
+    {
+      "id": "murai-minorprophets-pericope-55",
+      "sha256": "093f738bf0af277dae85cf2dd71d3ebd8d2d4415bad62d7411b0912c391daea5"
+    },
+    {
+      "id": "murai-minorprophets-pericope-56",
+      "sha256": "18d5941af90f70c25e88c62ba2560fa623a8dc7209272a8fdf1532e0c1c0947a"
+    },
+    {
+      "id": "murai-minorprophets-pericope-57",
+      "sha256": "3a83ddb762be5d0ec5649ba937d0757f7a6adf5841e7b1d3b2b95ddc050604fc"
+    },
+    {
+      "id": "murai-minorprophets-pericope-58",
+      "sha256": "61c11ce74c3d215cdad4f9fb350aaa20094b6eabb9543f8404ed16b80432571d"
+    },
+    {
+      "id": "murai-minorprophets-pericope-59",
+      "sha256": "24894d50b62c2a9eacf208c6eccf66522c3b29171a19c23ed8395d84120e2475"
+    },
+    {
+      "id": "murai-minorprophets-pericope-6",
+      "sha256": "95539312f554c435978b9956ab83d3313cbfe7a0e64ad46957d8b6acaadd9cff"
+    },
+    {
+      "id": "murai-minorprophets-pericope-60",
+      "sha256": "6550a8b21648c30be6406c4f794378208f0e0c7594ab3de3f867a48af32fdb5b"
+    },
+    {
+      "id": "murai-minorprophets-pericope-61",
+      "sha256": "a968383e9658e7f61ec76e2252245796c237f37aef94c0cf1cc35e2eb2b45cfc"
+    },
+    {
+      "id": "murai-minorprophets-pericope-62",
+      "sha256": "09f7288559508b6d81c41c1f235e4591bd7a922b97187427bcac5ee6d5ff31b0"
+    },
+    {
+      "id": "murai-minorprophets-pericope-63",
+      "sha256": "f83ecf98e19a1515e97cc619a5704946082f0384166a12ecf12c6edcb74e94b6"
+    },
+    {
+      "id": "murai-minorprophets-pericope-64",
+      "sha256": "50709d7a2d8455c64e2dce289490b49873cc6768980d547c65e6335790158f91"
+    },
+    {
+      "id": "murai-minorprophets-pericope-65",
+      "sha256": "2b87abf6c8f2c8bb9f1b4cc87cb9dab2b306b2bd0a35b0268f2c9e453eaaade8"
+    },
+    {
+      "id": "murai-minorprophets-pericope-66",
+      "sha256": "69b998475866b168737812f15580fb224ae684e62d6e168427237da0568c4dcb"
+    },
+    {
+      "id": "murai-minorprophets-pericope-67",
+      "sha256": "b28ed87a53eff55d89a2816010f617994f64c48df292be6862c51ac3debd5d15"
+    },
+    {
+      "id": "murai-minorprophets-pericope-68",
+      "sha256": "cb02eb452f0b7d6053bce08f8e3d6b2b0d060c8dee2246bd679506620d088b43"
+    },
+    {
+      "id": "murai-minorprophets-pericope-69",
+      "sha256": "1b9508c1856715a5b8495fbb46e4359b1da8706dc96cd165e08fca213cae2b50"
+    },
+    {
+      "id": "murai-minorprophets-pericope-7",
+      "sha256": "9290a9a65fc915975691c7563dde4588029c7105f9d204f2790b28dd1d7f66e9"
+    },
+    {
+      "id": "murai-minorprophets-pericope-70",
+      "sha256": "597a5f75110aa0b75a0153271c630815b09ba7299e6621337ac30103de190e5d"
+    },
+    {
+      "id": "murai-minorprophets-pericope-71",
+      "sha256": "5a210a22bea07933361462796beb1c7b5685be28162d6700e46495115ab0042a"
+    },
+    {
+      "id": "murai-minorprophets-pericope-72",
+      "sha256": "aa0fe09c25bebef42519776a7c2b49312904b43bfb520faa267aa74eab7badab"
+    },
+    {
+      "id": "murai-minorprophets-pericope-73",
+      "sha256": "b26fcde945a512fdd34e963b1cb2dc801e8c5646d102fb6a2b2a08e3ce403526"
+    },
+    {
+      "id": "murai-minorprophets-pericope-74",
+      "sha256": "6a16502dbd701d58b955e1854e818dcb91c034efd9ba42329e69bbb03a418930"
+    },
+    {
+      "id": "murai-minorprophets-pericope-75",
+      "sha256": "d57cea26599f7f5a9892d87be149af83e811eca28b8cda8b2648618bde1635ba"
+    },
+    {
+      "id": "murai-minorprophets-pericope-76",
+      "sha256": "98713058078ab64b2ad05c9d246942ad10781e78b91d360710f7552f4ea1e909"
+    },
+    {
+      "id": "murai-minorprophets-pericope-77",
+      "sha256": "b3279ef064e21d9b3614c5e1bfd87f347bc51a4e4b8e6a90dc280397a22889a5"
+    },
+    {
+      "id": "murai-minorprophets-pericope-78",
+      "sha256": "c1040fdec393ea6d142ea1310d72b65c0f2460b0b321a9c54292a1ad7868f027"
+    },
+    {
+      "id": "murai-minorprophets-pericope-79",
+      "sha256": "e7375e787214f7595c4b2c325ea4e459d858d36a90c4ac9344a1b3b811cbee8b"
+    },
+    {
+      "id": "murai-minorprophets-pericope-8",
+      "sha256": "2b8bc51573e9544f4cf6ab6a0d5500e4e9944e8cc443a2a09c0c2d593b94ca7c"
+    },
+    {
+      "id": "murai-minorprophets-pericope-80",
+      "sha256": "3fd7230484f359dfea63123308a0d219640da97f2e654c6e39cd7ac35dd42bb8"
+    },
+    {
+      "id": "murai-minorprophets-pericope-81",
+      "sha256": "3cb880a554897b17f8e2a6f83bc6264ab5426d30ac14cec09f3929d04253f058"
+    },
+    {
+      "id": "murai-minorprophets-pericope-82",
+      "sha256": "cf4de46b83094a2bcec0022f5ddd68b8ccd26e86fefc83a8eb0609151dc808d3"
+    },
+    {
+      "id": "murai-minorprophets-pericope-83",
+      "sha256": "529fe4e95988a22c4c9b0f4800b744220191919eedd4a5b1f36a65ff115ebfb5"
+    },
+    {
+      "id": "murai-minorprophets-pericope-84",
+      "sha256": "3419c251418879f5992f6c6fb9217abffa96069a18a5897a20298ba900b2f3a0"
+    },
+    {
+      "id": "murai-minorprophets-pericope-85",
+      "sha256": "e6a0616548092e42fcfb6faff1710b77986b316bcae2a2870bbeea8dc77c17d6"
+    },
+    {
+      "id": "murai-minorprophets-pericope-86",
+      "sha256": "b7484e0a049595b0e6d84899735b9e0ab5e6f0e00706224cbecaa894e8c2c1ab"
+    },
+    {
+      "id": "murai-minorprophets-pericope-87",
+      "sha256": "4d46395e37117522980f65efbd24f5631fa5a586e4fe39b7c2ae2b32934d3b89"
+    },
+    {
+      "id": "murai-minorprophets-pericope-88",
+      "sha256": "0427e7fd098a031dd13983761b9aec4a2befb064d42c20b2c680be7f87485510"
+    },
+    {
+      "id": "murai-minorprophets-pericope-89",
+      "sha256": "d5d61a4fa1ea81c2cec9b229fc7a0ce35031afd433c0ed25fe98a8320ba5a6da"
+    },
+    {
+      "id": "murai-minorprophets-pericope-9",
+      "sha256": "8e9143874587960d788cc861b3eca4ef1ea1b698e5c1d04d693a8a99f931f621"
+    },
+    {
+      "id": "murai-minorprophets-pericope-90",
+      "sha256": "5819e9b79d3f58cdc04d63e31d511a2c224112343b0b19d4c7c4fc082b44c5f3"
+    },
+    {
+      "id": "murai-minorprophets-pericope-91",
+      "sha256": "67dc4feb93eafcc26ab36ff65dbe87f00629c285c8d950c96df9b79a417590b4"
+    },
+    {
+      "id": "murai-minorprophets-pericope-92",
+      "sha256": "b142e90d1a906ec8820025e00efd12d3d2f8fd026281d00e460842ef46c3d4db"
+    },
+    {
+      "id": "murai-minorprophets-pericope-93",
+      "sha256": "e8066ec59b6f4b9a6dfdf487c11207d750d0ea45f1422e3114ef1abccf10b1b3"
+    },
+    {
+      "id": "murai-minorprophets-pericope-94",
+      "sha256": "90df9835c0cbd5b3e5c93934b70f00f2c158933a21fedc46a04f3af8fff30056"
+    },
+    {
+      "id": "murai-minorprophets-pericope-95",
+      "sha256": "d466096e199953379f509291720fb1a682ca2a47634bf5dfbf0ed2685bf9bcdd"
+    },
+    {
+      "id": "murai-minorprophets-pericope-96",
+      "sha256": "bf122c1398967742a739c04de40ea390ee4cb2456e55b1f8dc61da3b115da9e0"
+    },
+    {
+      "id": "murai-minorprophets-pericope-97",
+      "sha256": "b6d627712b8eb86f55a0b58d18b0c869525461535123d34901c7616d3580f217"
+    },
+    {
+      "id": "murai-minorprophets-pericope-98",
+      "sha256": "7c1d827ac01f44d491e611fba008935e8daebae5b38c302cdfc5c15cd726edb7"
+    },
+    {
+      "id": "murai-minorprophets-pericope-99",
+      "sha256": "994966ed1e6b626ea31fcf3c7f3e1ae33263acec0cab2daaf64094057ad71ff5"
     },
     {
       "id": "murai-nt-1corinthians-r10",
@@ -3887,12 +4355,953 @@
       "sha256": "0a0617bbf05c7fa281e3c8bcd75bcca2cb599b729b48b3dee972ea490a40a059"
     },
     {
+      "id": "murai-web-chronicles-1-1",
+      "sha256": "c9fce1d4ddc1ae7f16cda03d7293c5bfbaf001df6116099d8336231d9ad9fed2"
+    },
+    {
+      "id": "murai-web-chronicles-2-1",
+      "sha256": "dad28cfe1e1cc58695188a7aa84df6384c0160a5c002e96f42b3b38e4b9b318b"
+    },
+    {
+      "id": "murai-web-chronicles-2-2",
+      "sha256": "9ae0ab72d3b82689490aa35ec7af1fac939e778772cdd997fe34dce5181ad3db"
+    },
+    {
+      "id": "murai-web-chronicles-3-1-1",
+      "sha256": "ec847dd65f6a82c9aa23fbb9e3efb051f3d4922a9f2b84060304bd0119be751a"
+    },
+    {
+      "id": "murai-web-chronicles-3-1-2",
+      "sha256": "163f19dc915d39f543c013841e41e9cdc144ab4be74901718bfe5bc388131757"
+    },
+    {
+      "id": "murai-web-chronicles-3-1",
+      "sha256": "da1f888d7a77f45483612e22d8490a7a6be950d6a6ae757dbc1be4b907aa1d6e"
+    },
+    {
+      "id": "murai-web-chronicles-3-2-1",
+      "sha256": "eb3708b8cf78bd443950c745f3e190544dfe850d36de8eb1fce45f1891c35884"
+    },
+    {
+      "id": "murai-web-chronicles-3-2-2",
+      "sha256": "5166cde730c0be78c141c99230c740f52f15e1bba8ef8073e1b6f72dd5c76f53"
+    },
+    {
+      "id": "murai-web-chronicles-3-2",
+      "sha256": "be9fc766a7c9f34d0bc4253bc04483a20281438d37276858e1a5a097ccdd0723"
+    },
+    {
+      "id": "murai-web-chronicles-3-3-1",
+      "sha256": "36b208f76914ac9112486ba5de53ee13135596b0084c1e5ec132f7178413e78b"
+    },
+    {
+      "id": "murai-web-chronicles-3-3-2",
+      "sha256": "a58cf3a2815450f34a4e447431cefad48e7e4afe6f87b91324be2e9600563094"
+    },
+    {
+      "id": "murai-web-chronicles-3-3",
+      "sha256": "c2208514dd093b7ea821e6dcca049f037b8effdf59c4edd0f1345ca095be59c1"
+    },
+    {
+      "id": "murai-web-chronicles-4-1-1",
+      "sha256": "431ae924852c80b51ebab8135f114e3718dcbb35999a76586898a75ce2a3fd84"
+    },
+    {
+      "id": "murai-web-chronicles-4-1-2",
+      "sha256": "7a939bb5311c19cb71b3d7b1ef2cbf879b9a4b5b5d928a3c4d0f66df3301b973"
+    },
+    {
+      "id": "murai-web-chronicles-4-1",
+      "sha256": "af6e63114d48300dbac5c43fb371ad6a2020f7011f000b714ce8f952c40e5c46"
+    },
+    {
+      "id": "murai-web-chronicles-4-2-1",
+      "sha256": "cb1400b3124f41fedafbd507ecc1f417e06819dd2fa436d4d29630be8dc230ca"
+    },
+    {
+      "id": "murai-web-chronicles-4-2-2",
+      "sha256": "c8518b5b3c8c51a28a3756308af6413252f3ebbd564dc02e5fcd3991b8ce3095"
+    },
+    {
+      "id": "murai-web-chronicles-4-2",
+      "sha256": "d54b74c1fecceb52c3064c796eb6a5b7c464a65dd192ebc89187e4689c7894fe"
+    },
+    {
+      "id": "murai-web-chronicles-4-3-1",
+      "sha256": "bfdba868840685814741bae68916f047f8578cdea0b99eee116e60195e8fd039"
+    },
+    {
+      "id": "murai-web-chronicles-4-3-2",
+      "sha256": "d198269aea91c45e5999ed556c95aa8eae663011d0301f904b6dee7c09866efd"
+    },
+    {
+      "id": "murai-web-chronicles-4-3",
+      "sha256": "6b49c617743fa306276ce3e07468d7a5d6f07897684bcaea556d9b8fcee31071"
+    },
+    {
+      "id": "murai-web-chronicles-4-4-1",
+      "sha256": "25b375b5743a592fa3c506039b3fe3f926815b66c50703852c47924e2a96ce05"
+    },
+    {
+      "id": "murai-web-chronicles-4-4-2",
+      "sha256": "cccae702bce20f5434ae75776b5e4e4643f964156717c32d37a4ceb3eb8cb1db"
+    },
+    {
+      "id": "murai-web-chronicles-4-4",
+      "sha256": "b9837a9e4d554d851ec2323059433f844d885a27a99ed00cd0abe987a18307a5"
+    },
+    {
+      "id": "murai-web-chronicles-5-1-1",
+      "sha256": "11a670f2d8e7f4d862c0772a5a354c24aeddd3fa4f88bd389f5a2e1280b447c3"
+    },
+    {
+      "id": "murai-web-chronicles-5-1-2",
+      "sha256": "e00fe92e993be34f9b19b032c5a0a238b927d302316dde461746f4fc133b48b8"
+    },
+    {
+      "id": "murai-web-chronicles-5-1",
+      "sha256": "d6dc02f26c0789c9434b41d2eb7d9be1fd7db88e410255e29dbdb23b292f55c6"
+    },
+    {
+      "id": "murai-web-chronicles-5-2-1",
+      "sha256": "35585f90d5b47421b5d510eacfba0da2f569456514d39417a361d188da9ed72e"
+    },
+    {
+      "id": "murai-web-chronicles-5-2-2",
+      "sha256": "b2d80ccfbee2e9cd7b64e6e26241242e41b5c9a8b1aded7aac73b2d4ea40c8f1"
+    },
+    {
+      "id": "murai-web-chronicles-5-2",
+      "sha256": "504ed9e773584ed0119bc26087a44eee5c73f6266d278fd9cb794f2972caea80"
+    },
+    {
+      "id": "murai-web-chronicles-5-3-1",
+      "sha256": "4302fcf66ef3c38e109681038fd9364ff46885eba9b9373cad094f83c2b365b2"
+    },
+    {
+      "id": "murai-web-chronicles-5-3-2",
+      "sha256": "9ae0b2c75939d29b86ef0cac8963ac768444dfc74b5e7637038700d1dc685304"
+    },
+    {
+      "id": "murai-web-chronicles-5-3",
+      "sha256": "b97faebe8785931bdfd6bd553e4adc393bdb6373b28e21be08adfddcaabde56e"
+    },
+    {
+      "id": "murai-web-chronicles-5-4-1",
+      "sha256": "964e100291f5706b9fba448663e20b1258767621490ffe160d40242316176a6b"
+    },
+    {
+      "id": "murai-web-chronicles-5-4-2",
+      "sha256": "1f5b610a7f308bb193a58108614c8697e9e31c7f1473cbc76d980b066f8ba7b1"
+    },
+    {
+      "id": "murai-web-chronicles-5-4",
+      "sha256": "ba8f43054d44b47904d00ca25a92505884effdc57fdc42bdfd1533a4f25d75b3"
+    },
+    {
+      "id": "murai-web-chronicles-5-5-1",
+      "sha256": "021747f8287f7a00b78657a1ad48e35df4fc37a4ea93b40fc5ece6159378e840"
+    },
+    {
+      "id": "murai-web-chronicles-5-5-2",
+      "sha256": "0d202eddb8a12fb865e980e7c19e4fc2ad95e2a0c2789f42a3eac146d704510d"
+    },
+    {
+      "id": "murai-web-chronicles-5-5",
+      "sha256": "67de772156f57134cda778e5e1850d18bc03c7d4b1e011ea568805ed7c825bc4"
+    },
+    {
+      "id": "murai-web-chronicles-9-1-1",
+      "sha256": "3e1df097f35dea6bc7b60de1415d6c148984dae5c6b8c9f17b09d17b9b54c214"
+    },
+    {
+      "id": "murai-web-chronicles-9-1-2",
+      "sha256": "23eb9e1c2c21ba3e8f81c1ddabd6687242fcc43edab97236fe3bb71fd4819fa4"
+    },
+    {
+      "id": "murai-web-chronicles-9-2-1",
+      "sha256": "eefb68216c1f3d4a0596775745812402a10b773b00085a63b8dbbd7606603040"
+    },
+    {
+      "id": "murai-web-chronicles-9-2-2",
+      "sha256": "babf015a2c71f047ba1d16948e1644839a0d16af1c6371d60e5ffb9cab43bc5a"
+    },
+    {
+      "id": "murai-web-chronicles-9-2",
+      "sha256": "0382ab097eba13bc8b2bc539c4774f4cf75b54e954cef5246c2f2209cd5057ca"
+    },
+    {
+      "id": "murai-web-chronicles-9-3-1",
+      "sha256": "f8120d1a3fc513ac067a522eb5e1de190f4b6d4b7ac2e8cbac79d0f5cce599f3"
+    },
+    {
+      "id": "murai-web-chronicles-9-3-2",
+      "sha256": "346cc6a0547c224b61d90a06e0b9eac28e76515764fb2211176018ebf3a5f24a"
+    },
+    {
+      "id": "murai-web-chronicles-9-3",
+      "sha256": "d37eef56235246b7959f842e2d7a5ffd3723675d8197ccd1df6c24f621f58b60"
+    },
+    {
+      "id": "murai-web-chronicles-9-4-1",
+      "sha256": "bace84912ef20d432bf56d8aeab1f5b81f5e2c4bb5ebb253353ecebb5a49fdfb"
+    },
+    {
+      "id": "murai-web-chronicles-9-4-2",
+      "sha256": "0ddf2b59e3da54863d91daacb571b5c1757eecbd7a574b96a1c9b578f88ed0a8"
+    },
+    {
+      "id": "murai-web-chronicles-9-4",
+      "sha256": "6e854ae4963afdc7c963f152baa5067cfd73f18ca8b2e6f3fa95fc5decd32d31"
+    },
+    {
+      "id": "murai-web-chronicles-9-5-1",
+      "sha256": "526e696d9863fb791767c1022b869ba71646e49eed75bacd817b09395a37d7df"
+    },
+    {
+      "id": "murai-web-chronicles-9-5-2",
+      "sha256": "7371e52ddf99edce6cf7f43b87860dbfa603e652e468a01f523c766c33d90fa1"
+    },
+    {
+      "id": "murai-web-chronicles-9-5",
+      "sha256": "6c76977fa5cf2af54f326923c726525037e93a11ce5fc7c499fb9299025cd240"
+    },
+    {
+      "id": "murai-web-chronicles-9-6-1",
+      "sha256": "e7f5b30a382da4d121a90c2daa5e6350f24537e9bd9c586bd37bb888f31ef2f2"
+    },
+    {
+      "id": "murai-web-chronicles-9-6-2",
+      "sha256": "e7d90c4812c78276622decb38650a5150587f68fa299f98a046dcb7977e50b81"
+    },
+    {
+      "id": "murai-web-chronicles-9-6",
+      "sha256": "c856492c13a6ffce5dcc1b03ba127423b31f31bab5f3c194b10ebf65c4a0ad18"
+    },
+    {
+      "id": "murai-web-chronicles-9-7-1",
+      "sha256": "8efe2f768095be92f96526a40378710b87362e2f04b18192150c56abc24def9a"
+    },
+    {
+      "id": "murai-web-chronicles-9-7-2",
+      "sha256": "043577853daba4335dd4ddfdd5fba17c90765f353c6aa33ab2ff3828e0bfe6b3"
+    },
+    {
+      "id": "murai-web-chronicles-9-7",
+      "sha256": "7242368d4e0d939ebeb9741b55b3799e3772c1f4d0dd007833772ae48ae74dc1"
+    },
+    {
+      "id": "murai-web-chronicles-9-8-1",
+      "sha256": "eecdcb488d81703cda750783b6787db8ea443d25f33471f9c1d21cf12ff3d14a"
+    },
+    {
+      "id": "murai-web-chronicles-9-8-2",
+      "sha256": "c08d54ec9aaa7fec6559ba270628db7304946aa6e072a84b6138fa9e1945e593"
+    },
+    {
+      "id": "murai-web-chronicles-9-8",
+      "sha256": "32e0a2d5a549bfca2b94eacf88e2d93af9f5ea6d64be646b3dc23d642a7d85a7"
+    },
+    {
+      "id": "murai-web-chronicles-9-9-1",
+      "sha256": "7332a1ac39680db57d078bfc9e37ad4f0ec62ea3639cd582ad51901cc249f20b"
+    },
+    {
+      "id": "murai-web-chronicles-9-9-2",
+      "sha256": "896a5adef961cfaf39bd7ac878deec10d06504c50ec57a727ed8059027368681"
+    },
+    {
+      "id": "murai-web-ezranehemiah-1-1-1",
+      "sha256": "3b26d9b6d91bbcd69e9ddb0e5b1f025972490e5cdf4d4b9e107ebceacd49da8d"
+    },
+    {
+      "id": "murai-web-ezranehemiah-1-1-2",
+      "sha256": "dabad0a886aa41d59b8d6b44526f7a8475aa84755758ecae241dadbc539c62c4"
+    },
+    {
+      "id": "murai-web-ezranehemiah-1-1",
+      "sha256": "9ddc49de31e546ba646f0a6db7d88cddcbdeec0299d962d313a78ecbe06af372"
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-1-1",
+      "sha256": "7b218d76d3c33b68b82ff1626a2bb548c2389feefce084abd8726da299eb9827"
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-1-2",
+      "sha256": "6daf24bd8abed336f5833f4871d0ffb15162e079e1edcfecd10c75d4f9359c0c"
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-1",
+      "sha256": "6684e861ecddd95fc33722d6920434d7716e206325308aecfc269af2af958ce3"
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-2-1",
+      "sha256": "6719e87b6c98627cda29f0baa8889ec009eaaaf9f816f16f9df93990517592fe"
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-2-2",
+      "sha256": "a8bf49657de21cb54b37127a91d9a9059a0b10b5dd7b8e42bcf5b0a9927ca669"
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-2",
+      "sha256": "0ede9ec1725822c3767f4fc775ff9bf4a916c6a06dd2e6a0564c2cf45d7e033d"
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-3-1",
+      "sha256": "8f1b9363f0c728b5b2bf9a012fd7c2f04dfdc3465ed7d2485abdb569d7bb48d1"
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-3-2",
+      "sha256": "6ae52f3d6e2926e686d69981a769c51ba07ba44f2d001864931a10788bc32920"
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-3",
+      "sha256": "4af8102b688594a4690c90f6815c6d0d37de15100dfbaec40047b13d42a11ed5"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-1-1",
+      "sha256": "e728c146b96ea9370eaffd52db984201e0e7978c2764ea571b8280d1bbdb0d78"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-1-2",
+      "sha256": "9f8cadb1bca521713a9b9e775b0c3bb4d09cd9a88c39b19afb389a303fb97c30"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-1",
+      "sha256": "51c1e8fff0983ffc77f19f88d9ceb98e32a3d4452b277cf322044f68284b44f5"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-2-1",
+      "sha256": "c7027f1c00843e68e0409a79461b44c99a3e8182890a74216b847bfd22b9560d"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-2-2",
+      "sha256": "b4f1eb2000af6a1626347e5059f35c3b5c3b38142b1d033500490c0ef71dcf77"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-2",
+      "sha256": "165391d59d34cc8512f2625b9282d131a7bfe0d2e1eab2a29ee69df289e9fc9e"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-3-1",
+      "sha256": "2e967f50211ecae5a9e025b20631e14fadb58f210f8cb1cf6dc22a376088548b"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-3-2",
+      "sha256": "68af3fe75a48a040c96e25ee54299c01f8734e0fc01c519bee8c7f4dfe8405c7"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-3",
+      "sha256": "de29093ecd94e2475103a12f76289c6a0f09d05f2701cc99cd4792f16dd7202c"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-4-1",
+      "sha256": "39d96dff663e86f4e36ae81d45775dba3a26e6441588f8ac567caa680786da4f"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-4-2",
+      "sha256": "177f1b4081ae5df0fcb87d262a67dcd215481da55cf41f7e0c210186d6c214ad"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-4",
+      "sha256": "742bd67c472d9619638d0b12c220ed823601ef26304b96db5fa7b011b7513d50"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-1-1",
+      "sha256": "1779b9c56b4d3addc13cd6b473dc934276f449cbcfdae2a1046f7138e5db63dc"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-1-2",
+      "sha256": "1e12662b2fe1762370b81715dea81f9374d76b86981a61945a53f23e23b26f43"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-2-1",
+      "sha256": "4491f39e958b7b7ccf012b59bb1f6f49412b3fc8f92749786b2d87e2b30da404"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-2-2",
+      "sha256": "b1794d80499108b6858f76bbe45bdd18516c4cf531abc8ff2fd77de5d06716df"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-2",
+      "sha256": "a894cfa81402f62fd583a81ccac4de0943cffd6e05007fe24f21d01f0d9da583"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-3-1",
+      "sha256": "4d06b60cbf8d6cc9b75453529ff2f7a938ecab237f2fa5bb451d2a4bfd0b5295"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-3-2",
+      "sha256": "a9f6f01f94f01cc08fd90d723b340153432358fb2faf54397317ff10f64bda6b"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-3",
+      "sha256": "f84841ab2e4f5b31d13dc86d28bd6fe848a4bb9d5a56f1f0d7c967bceb2aa9bb"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-4-1",
+      "sha256": "2ecb7c335d56db024d228c8fc995d6d60370f4e86e51cc808c9ab21658b968a6"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-4-2",
+      "sha256": "1df4225838de08ada84b94f5e11315b8d3a39f597b48ace79a17961ce9a2d15a"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-4",
+      "sha256": "84c947737840940af1abca27032839ace0388659066ccfaa18932d420c2c5678"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-5-1",
+      "sha256": "a3648126b184c3bfca53404568008dec5438a9e8d76255683b41ef3851e12755"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-5-2",
+      "sha256": "6cc8a05e58adfc0f35b5ccc128fdaaee838353b13a1024020866b606418ad84b"
+    },
+    {
+      "id": "murai-web-kings-1-1",
+      "sha256": "d7e6b484f55d9a485b690682849290425fb957bbef626b865602ec58edde0af5"
+    },
+    {
+      "id": "murai-web-kings-2-1",
+      "sha256": "1168b69c0356cc90c519ccdb196ae137bea5e9f2d0b5c3844634ee8c6824b161"
+    },
+    {
+      "id": "murai-web-kings-2-2",
+      "sha256": "47480ebcab0367b1db5e28d3c216ed3722fc826673bf8620049bd5e680376637"
+    },
+    {
+      "id": "murai-web-kings-3-1-1",
+      "sha256": "e9a1c207de184489a20f7ce9212d1cb0304b66f0d773a5a35e152fb4ca4c383a"
+    },
+    {
+      "id": "murai-web-kings-3-1-2",
+      "sha256": "e4e0f22a9ab8a12e88eb023be24dd24f1e68e68cc88ef9fbe3a5dd2759230bbe"
+    },
+    {
+      "id": "murai-web-kings-3-1",
+      "sha256": "353b2838fc5a754bb898f471d0274087cd620c3ff85a5b25f749f17274605db8"
+    },
+    {
+      "id": "murai-web-kings-3-2-1",
+      "sha256": "42fb6eb214ebafb751e1287d35d6cd4caf6c5c6df819ed5a40aac2b6ec0ae457"
+    },
+    {
+      "id": "murai-web-kings-3-2-2",
+      "sha256": "53e3bfb870ea342a727e64f3d9b6c59ffc52265153d82486616aaf737d61fec0"
+    },
+    {
+      "id": "murai-web-kings-3-2",
+      "sha256": "33edafb95b3bef8ee17cdfe8fa90bef65c258b6e5b0b502d3f9497c7bbfd027b"
+    },
+    {
+      "id": "murai-web-kings-3-3-1",
+      "sha256": "d565ae6bbf6421434fe2d8be3aa38e215af201c927c82cc64d8f0e7c0e986725"
+    },
+    {
+      "id": "murai-web-kings-3-3-2",
+      "sha256": "8534e67c8f0d8e973465ad811d10161f4b3ebe3dbefbbaa4bcaa6eb569bb9a70"
+    },
+    {
+      "id": "murai-web-kings-3-3",
+      "sha256": "b9b4969d9c4099632bf3e9aa171c2b83246f60b91fe1e50bbe90a0950a46d977"
+    },
+    {
+      "id": "murai-web-kings-4-1-1",
+      "sha256": "97e3fd9aff8a9b85934f6188c8b10fc64c69c2e3e266974b71b7e2f8a4a3cbb7"
+    },
+    {
+      "id": "murai-web-kings-4-1-2",
+      "sha256": "2201f01835220c3f607791c7c8847aa04b327e43554e087969d69e31a1aef288"
+    },
+    {
+      "id": "murai-web-kings-4-1",
+      "sha256": "c1c1ff11615a4f835d39003a82d399fb538779d17931fe815efa572a8ff1599a"
+    },
+    {
+      "id": "murai-web-kings-4-2-1",
+      "sha256": "d356748a0268568481aca577269cbea694bff509afa4292eda6d4286ae550dac"
+    },
+    {
+      "id": "murai-web-kings-4-2-2",
+      "sha256": "0568180b6b0bdd89bdb40494d3383a17830425605c9c2fdcbf5f70f18a08eb2f"
+    },
+    {
+      "id": "murai-web-kings-4-2",
+      "sha256": "44c3107a5918160d521eb64e7dfd8daa16a4289bd9d38e1e464b2f1e62dd26f7"
+    },
+    {
+      "id": "murai-web-kings-4-3-1",
+      "sha256": "1bcc4934af0fdaa24927d6690c07f618e14e168f6df6b1abedc3866137213854"
+    },
+    {
+      "id": "murai-web-kings-4-3-2",
+      "sha256": "70b7bc3475aa3fc77fa3ccc4165a92e4cf671d4cc43ef0e70af80bfc7570fba1"
+    },
+    {
+      "id": "murai-web-kings-4-3",
+      "sha256": "687a518e6b24a1f5a6826190496752b5dee9541b4b60b241d9fc9e4fabc23d3c"
+    },
+    {
+      "id": "murai-web-kings-4-4-1",
+      "sha256": "4aa045a6f97dec72014049de3d888c78ddb26d1edefbb4f4c5080539c6b7c718"
+    },
+    {
+      "id": "murai-web-kings-4-4-2",
+      "sha256": "2c97cf626a4b9a95093c4d35324a11945be4124fc2e4bea31f538478a6470322"
+    },
+    {
+      "id": "murai-web-kings-4-4",
+      "sha256": "711f57be6d6b44aed102b8c2df171664d76401a219788679bdb86c5c4b74ac33"
+    },
+    {
+      "id": "murai-web-kings-5-1-1",
+      "sha256": "1af50a6bfdf8c50e7aad7487db85f20385cd10029abd9dafc35e4fe8af32d075"
+    },
+    {
+      "id": "murai-web-kings-5-1-2",
+      "sha256": "b64c77eb771cb29adfd42de6132dca77592684ac096fb46d6e545af21fb7ccaa"
+    },
+    {
+      "id": "murai-web-kings-5-1",
+      "sha256": "319b2b7abfb5f022d72f82268a8f049511b0092057c74d924b3d216fffc613d9"
+    },
+    {
+      "id": "murai-web-kings-5-2-1",
+      "sha256": "e279d0e44bdfcfc8b8aa3bd81c61cbb3b67fe15cb3f812babcace20bb73d2980"
+    },
+    {
+      "id": "murai-web-kings-5-2-2",
+      "sha256": "93c43f70d08d28adbcc8776c5c031bc4da95d136b7f7540e501ab81055f60926"
+    },
+    {
+      "id": "murai-web-kings-5-2",
+      "sha256": "f4093564c0a78b89d39bc76cfdf7e37d70ed0b201c2cc53d0b74686681767e2c"
+    },
+    {
+      "id": "murai-web-kings-5-3-1",
+      "sha256": "20c2238d71039e54a959237e6f8619c624133802dd270d75b09dda6a9bcaefd9"
+    },
+    {
+      "id": "murai-web-kings-5-3-2",
+      "sha256": "ca814a9322f21e33bf6e26124f685b593372eb48c66c0d6eeb08efbdd0b42257"
+    },
+    {
+      "id": "murai-web-kings-5-3",
+      "sha256": "6fc4baef81a556b0a884cffa8396763779e5863af289805dde70da31694d64c7"
+    },
+    {
+      "id": "murai-web-kings-5-4-1",
+      "sha256": "2a7b4c4bdaa3929b175db1b8710698f18f67229e0ed1b1a41914a08dc5ad5148"
+    },
+    {
+      "id": "murai-web-kings-5-4-2",
+      "sha256": "e02418d311674b11733489d15bab655e257b8fff2a6e38734bb37a6021bc3c24"
+    },
+    {
+      "id": "murai-web-kings-5-4",
+      "sha256": "1f2670129ca7f194a42e53543d7a829fd46224af7132822d01525a8291e779ef"
+    },
+    {
+      "id": "murai-web-kings-5-5-1",
+      "sha256": "bd8b38dcbfa90711bbe9a1a2869a834ccea1b9525a7148fd9e5cf44859dff948"
+    },
+    {
+      "id": "murai-web-kings-5-5-2",
+      "sha256": "990e400e1e439155e9ef3d50689baac2ec49e18b4a505ef178ab255d538d2d85"
+    },
+    {
+      "id": "murai-web-kings-5-5",
+      "sha256": "d4142ec172b5fb1180959f48d4cb955455807d4cc25f19262bae70688880d971"
+    },
+    {
+      "id": "murai-web-kings-9-1-1",
+      "sha256": "aeb3a3fc089ce388779c0f593dc0f573eadbdc7010140e74285f1e24b16fd8e0"
+    },
+    {
+      "id": "murai-web-kings-9-1-2",
+      "sha256": "c871572fab21917e248e25091889b35a5c9b3c919811924e1c1f7c6bae17f640"
+    },
+    {
+      "id": "murai-web-kings-9-2-1",
+      "sha256": "3398b0af9de3b6277c87f3a7dd54baf353c0fa774742539af50b6418aac70297"
+    },
+    {
+      "id": "murai-web-kings-9-2-2",
+      "sha256": "4750a8b3b6bdf4a34a9cc37e02bc38195f37c0bef8c77a6aae4eea4b1147bfd7"
+    },
+    {
+      "id": "murai-web-kings-9-2",
+      "sha256": "d25372e60e2891b783baa03a5661facac720e729afefc3e8d7c427fbc592507e"
+    },
+    {
+      "id": "murai-web-kings-9-3-1",
+      "sha256": "d6017634f696a23ee6a54a7c6cd4f6d71ad2035ebdee326972e1de016f7017d5"
+    },
+    {
+      "id": "murai-web-kings-9-3-2",
+      "sha256": "ded58cc415f6e083a0432bb97b0ac311fe4ddea3d1589a0d38432411d12ea79c"
+    },
+    {
+      "id": "murai-web-kings-9-3",
+      "sha256": "6554be6a9a2b14ce11c100fb97d6d22c6a63f671ea083daa3bf74868494668d5"
+    },
+    {
+      "id": "murai-web-kings-9-4-1",
+      "sha256": "c5257b0cd4ba260dfe7e31d3004a30d818866a805ed361cf3058d544747f2190"
+    },
+    {
+      "id": "murai-web-kings-9-4-2",
+      "sha256": "f65667e79f19e31d4a5b56217f6d1400580498d35c6d9dc291a52f6b1d834f23"
+    },
+    {
+      "id": "murai-web-kings-9-4",
+      "sha256": "6b3eccf357ef007fc651efbc614d8d5279d9b6c0deadbcce87cae54a61704c24"
+    },
+    {
+      "id": "murai-web-kings-9-5-1",
+      "sha256": "b2585cbac2331d3ffb38c78ce250bc228a5e880240fd854dfa243d86a7b6ef2a"
+    },
+    {
+      "id": "murai-web-kings-9-5-2",
+      "sha256": "b3a0d730c0a71b1e7b6f7f1e6c2dce22b6155039f16b7de1d2f6b3e3e8311ddd"
+    },
+    {
+      "id": "murai-web-kings-9-5",
+      "sha256": "7e38abffffd88b788d2ae2306718a2273a370526b91cdd98a4aaee8c3b5942f9"
+    },
+    {
+      "id": "murai-web-kings-9-6-1",
+      "sha256": "c705de4189f008824948ec1963ad5b9dfb9cecfc2ca953d6a40fe19fb431a4da"
+    },
+    {
+      "id": "murai-web-kings-9-6-2",
+      "sha256": "ba8c40e07624238d06088f1e68952778ca2c135bf4aeff38da5564f797cf2c65"
+    },
+    {
+      "id": "murai-web-kings-9-6",
+      "sha256": "fcff38fcf1897e92e4b43dca916078fb0ca8fddabbc498a34ee7679c9201a430"
+    },
+    {
+      "id": "murai-web-kings-9-7-1",
+      "sha256": "b899a881138756ad444b117e2723a86909481682822487158e1dbb8f5b661fba"
+    },
+    {
+      "id": "murai-web-kings-9-7-2",
+      "sha256": "8370ebad203463ba103bb4fd6facf7662cd703cd0d1e34ed6aa1308bb1341ce2"
+    },
+    {
+      "id": "murai-web-kings-9-7",
+      "sha256": "6a8c5d082b021e1712efce439d19c596bc521b9c41c4eb707b077e644cc3d449"
+    },
+    {
+      "id": "murai-web-kings-9-8-1",
+      "sha256": "2f0928d80c6f8f20ca60625a992db66a8823cf4af48e6a0fe31ac825601fc8d8"
+    },
+    {
+      "id": "murai-web-kings-9-8-2",
+      "sha256": "f185bbd893401ffb62813000ed09170315537a4e69e66fd0d734ec364ff7493a"
+    },
+    {
+      "id": "murai-web-kings-9-8",
+      "sha256": "3ddf9da750840eff761ff1713ee75eca936f7d38e1f168e4af78166f02a23326"
+    },
+    {
+      "id": "murai-web-kings-9-9-1",
+      "sha256": "425454a4c7d14ea3414a2232926ad9aae4a12b0eded4236a61b72ea32c0860d9"
+    },
+    {
+      "id": "murai-web-kings-9-9-2",
+      "sha256": "79bdcf068263cb00750a7eb72ec770fa5bfda45130cc8ce874649ea4991e9064"
+    },
+    {
+      "id": "murai-web-samuel-1-1",
+      "sha256": "0a17a721eb40dc33b7db3bbba56f538a065f1a5766190bc752c9376a35318e37"
+    },
+    {
+      "id": "murai-web-samuel-2-1",
+      "sha256": "fd0eb9e094b2adafbd8067d604a723160d903cad557a3bf72fb70b026e9312b1"
+    },
+    {
+      "id": "murai-web-samuel-2-2",
+      "sha256": "14baf221c145b079139c6cd049b5cb171ccea4e60ab03fe2982cac206780a25e"
+    },
+    {
+      "id": "murai-web-samuel-3-1-1",
+      "sha256": "01a66570bedb0405c9376cf51ee39895ffeb07a5c4ff27d4079f7878e80a9f32"
+    },
+    {
+      "id": "murai-web-samuel-3-1-2",
+      "sha256": "3363099836a58960ed90c60f26205c27de2fb76df2a49a624e63c3dd6caff50a"
+    },
+    {
+      "id": "murai-web-samuel-3-1",
+      "sha256": "c9c73784af897ffd9cab18577df02878095dd37bd4734611fa27439bf589b7b8"
+    },
+    {
+      "id": "murai-web-samuel-3-2-1",
+      "sha256": "5fe72e37726020a5b546248bae7714e2bfa404a59f949f19d590fa488d7b1ee3"
+    },
+    {
+      "id": "murai-web-samuel-3-2-2",
+      "sha256": "743ec33bf3b169baab7dc4d70072678e524fd090b67caaaf6bdab3fd964bdcb5"
+    },
+    {
+      "id": "murai-web-samuel-3-2",
+      "sha256": "da4c1814c1f1a42086649870180a21f9a4e8800bb8c59fcf63fde0f2323ae856"
+    },
+    {
+      "id": "murai-web-samuel-3-3-1",
+      "sha256": "6fff63fe36faaeb98000217d6af37b41af0ed52e2fd259bbeea9a826a209a667"
+    },
+    {
+      "id": "murai-web-samuel-3-3-2",
+      "sha256": "829d818a4f4b991d2cedfb20aa1afae64d5d8bd95b32e3ede3a06b4d65d4f906"
+    },
+    {
+      "id": "murai-web-samuel-3-3",
+      "sha256": "b2d0f8a3d174566a6eaee716e6aab9afba0e7e694c72606b3d2a11a79327f3e6"
+    },
+    {
+      "id": "murai-web-samuel-4-1-1",
+      "sha256": "f3f7f6055d72bd0f848fda34d3505b683ae9e46348af245dcc525c7f10399124"
+    },
+    {
+      "id": "murai-web-samuel-4-1-2",
+      "sha256": "b908bf70edd920a124ebf954c65605c05bf92c6ff9b80fd50dd31c13002439a4"
+    },
+    {
+      "id": "murai-web-samuel-4-1",
+      "sha256": "bd2bf711ae6f00a49d3da8138f8fc93286c7485bce4317cf2036397f7214ae58"
+    },
+    {
+      "id": "murai-web-samuel-4-2-1",
+      "sha256": "42d054fdba12a078b122f937e72b5d1df83ee6317b5379f5f0b337dccf9f123d"
+    },
+    {
+      "id": "murai-web-samuel-4-2-2",
+      "sha256": "60a101797907b477e66b65edeea2b3b5e8e287b6409b627a98531eb372cdcee5"
+    },
+    {
+      "id": "murai-web-samuel-4-2",
+      "sha256": "e98a371ed03d4c3483ec3ebd5bd84e775ad033ca59d8b8d8115511593b63b229"
+    },
+    {
+      "id": "murai-web-samuel-4-3-1",
+      "sha256": "4a7e0a6418b6d60888a836052c3cf9769b098a5a996bb2ac3df8a1408439c3a3"
+    },
+    {
+      "id": "murai-web-samuel-4-3-2",
+      "sha256": "17ac23ab5414f98768432a0041a9e8a7d4aaaf4c34cf2cf440679a4bf51c32a6"
+    },
+    {
+      "id": "murai-web-samuel-4-3",
+      "sha256": "bf9205e5e8e6a68a5419f80274a59c9939e5d91d09785189e0ffbb4b7c44ed71"
+    },
+    {
+      "id": "murai-web-samuel-4-4-1",
+      "sha256": "f25d4cd95f8b936dfe17caa81bcb8280f0dbd1b81ee1f7e19caa2f9fb9e0f5bf"
+    },
+    {
+      "id": "murai-web-samuel-4-4-2",
+      "sha256": "272e07662d325796b8c14341ca3051ba924e1374303041cc67bf6acb92b89ec2"
+    },
+    {
+      "id": "murai-web-samuel-4-4",
+      "sha256": "18530f8b25e116e05bf7921a57e3c215c6f3239c20e9c7f2647ff17169b7a9bc"
+    },
+    {
+      "id": "murai-web-samuel-5-1-1",
+      "sha256": "a24a09b4e4b0d6da5bce07bf5b2c2ba914f6f68d73503e6a5aab7efb2e57b1d6"
+    },
+    {
+      "id": "murai-web-samuel-5-1-2",
+      "sha256": "65738bb75ad73783a498e14d144650886e207318d2dc6dca50a2856399519a1f"
+    },
+    {
+      "id": "murai-web-samuel-5-1",
+      "sha256": "491ee3e901f734cb96b55fd41d74bf73687dc15e23be23986bb6e30ab2e4f9a7"
+    },
+    {
+      "id": "murai-web-samuel-5-2-1",
+      "sha256": "81ac1e094b5160bdd05f296a4d938798c7c40a9425766b822a4798d84ae52a5d"
+    },
+    {
+      "id": "murai-web-samuel-5-2-2",
+      "sha256": "e9d1c60935621ac9f2e0ea12637efcdda5452ed7b61d272808b75b08b0a79cb4"
+    },
+    {
+      "id": "murai-web-samuel-5-2",
+      "sha256": "dffceac6fedbc0635e8aa2e066078401e781701e8e3844aeceff51b76d889204"
+    },
+    {
+      "id": "murai-web-samuel-5-3-1",
+      "sha256": "75f1a191a084bf55fd31bd2e3a71896ccc7c845426e30d76a3d8581d933d2102"
+    },
+    {
+      "id": "murai-web-samuel-5-3-2",
+      "sha256": "a20c7270e46943f5ba6f5d477a33d3616baf7973bfa0d65e865c6004f237c191"
+    },
+    {
+      "id": "murai-web-samuel-5-3",
+      "sha256": "420c2ba7b223cb31c17f6f39de75bfe5e935d15ebc9587e89fe6583b3341a461"
+    },
+    {
+      "id": "murai-web-samuel-5-4-1",
+      "sha256": "87d5517ccab1314b04579c2d1c91df22660f2217a6ad8cef6e16de3420f0c89b"
+    },
+    {
+      "id": "murai-web-samuel-5-4-2",
+      "sha256": "ad254034ff6cc9f94148167f9e2313aa84254fe3099e96f8589ce678dc02d593"
+    },
+    {
+      "id": "murai-web-samuel-5-4",
+      "sha256": "ece6bf455e9a0efc992172609ea6d51afe5e137b8d08a2d868e18486b94d86cf"
+    },
+    {
+      "id": "murai-web-samuel-5-5-1",
+      "sha256": "488d6bbb570220a650ecfe3d4922ccbeed0ac4d6b6b62c1cd9a5f35eeb68d8d2"
+    },
+    {
+      "id": "murai-web-samuel-5-5-2",
+      "sha256": "05dd5a71442e7b4e671919069920b5001cb1e5810aea9fef262b9117fbef743d"
+    },
+    {
+      "id": "murai-web-samuel-5-5",
+      "sha256": "6617bfad141359eb1058de7ff6f62c9a68716e5c3e8f7d70e2d234c5548ce827"
+    },
+    {
+      "id": "murai-web-samuel-9-1-1",
+      "sha256": "2f0a29f5144d3d05c20b671e8cb3b5e136484d3ed9f62b798e7574e827947778"
+    },
+    {
+      "id": "murai-web-samuel-9-1-2",
+      "sha256": "0111940c57989eb469223b0f1fdd4935e6681264d7d28cc8cdfeb5a4f614add4"
+    },
+    {
+      "id": "murai-web-samuel-9-2-1",
+      "sha256": "c2bc9b0f508a622c2e766cd3bb42b39adc920bf8f8124f0fd8d2a1233ebab122"
+    },
+    {
+      "id": "murai-web-samuel-9-2-2",
+      "sha256": "10d1268dacbfc3b2d6cbf104b283376da27aa35a8aabb2348a8fa00b2a5134c3"
+    },
+    {
+      "id": "murai-web-samuel-9-2",
+      "sha256": "644f51f203ce3772d0922793ac877b5006089c88599e42105f498ddff089ee42"
+    },
+    {
+      "id": "murai-web-samuel-9-3-1",
+      "sha256": "201f6ca64f77f39c7b02b1aa895ff635b5330ad38b2e7b5a088c545810bba2c4"
+    },
+    {
+      "id": "murai-web-samuel-9-3-2",
+      "sha256": "5a4b5969877635d53250f6b3188fe662b6df300a804a0600cac10aef47efac9e"
+    },
+    {
+      "id": "murai-web-samuel-9-3",
+      "sha256": "79ad1b65803b513abffb066e710ced1f43e26ae373f2ae0c0c30374c466dcf69"
+    },
+    {
+      "id": "murai-web-samuel-9-4-1",
+      "sha256": "dbe71d22d9079780d13621446bcc2ae481841cfb7b85fcbfea929d3304aa7bb8"
+    },
+    {
+      "id": "murai-web-samuel-9-4-2",
+      "sha256": "991232ae5283990ce772f72e40a20abb226446ac6c43e20410e6401c0920c877"
+    },
+    {
+      "id": "murai-web-samuel-9-4",
+      "sha256": "610cf85cb05246a6b1dd406ecdf9a1c14b9420d9807b010b9f952c0af64b074b"
+    },
+    {
+      "id": "murai-web-samuel-9-5-1",
+      "sha256": "6a41d08b47629ba35d45d10b9cfd5da008f6a7b9b7a4cbe79edae00f5f87bda4"
+    },
+    {
+      "id": "murai-web-samuel-9-5-2",
+      "sha256": "f676e0712aeb04f18a498b4544007562d874810f4136f868f2f61342a510737a"
+    },
+    {
+      "id": "murai-web-samuel-9-5",
+      "sha256": "ece270fd6b28989e17bff2af9d13626a5b07d8a5999979f0c129bb733b9d769f"
+    },
+    {
+      "id": "murai-web-samuel-9-6-1",
+      "sha256": "caef57d6dfa9ef1c6723efee84acc9173aab5755adca904a0d0c8db6dcd815b2"
+    },
+    {
+      "id": "murai-web-samuel-9-6-2",
+      "sha256": "95dab2e13d6d2d06b25b0e8fff052963c59663df3b630873dfd16b7d890d823b"
+    },
+    {
+      "id": "murai-web-samuel-9-6",
+      "sha256": "170fa612cbd15450c13f622db9d7a3eefc9ef7e5bd4d8f9fd12401aa44c05b81"
+    },
+    {
+      "id": "murai-web-samuel-9-7-1",
+      "sha256": "d2c8c374ed9a760fca36b00d7c7c38b513dd8f81587f09def150665b1d437b01"
+    },
+    {
+      "id": "murai-web-samuel-9-7-2",
+      "sha256": "788ee9b78091eaefbf51dcd7a84fa84b359066c11877e152e56945ac8a17ef7a"
+    },
+    {
+      "id": "murai-web-samuel-9-7",
+      "sha256": "de64c76a56e244f7386d69d0ad43a9feded085504685c19dd5c37081d40cafab"
+    },
+    {
+      "id": "murai-web-samuel-9-8-1",
+      "sha256": "2b7776b9833d9c57e7123757521794df35f689dd9a4be812471ddf4fd54a42f7"
+    },
+    {
+      "id": "murai-web-samuel-9-8-2",
+      "sha256": "a6bab7fc485af5a77beadb23a29f07346b6cb261fce7ec5dff4b67dccfe09479"
+    },
+    {
+      "id": "murai-web-samuel-9-8",
+      "sha256": "3849e16b82d88100954a8c6cf4eb1956853a51178c211e05f656df464bcce4cf"
+    },
+    {
+      "id": "murai-web-samuel-9-9-1",
+      "sha256": "f91a3eced55dbf7ec3343a26ae429cf9af25b62177604bbf040aaf8a3cf34f92"
+    },
+    {
+      "id": "murai-web-samuel-9-9-2",
+      "sha256": "f0d76bbecc8ff623d6d08cf860a4b70e1cee0e367fafd83ef75854b5dff67305"
+    },
+    {
+      "id": "patrick-song-of-ark-simplified",
+      "sha256": "2019eb6c8a4bb279d73d8995745e06ff34513b790b72c850e3fc845531ced542"
+    },
+    {
+      "id": "patrick-song-of-ark",
+      "sha256": "3bec5473b1ccd40e4135bdfb307061e61386019630f2da025c9806bf9ae94f15"
+    },
+    {
+      "id": "pitkanen-hexateuch",
+      "sha256": "442cab50db562d02384c9b4b715b5f2045a7e7834428dfdc84d68b5599f95231"
+    },
+    {
+      "id": "sacks-torah",
+      "sha256": "2ba941a988e7d1e867ecbee82c947d8a3a87d09ea937d788270272e5e0f5ef3e"
+    },
+    {
       "id": "wenham-flood",
       "sha256": "f51d289365410f41a508206f46de9ede61f0d221d17fb29bd605af9dc7d534a6"
+    },
+    {
+      "id": "wolfe-luke-acts",
+      "sha256": "15cf7f5120fe70453b28a0de19fe8b953c0be424efc78c7fcc8948c8cc9ab468"
     }
   ],
-  "citationOnly": 1007,
+  "citationOnly": 1008,
   "byBookAndSource": {
+    "genesis / sacks-2017": 1,
+    "exodus / sacks-2017": 1,
+    "leviticus / sacks-2017": 1,
+    "numbers / sacks-2017": 1,
+    "deuteronomy / sacks-2017": 1,
     "1-enoch / domka-2019": 2,
     "genesis / wenham-1978": 1,
     "genesis / murai-2022": 76,
@@ -3932,7 +5341,45 @@
     "2-peter / murai-2022": 5,
     "2-john / murai-2022": 1,
     "jude / murai-2022": 1,
-    "revelation / murai-2022": 60
+    "revelation / murai-2022": 60,
+    "1-samuel / murai-web-2026": 32,
+    "2-samuel / murai-web-2026": 40,
+    "1-kings / murai-web-2026": 34,
+    "2-kings / murai-web-2026": 40,
+    "1-chronicles / murai-web-2026": 32,
+    "2-chronicles / murai-web-2026": 42,
+    "ezra / murai-web-2026": 20,
+    "nehemiah / murai-web-2026": 25,
+    "exodus / murai-web-2026": 1,
+    "numbers / murai-web-2026": 1,
+    "john / murai-web-2026": 1,
+    "revelation / murai-web-2026": 1,
+    "luke / murai-web-2026": 1,
+    "acts / murai-web-2026": 1,
+    "luke / meyer-2020": 1,
+    "acts / meyer-2020": 1,
+    "hosea / murai-web-2026": 17,
+    "joel / murai-web-2026": 11,
+    "amos / murai-web-2026": 19,
+    "obadiah / murai-web-2026": 5,
+    "jonah / murai-web-2026": 9,
+    "micah / murai-web-2026": 19,
+    "nahum / murai-web-2026": 11,
+    "habakkuk / murai-web-2026": 8,
+    "zephaniah / murai-web-2026": 9,
+    "haggai / murai-web-2026": 9,
+    "zechariah / murai-web-2026": 31,
+    "malachi / murai-web-2026": 9,
+    "luke / wolfe-1980": 1,
+    "acts / wolfe-1980": 1,
+    "genesis / pitkanen-2014": 1,
+    "exodus / pitkanen-2014": 1,
+    "leviticus / pitkanen-2014": 1,
+    "numbers / pitkanen-2014": 1,
+    "deuteronomy / pitkanen-2014": 1,
+    "joshua / pitkanen-2014": 1,
+    "1-samuel / patrick-2016": 2,
+    "2-samuel / patrick-2016": 2
   },
   "sourceInputs": [
     {
@@ -3954,6 +5401,3301 @@
       "file": "LiteraryStructureoftheBible_PericopeStructure_NT.xlsx",
       "url": "http://www.bible.literarystructure.info/bible/LiteraryStructureoftheBible_PericopeStructure_NT.xlsx",
       "sha256": "ea0659a0d316684786d2470583a80965f0f9483d8b0d25ff5843e3bf84de446b"
+    },
+    {
+      "file": "09_Samuel_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_1.html",
+      "sha256": "53959581843b97e488a1bc391b98b7c387720aed2e6ba4f0668a16ef526498e9"
+    },
+    {
+      "file": "09_Samuel_e_2.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_2.html",
+      "sha256": "e773323f63a577730a8b6dc56fa7ad6659cf1a4ae5eca8990d1d60d3c2082684"
+    },
+    {
+      "file": "09_Samuel_e_3.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_3.html",
+      "sha256": "7ba106d141f05c7ad291a69b347f9d1f6975eeaddb2224775df46a46c10b7558"
+    },
+    {
+      "file": "09_Samuel_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_4.html",
+      "sha256": "7d049d80fac90b9bbcdf3455a8068dbf2ee99e24a786317ccec98f276cd3d85b"
+    },
+    {
+      "file": "09_Samuel_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_5.html",
+      "sha256": "2875b0dc088451eac42a2c1efaa97546344b9c2170690781b38facfd8e468a7e"
+    },
+    {
+      "file": "09_Samuel_e_9.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_9.html",
+      "sha256": "f6fcdd36bfeab8d5186238b70384b36cd87b5eae0eea0d0a36cb228b2574d8c4"
+    },
+    {
+      "file": "11_Kings_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_1.html",
+      "sha256": "d0b59a8f71633ce73884b9639ebcf9cbfdbb279d594d19a2c0d7dc21a83b0dbf"
+    },
+    {
+      "file": "11_Kings_e_2.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_2.html",
+      "sha256": "6d13d70ff904c4fa5eeb0970aef0dcf69f3e48b460383ced14970a6335e1ebb3"
+    },
+    {
+      "file": "11_Kings_e_3.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_3.html",
+      "sha256": "9ef9ee8c0f23d8eb033b7eb403015a349a02196dbb20cdaacb76be2166b79cb2"
+    },
+    {
+      "file": "11_Kings_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_4.html",
+      "sha256": "6844492f8e40612df420ea40b973e5cb504c6d26f9deff0c06303f17322a8812"
+    },
+    {
+      "file": "11_Kings_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_5.html",
+      "sha256": "4228f3771b3c7520824fb5b428ca4c366e361d6d1d3200e7f973e53ea8e7fc3e"
+    },
+    {
+      "file": "11_Kings_e_9.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_9.html",
+      "sha256": "b3096f2b0b30f834c7442faf51e6f180d2248a709d18f0c87d87d426f10ce127"
+    },
+    {
+      "file": "13_Chronicles_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_1.html",
+      "sha256": "ff561333df381952b04499944ce9c9aa23e74a4880ab91fb033dfaf4837e5dc6"
+    },
+    {
+      "file": "13_Chronicles_e_2.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_2.html",
+      "sha256": "151f056bfe18a2e358833abe1680e6d88d17f1e0153ae5abe2cca7ee2d8acb06"
+    },
+    {
+      "file": "13_Chronicles_e_3.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_3.html",
+      "sha256": "f26b74b5ba434a8055bae911efc7fc8c95f169ec4cb96bd4f5d374169fa5f078"
+    },
+    {
+      "file": "13_Chronicles_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_4.html",
+      "sha256": "c20b5f0bc9fa90fc1881126f5d0c801b8c93456be3bc278a588f2104565e238f"
+    },
+    {
+      "file": "13_Chronicles_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_5.html",
+      "sha256": "f8260a3e974ab980b91b3ded1f22d2ee33ec1a6c30ee0f6294235546db478981"
+    },
+    {
+      "file": "13_Chronicles_e_9.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_9.html",
+      "sha256": "d432eab97174dbff9185d26e94a6e163e3ec60e57b808557a48209869c5c66fc"
+    },
+    {
+      "file": "15_EzraNehemiah_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_1.html",
+      "sha256": "20d746f6d0da5607bf34fce08ed49dc6ed7de27cd37906d5f67c371e4f3771d9"
+    },
+    {
+      "file": "15_EzraNehemiah_e_3.html",
+      "url": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_3.html",
+      "sha256": "ea184029e87485e75a516658259307a5d24861b9774d8c13e74ef0df427d4770"
+    },
+    {
+      "file": "15_EzraNehemiah_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_4.html",
+      "sha256": "36c9db474386871a076e8916a9190dd96236b30965f6917f7bd8b9361ef31639"
+    },
+    {
+      "file": "15_EzraNehemiah_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_5.html",
+      "sha256": "cfa8b96f799617d9e438b7bf7238ae511fa9fc0f5cb19d6a212fbd1ea0723f16"
+    },
+    {
+      "file": "97_ExodusNumbers_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/97_ExodusNumbers_e.html",
+      "sha256": "c85c62040fbae447502860adb9bc7ac627fb854fd8f829be154253899f33e1a7"
+    },
+    {
+      "file": "98_JohnRevelation_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/98_JohnRevelation_e.html",
+      "sha256": "16640e8eabf332f0e42b6a048831b6974f9ee5c9ce4ff24ad3d75158ba86aeda"
+    },
+    {
+      "file": "99_LukeActs_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/99_LukeActs_e.html",
+      "sha256": "c0cea668ccacea9c73f405eed08e519ea65dc2cab45567980d3e2d4b0251552a"
+    },
+    {
+      "file": "bethlehem-jesus-continued.html",
+      "url": "https://bethlehem.church/sermon/jesus-continued/",
+      "sha256": "a11c40da7576d2ff1f8b531952251de2106146d00a9c1a8ead220a996686186e"
+    },
+    {
+      "file": "96_MinorProphets_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/96_MinorProphets_e.html",
+      "sha256": "3f02d74f935a3cdad1b1e785bc8cfdf9aa8ea34b86746d4750ad520432c0df37"
+    },
+    {
+      "file": "96_MinorProphets_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/96_MinorProphets_e_1.html",
+      "sha256": "5fa9237abcd79b7754e0536ecfed9608ff3b07661717ce5f68be422f4792b688"
+    },
+    {
+      "file": "96_MinorProphets_e_2.html",
+      "url": "http://www.bible.literarystructure.info/bible/96_MinorProphets_e_2.html",
+      "sha256": "30e7ab626f68881cad3e087d25e8f079c6cd69916c488f7966b70eb26a172d15"
+    },
+    {
+      "file": "96_MinorProphets_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/96_MinorProphets_e_4.html",
+      "sha256": "44247c17943cdd879b8b78de0fac7374865d0d56bdcb476807c722cb01765799"
+    },
+    {
+      "file": "96_MinorProphets_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/96_MinorProphets_e_5.html",
+      "sha256": "fed1545be6881b49c52454bbc19d2efeed6b8e5e7e2e3c11e24690970cca4fd7"
+    },
+    {
+      "file": "96_MinorProphets_pericope_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/96_MinorProphets_pericope_e.html",
+      "sha256": "65fb57b47a218ef7be6364eac1428b6ac3134a4137d85eae369f8dadac3d1629"
+    }
+  ],
+  "expandedCollections": [
+    {
+      "file": "murai-hierarchy.json",
+      "sha256": "44ef628ea80b5566e72c1f98705e7169f0d6d066a44972e378280adb7698fea1",
+      "sourceOccurrences": 237,
+      "uniqueMaps": 229,
+      "duplicateOccurrences": 8,
+      "inventory": [
+        {
+          "file": "09_Samuel_e_1.html",
+          "locator": "1-1",
+          "count": 81,
+          "prefixes": [
+            "1S",
+            "2S"
+          ],
+          "relations": 43,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_2.html",
+          "locator": "2-1",
+          "count": 41,
+          "prefixes": [
+            "1S",
+            "2S"
+          ],
+          "relations": 22,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_2.html",
+          "locator": "2-2",
+          "count": 41,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 24,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_3.html",
+          "locator": "3-1",
+          "count": 27,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 13,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_3.html",
+          "locator": "3-1-1",
+          "count": 14,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "09_Samuel_e_3.html",
+          "locator": "3-1-2",
+          "count": 14,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "09_Samuel_e_3.html",
+          "locator": "3-2",
+          "count": 27,
+          "prefixes": [
+            "1S",
+            "2S"
+          ],
+          "relations": 13,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_3.html",
+          "locator": "3-2-1",
+          "count": 14,
+          "prefixes": [
+            "1S",
+            "2S"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "09_Samuel_e_3.html",
+          "locator": "3-2-2",
+          "count": 14,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "09_Samuel_e_3.html",
+          "locator": "3-3",
+          "count": 27,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 14,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_3.html",
+          "locator": "3-3-1",
+          "count": 14,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "09_Samuel_e_3.html",
+          "locator": "3-3-2",
+          "count": 14,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "09_Samuel_e_4.html",
+          "locator": "4-1",
+          "count": 21,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_4.html",
+          "locator": "4-1-1",
+          "count": 11,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_4.html",
+          "locator": "4-1-2",
+          "count": 11,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_4.html",
+          "locator": "4-2",
+          "count": 21,
+          "prefixes": [
+            "1S",
+            "2S"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_4.html",
+          "locator": "4-2-1",
+          "count": 11,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_4.html",
+          "locator": "4-2-2",
+          "count": 11,
+          "prefixes": [
+            "1S",
+            "2S"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_4.html",
+          "locator": "4-3",
+          "count": 21,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_4.html",
+          "locator": "4-3-1",
+          "count": 11,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_4.html",
+          "locator": "4-3-2",
+          "count": 11,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_4.html",
+          "locator": "4-4",
+          "count": 21,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_4.html",
+          "locator": "4-4-1",
+          "count": 11,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_4.html",
+          "locator": "4-4-2",
+          "count": 11,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-1",
+          "count": 17,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 8,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-1-1",
+          "count": 9,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-1-2",
+          "count": 9,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-2",
+          "count": 17,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 8,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-2-1",
+          "count": 9,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-2-2",
+          "count": 9,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-3",
+          "count": 17,
+          "prefixes": [
+            "1S",
+            "2S"
+          ],
+          "relations": 8,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-3-1",
+          "count": 9,
+          "prefixes": [
+            "1S",
+            "2S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-3-2",
+          "count": 9,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-4",
+          "count": 17,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 8,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-4-1",
+          "count": 9,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-4-2",
+          "count": 9,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-5",
+          "count": 17,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 8,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-5-1",
+          "count": 9,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_5.html",
+          "locator": "5-5-2",
+          "count": 9,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-1",
+          "count": 9,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-1-1",
+          "count": 5,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-1-2",
+          "count": 5,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-2",
+          "count": 9,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-2-1",
+          "count": 5,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-2-2",
+          "count": 5,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-3",
+          "count": 9,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-3-1",
+          "count": 5,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-3-2",
+          "count": 5,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-4",
+          "count": 9,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-4-1",
+          "count": 5,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-4-2",
+          "count": 5,
+          "prefixes": [
+            "1S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-5",
+          "count": 9,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-5-1",
+          "count": 5,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-5-2",
+          "count": 5,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-6",
+          "count": 9,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-6-1",
+          "count": 5,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-6-2",
+          "count": 5,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-7",
+          "count": 9,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-7-1",
+          "count": 5,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-7-2",
+          "count": 5,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-8",
+          "count": 9,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-8-1",
+          "count": 5,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-8-2",
+          "count": 5,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-9",
+          "count": 9,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-9-1",
+          "count": 5,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "09_Samuel_e_9.html",
+          "locator": "9-9-2",
+          "count": 5,
+          "prefixes": [
+            "2S"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_1.html",
+          "locator": "1-1",
+          "count": 81,
+          "prefixes": [
+            "1K",
+            "2K"
+          ],
+          "relations": 43,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_2.html",
+          "locator": "2-1",
+          "count": 41,
+          "prefixes": [
+            "1K",
+            "2K"
+          ],
+          "relations": 23,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_2.html",
+          "locator": "2-2",
+          "count": 41,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 22,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_3.html",
+          "locator": "3-1",
+          "count": 27,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 15,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_3.html",
+          "locator": "3-1-1",
+          "count": 14,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "11_Kings_e_3.html",
+          "locator": "3-1-2",
+          "count": 14,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "11_Kings_e_3.html",
+          "locator": "3-2",
+          "count": 27,
+          "prefixes": [
+            "1K",
+            "2K"
+          ],
+          "relations": 13,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_3.html",
+          "locator": "3-2-1",
+          "count": 14,
+          "prefixes": [
+            "1K",
+            "2K"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "11_Kings_e_3.html",
+          "locator": "3-2-2",
+          "count": 14,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "11_Kings_e_3.html",
+          "locator": "3-3",
+          "count": 27,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 14,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_3.html",
+          "locator": "3-3-1",
+          "count": 14,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "11_Kings_e_3.html",
+          "locator": "3-3-2",
+          "count": 14,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "11_Kings_e_4.html",
+          "locator": "4-1",
+          "count": 21,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 11,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_4.html",
+          "locator": "4-1-1",
+          "count": 11,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 7,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_4.html",
+          "locator": "4-1-2",
+          "count": 11,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_4.html",
+          "locator": "4-2",
+          "count": 21,
+          "prefixes": [
+            "1K",
+            "2K"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_4.html",
+          "locator": "4-2-1",
+          "count": 11,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 6,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_4.html",
+          "locator": "4-2-2",
+          "count": 11,
+          "prefixes": [
+            "1K",
+            "2K"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_4.html",
+          "locator": "4-3",
+          "count": 21,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_4.html",
+          "locator": "4-3-1",
+          "count": 11,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 7,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_4.html",
+          "locator": "4-3-2",
+          "count": 11,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_4.html",
+          "locator": "4-4",
+          "count": 21,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_4.html",
+          "locator": "4-4-1",
+          "count": 11,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 6,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_4.html",
+          "locator": "4-4-2",
+          "count": 11,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-1",
+          "count": 17,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-1-1",
+          "count": 9,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-1-2",
+          "count": 9,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-2",
+          "count": 17,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 8,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-2-1",
+          "count": 9,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-2-2",
+          "count": 9,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-3",
+          "count": 17,
+          "prefixes": [
+            "1K",
+            "2K"
+          ],
+          "relations": 8,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-3-1",
+          "count": 9,
+          "prefixes": [
+            "1K",
+            "2K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-3-2",
+          "count": 9,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 6,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-4",
+          "count": 17,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 9,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-4-1",
+          "count": 9,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-4-2",
+          "count": 9,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-5",
+          "count": 17,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-5-1",
+          "count": 9,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_5.html",
+          "locator": "5-5-2",
+          "count": 9,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-1",
+          "count": 9,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-1-1",
+          "count": 5,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-1-2",
+          "count": 5,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-2",
+          "count": 9,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-2-1",
+          "count": 5,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-2-2",
+          "count": 5,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-3",
+          "count": 9,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-3-1",
+          "count": 5,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-3-2",
+          "count": 5,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-4",
+          "count": 9,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-4-1",
+          "count": 5,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-4-2",
+          "count": 5,
+          "prefixes": [
+            "1K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-5",
+          "count": 9,
+          "prefixes": [
+            "1K",
+            "2K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-5-1",
+          "count": 5,
+          "prefixes": [
+            "1K",
+            "2K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-5-2",
+          "count": 5,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-6",
+          "count": 9,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-6-1",
+          "count": 5,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-6-2",
+          "count": 5,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-7",
+          "count": 9,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-7-1",
+          "count": 5,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-7-2",
+          "count": 5,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-8",
+          "count": 9,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-8-1",
+          "count": 5,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-8-2",
+          "count": 5,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-9",
+          "count": 9,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-9-1",
+          "count": 5,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "11_Kings_e_9.html",
+          "locator": "9-9-2",
+          "count": 5,
+          "prefixes": [
+            "2K"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_1.html",
+          "locator": "1-1",
+          "count": 81,
+          "prefixes": [
+            "1Ch",
+            "2Ch"
+          ],
+          "relations": 40,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_2.html",
+          "locator": "2-1",
+          "count": 41,
+          "prefixes": [
+            "1Ch",
+            "2Ch"
+          ],
+          "relations": 20,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_2.html",
+          "locator": "2-2",
+          "count": 41,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 20,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_3.html",
+          "locator": "3-1",
+          "count": 27,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 13,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_3.html",
+          "locator": "3-1-1",
+          "count": 14,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "13_Chronicles_e_3.html",
+          "locator": "3-1-2",
+          "count": 14,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "13_Chronicles_e_3.html",
+          "locator": "3-2",
+          "count": 27,
+          "prefixes": [
+            "1Ch",
+            "2Ch"
+          ],
+          "relations": 13,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_3.html",
+          "locator": "3-2-1",
+          "count": 14,
+          "prefixes": [
+            "1Ch",
+            "2Ch"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "13_Chronicles_e_3.html",
+          "locator": "3-2-2",
+          "count": 14,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "13_Chronicles_e_3.html",
+          "locator": "3-3",
+          "count": 27,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 13,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_3.html",
+          "locator": "3-3-1",
+          "count": 14,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "13_Chronicles_e_3.html",
+          "locator": "3-3-2",
+          "count": 14,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 7,
+          "unmatched": 0
+        },
+        {
+          "file": "13_Chronicles_e_4.html",
+          "locator": "4-1",
+          "count": 21,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_4.html",
+          "locator": "4-1-1",
+          "count": 11,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_4.html",
+          "locator": "4-1-2",
+          "count": 11,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_4.html",
+          "locator": "4-2",
+          "count": 21,
+          "prefixes": [
+            "1Ch",
+            "2Ch"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_4.html",
+          "locator": "4-2-1",
+          "count": 11,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_4.html",
+          "locator": "4-2-2",
+          "count": 11,
+          "prefixes": [
+            "1Ch",
+            "2Ch"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_4.html",
+          "locator": "4-3",
+          "count": 21,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_4.html",
+          "locator": "4-3-1",
+          "count": 11,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_4.html",
+          "locator": "4-3-2",
+          "count": 11,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_4.html",
+          "locator": "4-4",
+          "count": 21,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 10,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_4.html",
+          "locator": "4-4-1",
+          "count": 11,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_4.html",
+          "locator": "4-4-2",
+          "count": 11,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 5,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-1",
+          "count": 17,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 8,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-1-1",
+          "count": 9,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-1-2",
+          "count": 9,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-2",
+          "count": 17,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 8,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-2-1",
+          "count": 9,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-2-2",
+          "count": 9,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-3",
+          "count": 17,
+          "prefixes": [
+            "1Ch",
+            "2Ch"
+          ],
+          "relations": 8,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-3-1",
+          "count": 9,
+          "prefixes": [
+            "1Ch",
+            "2Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-3-2",
+          "count": 9,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-4",
+          "count": 17,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 8,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-4-1",
+          "count": 9,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-4-2",
+          "count": 9,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-5",
+          "count": 17,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 8,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-5-1",
+          "count": 9,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_5.html",
+          "locator": "5-5-2",
+          "count": 9,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-1",
+          "count": 9,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-1-1",
+          "count": 5,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-1-2",
+          "count": 5,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-2",
+          "count": 9,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-2-1",
+          "count": 5,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-2-2",
+          "count": 5,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-3",
+          "count": 9,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-3-1",
+          "count": 5,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-3-2",
+          "count": 5,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-4",
+          "count": 9,
+          "prefixes": [
+            "1Ch",
+            "2Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-4-1",
+          "count": 5,
+          "prefixes": [
+            "1Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-4-2",
+          "count": 5,
+          "prefixes": [
+            "1Ch",
+            "2Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-5",
+          "count": 9,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-5-1",
+          "count": 5,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-5-2",
+          "count": 5,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-6",
+          "count": 9,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-6-1",
+          "count": 5,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-6-2",
+          "count": 5,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-7",
+          "count": 9,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-7-1",
+          "count": 5,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-7-2",
+          "count": 5,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-8",
+          "count": 9,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-8-1",
+          "count": 5,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-8-2",
+          "count": 5,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-9",
+          "count": 9,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-9-1",
+          "count": 5,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "13_Chronicles_e_9.html",
+          "locator": "9-9-2",
+          "count": 5,
+          "prefixes": [
+            "2Ch"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_1.html",
+          "locator": "1-1",
+          "count": 25,
+          "prefixes": [
+            "Ezr",
+            "Ne"
+          ],
+          "relations": 12,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_1.html",
+          "locator": "1-1-1",
+          "count": 13,
+          "prefixes": [
+            "Ezr",
+            "Ne"
+          ],
+          "relations": 6,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_1.html",
+          "locator": "1-1-2",
+          "count": 13,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 7,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_3.html",
+          "locator": "3-1",
+          "count": 9,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_3.html",
+          "locator": "3-1-1",
+          "count": 5,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_3.html",
+          "locator": "3-1-2",
+          "count": 5,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_3.html",
+          "locator": "3-2",
+          "count": 9,
+          "prefixes": [
+            "Ezr",
+            "Ne"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_3.html",
+          "locator": "3-2-1",
+          "count": 5,
+          "prefixes": [
+            "Ezr",
+            "Ne"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_3.html",
+          "locator": "3-2-2",
+          "count": 5,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_3.html",
+          "locator": "3-3",
+          "count": 9,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 4,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_3.html",
+          "locator": "3-3-1",
+          "count": 5,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_3.html",
+          "locator": "3-3-2",
+          "count": 5,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_4.html",
+          "locator": "4-1",
+          "count": 7,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 3,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_4.html",
+          "locator": "4-1-1",
+          "count": 4,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 2,
+          "unmatched": 0
+        },
+        {
+          "file": "15_EzraNehemiah_e_4.html",
+          "locator": "4-1-2",
+          "count": 4,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 2,
+          "unmatched": 0
+        },
+        {
+          "file": "15_EzraNehemiah_e_4.html",
+          "locator": "4-2",
+          "count": 7,
+          "prefixes": [
+            "Ezr",
+            "Ne"
+          ],
+          "relations": 3,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_4.html",
+          "locator": "4-2-1",
+          "count": 4,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 2,
+          "unmatched": 0
+        },
+        {
+          "file": "15_EzraNehemiah_e_4.html",
+          "locator": "4-2-2",
+          "count": 4,
+          "prefixes": [
+            "Ezr",
+            "Ne"
+          ],
+          "relations": 2,
+          "unmatched": 0
+        },
+        {
+          "file": "15_EzraNehemiah_e_4.html",
+          "locator": "4-3",
+          "count": 7,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 3,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_4.html",
+          "locator": "4-3-1",
+          "count": 4,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 2,
+          "unmatched": 0
+        },
+        {
+          "file": "15_EzraNehemiah_e_4.html",
+          "locator": "4-3-2",
+          "count": 4,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 2,
+          "unmatched": 0
+        },
+        {
+          "file": "15_EzraNehemiah_e_4.html",
+          "locator": "4-4",
+          "count": 7,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 3,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_4.html",
+          "locator": "4-4-1",
+          "count": 4,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 2,
+          "unmatched": 0
+        },
+        {
+          "file": "15_EzraNehemiah_e_4.html",
+          "locator": "4-4-2",
+          "count": 4,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 2,
+          "unmatched": 0
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-1",
+          "count": 5,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-1-1",
+          "count": 3,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 1,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-1-2",
+          "count": 3,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 1,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-2",
+          "count": 5,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-2-1",
+          "count": 3,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 1,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-2-2",
+          "count": 3,
+          "prefixes": [
+            "Ezr"
+          ],
+          "relations": 1,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-3",
+          "count": 5,
+          "prefixes": [
+            "Ezr",
+            "Ne"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-3-1",
+          "count": 3,
+          "prefixes": [
+            "Ezr",
+            "Ne"
+          ],
+          "relations": 1,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-3-2",
+          "count": 3,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 1,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-4",
+          "count": 5,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-4-1",
+          "count": 3,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 1,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-4-2",
+          "count": 3,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 1,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-5",
+          "count": 5,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 2,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-5-1",
+          "count": 3,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 1,
+          "unmatched": 1
+        },
+        {
+          "file": "15_EzraNehemiah_e_5.html",
+          "locator": "5-5-2",
+          "count": 3,
+          "prefixes": [
+            "Ne"
+          ],
+          "relations": 1,
+          "unmatched": 1
+        }
+      ]
+    },
+    {
+      "file": "crossbook-murai.json",
+      "sha256": "97fab64a76f24021156ff32c383a2da59f4823b58074ae0e78189b251797a8bd",
+      "sourceOccurrences": 3,
+      "uniqueMaps": 3,
+      "duplicateOccurrences": 0,
+      "inventory": [
+        {
+          "sourceFile": "97_ExodusNumbers_e.html",
+          "tables": 1,
+          "importedTables": 1,
+          "excludedTables": 0,
+          "nodes": 98,
+          "pairs": 49,
+          "unpairedNodes": 0,
+          "classification": "Parallel / multi-part structure",
+          "verification": "Every numbered left source segment and every paired right segment retained; ordinal sequences checked independently; quotation-only second rows excluded."
+        },
+        {
+          "sourceFile": "98_JohnRevelation_e.html",
+          "tables": 1,
+          "importedTables": 1,
+          "excludedTables": 0,
+          "nodes": 162,
+          "pairs": 81,
+          "unpairedNodes": 0,
+          "classification": "Chiasm",
+          "verification": "Every numbered left source segment and every paired right segment retained; ordinal sequences checked independently; quotation-only second rows excluded."
+        },
+        {
+          "sourceFile": "99_LukeActs_e.html",
+          "tables": 1,
+          "importedTables": 1,
+          "excludedTables": 0,
+          "nodes": 194,
+          "pairs": 49,
+          "unpairedNodes": 96,
+          "classification": "Parallel / multi-part structure",
+          "verification": "Every numbered left source segment and every paired right segment retained; ordinal sequences checked independently; quotation-only second rows excluded."
+        }
+      ]
+    },
+    {
+      "file": "crossbook-meyer.json",
+      "sha256": "05a398943089e88ccae54eab18929cabf364db6c1c5e7461f73158f7a83c680b",
+      "sourceOccurrences": 1,
+      "uniqueMaps": 1,
+      "duplicateOccurrences": 0,
+      "inventory": [
+        {
+          "sourceFile": "bethlehem-jesus-continued.html",
+          "sourceUnits": 10,
+          "importedUnits": 10
+        }
+      ]
+    },
+    {
+      "file": "murai-twelve.json",
+      "sha256": "ceaa73205c13852f92c7a854c7920e767faae41f0df3bd88bd232c44dd7c9618",
+      "sourceOccurrences": 113,
+      "uniqueMaps": 113,
+      "duplicateOccurrences": 0,
+      "inventory": [
+        {
+          "sourceFile": "96_MinorProphets_e.html",
+          "tables": 1,
+          "importedTables": 0,
+          "excludedTables": 1,
+          "reason": "Correspondence navigation index; all101 pericope entries retained as references for the actual diagrams, not counted as a separate structure."
+        },
+        {
+          "sourceFile": "96_MinorProphets_e_1.html",
+          "tables": 1,
+          "importedTables": 1,
+          "excludedTables": 0,
+          "sourceDiagrams": 1
+        },
+        {
+          "sourceFile": "96_MinorProphets_e_2.html",
+          "tables": 2,
+          "importedTables": 2,
+          "excludedTables": 0,
+          "sourceDiagrams": 2
+        },
+        {
+          "sourceFile": "96_MinorProphets_e_4.html",
+          "tables": 4,
+          "importedTables": 4,
+          "excludedTables": 0,
+          "sourceDiagrams": 4
+        },
+        {
+          "sourceFile": "96_MinorProphets_e_5.html",
+          "tables": 5,
+          "importedTables": 5,
+          "excludedTables": 0,
+          "sourceDiagrams": 5
+        },
+        {
+          "sourceFile": "96_MinorProphets_pericope_e.html",
+          "tables": 101,
+          "importedTables": 101,
+          "excludedTables": 0,
+          "sourceDiagrams": 101
+        }
+      ]
+    }
+  ],
+  "multiBookMaps": [
+    {
+      "id": "sacks-torah",
+      "kind": "Concentric structure",
+      "books": [
+        "genesis",
+        "exodus",
+        "leviticus",
+        "numbers",
+        "deuteronomy"
+      ],
+      "sourceId": "sacks-2017",
+      "readingAlignment": "verified"
+    },
+    {
+      "id": "murai-web-samuel-1-1",
+      "kind": "Concentric structure",
+      "books": [
+        "1-samuel",
+        "2-samuel"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-samuel-2-1",
+      "kind": "Concentric structure",
+      "books": [
+        "1-samuel",
+        "2-samuel"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-samuel-3-2",
+      "kind": "Concentric structure",
+      "books": [
+        "1-samuel",
+        "2-samuel"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-samuel-3-2-1",
+      "kind": "Chiasm",
+      "books": [
+        "1-samuel",
+        "2-samuel"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-samuel-4-2",
+      "kind": "Concentric structure",
+      "books": [
+        "1-samuel",
+        "2-samuel"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-samuel-4-2-2",
+      "kind": "Concentric structure",
+      "books": [
+        "1-samuel",
+        "2-samuel"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-web-samuel-5-3",
+      "kind": "Concentric structure",
+      "books": [
+        "1-samuel",
+        "2-samuel"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-web-samuel-5-3-1",
+      "kind": "Concentric structure",
+      "books": [
+        "1-samuel",
+        "2-samuel"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-web-kings-1-1",
+      "kind": "Concentric structure",
+      "books": [
+        "1-kings",
+        "2-kings"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-kings-2-1",
+      "kind": "Concentric structure",
+      "books": [
+        "1-kings",
+        "2-kings"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-kings-3-2",
+      "kind": "Concentric structure",
+      "books": [
+        "1-kings",
+        "2-kings"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-web-kings-3-2-1",
+      "kind": "Chiasm",
+      "books": [
+        "1-kings",
+        "2-kings"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-web-kings-4-2",
+      "kind": "Concentric structure",
+      "books": [
+        "1-kings",
+        "2-kings"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-web-kings-4-2-2",
+      "kind": "Concentric structure",
+      "books": [
+        "1-kings",
+        "2-kings"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-web-kings-5-3",
+      "kind": "Concentric structure",
+      "books": [
+        "1-kings",
+        "2-kings"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-web-kings-5-3-1",
+      "kind": "Concentric structure",
+      "books": [
+        "1-kings",
+        "2-kings"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-web-kings-9-5",
+      "kind": "Concentric structure",
+      "books": [
+        "1-kings",
+        "2-kings"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-web-kings-9-5-1",
+      "kind": "Concentric structure",
+      "books": [
+        "1-kings",
+        "2-kings"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-web-chronicles-1-1",
+      "kind": "Concentric structure",
+      "books": [
+        "1-chronicles",
+        "2-chronicles"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-chronicles-2-1",
+      "kind": "Concentric structure",
+      "books": [
+        "1-chronicles",
+        "2-chronicles"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-chronicles-3-2",
+      "kind": "Concentric structure",
+      "books": [
+        "1-chronicles",
+        "2-chronicles"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-chronicles-3-2-1",
+      "kind": "Chiasm",
+      "books": [
+        "1-chronicles",
+        "2-chronicles"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-chronicles-4-2",
+      "kind": "Concentric structure",
+      "books": [
+        "1-chronicles",
+        "2-chronicles"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-chronicles-4-2-2",
+      "kind": "Concentric structure",
+      "books": [
+        "1-chronicles",
+        "2-chronicles"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-chronicles-5-3",
+      "kind": "Concentric structure",
+      "books": [
+        "1-chronicles",
+        "2-chronicles"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-chronicles-5-3-1",
+      "kind": "Concentric structure",
+      "books": [
+        "1-chronicles",
+        "2-chronicles"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-chronicles-9-4",
+      "kind": "Concentric structure",
+      "books": [
+        "1-chronicles",
+        "2-chronicles"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-chronicles-9-4-2",
+      "kind": "Concentric structure",
+      "books": [
+        "1-chronicles",
+        "2-chronicles"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-ezranehemiah-1-1",
+      "kind": "Concentric structure",
+      "books": [
+        "ezra",
+        "nehemiah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-ezranehemiah-1-1-1",
+      "kind": "Concentric structure",
+      "books": [
+        "ezra",
+        "nehemiah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-2",
+      "kind": "Concentric structure",
+      "books": [
+        "ezra",
+        "nehemiah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-2-1",
+      "kind": "Concentric structure",
+      "books": [
+        "ezra",
+        "nehemiah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-2",
+      "kind": "Concentric structure",
+      "books": [
+        "ezra",
+        "nehemiah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-2-2",
+      "kind": "Chiasm",
+      "books": [
+        "ezra",
+        "nehemiah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-3",
+      "kind": "Concentric structure",
+      "books": [
+        "ezra",
+        "nehemiah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-3-1",
+      "kind": "Concentric structure",
+      "books": [
+        "ezra",
+        "nehemiah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-exodus-numbers",
+      "kind": "Parallel / multi-part structure",
+      "books": [
+        "exodus",
+        "numbers"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-john-revelation",
+      "kind": "Chiasm",
+      "books": [
+        "john",
+        "revelation"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "verified"
+    },
+    {
+      "id": "murai-luke-acts",
+      "kind": "Parallel / multi-part structure",
+      "books": [
+        "luke",
+        "acts"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "verified"
+    },
+    {
+      "id": "meyer-luke-acts",
+      "kind": "Chiasm",
+      "books": [
+        "luke",
+        "acts"
+      ],
+      "sourceId": "meyer-2020",
+      "readingAlignment": "verified"
+    },
+    {
+      "id": "murai-minorprophets-1-1",
+      "kind": "Concentric structure",
+      "books": [
+        "hosea",
+        "joel",
+        "amos",
+        "obadiah",
+        "jonah",
+        "micah",
+        "nahum",
+        "habakkuk",
+        "zephaniah",
+        "haggai",
+        "zechariah",
+        "malachi"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-minorprophets-2-1",
+      "kind": "Concentric structure",
+      "books": [
+        "hosea",
+        "joel",
+        "amos",
+        "obadiah",
+        "jonah",
+        "micah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-minorprophets-2-2",
+      "kind": "Concentric structure",
+      "books": [
+        "micah",
+        "nahum",
+        "habakkuk",
+        "zephaniah",
+        "haggai",
+        "zechariah",
+        "malachi"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-minorprophets-4-1",
+      "kind": "Chiasm",
+      "books": [
+        "hosea",
+        "joel",
+        "amos"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-minorprophets-4-2",
+      "kind": "Chiasm",
+      "books": [
+        "amos",
+        "obadiah",
+        "jonah",
+        "micah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-minorprophets-4-3",
+      "kind": "Chiasm",
+      "books": [
+        "micah",
+        "nahum",
+        "habakkuk",
+        "zephaniah",
+        "haggai",
+        "zechariah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-minorprophets-4-4",
+      "kind": "Chiasm",
+      "books": [
+        "zechariah",
+        "malachi"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "murai-minorprophets-5-1",
+      "kind": "Concentric structure",
+      "books": [
+        "hosea",
+        "joel",
+        "amos"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-minorprophets-5-2",
+      "kind": "Concentric structure",
+      "books": [
+        "amos",
+        "obadiah",
+        "jonah",
+        "micah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-minorprophets-5-3",
+      "kind": "Concentric structure",
+      "books": [
+        "micah",
+        "nahum",
+        "habakkuk"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-minorprophets-5-4",
+      "kind": "Concentric structure",
+      "books": [
+        "habakkuk",
+        "zephaniah",
+        "haggai",
+        "zechariah"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "partial"
+    },
+    {
+      "id": "murai-minorprophets-5-5",
+      "kind": "Concentric structure",
+      "books": [
+        "zechariah",
+        "malachi"
+      ],
+      "sourceId": "murai-web-2026",
+      "readingAlignment": "unavailable"
+    },
+    {
+      "id": "wolfe-luke-acts",
+      "kind": "Concentric structure",
+      "books": [
+        "luke",
+        "acts"
+      ],
+      "sourceId": "wolfe-1980",
+      "readingAlignment": "verified"
+    },
+    {
+      "id": "pitkanen-hexateuch",
+      "kind": "Concentric / multi-part structure",
+      "books": [
+        "genesis",
+        "exodus",
+        "leviticus",
+        "numbers",
+        "deuteronomy",
+        "joshua"
+      ],
+      "sourceId": "pitkanen-2014",
+      "readingAlignment": "verified"
+    },
+    {
+      "id": "patrick-song-of-ark",
+      "kind": "Concentric structure",
+      "books": [
+        "1-samuel",
+        "2-samuel"
+      ],
+      "sourceId": "patrick-2016",
+      "readingAlignment": "verified"
+    },
+    {
+      "id": "patrick-song-of-ark-simplified",
+      "kind": "Concentric structure",
+      "books": [
+        "1-samuel",
+        "2-samuel"
+      ],
+      "sourceId": "patrick-2016",
+      "readingAlignment": "verified"
     }
   ],
   "normalizedInputSha256": "17c6f2d2f11cda52887250e374e2ebc141d0fdeb13884acc8398ce0eaf4173f0"

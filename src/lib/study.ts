@@ -92,6 +92,8 @@ function validateReference(
     return `That chapter is unavailable in ${workTitle(reference.workId)} (${resolved.edition.shortName}); use the chapter browser to see its source numbering.`;
   }
   const start = reference.verseStart;
+  if (book.unversified && (start !== undefined || reference.verseEnd !== undefined))
+    return "This edition has unversified chapter text. Enter the work and chapter without a verse number.";
   const end = reference.verseEnd ?? start;
   if (start === undefined)
     return reference.verseEnd === undefined

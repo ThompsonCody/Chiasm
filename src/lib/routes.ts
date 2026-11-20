@@ -4,6 +4,7 @@ import { getStructureSummary, FEATURED_STRUCTURE_ID } from "./structures.ts";
 import { initialReaderState, readerReducer } from "./reader.ts";
 import type { ReaderState, View } from "./reader.ts";
 import { parseReferenceParams, resolveBookEdition } from "./study.ts";
+import { catalogueFromParams } from './structureCatalogue.ts';
 
 export type Destination = "library" | "reader" | "structures";
 export { FEATURED_STRUCTURE_ID };
@@ -23,6 +24,12 @@ export function routeForState(state: ReaderState): string {
     structure: state.structureId ?? FEATURED_STRUCTURE_ID,
   });
   if (state.view === "library") params.set("collection", state.collectionId);
+  if (state.view === 'structures' && state.catalogue) {
+    const c = state.catalogue;
+    for (const [key, value] of Object.entries({ records: c.status === 'mapped' ? '' : c.status,
+      q: c.search, book: c.work, source: c.source, scope: c.scope, pattern: c.pattern,
+      'results-page': c.page ? String(c.page) : '' })) if (value) params.set(key, value);
+  }
   if (state.view === "reader" && state.reference) {
     params.set("work", state.reference.workId);
     params.set("chapter", String(state.reference.chapter));
@@ -69,7 +76,8 @@ export function stateFromParams(
       readingEditionId: reference ? params.get("edition") ?? state.preferredEditionId : state.preferredEditionId,
     };
   }
-  if (view === "library" || view === "structures") return { ...state, view };
+  if (view === 'structures') return { ...state, view, catalogue: catalogueFromParams(params) };
+  if (view === "library") return { ...state, view };
   if (structure && !proposal)
     return { ...state, view: "structures" };
   return { ...state, view: view === "trace" && state.structureId===FEATURED_STRUCTURE_ID ? "trace" : "chiasm" };

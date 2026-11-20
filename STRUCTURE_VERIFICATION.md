@@ -1,4 +1,18 @@
-# Structure catalogue verification · 2026-11-14
+# Structure catalogue verification
+
+## Expansion checks · 2026-11-20
+
+- The catalogue has 1,323 opening maps across 57 works and 1,008 citation-only records. Its 57 multi-book maps comprise 55 chiastic/concentric diagrams and two explicitly labeled parallel comparisons. Counts include nested diagrams and author variants.
+- `npm run verify:structures` passed: all 44 pinned original files, all four normalized collection inventories and all 1,323 generated map payloads matched their recorded hashes.
+- All three new Python extractors reran successfully against pinned source pages. Every hierarchy occurrence, exact duplicate locator, Twelve outline, and inter-book table position is accounted for.
+- `npm test`: **73 passed, 0 failed**. `npm run build`: **passed**. The build still reports a large main chunk (255 kB gzipped); the warning threshold was not changed.
+- Browser checks confirmed 55 results under Across multiple books + Chiastic/concentric and exactly two under Parallel/other. The Twelve Prophets global diagram opens with all 101 positions, its Micah center and explicit unavailable mapping notices. Wolfe's independently attributed Luke–Acts diagram opens through the same viewer. Keyboard selection from its later half selects both passages; Read in context and Return preserve the proposal, pair and KJV preference. The Flood still opens directly with O/O′ selected.
+- Checked the multi-book viewer at desktop, 390px and 320px. The large Twelve outline uses readable paired rows, with the comparison inline on mobile. No document overflow occurred at 320px or 390px. These are sampled interactive checks; all payloads were verified automatically rather than individually clicked.
+- Screenshots: `.verification/crossbook-complete/catalogue.jpg`, `luke-acts-desktop.jpg`, and `twelve-mobile.jpg`.
+
+Reading alignment remains explicit: eight multi-book maps are fully aligned, 35 partially aligned and 14 currently have no verified reading anchors. Complete source diagrams can open independently; unaligned positions never appear as guessed verse matches in Read. Full inventories, primary citations and remaining scope gaps are in [STRUCTURE_EXPANSION.md](STRUCTURE_EXPANSION.md).
+
+## Original import checks · 2026-11-14
 
 ## Import and automated checks
 

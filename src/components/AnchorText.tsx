@@ -8,7 +8,7 @@ import { loadBook } from "../lib/textLoader";
 import { DurationText } from "./DurationText";
 import { evidencePattern } from "../data/floodEmphasis";
 
-export function AnchorText({ anchor, preferredEditionId, onRead, onPreview, emphasizeDuration = false, streamlined = false, evidenceTerms = [], focusEvidence = false }: {
+export function AnchorText({ anchor, preferredEditionId, onRead, onPreview, emphasizeDuration = false, streamlined = false, evidenceTerms = [], focusEvidence = false, readLabel = "Open chapter →" }: {
   anchor: StructureAnchor; preferredEditionId: string;
   onRead?: (reference: Reference, editionId?: string) => void;
   onPreview?: (anchor: StructureAnchor) => void;
@@ -16,6 +16,7 @@ export function AnchorText({ anchor, preferredEditionId, onRead, onPreview, emph
   streamlined?: boolean;
   evidenceTerms?: readonly string[];
   focusEvidence?: boolean;
+  readLabel?: string;
 }) {
   const resolved = resolveBookEdition(anchor.workId,preferredEditionId);
   const [loaded,setLoaded] = useState<{key:string;data?:CorpusText;error?:string}>({key:""});
@@ -50,7 +51,7 @@ export function AnchorText({ anchor, preferredEditionId, onRead, onPreview, emph
       </>}
     <div className="passage-actions">
       {onPreview ? <button className="study-action" type="button" onClick={() => onPreview(anchor)}>Preview passage →</button> : null}
-      {onRead ? <button className="study-action" type="button" onClick={() => onRead(anchorReference(anchor),editionId)}>Open chapter →</button> : null}
+      {onRead ? <button className="study-action" type="button" onClick={() => onRead(anchorReference(anchor),editionId)}>{readLabel}</button> : null}
     </div>
   </section>;
 }

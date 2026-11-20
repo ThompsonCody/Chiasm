@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { collections } from "../data/catalog";
 import { corpusBooks, corpusEditions } from "../data/corpus";
-import { getCollectionWorks } from "../lib/reader";
+import { getLibraryView } from "../lib/library";
 import { resolveBookEdition } from "../lib/study";
 
 function BookChapters({
@@ -62,30 +62,35 @@ export function LibraryView({
 }) {
   const [query, setQuery] = useState("");
   const collection = collections.find((item) => item.id === collectionId)!;
-  const groups = getCollectionWorks(collectionId);
-  const unavailable = groups
-    .flatMap((group) => group.works)
-    .filter((work) => !corpusBooks.some((book) => book.workId === work.id));
+  const library = getLibraryView(collectionId, query);
   return (
     <section className="library-view" aria-labelledby="library-title">
       <h2 id="library-title" tabIndex={-1}>
         Complete books. Open questions.
       </h2>
       <div className="library-filters">
-        <label className="edition-picker">
-          <span>Collection</span>
-          <select
-            aria-label="Collection"
-            value={collectionId}
-            onChange={(event) => onCollection(event.target.value)}
-          >
+        <fieldset className="library-scope">
+          <legend>Show texts</legend>
+          <div className="library-scope-options">
             {collections.map((item) => (
-              <option value={item.id} key={item.id}>
+              <button
+                key={item.id}
+                type="button"
+                aria-pressed={collectionId === item.id}
+                onClick={() => onCollection(item.id)}
+              >
+                <span className="library-scope-check" aria-hidden="true">
+                  {collectionId === item.id ? "✓" : ""}
+                </span>
                 {item.title}
-              </option>
+                <span className="library-scope-count">
+                  {getLibraryView(item.id).total}
+                  <span className="sr-only"> works</span>
+                </span>
+              </button>
             ))}
-          </select>
-        </label>
+          </div>
+        </fieldset>
         <label className="edition-picker">
           Find a work
           <input
@@ -96,33 +101,43 @@ export function LibraryView({
           />
         </label>
       </div>
-      <p>{collection.note}</p>
-      {collection.sourceUrl ? (
-        <a
-          className="source-link"
-          href={collection.sourceUrl}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Collection membership: church’s published book list ↗ (new tab)
-        </a>
+      <section className="library-scope-summary" aria-label="Current library scope" aria-live="polite">
+        <h3>{collection.title}</h3>
+        <p className="library-scope-totals">
+          <strong>{library.total} works</strong> · {library.readable} readable · {library.unavailable} text not yet available
+        </p>
+        <p>
+          {collectionId === "all"
+            ? `Includes all ${library.tewahedoCount} entries in the Church-list collection, plus ${library.additionalWorks.length} other catalogued works, including Greek 1 Maccabees and KJV 1 Esdras.`
+            : `Shows the Church’s published list in its own order and groups. The ${library.additionalWorks.length} other catalogued works, including Greek 1 Maccabees and KJV 1 Esdras, are excluded from this view.`}
+        </p>
+        <details>
+          <summary>Collection source &amp; scope notes</summary>
+          <p>{collection.note}</p>
+          {collection.sourceUrl ? (
+            <a className="source-link" href={collection.sourceUrl} target="_blank" rel="noreferrer">
+              Church’s published book list ↗ (new tab)
+            </a>
+          ) : null}
+          <p>Additional works in All texts: {library.additionalWorks.map(work => work.title).join("; ")}.</p>
+          <p>Counts describe catalogue entries, not a traditional canon total. Collection membership does not change your reading edition.</p>
+        </details>
+      </section>
+      {query.trim() ? <p role="status">{library.matchCount} {library.matchCount === 1 ? "match" : "matches"} in {collection.title}.</p> : null}
+      {library.matchCount === 0 ? (
+        <div className="library-empty">
+          <p>No works match “{query.trim()}” in {collection.title}.</p>
+          {library.outsideMatches.length ? <>
+            <p>Found in All texts: {library.outsideMatches.map(work => work.title).join("; ")}.</p>
+            <button className="return-button" type="button" onClick={() => onCollection("all")}>Search All texts →</button>
+          </> : null}
+        </div>
       ) : null}
-      <p className="library-coverage">
-        {unavailable.length} works in this view: Text not yet available.
-        Imported books show their source-verified chapter coverage below.
-      </p>
-      {groups.map((group) => (
+      {library.groups.map((group) => (
         <section key={group.title}>
           <h3>{group.title}</h3>
           <div className="library-works">
-            {group.works
-              .filter((work) =>
-                [work.title, work.id, ...(work.aliases ?? [])]
-                  .join(" ")
-                  .toLowerCase()
-                  .includes(query.toLowerCase()),
-              )
-              .map((work) => {
+            {group.works.map((work) => {
                 const books = corpusBooks.filter(
                   (book) => book.workId === work.id,
                 );

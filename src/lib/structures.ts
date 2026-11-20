@@ -24,7 +24,9 @@ export function structureSelectionForReference(map: StructureSummary, reference:
 }
 export function structuresForReference(reference: Reference, editionId?: string) {
   return structureIndex.filter(map => map.status === "mapped" &&
-    structureSelectionForReference(map,reference,editionId));
+    structureSelectionForReference(map,reference,editionId))
+    // Local proposals stay ahead of broader multi-book frames in reader evidence.
+    .sort((a,b) => a.workIds.length-b.workIds.length);
 }
 export function getMapSelection(map: StructureMap, id: string) {
   const group = map.groups.find(group => group.id === id) ?? map.groups.find(group => group.id === map.defaultSelectionId) ?? map.groups[0];

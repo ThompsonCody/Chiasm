@@ -1,8 +1,8 @@
 # Structure sources and import
 
-This is an import of attributed proposals, not an assertion that a text has one settled structure. A working map has source boundaries, selectable source elements, an author, a citation, an explanation of the relationship and checked reading-context anchors. A citation-only record has no Open map action and does not appear as mapped evidence in Read.
+This is an import of attributed proposals, not an assertion that a text has one settled structure. A working map has checked source boundaries, selectable source elements, authorship, citation and source relationship notes. Reading-edition alignment is independent; unavailable mappings are explicit and excluded from reader discovery. A citation-only record has no Open map action and does not appear as mapped evidence in Read.
 
-The import contains **972 working maps**: 969 from Murai’s downloadable collection, Wenham’s complete Flood outline, and two Domka outlines. [STRUCTURE_COVERAGE.md](STRUCTURE_COVERAGE.md) gives the complete book/source count and books with no opening map. [STRUCTURE_LEADS.csv](STRUCTURE_LEADS.csv) lists all 1,007 citation-only records individually. Nothing was truncated to a target number.
+The current catalogue has **1,323 opening maps**, including **57 multi-book maps** (55 chiastic/concentric outlines, two parallel comparisons), and **1,008 citation-only records**. See [STRUCTURE_EXPANSION.md](STRUCTURE_EXPANSION.md) for complete collection inventories, sources, reading-alignment limits and repeatable extraction. The original four-workbook import is documented below.
 
 ## Murai: all four downloadable workbooks
 
@@ -19,7 +19,7 @@ The extractor reads every worksheet and every outline entry. It retains pericope
 
 The original HTTPS endpoint failed certificate validation during research. The source’s published HTTP address served the index and four workbooks. Certificate validation was not disabled. Checked-in hashes pin the reviewed bytes; a changed upstream file fails the downloader rather than silently replacing this snapshot.
 
-This is the **downloadable pericope collection**, not the entire website. The later website revisions, hierarchical whole-book/divided maps, cross-book maps and additional deuterocanonical pages are not present in those four files. They remain a separate collection lead. There is no website-wide completeness claim or automatic substitution of a website revision for the reviewed snapshot.
+This is the **downloadable pericope collection**, not the entire website. Later website revisions, hierarchical whole-book/divided maps, cross-book maps and additional deuterocanonical pages are not present in those four files. The separate 2026 import now covers all linked Samuel, Kings, Chronicles and Ezra–Nehemiah hierarchy pages, the complete Twelve Prophets collection, and all three inter-book comparison tables; see [STRUCTURE_EXPANSION.md](STRUCTURE_EXPANSION.md). Other individual-book hierarchy pages remain unimported. There is no website-wide completeness claim or automatic substitution of a website revision for the reviewed snapshot.
 
 Many references use a numbering system with known differences from the current KJV/WEB corpus. The importer conservatively holds affected books/ranges until a checked crosswalk exists, even where individual numbers fit. Other holds cover source syntax, missing verses, empty entries and an element outside its supplied boundary. The coverage report and CSV retain the reasons. These are mapping/source verification gaps, not a redistribution block on the licensed structure data.
 

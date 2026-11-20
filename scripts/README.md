@@ -1,5 +1,9 @@
 # Complete text imports
 
+`import-sinodos.mjs` additionally imports Horner1904 Tizaz (73 source sections, retaining both printed statute40s) and Schodde1885 Gitsew (57 canons). Raw chapter sources and original scans are pinned. These are unversified chapter/canon readings; no artificial biblical verses or cross-edition numbering equivalences are supplied. Current total: **85 works / 151 edition-books**.
+
+The importer also runs `import-didascalia.mjs`: all 43 source chapters of Harden's public-domain 1920 Ethiopic Didascalia, using the Ertale transcription and original scan as documented in `MISSING_TEXTS.md`. It records unversified chapter blocks, excludes apparatus, and pins all inputs. The reader rejects invented verse references for this edition. The reader also rejects invented verse references for the two Sinodos editions.
+
 Run from the project root with Node.js24+ and PowerShell7 (`pwsh` on PATH):
 
 ```sh
@@ -24,7 +28,7 @@ node scripts/import-texts.mjs --refresh --accept-source-update
 - **1 Enoch:** complete108 numbered chapters from R.H.Charles's1917 SPCK translation, tenth impression1962, Project Gutenberg77935: https://www.gutenberg.org/files/77935/77935-h/77935-h.htm . The printing credits the translation to Charles's1912 second edition. Public-domain underlying translation in the US; Gutenberg's full license is shipped at `public/texts/PROJECT-GUTENBERG-LICENSE.html`; source/local-law terms are recorded. The115website sections are not115textual chapters. Introductions, headings, footnotes, page numbers, two unnumbered editorial/colophon blocks and publication matter are excluded.
 - **Jubilees:** complete50chapter pages of the Charles1913 CCEL transcription, https://www.ccel.org/c/charles/otpseudepig/jubilee/index.htm .Credit: R.H.Charles, *The Apocrypha and Pseudepigrapha of the Old Testament*, Oxford1913; scanned/corrected by Joshua Williams, Northwest Nazarene College,c.1995. CrossWire's matching transcription explicitly records `Distribution License Public Domain`: https://crosswire.org/sword/modules/ModInfo.jsp?modName=Jubilees . Each fetched page must contain `[Chapter n]`; all50ordered verse lists are imported. Summary blockquotes and introductions are excluded. Translated unnumbered prologue and subscription are stored separately as `preamble` and `subscription`, not mislabeled as verses.
 
-The result is148complete edition-books across82distinct works. `public/texts/manifest.json` lists every book, source URL, source hash, output hash, chapter coverage and verse-number coverage. `scripts/source-lock.json` pins all original downloaded sources. Completeness means full coverage of that specific source's numbered chapters and verse blocks, not identical wording or versification across editions or a claim of critical textual perfection.
+The original four-edition baseline contains 148 edition-books across 82 works; the current total including the three historical editions above is **151 edition-books across 85 works**. `public/texts/manifest.json` lists every book, source URL, source hash, output hash, chapter coverage and verse-number coverage. `scripts/source-lock.json` pins all original downloaded sources. Completeness means full coverage of that specific source's numbered chapters and verse blocks, not identical wording or versification across editions or a claim of critical textual perfection.
 
 ## Numbering decisions
 

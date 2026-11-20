@@ -1,0 +1,132 @@
+/* The study desk: source-backed fold and evidence, with a quieter companion. */
+.study-page .study-heading { padding-block: .5rem .75rem; margin-bottom: .75rem; border-bottom: 1px solid var(--line); }
+.study-page .study-heading h1 { font-size: clamp(2rem,3.15vw,3rem); margin-bottom: .3rem; }
+.study-heading-title .study-return { display: inline-flex; align-items: center; min-height: 2.75rem; margin-bottom: 0; font-size: var(--type-label); }
+.study-heading .study-kicker { margin-bottom: 0; line-height: 1.6; }
+.study-desk { display: grid; grid-template-columns: minmax(0,1fr); align-items: start; gap: 2rem; }
+.study-desk > .study-body { min-width: 0; }
+.study-desk .sequence-panel { container-type: inline-size; container-name: foldspace; }
+.study-desk .horizontal-fold { padding: .375rem 0 .5rem; }
+.study-desk .fold-map-arcs { height: clamp(12rem,17vw,15rem); }
+.study-desk .fold-map-marker-label { min-width: 1.65rem; height: 1.65rem; padding: .05rem; background: var(--paper); border-color: transparent; }
+.study-desk .fold-map-marker.is-active .fold-map-marker-label { min-width: 1.85rem; height: 1.85rem; background: var(--accent); border-color: var(--ink); }
+.study-desk .fold-map-marker.is-center .fold-map-marker-label { color: var(--gold); border-color: var(--gold); background: var(--gold-surface); }
+.study-desk .fold-map-center { border: 0; background: transparent; flex-direction: column; gap: .125rem; padding: .25rem .5rem; }
+.study-desk .fold-map-center > span { color: var(--gold); }
+.study-desk .fold-map-center strong { font-size: 1.375rem; color: var(--ink); }
+.study-desk .fold-map-center[aria-pressed='true'] { outline: 1px solid var(--gold-line); background: var(--gold-surface); }
+.study-desk .fold-map-footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem 1rem; }
+.study-desk .fold-layout-switch { border: 1px solid var(--connector); border-radius: 5px; padding: .125rem; display: flex; flex-wrap: wrap; }
+.study-desk .fold-layout-switch button { border-radius: 3px; min-height: 2.75rem; }
+.study-desk .fold-layout-switch button[aria-pressed='true'] { background: var(--accent); color: var(--paper); border-bottom-color: var(--ink); text-decoration: underline; text-underline-offset: .25em; }
+.study-desk .below-map-comparison { background: transparent; padding: 1.5rem 0 0; border-top-color: var(--connector); }
+.study-desk .workspace-evidence .comparison-heading { grid-template-columns: minmax(0,1fr) minmax(14rem,19rem); gap: 1rem; align-items: center; }
+.study-desk .workspace-evidence .comparison-heading h2 { font-size: 2rem; }
+.study-desk .workspace-evidence .evidence-topline .eyebrow { font-weight: 400; letter-spacing: 0; }
+.study-desk .workspace-evidence .pair-verses { gap: 1.5rem; }
+.study-desk .workspace-evidence .pair-verse + .pair-verse { padding-left: 1.5rem; }
+.study-desk .workspace-evidence .pair-lead { margin-bottom: 1.125rem; }
+.study-desk .comparison-passage-name { font-size: 1.5rem; margin-bottom: .4rem; }
+.study-desk .edition-text blockquote, .study-desk .edition-text blockquote p { font: 400 1.375rem/1.55 var(--serif); }
+.study-desk .edition-text blockquote p { margin-bottom: .65rem; }
+.study-desk .edition-text blockquote sup { font: 400 var(--type-label)/1.3 'Segoe UI',sans-serif; color: var(--muted); }
+.study-desk .workspace-evidence mark { background: var(--selected); color: var(--ink); border-bottom-width: 2px; padding: .025em .075em; }
+.study-desk .edition-text .passage-actions .study-action { display: inline-flex; align-items: center; min-height: 2.875rem; border: 1px solid var(--connector); border-radius: 4px; padding: .5rem .875rem; text-decoration: none; color: var(--ink); }
+.study-desk .study-action:hover { background: var(--hover); border-color: var(--accent); }
+.study-desk .fold-interpretation { margin: 1.25rem 0 0; }
+.study-desk :focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
+.study-companion { min-width: 0; border-top: 1px solid var(--line); padding-top: 1rem; }
+.companion-disclosure > summary { min-height: 3rem; cursor: pointer; color: var(--ink); }
+.companion-title { font: 400 var(--type-section)/1.3 var(--serif); }
+.companion-summary-hint { display: block; font-size: var(--type-label); color: var(--muted); margin: .25rem 0 .75rem 1rem; }
+.companion-source { border-left: 2px solid var(--gold); padding: .25rem 0 .25rem 1rem; margin: 1.25rem 0 1.75rem; }
+.study-companion h3 { font: 400 1.5rem/1.3 var(--serif); margin-bottom: .75rem; }
+.companion-source h3 { font-size: 1.25rem; color: var(--gold); margin-bottom: .5rem; }
+.study-companion h4 { font: 400 1.25rem/1.4 var(--serif); margin: .875rem 0 .75rem; }
+.study-companion p, .study-companion li { font-size: var(--type-label); line-height: 1.65; color: var(--muted); margin-bottom: .75rem; }
+.study-companion .companion-source > p, .study-companion .companion-refs { color: var(--ink); }
+.study-companion .sources-notes { border: 0; padding: 0; margin: .75rem 0 0; font-size: var(--type-label); overflow-wrap: anywhere; }
+.study-companion .sources-notes summary { min-height: 2.75rem; display: list-item; align-content: center; }
+.companion-connection { border-top: 1px solid var(--line); padding-top: 1.5rem; }
+.companion-connection .parallel-badge { white-space: normal; display: inline-block; font-size: var(--type-label); }
+.companion-actions { display: grid; justify-items: stretch; gap: .75rem; margin-top: 1.25rem; }
+.companion-actions .study-action { min-height: 2.875rem; padding: .5rem .75rem; border: 1px solid var(--connector); border-radius: 4px; font-size: var(--type-label); }
+.companion-compare { display: inline-flex; text-align: left; align-items: center; min-height: 2.75rem; padding: .5rem 0; font-size: var(--type-label); border: 0; text-decoration: underline; text-underline-offset: .25em; color: var(--accent); margin-top: .5rem; }
+.companion-place-note { padding-top: 1rem; margin-top: 1rem; border-top: 1px solid var(--line); font-style: italic; }
+.companion-preview { margin-top: 1rem; border-top: 1px solid var(--accent); padding-top: .5rem; }
+.companion-preview > .study-action { font-size: var(--type-label); min-height: 2.75rem; border: 0; padding: .375rem 0; color: var(--accent); }
+.study-companion .edition-text-heading { flex-wrap: wrap; gap: .5rem; }
+.study-companion .edition-text blockquote, .study-companion .edition-text blockquote p { font: 400 var(--type-scripture)/1.6 var(--serif); }
+.mobile-selection-title { font: 500 var(--type-label)/1.5 'Segoe UI',sans-serif; color: var(--muted); margin-bottom: .625rem; }
+.mobile-pair-overview .inline-comparison { margin-top: 1rem; padding: 1.25rem 0; background: transparent; }
+.full-structure-browser { border-block: 1px solid var(--line); margin-top: 1.25rem; padding: .5rem 0; }
+.full-structure-browser > summary { min-height: 3rem; cursor: pointer; align-content: center; font-size: var(--type-ui); color: var(--accent); }
+.full-structure-browser > p { font-size: var(--type-label); color: var(--muted); line-height: 1.6; margin: .75rem 0; }
+@container workspace (min-width: 83rem) {
+  .study-desk { grid-template-columns: minmax(0,1fr) 17rem; gap: 2rem; }
+  .study-companion { border-left: 1px solid var(--line); border-top: 0; padding: 0 0 0 1.25rem; }
+  .study-desk .fold-map-footer { justify-content: center; }
+  .study-desk .fold-map-key, .study-desk .fold-map-keyboard { flex: 1; }
+}
+@container foldspace (max-width: 52rem) {
+  .study-desk .workspace-evidence .comparison-heading { grid-template-columns: minmax(0,1fr); }
+  .study-desk .workspace-evidence .pair-verses { grid-template-columns: minmax(0,1fr); }
+  .study-desk .workspace-evidence .pair-verse + .pair-verse { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); padding-top: 1.25rem; }
+}
+@media (min-width: 64rem) {
+  .app-header .header-inner { padding-block: .625rem; }
+  .app-header .header-passage-jump { display: grid; grid-template-columns: max-content minmax(0,1fr); align-items: center; gap: .75rem; }
+  .header-passage-jump > label { margin: 0; }
+  .header-passage-jump > [role='alert'] { grid-column: 1 / -1; }
+}
+@media (max-width: 63.99rem) {
+  .study-desk .workspace-evidence .comparison-heading { grid-template-columns: minmax(0,1fr); }
+  .study-desk .workspace-evidence .pair-verse + .pair-verse { padding-left: 0; }
+  .study-desk .fold-layout-switch { width: 100%; }
+  .study-desk .fold-layout-switch button { flex: 1 1 auto; }
+  .study-desk .edition-text blockquote { font-size: var(--type-scripture); }
+}
+/* Match the homepage's one-shot trace from the earlier half to its counterpart.
+   Normalized SVG path lengths keep the timing identical for every pair. */
+.study-desk .fold-map-arc { stroke: var(--pair-color, var(--connector)); stroke-width: 2.1; }
+.study-desk .fold-map-arc.is-active { stroke: var(--pair-color, var(--accent)); stroke-width: 4.5; }
+.study-desk .fold-map-marker:not(.is-center) .fold-map-marker-label {
+  color: var(--pair-color, var(--muted)); border: 1px solid var(--pair-color, var(--connector));
+}
+.study-desk .fold-map-marker.is-active:not(.is-center) .fold-map-marker-label {
+  color: var(--paper); background: var(--pair-color, var(--accent));
+  border: 2px solid var(--ink); font-weight: 700;
+}
+.study-desk .arc-key.active { background: var(--selected-pair-color, var(--accent)); }
+.study-desk .is-selected .fold-hinge svg { animation: none; }
+.study-desk .fold-map-arc.is-active,
+.study-desk .fold-connector.is-selected path { animation: none; stroke-dasharray: none; }
+.study-desk .fold-map-arc.study-trace-baseline { stroke: var(--pair-color, var(--connector)); stroke-width: 2.1; }
+.study-desk .fold-connector .study-trace-baseline { stroke: var(--connector); stroke-width: 1.5; }
+.study-desk .study-trace-sweep {
+  transform-origin: 0 0;
+  animation: study-fold-sweep 720ms cubic-bezier(.42, 0, .58, 1) both;
+}
+@keyframes study-fold-sweep {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+.study-desk path.study-trace-mask {
+  fill: none; stroke: white; stroke-width: 16; vector-effect: none;
+  stroke-dasharray: 1; stroke-dashoffset: 0;
+  animation: study-fold-trace 720ms cubic-bezier(.42, 0, .58, 1) both;
+}
+.study-desk .is-selected .fold-hinge path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  animation: study-fold-trace 720ms cubic-bezier(.42, 0, .58, 1) both;
+}
+@keyframes study-fold-trace {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .study-desk .study-trace-sweep { animation: none; transform: none; }
+  .study-desk path.study-trace-mask,
+  .study-desk .is-selected .fold-hinge path { animation: none; stroke-dasharray: none; }
+}

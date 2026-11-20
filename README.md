@@ -50,7 +50,7 @@ The shared navigation is **Library · Read · Structures**. The ChiFold logo ret
 
 ## Imported coverage
 
-The checked import contains 148 edition-books across 82 readable works. [COVERAGE.md](COVERAGE.md) lists every complete book and all remaining gaps; regenerate it with `npm run report:coverage`.
+The checked import contains 151 edition-books across 85 readable works, including the historical Ethiopic Didascalia, Tizaz and Gitsew translations. [COVERAGE.md](COVERAGE.md) lists every complete book and all remaining gaps; regenerate it with `npm run report:coverage`. [MISSING_TEXTS.md](MISSING_TEXTS.md) records the latest source audit and import limits.
 
 - KJV `eng-kjv`: all 80 source books, including its 14 separately identified Apocrypha works.
 - WEB `engwebp`: all 66 books in this specific browser edition.
@@ -61,7 +61,7 @@ A complete badge means complete against that particular source edition, not an o
 
 ## Repeat the imports
 
-The source-backed Structures catalogue contains **972 working maps across 39 books**, plus **1,007 citation-only records** with individual reasons. The complete book/source breakdown is in [STRUCTURE_COVERAGE.md](STRUCTURE_COVERAGE.md); [STRUCTURE_SOURCES.md](STRUCTURE_SOURCES.md) documents licences, mapping limits and repeatable extraction. [STRUCTURE_VERIFICATION.md](STRUCTURE_VERIFICATION.md) records the tests and actual desktop/mobile reading checks. `npm run import:structures` regenerates the catalogue from the checked-in source records without downloading anything. The same viewer opens the complete Wenham Flood outline, Murai proposals and Domka’s independent Enoch outlines.
+The source-backed Structures catalogue contains **1,323 opening maps across 57 works**, including **57 multi-book maps** (55 chiastic/concentric outlines and two parallel comparisons), plus **1,008 citation-only records** with individual reasons. Counts include nested source diagrams and separately attributed versions. Source outlines and reading-edition alignment are independent: unavailable mappings are labeled, not guessed. The complete book/source breakdown is in [STRUCTURE_COVERAGE.md](STRUCTURE_COVERAGE.md); [STRUCTURE_EXPANSION.md](STRUCTURE_EXPANSION.md) documents the complete reviewed collections and remaining gaps. [STRUCTURE_SOURCES.md](STRUCTURE_SOURCES.md) records licences and repeatable extraction. [STRUCTURE_VERIFICATION.md](STRUCTURE_VERIFICATION.md) records automated checks and actual desktop/mobile reading checks. `npm run import:structures` regenerates the catalogue from checked-in source records without downloading anything; `npm run verify:structures` checks the pinned sources and generated payloads against their recorded hashes. The same viewer opens the complete Wenham Flood outline, multi-book proposals, Murai diagrams and Domka’s independent Enoch outlines.
 
 ```sh
 npm run import:texts

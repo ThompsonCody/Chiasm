@@ -211,6 +211,494 @@
     "url": "https://www.ccel.org/c/charles/otpseudepig/jubilee/50.htm",
     "sha256": "b9746f11b2817338edb77b493be11e1751521dce89336c38021e01a86418606f"
   },
+  "didascalia/index.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/",
+    "sha256": "d3ef6fc331458cb01d7ac168e7bed1fe34a0809a64616a324292bf9b623c34e0"
+  },
+  "harden-1920.txt": {
+    "url": "https://archive.org/download/cu31924096083336/cu31924096083336_djvu.txt",
+    "sha256": "b1c8e1fe5a2072457bcef927e0ab3442efd499e8bceb79a9bfce1f89fe947e25"
+  },
+  "didascalia/1.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/1/",
+    "sha256": "90b3f926f349433c1419ea8c478429619627674db60ed2ee6cd76b927ca79156"
+  },
+  "didascalia/2.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/2/",
+    "sha256": "de7f7dd8da266634a6bf412eb67d397bb4fc7826c8e6867c9fdef80cefec4446"
+  },
+  "didascalia/3.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/3/",
+    "sha256": "510af486ed402fc5af7e3c4d951ef5405481df739c93d050dc90ffb7a17e0d12"
+  },
+  "didascalia/4.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/4/",
+    "sha256": "26e3f89fcc31aa11c727d3ec94c019b0ce3189a746812795d4873a5aadb45ada"
+  },
+  "didascalia/5.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/5/",
+    "sha256": "5fa9ef3e92810bc06fa83a8e9d2f0a4d0e87590c8bb838fb575205a62d534608"
+  },
+  "didascalia/6.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/6/",
+    "sha256": "5d5799af722485c6b11488d2e91fab8fcaf27f33cb5190115384d460b2492b6d"
+  },
+  "didascalia/7.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/7/",
+    "sha256": "bcc6f18998cb331fa987673c38709bede5ac39acacac7b39d9427181f54c599a"
+  },
+  "didascalia/8.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/8/",
+    "sha256": "5393918f625d4f9f995142a90383e6954fbb1ba8faa04951db031c76a42db43f"
+  },
+  "didascalia/9.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/9/",
+    "sha256": "3165bd73cb885bf02e0e8d27d21a64b5930560e4b6b4c1feaee2e39659b56a17"
+  },
+  "didascalia/10.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/10/",
+    "sha256": "792e20c5d59a989fd7101d413fd9bea5c9a15629f320b2ace527a18dde0a9f31"
+  },
+  "didascalia/11.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/11/",
+    "sha256": "8112a86656e2d121adfc94e460b1baf6cbc25f0f2805f64bf2e8ebaf19007d0b"
+  },
+  "didascalia/12.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/12/",
+    "sha256": "1ce5f161262f426be2ef8bb3f8bd2826abbe0f3b31d2c82de6738e087c9a3a7d"
+  },
+  "didascalia/13.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/13/",
+    "sha256": "dceebbb3b775e1496caf82ab24f952c039e878848c422d8ad5469476e6e50bbc"
+  },
+  "didascalia/14.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/14/",
+    "sha256": "b53b2aa10409f27bcecf6e4c050d6a4de598bfa71b9daebc57a4883722ce0ad7"
+  },
+  "didascalia/15.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/15/",
+    "sha256": "8d0db1ebe5c5ce6e772ae399df5531169f549035022ab426ba8dda5fb786ad87"
+  },
+  "didascalia/16.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/16/",
+    "sha256": "9ef0791f7ea8321087a39b5f9a79366d27877897805475c69413cdddaf332cb2"
+  },
+  "didascalia/17.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/17/",
+    "sha256": "afd6c750de4265b6faeb5805b902994d8f5836a895db9cb73ade1574d753e48c"
+  },
+  "didascalia/18.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/18/",
+    "sha256": "5a9c44e8c8bb7296b9e2473e74328a6c69fc6d9de9464df03e41346f53358b8f"
+  },
+  "didascalia/19.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/19/",
+    "sha256": "19e8d61d36165e81eecb5f6c494ead6de0d91cb41e593126ffdbdf90da4cbe05"
+  },
+  "didascalia/20.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/20/",
+    "sha256": "c247dc3944ab1efde9e5eedb4c15e90acae1b9281cf2a7500bdc5f3b5f781dc9"
+  },
+  "didascalia/21.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/21/",
+    "sha256": "e954a0a409e38cdde06f79ac6efb4d5c055deb1ec7178357c8f9215512cb43b6"
+  },
+  "didascalia/22.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/22/",
+    "sha256": "0f2475c42cae7e8064925eba7f4182da59b2c4a61d824ca6609062347c479ed6"
+  },
+  "didascalia/23.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/23/",
+    "sha256": "bd9da0993d4f36ae1565c041d1257822c86a95353e34c002d6f027647618660f"
+  },
+  "didascalia/24.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/24/",
+    "sha256": "c743c1fb5fbe53c214c1fbfe3ad500d86d3273e9173fbd3865abfaedfa686b23"
+  },
+  "didascalia/25.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/25/",
+    "sha256": "c3a3f52a9731bab8121048aac7037e285287850a8403621b4bd22b07ba93d3d1"
+  },
+  "didascalia/26.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/26/",
+    "sha256": "14c2062ca61db304dfe2f776777aa783b498901fab45221d477e86c55bbcf295"
+  },
+  "didascalia/27.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/27/",
+    "sha256": "ff7ae83d16221c103e75b42ee9c8cd68a98cf351ff7b6e2540ae2ced5fcacf5f"
+  },
+  "didascalia/28.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/28/",
+    "sha256": "2cfa8ead466fa4c86a4407430527e3e3f93dd8b6f323f94ec42134d4b9249de0"
+  },
+  "didascalia/29.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/29/",
+    "sha256": "cf47acbba32554634c9f31154e4036981537ab07b7971d4079cbb9d8c1cc5733"
+  },
+  "didascalia/30.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/30/",
+    "sha256": "e3da2fa6f462572e02dbc6c34d14790ff32d5e128cccfc39f6a4bdcd296b6598"
+  },
+  "didascalia/31.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/31/",
+    "sha256": "ed7d3cffa3db2b09cb763a5745706a491ddcfc3e7c220df8f3247f0b90d989b9"
+  },
+  "didascalia/32.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/32/",
+    "sha256": "c437448add2d8f694ec8855718dbf7a37cbf2d0d0d3e6ddf4e1e17275e5602fe"
+  },
+  "didascalia/33.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/33/",
+    "sha256": "08cbf63ba65bff108486acef3e3cbef5395a0811766bb294450e6d5f8c9301a0"
+  },
+  "didascalia/34.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/34/",
+    "sha256": "3ee3113b4dfa11c70f5d182bfac2e9418d328b267303b9585ac50dc9c6b903d6"
+  },
+  "didascalia/35.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/35/",
+    "sha256": "9f84a7e0373099782d202a8a9844b11957f32d823f5061609a60a022c4ed399b"
+  },
+  "didascalia/36.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/36/",
+    "sha256": "3b2a2c5da06950484b9523099d18b131c20edc1cb04ee987b426c8fb45c3b185"
+  },
+  "didascalia/37.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/37/",
+    "sha256": "1470c3580bf2431f024b8ec3cb123e821826d5d1a90cae906258fa326668008d"
+  },
+  "didascalia/38.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/38/",
+    "sha256": "cdb80ace677069b30b7c3dc648b26f86915f601dbe6e2dcede0465c0d1efee30"
+  },
+  "didascalia/39.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/39/",
+    "sha256": "e9a177305176d58774e0a84d8007c474f39a1f3af29500cdb739b414754ef8a3"
+  },
+  "didascalia/40.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/40/",
+    "sha256": "f5ef3687f10f460b14577a805a996b43b8d5e3074caf6f699af4f85c9fba544a"
+  },
+  "didascalia/41.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/41/",
+    "sha256": "9523abd60e06ab8b2571b4544422aa6a4cb45efe92da2898599fddd6f2d40d44"
+  },
+  "didascalia/42.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/42/",
+    "sha256": "ccc223027b6d314b3f89a98faf0edfc750857ecb1df1f5896b2dc18e2df6df98"
+  },
+  "didascalia/43.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/didascalia/43/",
+    "sha256": "33c1da37444824dee7769820326b8f3f60643cbeab60a81f7c71872cbadc8809"
+  },
+  "horner-1904.txt": {
+    "url": "https://archive.org/download/statutesapostle00unkngoog/statutesapostle00unkngoog_djvu.txt",
+    "sha256": "5aa74b2247483b7b0c380cd60486c81d32eea26d6a59a82be6bd215025ff7f62"
+  },
+  "teezaz/index.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/",
+    "sha256": "6a0793ea220de07adc06e8cf26bb0d687a412f51d0ed2e111c99ad1081ce1001"
+  },
+  "teezaz/1.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/1/",
+    "sha256": "af7785e8f495286ad6cbac37c923c0a7a77b7ab221ae4370cd0e96dd1e19de84"
+  },
+  "teezaz/2.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/2/",
+    "sha256": "0f2fd80dc26b70feef794c68902fc6128623cf89a9ec4ec375c456e2fba2ebaa"
+  },
+  "teezaz/3.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/3/",
+    "sha256": "1925fa1b21ba55f624b4be8693d7e6fd2f3b5ea48c82cdf433d8bcb64de061ab"
+  },
+  "teezaz/4.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/4/",
+    "sha256": "65871024eb7f313cc56cc61258b3b36fdc02cf86fbe60a6e2bdd08e0e50e003e"
+  },
+  "teezaz/5.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/5/",
+    "sha256": "46bbb5188d8a624a93b658a019bf48fcd1078dea968ce4184e5d5d94bb730a25"
+  },
+  "teezaz/6.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/6/",
+    "sha256": "f9046c12e0d784da056ce5c68f3300f3184b824da6250831ce75eea99162975f"
+  },
+  "teezaz/7.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/7/",
+    "sha256": "a475368f57af9bf00edb56c845ec305e208a6caaf19d73db2616b12838fec525"
+  },
+  "teezaz/8.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/8/",
+    "sha256": "804a37a26eec0c5b1b24cb6295654f3a234d941b2feaed505809b3771b624315"
+  },
+  "teezaz/9.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/9/",
+    "sha256": "be63c76636bc3624d55e7cbae2baefc4c3fa653cc5b8bd62ec3114d42ccefb51"
+  },
+  "teezaz/10.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/10/",
+    "sha256": "06db975f2a620b19cea6dd3a65c8ebd4b6daf12d007bf1d6376aeded29ed2831"
+  },
+  "teezaz/11.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/11/",
+    "sha256": "167344e157cddbb90935a3348f6b04bd2a504600b02c1f730a1975bd5a0f605a"
+  },
+  "teezaz/12.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/12/",
+    "sha256": "7b1450b944bb988f99786c1480676135a277311795b6259ee71dcd6825d7c550"
+  },
+  "teezaz/13.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/13/",
+    "sha256": "4d9e5f353b567fd2a8ca9362e3f64d331070785dd6b44823348eaa8c224e126e"
+  },
+  "teezaz/14.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/14/",
+    "sha256": "539b5fb623b8d1463b151e98c3f0928fbdff0346b452ccef2938178e9a3caebd"
+  },
+  "teezaz/15.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/15/",
+    "sha256": "5f4c8a0cb89f7758347644de776f4e73c2e45049232da8725ea8c8979424adb7"
+  },
+  "teezaz/16.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/16/",
+    "sha256": "c9bb371d8fb16610d4ff32bc0e9b06cb4b8d3e39996d2344841668fb1afc463f"
+  },
+  "teezaz/17.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/17/",
+    "sha256": "f50544bb1a086e43b1d2817ed2a55602c5c88b091e095b8e0642a52d209a7f9d"
+  },
+  "teezaz/18.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/18/",
+    "sha256": "4d874b3fe62a4e41b9b0983f4f9df0b555f45f4d0a62eebd6f9685e1e4aa6d36"
+  },
+  "teezaz/19.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/19/",
+    "sha256": "3e55c29a4114efaeb88aca25a6c77d81c7ae8c96ee882d307900bcdee367fcea"
+  },
+  "teezaz/20.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/20/",
+    "sha256": "b2f43d83037fd02525718940dd52eb824c2421b7166f8bce36890e76b3c40d5c"
+  },
+  "teezaz/21.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/21/",
+    "sha256": "4968a24ad36967e4a4e9f0148b610c34faa8347c80155c5973ca3394b7cfecb5"
+  },
+  "teezaz/22.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/22/",
+    "sha256": "3079290acc75acc87a187b5a5f9d67d2f5540e88fd53da2c32f73cdb9130a5ac"
+  },
+  "teezaz/23.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/23/",
+    "sha256": "b73b1db8aabc45e1b3ea74377a15f62777880ba9181f1f356d5534a6c906585a"
+  },
+  "teezaz/24.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/24/",
+    "sha256": "faac393e88a56b49e08a6ffd11b8d702749857c56d697de1b8553484ced47279"
+  },
+  "teezaz/25.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/25/",
+    "sha256": "3cadfd736778592c4677ed9d43fca4f12ef2048060699da71f4651bfdfd12721"
+  },
+  "teezaz/26.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/26/",
+    "sha256": "d4e1c6487169b445455be083f8d01ed19036585e4547fef0e21ae13f74869f45"
+  },
+  "teezaz/27.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/27/",
+    "sha256": "89e673d42dd2ad32d747dba02089d0b03014c1a4f210c8ac344559b50dad3633"
+  },
+  "teezaz/28.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/28/",
+    "sha256": "9d0ae96534306172876a3cae6d21b6beaa0dec97580f2f340ec5b0f965e1a0c1"
+  },
+  "teezaz/29.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/29/",
+    "sha256": "35df1916c04fbbe26c88446efe6c6aa18cdb9364458a1dfb55c59e1951d7c20d"
+  },
+  "teezaz/30.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/30/",
+    "sha256": "e5337951282bab83944fb706b9036dde41b4c63f46a2350ffdbdf69a83480ae3"
+  },
+  "teezaz/31.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/31/",
+    "sha256": "4fd1061f21c95fa50a480551df9bc6150e6d05d3d635c2968973555aaf358eda"
+  },
+  "teezaz/32.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/32/",
+    "sha256": "a1aa91e0c531537bfe9212f0403b8a1e582be76a32ae29fb0ea848dce2a5bfd3"
+  },
+  "teezaz/33.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/33/",
+    "sha256": "ef20e344812a9de829c2a33f236c675cead1c5ec4bca72e6bcfd6ad37c321f2c"
+  },
+  "teezaz/34.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/34/",
+    "sha256": "60a1556fb3d1d04ba91d87b035b8b529c66fb2dfa48ef515643973ba8cba2d0e"
+  },
+  "teezaz/35.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/35/",
+    "sha256": "cd1bd76d7ebfc7079f8f9e311c49c8d78ca611afafb80fdf7489ab2cd0572b14"
+  },
+  "teezaz/36.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/36/",
+    "sha256": "f23534b44a250e66ef46403308542fc17781aeaa59eb78b6ce0cfc31c2624a9f"
+  },
+  "teezaz/37.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/37/",
+    "sha256": "c05ff11f56412a418bb0d6b73b1560b0a35c133d0288bdd26e5aa61a83351420"
+  },
+  "teezaz/38.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/38/",
+    "sha256": "5b995f1d0c222e6ffa507f45befce87282bc1c080320fb3f702e7909addadc33"
+  },
+  "teezaz/39.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/39/",
+    "sha256": "3a02b21aeedf02279e97c920ee322e266584b758d1e3be8427599a4d77fa9655"
+  },
+  "teezaz/40.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/40/",
+    "sha256": "022777346b869f400fc477eaf3d17a97a9706047c4bb60e57cb799cacf8e330b"
+  },
+  "teezaz/41.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/41/",
+    "sha256": "79dde44a70ffb168fbfc315e678f262ca5c8f2d5252164a3844db8c53bd131cc"
+  },
+  "teezaz/42.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/42/",
+    "sha256": "6ea093997f8b20184932c8d76946f6e9a0d38cecece3bb49f09bb00f0c71f1ae"
+  },
+  "teezaz/43.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/43/",
+    "sha256": "fc82e77389eea86944456ce75afcd4dabef0ef42b2c205ead354ebafbbfcc06a"
+  },
+  "teezaz/44.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/44/",
+    "sha256": "61f47ea97194fe15090c5b02aa4d5c02293207200257b3d5e4c2515c80a1b73f"
+  },
+  "teezaz/45.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/45/",
+    "sha256": "ee03cd869ed83f70d270d92a4ba9aa46f0b1a16257b43ec568bb45b295f391dc"
+  },
+  "teezaz/46.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/46/",
+    "sha256": "a50b79532be26d987c03a90316d906fe14598de30877c5e6912b7658efaf9929"
+  },
+  "teezaz/47.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/47/",
+    "sha256": "28cb3eead47110c37d3855b25ae94bd01588b55b17e7e0d7796139bb6c0d0372"
+  },
+  "teezaz/48.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/48/",
+    "sha256": "083f5c83cdc3219f6ac824f490071b172cd5e66cf03bd2f7a6ddaf86ca9de2c7"
+  },
+  "teezaz/49.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/49/",
+    "sha256": "b37d2b54febcdcbb4e1cb666458e12d57623b1658ab4e7ff61ddc08907908ed3"
+  },
+  "teezaz/50.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/50/",
+    "sha256": "d85fb9d08b5ac5043b29ce90f347571998a68c65c390916a4dcae50130adff50"
+  },
+  "teezaz/51.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/51/",
+    "sha256": "e2db02c8c040c10b7d452a62b504ca8e011b12e8ef57620065e2b94795864d17"
+  },
+  "teezaz/52.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/52/",
+    "sha256": "f8dc6fae6fad7560ba8b762a41fded2b780b26fc78fe73a5e5b221cd22a2f795"
+  },
+  "teezaz/53.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/53/",
+    "sha256": "d248a2b6bfb3675616132430b5356ff1bd825bcffcd4c09f45fbc02c263ffddb"
+  },
+  "teezaz/54.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/54/",
+    "sha256": "345112521da64a3ce58d2d46c69061972fe5edeb193bce9c1073696a621e0164"
+  },
+  "teezaz/55.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/55/",
+    "sha256": "c375e5657ac6ae0e9581ba89879805cc840496b198be2b23a9d073dff3d02214"
+  },
+  "teezaz/56.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/56/",
+    "sha256": "95caa69406f0e1b220bd054cff45161f24b69a6fa6a43d6743d22132a841b52f"
+  },
+  "teezaz/57.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/57/",
+    "sha256": "88b135183c7be3dd379e1fce0f7aa01c4a940ac45fbea0a925d23d4ba38f7d71"
+  },
+  "teezaz/58.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/58/",
+    "sha256": "5865a9de36018a02fbd0d9575efbe2dafea1ea7cee911a306bbc77346bff53b7"
+  },
+  "teezaz/59.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/59/",
+    "sha256": "f1b88230909337d826945710b51ebf7bbc0e28f05168d20e00e6bddb8135de69"
+  },
+  "teezaz/60.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/60/",
+    "sha256": "9fca623c3861d62de45facf84d3568196bdf07db47c2958b4839a98e78573a93"
+  },
+  "teezaz/61.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/61/",
+    "sha256": "35ae286705c64cfeede473769c4af2439e3a2e38c49c4ec2c7d7365f81c24f91"
+  },
+  "teezaz/62.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/62/",
+    "sha256": "89f17e5941be568b1e894c14bedada620f7b71bed53256650327571bbc86b892"
+  },
+  "teezaz/63.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/63/",
+    "sha256": "61b5916a0ebedd0915c3749f70a8796a196cae6899ee59a19ed470932da57f18"
+  },
+  "teezaz/64.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/64/",
+    "sha256": "b9c664ff5bc7b5dd838b51ee1bd004759c7e6e28a588074198b9b24bf55edcca"
+  },
+  "teezaz/65.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/65/",
+    "sha256": "1ae42394c1ea91ee33bb9aa440b550e5213e409ff4580e93d425a77b1243d41d"
+  },
+  "teezaz/66.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/66/",
+    "sha256": "a85028ad3157dc0988b1419fa329b94f8574a25a20820755992a534d29a0264d"
+  },
+  "teezaz/67.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/67/",
+    "sha256": "6e479353d19b7f3a8f9824f1ccda73c230e1fe469b5833af79f57cf690bdb0f5"
+  },
+  "teezaz/68.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/68/",
+    "sha256": "a3dd0441d7cd479e859e41eabb477b4c2b7d3cdb508034ebca7827e41418ae89"
+  },
+  "teezaz/69.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/69/",
+    "sha256": "5937c42ec94229323fae3b630ee60189d04eba975bada6d2c88a5d2de78354ef"
+  },
+  "teezaz/70.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/70/",
+    "sha256": "df8bb59bde2bfa2e2e609adf9a9c92a6cff8246993cddb5beef60ef98b7d8f41"
+  },
+  "teezaz/71.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/71/",
+    "sha256": "5a9eb950acc8a397c0f2bb4f876e0341732ceba5d2267be9979b78ae8fa91c92"
+  },
+  "teezaz/72.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/72/",
+    "sha256": "8927932016cd10313d4aeed75806feb39c7a798225b8673513bacdf64a433f30"
+  },
+  "teezaz/73.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/teezaz/73/",
+    "sha256": "fa98d8eef9249077c2b6bab9bf16d095297be165c42f335160f2eff920adf180"
+  },
+  "schodde-1885.txt": {
+    "url": "https://archive.org/download/jstor-3268629/3268629_djvu.txt",
+    "sha256": "5754c177b8568dd6fb0682dfa7593f0517321f331277b9a38e6f02ca064abeb8"
+  },
+  "schodde/canons.html": {
+    "url": "https://ertale.com/bible/ethiopiancanon/apostoliccanons/1/",
+    "sha256": "6ffbb0f58dd09c3a43a0cdcce11d1ca95b08fa31b87eb1c9b182b24ee62d8fe1"
+  },
   "pg-license.html": {
     "url": "https://www.gutenberg.org/policy/license.html",
     "sha256": "8a5137aecb0911dc0700e4ff636834326f6eade4beb997229269658a5ccd82f7"

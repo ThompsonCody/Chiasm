@@ -8,9 +8,11 @@ import { getPassage } from "./lookup.ts";
 import type { Reference } from "./study.ts";
 import { corpusEditions } from "../data/corpus.ts";
 import { FEATURED_STRUCTURE_ID, getStructureSummary } from "./structures.ts";
+import type { StructureCatalogueState } from './structureCatalogue.ts';
 
 export type View = "home" | "chiasm" | "trace" | "library" | "reader" | "structures";
 export interface ReadingBookmark {
+  catalogue?: StructureCatalogueState;
   view: View;
   structureId?: string;
   reference?: Reference;
@@ -20,6 +22,7 @@ export interface ReadingBookmark {
   scrollY: number;
 }
 export interface ReaderState {
+  catalogue?: StructureCatalogueState;
   view: View;
   structureId?: string;
   selectionId: string;
@@ -40,6 +43,7 @@ export const initialReaderState: ReaderState = {
   collectionId: "all",
 };
 export type ReaderAction =
+  | { type: 'catalogue'; value: StructureCatalogueState }
   | { type: "view"; value: View }
   | { type: "pair" | "edition" | "collection"; value: string }
   | { type: "open"; reference: Reference; editionId?: string }
@@ -61,6 +65,7 @@ export function readerReducer(
   action: ReaderAction,
 ): ReaderState {
   const bookmark: ReadingBookmark = {
+    catalogue: state.catalogue,
     view: state.view,
     structureId: state.structureId,
     reference: state.reference,
@@ -70,6 +75,8 @@ export function readerReducer(
     scrollY: state.scrollY ?? 0,
   };
   switch (action.type) {
+    case 'catalogue':
+      return { ...state, catalogue: action.value, restoreScroll: undefined };
     case "map": {
       const proposal = getStructureSummary(action.structureId ?? FEATURED_STRUCTURE_ID);
       if (!proposal) return state;

@@ -64,8 +64,27 @@ export const domka = [
   },
 ];
 
+export const multiBook = [{
+  id:'sacks-torah', sourceId:'sacks-2017', title:'The Torah: a five-book fold',
+  boundaries:'Genesis–Deuteronomy', locator:'Introduction, printed p. 6 (PDF p. 14); discussion pp. 6–8',
+  centerLabel:'C', defaultSelectionId:'sacks-torah-g-B', kind:'Concentric structure',
+  note:'A whole-book proposal, not a verse-by-verse alignment. The five book units are Sacks’s published outline. Full-book verse ranges are ChiFold reading-context expansions using the displayed edition. Sacks describes the broader Sinai movement as extending beyond Leviticus into late Exodus and early Numbers; the diagram’s central unit is Leviticus.',
+  sections:[
+    ['A','Gen1:1-50:26','Genesis · Israel’s ancestral beginnings'],
+    ['B','Ex1:1-40:38','Exodus · Toward Sinai'],
+    ['C','Lev1:1-27:34','Leviticus · Life at Sinai'],
+    ['B′','Num1:1-36:13','Numbers · Beyond Sinai'],
+    ['A′','Deut1:1-34:12','Deuteronomy · Israel’s future'],
+  ],
+  relationships:{
+    A:'Genesis looks toward Israel’s beginnings; Deuteronomy looks toward its life ahead, framing the central journey and covenant.',
+    B:'Exodus carries Israel toward Sinai; Numbers carries it away toward the land. Sacks compares the journeys, recurring complaints and demands on Moses.',
+    C:'Leviticus occupies the middle book position, focusing the five-book outline on Israel’s life with God at Sinai.',
+  },
+}];
+
 export const citationLeads = [
-  {id:'murai-hierarchy',sourceId:'murai-2022',workIds:[],title:'Murai’s hierarchical whole-book / divided structures',boundaries:'Bible-wide website collection',reason:'The four downloadable workbooks contain pericope outlines, not all hierarchical website maps. Those additional pages are outside the verified downloadable snapshot; no website-wide completeness is claimed.'},
+  {id:'murai-hierarchy',sourceId:'murai-2022',workIds:[],title:'Murai’s remaining single-book hierarchy pages',boundaries:'Remaining Bible-wide website collection',reason:'The combined Samuel, Kings, Chronicles, Ezra–Nehemiah hierarchies and the full Twelve Prophets collection are now imported separately, together with all four inter-book source families. Hierarchy pages for the other individual books are outside this reviewed web import; no website-wide completeness is claimed.'},
   ...[1,2,3].map((verse)=>({id:`domka-witness-${verse}`,sourceId:'domka-2019',workIds:['1-enoch'],title:`Domka Table ${verse}: Greek witnesses of 1 Enoch 9:${verse}`,boundaries:`1 Enoch 9:${verse}`,reason:'A textual-witness comparison, not a separate chiastic map. Exact Greek-witness to Charles phrase alignment is unverified; not counted as an opening structure.'})),
   ...[
     ['nickelsburg','G. W. E. Nickelsburg','1 Enoch 1 (2001), 165–173'],

@@ -11,6 +11,7 @@ const lock = JSON.parse(
   await fs.readFile(path.join(root, "scripts/source-lock.json"), "utf8"),
 );
 const digest = (bytes) => createHash("sha256").update(bytes).digest("hex");
+const htmlText = raw => raw.replace(/<[^>]+>/g,'').replace(/&#(x[\da-f]+|\d+);/gi, (_, n) => String.fromCodePoint(n[0].toLowerCase()==='x'?parseInt(n.slice(1),16):Number(n))).replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&apos;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/\s+/g,' ').trim();
 for (const source of manifest.sources) {
   const bytes = await fs.readFile(
     path.join(root, "scripts/cache", source.file),
@@ -97,6 +98,31 @@ for (const record of manifest.books) {
       [...raw.matchAll(/<v id="([^"]+)"/g)].length,
       check.importedVerseBlocks + check.omittedVerseMarkers.length,
     );
+  }
+  if (record.editionId === 'harden-1920') {
+    assert.equal(text.unversified, true);
+    assert.equal(record.chapterCount, 43);
+    for (const chapter of text.chapters) {
+      const raw = await fs.readFile(path.join(root, 'scripts/cache/didascalia', chapter.number + '.html'), 'utf8');
+      const bodies = [...raw.matchAll(/<span class="verse-text">([\s\S]*?)<\/span>/g)];
+      assert.equal(bodies.length, 1);
+      const clean = bodies[0][1].replace(/<[^>]+>/g,'').replace(/&#(x[\da-f]+|\d+);/gi, (_, n) => String.fromCodePoint(n[0].toLowerCase()==='x'?parseInt(n.slice(1),16):Number(n))).replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&apos;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/\s+/g,' ').trim();
+      assert.equal(chapter.verses.length, 1);
+      assert.equal(chapter.verses[0].text, clean, 'Whole unversified Didascalia chapter matches pinned source');
+    }
+  }
+  if (record.editionId === 'horner-1904' || record.editionId === 'schodde-1885') {
+    assert.equal(text.unversified, true);
+    assert.equal(record.chapterCount, record.editionId === 'horner-1904' ? 73 : 57);
+    for (const chapter of text.chapters) {
+      const rawFile = record.editionId === 'horner-1904' ? `teezaz/${chapter.number}.html` : 'schodde/canons.html';
+      const raw = await fs.readFile(path.join(root,'scripts/cache',rawFile),'utf8');
+      const bodies=[...raw.matchAll(/<span class="verse-text">([\s\S]*?)<\/span>/g)];
+      assert.equal(bodies.length,record.editionId === 'horner-1904' ? 1 : 57);
+      const body=bodies[record.editionId === 'horner-1904' ? 0 : chapter.number-1];
+      assert.equal(chapter.verses.length,1);
+      assert.equal(chapter.verses[0].text,htmlText(body[1]),record.editionId+' source section '+chapter.number);
+    }
   }
 }
 assert.equal(manifest.books.filter((b) => b.editionId === "kjv").length, 80);

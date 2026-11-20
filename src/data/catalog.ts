@@ -173,14 +173,14 @@ const tewahedoSpecificWorks: readonly Work[] = [
   work(
     "tizaz",
     "Tizaz",
-    [],
-    "The Church list’s “book of Herald”; no complete verified reading edition is loaded.",
+    ["Teezaz", "Te’ezaz"],
+    "Horner’s1904 translation from Ethiopic: all73 numbered source sections. Printed statutes1–72 include two40s; browser numbering is edition-specific. Appended liturgical prayers are outside this electronic edition.",
   ),
   work(
     "gitsew",
     "Gitsew",
-    [],
-    "A separately named Church-list work; no complete verified reading edition is loaded.",
+    ["Gessew", "Gitzew"],
+    "Schodde’s1885 translation from Ethiopic, all57 numbered canons. Distinct from the Greek85-canon and Coptic81-canon collections; numbering follows this edition.",
   ),
   work(
     "abtilis",
@@ -209,8 +209,8 @@ const tewahedoSpecificWorks: readonly Work[] = [
   work(
     "didascalia-ethiopic",
     "Didascalia · Ethiopic",
-    [],
-    "The Church page distinguishes the Ethiopic version from other versions. No Syriac Didascalia or Apostolic Constitutions text is substituted.",
+    ["Didascalia", "Ethiopic Didascalia"],
+    "Harden’s 1920 translation from Ethiopic: all 43 source chapters. Unversified prose; OCR-derived transcription may retain errors. Distinct from the Syriac Didascalia.",
   ),
 ];
 

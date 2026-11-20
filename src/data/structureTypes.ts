@@ -14,6 +14,8 @@ export interface StructureNode {
   anchors: StructureAnchor[];
   role?: "center" | "section";
   note?: string;
+  /** Complete source diagram, but no verified reading-edition alignment yet. */
+  unmappedReason?: string;
 }
 export interface StructureGroup {
   id: string;
@@ -41,6 +43,8 @@ export interface StructureSummary {
   compatiblePairs: boolean;
   coverage: { selectionId: string; anchors: StructureAnchor[] }[];
   note?: string;
+  readingAlignment?: "verified" | "partial" | "unavailable";
+  unmappedNodeCount?: number;
 }
 export interface StructureMap extends StructureSummary {
   nodes: StructureNode[];

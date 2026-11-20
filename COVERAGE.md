@@ -2,7 +2,7 @@
 
 Generated with `npm run report:coverage`. Completeness is measured against the particular electronic source edition, not an inferred canon or another translation’s numbering. See SOURCES.md, COLLECTIONS.md and the pinned import manifest for provenance.
 
-**82 complete works; 148 edition-books; 16 unavailable catalog identities.**
+**85 complete works; 151 edition-books; 13 unavailable catalog identities.**
 
 ## Complete imported works
 
@@ -76,6 +76,9 @@ Generated with `npm run report:coverage`. Completeness is measured against the p
 | Revelation | KJV: 22 source chapters; WEB: 22 source chapters |
 | Jubilees | Charles 1913: 50 source chapters |
 | 1 Enoch | Charles 1917: 108 source chapters |
+| Tizaz | Horner 1904: 73 source chapters |
+| Gitsew | Schodde 1885: 57 source chapters |
+| Didascalia · Ethiopic | Harden 1920: 43 source chapters |
 | Tobit | KJV: 14 source chapters |
 | Judith | KJV: 16 source chapters |
 | Additions to Esther | KJV: 7 source chapters |
@@ -102,10 +105,7 @@ Generated with `npm run report:coverage`. Completeness is measured against the p
 - **Metsihafe Tibeb · Church list** — The source calls this “the books of wisdom.” Its precise extent is unresolved; Western Wisdom of Solomon is not substituted.
 - **Josephas the Son of Bengorion · Church list** — A work named in the Church list. Neither the works of Josephus nor a modern retelling are substituted.
 - **Sirate Tsion** — The Church list’s “book of order”; no complete verified reading edition is loaded.
-- **Tizaz** — The Church list’s “book of Herald”; no complete verified reading edition is loaded.
-- **Gitsew** — A separately named Church-list work; no complete verified reading edition is loaded.
 - **Abtilis** — A separately named Church-list work; no complete verified reading edition is loaded.
 - **1 Dominos** — The first Dominos work in the Church list; no complete verified reading edition is loaded.
 - **2 Dominos** — The second Dominos work in the Church list; no complete verified reading edition is loaded.
 - **Clement · Ethiopic Church-list work** — Not identified with 1 Clement or 2 Clement; no such text is substituted.
-- **Didascalia · Ethiopic** — The Church page distinguishes the Ethiopic version from other versions. No Syriac Didascalia or Apostolic Constitutions text is substituted.

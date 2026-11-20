@@ -119,3 +119,34 @@ body, #root { min-inline-size: 0; inline-size: 100%; }
   .fold-map-arcs { height: 13rem; }
   .workspace-evidence .comparison-heading h2 { font-size: var(--type-section); }
 }
+
+/* Dense graphs keep every arc. Move labels into full-sized controls instead of
+   forcing a different view or squeezing text along the overview's axis. */
+.study-desk .horizontal-fold.is-compact .fold-map-marker-label {
+  min-width: 0; width: .3rem; height: .3rem; padding: 0; border-width: 1px;
+}
+.study-desk .horizontal-fold.is-compact .fold-map-marker.is-active .fold-map-marker-label,
+.study-desk .horizontal-fold.is-compact .fold-map-marker.is-center .fold-map-marker-label {
+  min-width: 0; width: .5rem; height: .5rem; outline: 1px solid var(--ink); outline-offset: 2px;
+}
+.study-desk .horizontal-fold.is-compact .fold-map-arcs { height: clamp(9rem, 24vw, 15rem); }
+.horizontal-fold.is-compact .fold-map-axis { padding-bottom: 1rem; }
+.compact-endpoint-label { position: absolute; top: 2.25rem; right: 50%; padding-inline: .25rem; white-space: nowrap; font-size: 1rem; font-weight: 700; text-decoration: underline; }
+.compact-endpoint-label.is-later { right: auto; left: 50%; }
+.fold-map-navigation { display: grid; gap: .75rem; margin-top: .5rem; }
+.fold-map-navigation label { display: grid; gap: .375rem; min-width: 0; font-size: 1rem; }
+.fold-map-navigation select { width: 100%; min-width: 0; min-height: 2.75rem; font-size: 1rem; }
+.fold-map-step-controls { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
+.fold-map-step-controls button { min-height: 2.75rem; padding: .5rem .75rem; font-size: 1rem; }
+.fold-map-selection-label { font: 600 1.125rem/1.4 var(--serif); }
+.fold-map-selection-summary { display: grid; flex: 1; min-width: 0; gap: .125rem; text-align: center; padding: .25rem .5rem; overflow-wrap: anywhere; }
+.fold-map-selection-summary > span { font-size: 1rem; line-height: 1.5; color: var(--muted); }
+.fold-map-selection-summary strong { font: 400 1.375rem/1.4 var(--serif); color: var(--ink); }
+.fold-map-selection-summary.is-center > span { color: var(--gold); }
+@media (max-width: 63.99rem) {
+  .fold-map-selection-summary { flex-basis: 100%; }
+}
+@media (max-width: 24rem) {
+  .fold-map-step-controls { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .fold-map-selection-label { grid-column: 1 / -1; grid-row: 1; text-align: center; }
+}

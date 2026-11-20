@@ -5,6 +5,7 @@ import { getMapSelection } from "../lib/structures";
 import { defaultFoldLayout, orderedFoldPairs, supportsFoldMap } from "../lib/foldLayout";
 import type { FoldLayout } from "../lib/foldLayout";
 import { FoldMap } from "./FoldMap";
+import { TracedStroke } from "./TracedStroke";
 
 type Props = {
   map: StructureMap;
@@ -31,15 +32,17 @@ function PassageRow({ node, selected, paired, onSelect }: {
 
 function FoldHinge() {
   return <span className="fold-hinge" aria-hidden="true"><svg viewBox="0 0 32 32">
-    <path d="M4 9h5l14 14h5M4 23h5L23 9h5M16 4v24" />
+    <path d="M4 9h5l14 14h5M4 23h5L23 9h5M16 4v24" pathLength={1} />
   </svg></span>;
 }
 
 export function FoldSequence({ map, selectionId, onSelect, comparison, isNarrow }: Props) {
   const [requestedLayout, setLayout] = useState<FoldLayout>(() => defaultFoldLayout(map));
   const [availableWidth, setAvailableWidth] = useState(0);
-  const [minimumGraphWidth, setMinimumGraphWidth] = useState((map.nodes.length * 2.25 + 2.5) * 16 + 2);
+  const [minimumGraphWidth, setMinimumGraphWidth] = useState((map.nodes.length * 2 + 2.5) * 16 + 2);
   const [lastSelectedNode, setLastSelectedNode] = useState<string>();
+  const [browseOpen, setBrowseOpen] = useState(false);
+  const mobileSelection = useRef<HTMLHeadingElement>(null);
   const sequenceRef = useRef<HTMLElement>(null);
   const pendingReveal = useRef<string | undefined>(undefined);
   const listRef = useRef<HTMLOListElement>(null);
@@ -49,8 +52,8 @@ export function FoldSequence({ map, selectionId, onSelect, comparison, isNarrow 
   const current = getMapSelection(map, selectionId);
   const inlineNode = current.nodes.find(node => node.id === lastSelectedNode) ?? current.nodes[0];
   const graphSupported = supportsFoldMap(map);
-  const graphFits = availableWidth >= minimumGraphWidth;
-  const layout = requestedLayout === "fold-map" && !graphFits ? "mirrored-pairs" : requestedLayout;
+  const compactGraph = availableWidth < minimumGraphWidth;
+  const layout = requestedLayout;
   const centers = singletons.map(group => map.nodes.find(node => node.id === group.nodeIds[0])!).filter(node => node.role === "center");
   const centerWithInnerPair = layout === "mirrored-pairs" && current.id === pairs.at(-1)?.group.id && centers.length === singletons.length;
 
@@ -60,7 +63,7 @@ export function FoldSequence({ map, selectionId, onSelect, comparison, isNarrow 
     const measure = () => {
       setAvailableWidth(section.getBoundingClientRect().width);
       const rem = Number.parseFloat(getComputedStyle(document.documentElement).fontSize);
-      setMinimumGraphWidth((map.nodes.length * 2.25 + 2.5) * rem + 2);
+      setMinimumGraphWidth((map.nodes.length * 2 + 2.5) * rem + 2);
     };
     const observer = new ResizeObserver(measure);
     observer.observe(section); measure();
@@ -87,6 +90,11 @@ export function FoldSequence({ map, selectionId, onSelect, comparison, isNarrow 
     const id = pendingReveal.current;
     if (!id) return;
     pendingReveal.current = undefined;
+    if (isNarrow && layout === "mirrored-pairs") {
+      mobileSelection.current?.focus({ preventScroll: true });
+      mobileSelection.current?.scrollIntoView({ block: "start", behavior: "instant" });
+      return;
+    }
     const selected = Array.from(sequenceRef.current?.querySelectorAll<HTMLElement>('[data-passage]') ?? []).find(element => element.dataset.passage === id);
     selected?.focus({ preventScroll: true });
     if (isNarrow) selected?.closest('li')?.scrollIntoView({ block: 'start', behavior: 'instant' });
@@ -95,7 +103,7 @@ export function FoldSequence({ map, selectionId, onSelect, comparison, isNarrow 
   function row(node: StructureNode) {
     const group = map.groups.find(group => group.nodeIds.includes(node.id))!;
     return <PassageRow node={node} selected={current.nodeIds.includes(node.id)} paired={group.nodeIds.length === 2}
-      onSelect={() => { pendingReveal.current = node.id; setLastSelectedNode(node.id); onSelect(group.id); }} />;
+      onSelect={() => { pendingReveal.current = node.id; setLastSelectedNode(node.id); if (isNarrow) setBrowseOpen(false); onSelect(group.id); }} />;
   }
 
   function comparisonPanel(inline = false) {
@@ -106,8 +114,8 @@ export function FoldSequence({ map, selectionId, onSelect, comparison, isNarrow 
     <div className="panel-heading fold-heading">
       <h2 id="sequence-title">Read the fold</h2>
       <div className="fold-layout-switch" role="group" aria-label="Passage layout">
-        {graphSupported ? <button type="button" disabled={!graphFits} aria-pressed={layout === "fold-map"}
-          aria-describedby={!graphFits ? "fold-layout-hint" : undefined} aria-controls="fold-passages"
+        {graphSupported ? <button type="button" aria-pressed={layout === "fold-map"}
+          aria-controls="fold-passages"
           onClick={() => setLayout("fold-map")}>Fold map</button> : null}
         {map.compatiblePairs ? <button type="button" aria-pressed={layout === "mirrored-pairs"} aria-controls="fold-passages"
           onClick={() => setLayout("mirrored-pairs")}>Mirrored pairs</button> : null}
@@ -117,14 +125,29 @@ export function FoldSequence({ map, selectionId, onSelect, comparison, isNarrow 
     </div>
     <p className={layout === "fold-map" ? "sr-only" : "fold-layout-description"} id="fold-layout-hint">
       {layout === "fold-map" ? "Follow the passage from left to right. Each arc joins a published pair; the center marks the turn."
-        : layout === "mirrored-pairs" ? `${graphSupported && !graphFits ? "The full graph needs a wider screen. " : ""}${pairs.length} pairs, earlier then later. Select either half to compare.`
+        : layout === "mirrored-pairs" ? `${pairs.length} pairs, earlier then later. Select either half to compare.`
         : "Follow the source sequence. Matching letters connect the two halves."}
     </p>
 
     <div id="fold-passages">
       {layout === "fold-map" ? <>
-        <FoldMap map={map} selectionId={selectionId} onSelect={onSelect} />
+        <FoldMap map={map} selectionId={selectionId} onSelect={onSelect} compact={compactGraph} />
         {comparisonPanel()}
+      </> : layout === "mirrored-pairs" && isNarrow ? <>
+        <div className="mobile-pair-overview">
+          <h3 className="mobile-selection-title" ref={mobileSelection} tabIndex={-1}>{current.isCenter ? "Proposed center" : "Selected pair"} · {current.nodes.map(node => node.label).join(" ↔ ")}</h3>
+          {!current.isCenter && centers.map(node => <div className="inline-fold-center" key={node.id}>{row(node)}</div>)}
+          {comparisonPanel(true)}
+        </div>
+        <details className="full-structure-browser" open={browseOpen} onToggle={event => setBrowseOpen(event.currentTarget.open)}>
+          <summary>Browse the full structure · {map.nodes.length} passages</summary>
+          <p>Pairs run from outermost to innermost. Select either half to compare.</p>
+          <ol className="mirrored-pair-list">{pairs.map(({ group, nodes }) => <li className={`mirrored-pair-row${current.id === group.id ? " is-selected" : ""}`} key={group.id}>
+            <div className="pair-row-passages">{row(nodes[0])}<FoldHinge />{row(nodes[1])}</div>
+          </li>)}
+          {singletons.filter(group => !centers.some(node => group.nodeIds.includes(node.id)) || current.isCenter).map(group => <li key={group.id} className="mirrored-turning-point">{row(map.nodes.find(node => node.id === group.nodeIds[0])!)}</li>)}
+          </ol>
+        </details>
       </> : layout === "mirrored-pairs" ? <>
         <div className="fold-column-headings" aria-hidden="true"><span>Earlier passage</span><span>Later passage</span></div>
         <ol className="mirrored-pair-list">
@@ -149,8 +172,9 @@ export function FoldSequence({ map, selectionId, onSelect, comparison, isNarrow 
           {pairs.map(({ group, nodes }, index) => {
             const [start, end] = nodes.map(node => geometry.centers[map.nodes.indexOf(node)]);
             const x = 88 - index * (72 / Math.max(1, pairs.length - 1));
+            const path = `M0 ${start} H${x - 8} Q${x} ${start} ${x} ${start + 8} V${end - 8} Q${x} ${end} ${x - 8} ${end} H0`;
             return <g key={`${group.id}-${current.id === group.id}`} className={`fold-connector${current.id === group.id ? " is-selected" : ""}`}>
-              <path d={`M0 ${start} H${x - 8} Q${x} ${start} ${x} ${start + 8} V${end - 8} Q${x} ${end} ${x - 8} ${end} H0`} />
+              {current.id === group.id ? <TracedStroke d={path} /> : <path d={path} />}
             </g>;
           })}
         </svg>

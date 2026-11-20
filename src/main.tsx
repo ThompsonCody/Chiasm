@@ -5,6 +5,7 @@ import './styles.css';
 import './study-workspace.css';
 import './fold-map.css';
 import './home.css';
+import './study-desk.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

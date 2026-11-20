@@ -2,6 +2,56 @@ import type { StructureSource } from "./structureTypes.ts";
 
 export const structureSources: readonly StructureSource[] = [
   {
+    id: "patrick-2016", author: "James Earle Patrick",
+    title: "The Prophetic Structure of 1–2 Samuel · DPhil thesis, University of Oxford (2016)",
+    url: "https://ora.ox.ac.uk/objects/uuid:309e6831-242b-40c9-9271-360dd4bec2d0/files/mfacdd8ae2618d9d7e73689d30d355e12",
+    license: "Copyrighted thesis · reference outlines and original ChiFold paraphrases; thesis and diagrams not redistributed",
+    credit: "James Earle Patrick, The Prophetic Structure of 1–2 Samuel (Oxford, 2016), Appendix (9), printed p. 299 (PDF p. 313), and Appendix (10), p. 300 (PDF p. 314). The full 41-unit Song of the Ark and the author’s separate 11-unit rendering retain their different boundaries and source overlaps. English references are primary in the source, with MT alternatives noted separately. Headings are the author’s provisional signposts, adapted here in original ChiFold wording.",
+  },
+  {
+    id: "pitkanen-2014", author: "Pekka M. A. Pitkänen",
+    title: "Pentateuch–Joshua: a settler-colonial document of a supplanting society · Settler Colonial Studies 4(3) (2014), 245–276",
+    url: "https://eprints.glos.ac.uk/1128/1/Pentateuch-Joshua%20A%20Settler-Colonial%20Document%20of%20a%20Supplanting%20Society.pdf",
+    license: "All Rights Reserved · reference outline and original ChiFold paraphrases only; manuscript and figure not redistributed",
+    credit: "Pekka M. A. Pitkänen, DOI 10.1080/2201473X.2013.842626. Figure 1, author-manuscript printed p. 21 (PDF p. 23), after Jacob Milgrom, Numbers (JPS, 1989), p. xviii. All 17 units and the three-part B4 group retained. This is Pitkänen’s published adaptation, not an independent transcription of Milgrom’s original figure. Whole chapters are expanded into numbered-verse reading context, not finer boundaries claimed by the source.",
+  },
+  {
+    id: "strawbridge-2009", author: "Gregg Strawbridge",
+    title: "Inter-Canonical Relationships in the Minor Prophets · 15 November 2009",
+    url: "https://www.wordmp3.com/files/outlines/10092.pdf",
+    license: "Copyrighted teaching outline · citation only; PDF not redistributed",
+    credit: "Primary two-page teaching outline. The source labels the twelve-book list chiastic, but supplies no explicit pair labels and has ambiguous indentation. ChiFold does not invent pair assignments from the theme list.",
+  },
+  {
+    id: "murai-web-2026", author: "Hajime Murai",
+    title: "Literary Structure of the Bible · reviewed hierarchy and inter-book tables (20 November 2026 snapshot)",
+    url: "http://www.bible.literarystructure.info/bible/bible_e.html",
+    license: "CC BY 4.0 · structure data only; Scripture quotations excluded",
+    licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
+    credit: "Hajime Murai, Literary Structure of the Bible. Complete source diagrams and relationship tables from the reviewed Samuel, Kings, Chronicles, Ezra–Nehemiah hierarchy pages and the Exodus–Numbers, John–Revelation and Luke–Acts tables. Display letters on inter-book comparison tables are assigned by ChiFold in source order. The website snapshot is distinct from the 2022 downloads. Source verse numbering and unverified reading-edition alignments are explicitly separated; no identity crosswalk is inferred from numerical fit.",
+  },
+  {
+    id: "meyer-2020", author: "Jason Meyer",
+    title: "Jesus, Continued · Bethlehem Baptist Church · 1 November 2020",
+    url: "https://bethlehem.church/sermon/jesus-continued/",
+    license: "Copyrighted sermon · reference outline and original ChiFold paraphrases; transcript not redistributed",
+    credit: "Jason Meyer, sermon transcript section ‘Chiastic Structure of Luke-Acts’, ten published units. A pastoral interpretation, kept separate from other Luke–Acts proposals. Reference boundaries and original ChiFold descriptions only; quoted ESV wording is excluded.",
+  },
+  {
+    id: "wolfe-1980", author: "Kenneth R. Wolfe",
+    title: "The Chiastic Structure of Luke-Acts and Some Implications for Worship · Southwestern Journal of Theology 22(2) (1980), 60–71",
+    url: "https://static1.squarespace.com/static/58cee45db8a79b2da1429210/t/59e8cd1bd0e6288d040b1da9/1508429086594/The%2BChiastic%2BStructure%2Bof%2BLuke-Acts.pdf",
+    license: "Copyrighted article · reference outline and original ChiFold paraphrases; PDF not redistributed",
+    credit: "Kenneth R. Wolfe, Southwestern Journal of Theology 22, no. 2 (Spring 1980), 60–71. Complete seven-panel diagram checked against printed p. 67; discussion pp. 64–68. The printed ABCDC′B′A′ is retained, rather than a later eight-panel adaptation. Acts 8:1a/b opens the complete verse as context, without claiming exact phrase alignment.",
+  },
+  {
+    id: "sacks-2017", author: "Jonathan Sacks",
+    title: "Covenant & Conversation: Numbers — The Wilderness Years (2017), introduction, pp. 6–8",
+    url: "https://media.rabbisacks.org/20211022102611/c_c_numbers_excerpt.pdf",
+    license: "Copyrighted publication · bibliographic facts and original ChiFold paraphrases only",
+    credit: "Jonathan Sacks, Numbers: The Wilderness Years (Maggid Books, 2017), five-book ABCBA outline on printed p. 6; discussion pp. 6–8. Labels and relationship explanations are ChiFold paraphrases. Book boundaries are expanded into full KJV/WEB book ranges for reading; these are not verse-level correspondences asserted by Sacks. The PDF and its prose are not redistributed.",
+  },
+  {
     id: "murai-2022", author: "Hajime Murai",
     title: "Literary Structure of the Bible · downloadable OT/NT pericope collection (2022-02-24)",
     url: "http://www.bible.literarystructure.info/bible/bible_e.html",

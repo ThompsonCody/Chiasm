@@ -40,7 +40,9 @@ These catalog identities intentionally remain **Text not yet available** until a
 - 1, 2, and 3 Meqabyan.
 - Tegsats; Metsihafe Tibeb.
 - Josephas the Son of Bengorion.
-- Sirate Tsion; Tizaz; Gitsew; Abtilis.
-- 1 and 2 Dominos; Ethiopic Clement; Ethiopic Didascalia.
+- Sirate Tsion; Abtilis.
+- 1 and 2 Dominos; Ethiopic Clement.
+
+Harden's Ethiopic Didascalia, Horner's Tizaz and Schodde's Gitsew are now imported. The reader identifies the historical edition and its numbering. See MISSING_TEXTS.md for current availability and qualifications; the older normalization table records the original identity investigation, not current availability.
 
 The imported text manifest is the authority for current availability; catalog membership alone never implies that text exists. No chapter count is invented for these gaps. The source list is not padded or truncated to match a target total.

@@ -13,6 +13,18 @@ import { floodTrace } from "../src/data/crossReferences.ts";
 import type { StructureMap } from "../src/data/structureTypes.ts";
 
 const readMap = (id:string):StructureMap => JSON.parse(fs.readFileSync(new URL(`../public/structures/maps/${id}.json`,import.meta.url),'utf8'));
+test("the sourced Torah fold spans five works and is discoverable from each",()=>{
+  const map=readMap('sacks-torah');
+  assert.deepEqual(map.workIds,['genesis','exodus','leviticus','numbers','deuteronomy']);
+  assert.deepEqual(map.nodes.map(node=>node.label),['A','B','C','B′','A′']);
+  assert.equal(map.nodes.find(node=>node.role==='center')?.anchors[0].workId,'leviticus');
+  assert.deepEqual(getMapSelection(map,'sacks-torah-g-B').nodes.map(node=>node.anchors[0].workId),['exodus','numbers']);
+  for(const workId of map.workIds) assert.ok(structuresForReference({workId,chapter:1,verseStart:1},'kjv').some(item=>item.id===map.id));
+  const state=readerReducer(initialReaderState,{type:'map',structureId:map.id,pairId:'sacks-torah-g-B'});
+  const restored=stateFromParams(new URLSearchParams(routeForState(state)));
+  assert.equal(restored.structureId,map.id);
+  assert.equal(restored.selectionId,'sacks-torah-g-B');
+});
 test("every imported source entry is accounted for and only validated maps have files",()=>{
   const input=JSON.parse(fs.readFileSync(new URL('../scripts/structure-sources/murai.json',import.meta.url),'utf8'));
   const manifest=JSON.parse(fs.readFileSync(new URL('../public/structures/manifest.json',import.meta.url),'utf8'));

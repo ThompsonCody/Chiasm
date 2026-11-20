@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-11-14",
+  "reviewed": "2026-11-20",
   "snapshot": "Murai downloads labelled 2022-02-24; source structure-data licence notice captured separately",
   "inputs": [
     {
@@ -36,6 +36,191 @@
       "file": "wenham.pdf",
       "url": "https://static1.squarespace.com/static/569543b4bfe87360795306d6/t/57f55237d1758e5e8604cc89/1475695183038/CoherenceofFloodNarrative.pdf",
       "sha256": "1dd2e3f2011b16869ffcd9f3b850c3fc017ddd71ca29b13bf4b637591bd3f864"
+    },
+    {
+      "file": "09_Samuel_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_1.html",
+      "sha256": "53959581843b97e488a1bc391b98b7c387720aed2e6ba4f0668a16ef526498e9"
+    },
+    {
+      "file": "09_Samuel_e_2.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_2.html",
+      "sha256": "e773323f63a577730a8b6dc56fa7ad6659cf1a4ae5eca8990d1d60d3c2082684"
+    },
+    {
+      "file": "09_Samuel_e_3.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_3.html",
+      "sha256": "7ba106d141f05c7ad291a69b347f9d1f6975eeaddb2224775df46a46c10b7558"
+    },
+    {
+      "file": "09_Samuel_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_4.html",
+      "sha256": "7d049d80fac90b9bbcdf3455a8068dbf2ee99e24a786317ccec98f276cd3d85b"
+    },
+    {
+      "file": "09_Samuel_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_5.html",
+      "sha256": "2875b0dc088451eac42a2c1efaa97546344b9c2170690781b38facfd8e468a7e"
+    },
+    {
+      "file": "09_Samuel_e_9.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_9.html",
+      "sha256": "f6fcdd36bfeab8d5186238b70384b36cd87b5eae0eea0d0a36cb228b2574d8c4"
+    },
+    {
+      "file": "11_Kings_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_1.html",
+      "sha256": "d0b59a8f71633ce73884b9639ebcf9cbfdbb279d594d19a2c0d7dc21a83b0dbf"
+    },
+    {
+      "file": "11_Kings_e_2.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_2.html",
+      "sha256": "6d13d70ff904c4fa5eeb0970aef0dcf69f3e48b460383ced14970a6335e1ebb3"
+    },
+    {
+      "file": "11_Kings_e_3.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_3.html",
+      "sha256": "9ef9ee8c0f23d8eb033b7eb403015a349a02196dbb20cdaacb76be2166b79cb2"
+    },
+    {
+      "file": "11_Kings_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_4.html",
+      "sha256": "6844492f8e40612df420ea40b973e5cb504c6d26f9deff0c06303f17322a8812"
+    },
+    {
+      "file": "11_Kings_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_5.html",
+      "sha256": "4228f3771b3c7520824fb5b428ca4c366e361d6d1d3200e7f973e53ea8e7fc3e"
+    },
+    {
+      "file": "11_Kings_e_9.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_9.html",
+      "sha256": "b3096f2b0b30f834c7442faf51e6f180d2248a709d18f0c87d87d426f10ce127"
+    },
+    {
+      "file": "13_Chronicles_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_1.html",
+      "sha256": "ff561333df381952b04499944ce9c9aa23e74a4880ab91fb033dfaf4837e5dc6"
+    },
+    {
+      "file": "13_Chronicles_e_2.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_2.html",
+      "sha256": "151f056bfe18a2e358833abe1680e6d88d17f1e0153ae5abe2cca7ee2d8acb06"
+    },
+    {
+      "file": "13_Chronicles_e_3.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_3.html",
+      "sha256": "f26b74b5ba434a8055bae911efc7fc8c95f169ec4cb96bd4f5d374169fa5f078"
+    },
+    {
+      "file": "13_Chronicles_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_4.html",
+      "sha256": "c20b5f0bc9fa90fc1881126f5d0c801b8c93456be3bc278a588f2104565e238f"
+    },
+    {
+      "file": "13_Chronicles_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_5.html",
+      "sha256": "f8260a3e974ab980b91b3ded1f22d2ee33ec1a6c30ee0f6294235546db478981"
+    },
+    {
+      "file": "13_Chronicles_e_9.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_9.html",
+      "sha256": "d432eab97174dbff9185d26e94a6e163e3ec60e57b808557a48209869c5c66fc"
+    },
+    {
+      "file": "15_EzraNehemiah_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_1.html",
+      "sha256": "20d746f6d0da5607bf34fce08ed49dc6ed7de27cd37906d5f67c371e4f3771d9"
+    },
+    {
+      "file": "15_EzraNehemiah_e_3.html",
+      "url": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_3.html",
+      "sha256": "ea184029e87485e75a516658259307a5d24861b9774d8c13e74ef0df427d4770"
+    },
+    {
+      "file": "15_EzraNehemiah_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_4.html",
+      "sha256": "36c9db474386871a076e8916a9190dd96236b30965f6917f7bd8b9361ef31639"
+    },
+    {
+      "file": "15_EzraNehemiah_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_5.html",
+      "sha256": "cfa8b96f799617d9e438b7bf7238ae511fa9fc0f5cb19d6a212fbd1ea0723f16"
+    },
+    {
+      "file": "97_ExodusNumbers_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/97_ExodusNumbers_e.html",
+      "sha256": "c85c62040fbae447502860adb9bc7ac627fb854fd8f829be154253899f33e1a7"
+    },
+    {
+      "file": "98_JohnRevelation_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/98_JohnRevelation_e.html",
+      "sha256": "16640e8eabf332f0e42b6a048831b6974f9ee5c9ce4ff24ad3d75158ba86aeda"
+    },
+    {
+      "file": "99_LukeActs_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/99_LukeActs_e.html",
+      "sha256": "c0cea668ccacea9c73f405eed08e519ea65dc2cab45567980d3e2d4b0251552a"
+    },
+    {
+      "file": "bethlehem-jesus-continued.html",
+      "url": "https://bethlehem.church/sermon/jesus-continued/",
+      "sha256": "a11c40da7576d2ff1f8b531952251de2106146d00a9c1a8ead220a996686186e"
+    },
+    {
+      "file": "wolfe-1980.pdf",
+      "url": "https://static1.squarespace.com/static/58cee45db8a79b2da1429210/t/59e8cd1bd0e6288d040b1da9/1508429086594/The%2BChiastic%2BStructure%2Bof%2BLuke-Acts.pdf",
+      "sha256": "94255e1e9c152ae78af10aaa061e37873af84269138f55e2720b4b36e44f4483"
+    },
+    {
+      "file": "pitkanen-2014.pdf",
+      "url": "https://eprints.glos.ac.uk/1128/1/Pentateuch-Joshua%20A%20Settler-Colonial%20Document%20of%20a%20Supplanting%20Society.pdf",
+      "sha256": "86986ec4c024f72d7c16986bb63d2d598e4d3d831c5e4fd6abb335ace2860f47"
+    },
+    {
+      "file": "patrick-2016.pdf",
+      "url": "https://ora.ox.ac.uk/objects/uuid:309e6831-242b-40c9-9271-360dd4bec2d0/files/mfacdd8ae2618d9d7e73689d30d355e12",
+      "sha256": "83a86c3f7f834fec83f5ed69efc5953c487cbea4d28081ad312a220b22839445"
+    },
+    {
+      "file": "96_MinorProphets_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/96_MinorProphets_e.html",
+      "sha256": "3f02d74f935a3cdad1b1e785bc8cfdf9aa8ea34b86746d4750ad520432c0df37"
+    },
+    {
+      "file": "96_MinorProphets_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/96_MinorProphets_e_1.html",
+      "sha256": "5fa9237abcd79b7754e0536ecfed9608ff3b07661717ce5f68be422f4792b688"
+    },
+    {
+      "file": "96_MinorProphets_e_2.html",
+      "url": "http://www.bible.literarystructure.info/bible/96_MinorProphets_e_2.html",
+      "sha256": "30e7ab626f68881cad3e087d25e8f079c6cd69916c488f7966b70eb26a172d15"
+    },
+    {
+      "file": "96_MinorProphets_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/96_MinorProphets_e_4.html",
+      "sha256": "44247c17943cdd879b8b78de0fac7374865d0d56bdcb476807c722cb01765799"
+    },
+    {
+      "file": "96_MinorProphets_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/96_MinorProphets_e_5.html",
+      "sha256": "fed1545be6881b49c52454bbc19d2efeed6b8e5e7e2e3c11e24690970cca4fd7"
+    },
+    {
+      "file": "96_MinorProphets_pericope_e.html",
+      "url": "http://www.bible.literarystructure.info/bible/96_MinorProphets_pericope_e.html",
+      "sha256": "65fb57b47a218ef7be6364eac1428b6ac3134a4137d85eae369f8dadac3d1629"
+    },
+    {
+      "file": "nab-acts19.html",
+      "url": "https://bible.usccb.org/bible/acts/19",
+      "sha256": "9866a42f13bc26b4bf7a08b79738dba87c089a4ac3519a31e9eab701e73a0711"
+    },
+    {
+      "file": "nab-rev12.html",
+      "url": "https://bible.usccb.org/bible/revelation/12",
+      "sha256": "7bc9998749ad1a8a7fd3066fe012a1f8fb225b333d2d597e90a327140e03d25c"
     }
   ]
 }

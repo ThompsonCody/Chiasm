@@ -1,0 +1,5590 @@
+{
+  "sourceId": "murai-web",
+  "inputs": [
+    {
+      "file": "09_Samuel_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_1.html",
+      "sha256": "53959581843b97e488a1bc391b98b7c387720aed2e6ba4f0668a16ef526498e9"
+    },
+    {
+      "file": "09_Samuel_e_2.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_2.html",
+      "sha256": "e773323f63a577730a8b6dc56fa7ad6659cf1a4ae5eca8990d1d60d3c2082684"
+    },
+    {
+      "file": "09_Samuel_e_3.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_3.html",
+      "sha256": "7ba106d141f05c7ad291a69b347f9d1f6975eeaddb2224775df46a46c10b7558"
+    },
+    {
+      "file": "09_Samuel_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_4.html",
+      "sha256": "7d049d80fac90b9bbcdf3455a8068dbf2ee99e24a786317ccec98f276cd3d85b"
+    },
+    {
+      "file": "09_Samuel_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_5.html",
+      "sha256": "2875b0dc088451eac42a2c1efaa97546344b9c2170690781b38facfd8e468a7e"
+    },
+    {
+      "file": "09_Samuel_e_9.html",
+      "url": "http://www.bible.literarystructure.info/bible/09_Samuel_e_9.html",
+      "sha256": "f6fcdd36bfeab8d5186238b70384b36cd87b5eae0eea0d0a36cb228b2574d8c4"
+    },
+    {
+      "file": "11_Kings_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_1.html",
+      "sha256": "d0b59a8f71633ce73884b9639ebcf9cbfdbb279d594d19a2c0d7dc21a83b0dbf"
+    },
+    {
+      "file": "11_Kings_e_2.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_2.html",
+      "sha256": "6d13d70ff904c4fa5eeb0970aef0dcf69f3e48b460383ced14970a6335e1ebb3"
+    },
+    {
+      "file": "11_Kings_e_3.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_3.html",
+      "sha256": "9ef9ee8c0f23d8eb033b7eb403015a349a02196dbb20cdaacb76be2166b79cb2"
+    },
+    {
+      "file": "11_Kings_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_4.html",
+      "sha256": "6844492f8e40612df420ea40b973e5cb504c6d26f9deff0c06303f17322a8812"
+    },
+    {
+      "file": "11_Kings_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_5.html",
+      "sha256": "4228f3771b3c7520824fb5b428ca4c366e361d6d1d3200e7f973e53ea8e7fc3e"
+    },
+    {
+      "file": "11_Kings_e_9.html",
+      "url": "http://www.bible.literarystructure.info/bible/11_Kings_e_9.html",
+      "sha256": "b3096f2b0b30f834c7442faf51e6f180d2248a709d18f0c87d87d426f10ce127"
+    },
+    {
+      "file": "13_Chronicles_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_1.html",
+      "sha256": "ff561333df381952b04499944ce9c9aa23e74a4880ab91fb033dfaf4837e5dc6"
+    },
+    {
+      "file": "13_Chronicles_e_2.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_2.html",
+      "sha256": "151f056bfe18a2e358833abe1680e6d88d17f1e0153ae5abe2cca7ee2d8acb06"
+    },
+    {
+      "file": "13_Chronicles_e_3.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_3.html",
+      "sha256": "f26b74b5ba434a8055bae911efc7fc8c95f169ec4cb96bd4f5d374169fa5f078"
+    },
+    {
+      "file": "13_Chronicles_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_4.html",
+      "sha256": "c20b5f0bc9fa90fc1881126f5d0c801b8c93456be3bc278a588f2104565e238f"
+    },
+    {
+      "file": "13_Chronicles_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_5.html",
+      "sha256": "f8260a3e974ab980b91b3ded1f22d2ee33ec1a6c30ee0f6294235546db478981"
+    },
+    {
+      "file": "13_Chronicles_e_9.html",
+      "url": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_9.html",
+      "sha256": "d432eab97174dbff9185d26e94a6e163e3ec60e57b808557a48209869c5c66fc"
+    },
+    {
+      "file": "15_EzraNehemiah_e_1.html",
+      "url": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_1.html",
+      "sha256": "20d746f6d0da5607bf34fce08ed49dc6ed7de27cd37906d5f67c371e4f3771d9"
+    },
+    {
+      "file": "15_EzraNehemiah_e_3.html",
+      "url": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_3.html",
+      "sha256": "ea184029e87485e75a516658259307a5d24861b9774d8c13e74ef0df427d4770"
+    },
+    {
+      "file": "15_EzraNehemiah_e_4.html",
+      "url": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_4.html",
+      "sha256": "36c9db474386871a076e8916a9190dd96236b30965f6917f7bd8b9361ef31639"
+    },
+    {
+      "file": "15_EzraNehemiah_e_5.html",
+      "url": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_5.html",
+      "sha256": "cfa8b96f799617d9e438b7bf7238ae511fa9fc0f5cb19d6a212fbd1ea0723f16"
+    }
+  ],
+  "records": [
+    {
+      "id": "murai-web-samuel-1-1",
+      "title": "Samuel · whole-book fold",
+      "sourceFile": "09_Samuel_e_1.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/09_Samuel_e_1.html#1-1",
+      "locator": "1-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 1,
+          "title": "Prologue of Samuel's Birth",
+          "ref": "1S1:1-8",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 2,
+          "title": "Samuel's Birth",
+          "ref": "1S1:9-28",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 3,
+          "title": "Hannah's Prayer",
+          "ref": "1S2:1-10",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 4,
+          "title": "The Child Samuel at Shiloh",
+          "ref": "1S2:11-26",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 5,
+          "title": "Prophecy Against Eli's Household",
+          "ref": "1S2:27-36",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 6,
+          "title": "Samuel's Calling and Prophetic Activity",
+          "ref": "1S3:1-21_1S4:1a",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 7,
+          "title": "The Ark of God Captured",
+          "ref": "1S4:1b-22",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 8,
+          "title": "The Pilistines and the Ark",
+          "ref": "1S5:1-12",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 9,
+          "title": "The Ark Returned to Israel",
+          "ref": "1S6:1-21_1S7:1",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 10,
+          "title": "Samuel at Judge",
+          "ref": "1S7:2-17",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 11,
+          "title": "Israel Demands a King",
+          "ref": "1S8:1-22",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "Saul Chosen to Be King",
+          "ref": "1S9:1-1S10:16",
+          "label": "L"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "Saul Proclaimed King",
+          "ref": "1S10:17-27",
+          "label": "M"
+        },
+        {
+          "sourcePericope": 14,
+          "title": "Saul Defeats the Ammonites",
+          "ref": "1S11:1-15",
+          "label": "N"
+        },
+        {
+          "sourcePericope": 15,
+          "title": "Samuel's Farewell Address",
+          "ref": "1S12:1-25",
+          "label": "O"
+        },
+        {
+          "sourcePericope": 16,
+          "title": "Saul's Unlawfull Sacrifice",
+          "ref": "1S13:1-23",
+          "label": "P"
+        },
+        {
+          "sourcePericope": 17,
+          "title": "Jonathan Surprises and Routs the Philistines",
+          "ref": "1S14:1-46",
+          "label": "Q"
+        },
+        {
+          "sourcePericope": 18,
+          "title": "Saul's Continuing Wars",
+          "ref": "1S14:47-52",
+          "label": "R"
+        },
+        {
+          "sourcePericope": 19,
+          "title": "Saul Defeats the Amalekites",
+          "ref": "1S15:1-35",
+          "label": "S"
+        },
+        {
+          "sourcePericope": 20,
+          "title": "David Anointed as King",
+          "ref": "1S16:1-13",
+          "label": "T"
+        },
+        {
+          "sourcePericope": 21,
+          "title": "David Plays the Lyte for Saul",
+          "ref": "1S16:14-23",
+          "label": "U"
+        },
+        {
+          "sourcePericope": 22,
+          "title": "David and Goliath",
+          "ref": "1S17:1-58",
+          "label": "V"
+        },
+        {
+          "sourcePericope": 23,
+          "title": "Saul Tries to Kill David",
+          "ref": "1S18:1-30",
+          "label": "W"
+        },
+        {
+          "sourcePericope": 24,
+          "title": "David Escapes",
+          "ref": "1S19:1-24",
+          "label": "X"
+        },
+        {
+          "sourcePericope": 25,
+          "title": "The Friendship of David and Jonathan",
+          "ref": "1S20:1-42",
+          "label": "Y"
+        },
+        {
+          "sourcePericope": 26,
+          "title": "David and Ahimelech",
+          "ref": "1S21:1-1S22:23",
+          "label": "Z"
+        },
+        {
+          "sourcePericope": 27,
+          "title": "David at Keilah",
+          "ref": "1S23:1-14",
+          "label": "AA"
+        },
+        {
+          "sourcePericope": 28,
+          "title": "David at Ziph",
+          "ref": "1S23:15-28",
+          "label": "AB"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "David Spares Saul's Life",
+          "ref": "1S24:1-23",
+          "label": "AC"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Death of Samuel, David and the Wife of Nabal",
+          "ref": "1S25:1-44",
+          "label": "AD"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "David Spares Saul's Life a Second Time",
+          "ref": "1S26:1-25",
+          "label": "AE"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "David Serves King Achish of Gath",
+          "ref": "1S27:1-12",
+          "label": "AF"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Saul Consults a Medium",
+          "ref": "1S28:1-25",
+          "label": "AG"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "The Philistines Reject David",
+          "ref": "1S29:1-11",
+          "label": "AH"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "David Avenges the Destruction of Ziklag",
+          "ref": "1S30:1-31",
+          "label": "AI"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "The Death of Saul and His Sons",
+          "ref": "1S31:1-13",
+          "label": "AJ"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "David Mourns for Saul and Jonathan",
+          "ref": "2S1:1-27",
+          "label": "AK"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "David Anointed King of Judah",
+          "ref": "2S2:1-11",
+          "label": "AL"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "The Battle of Gibeon",
+          "ref": "2S2:12-32_2S3:1",
+          "label": "AM"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Birth of David's Son at Hebron",
+          "ref": "2S3:2-5",
+          "label": "AN"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Abner Defects to David",
+          "ref": "2S3:6-21c",
+          "label": "AO"
+        },
+        {
+          "sourcePericope": 42,
+          "title": "Abner Id Killed by Joab",
+          "ref": "2S3:21d-39",
+          "label": "AN′"
+        },
+        {
+          "sourcePericope": 43,
+          "title": "Ishbaal Assassinated",
+          "ref": "2S4:1-12",
+          "label": "AM′"
+        },
+        {
+          "sourcePericope": 44,
+          "title": "David Anointed King of All Israel",
+          "ref": "2S5:1-5",
+          "label": "AL′"
+        },
+        {
+          "sourcePericope": 45,
+          "title": "Jerusalem Made Capital of the United Kingdom",
+          "ref": "2S5:6-12",
+          "label": "AK′"
+        },
+        {
+          "sourcePericope": 46,
+          "title": "Birth of David's Son at Jerusalem",
+          "ref": "2S5:13-16",
+          "label": "AJ′"
+        },
+        {
+          "sourcePericope": 47,
+          "title": "Philistine Attack Repulsed",
+          "ref": "2S5:17-25",
+          "label": "AI′"
+        },
+        {
+          "sourcePericope": 48,
+          "title": "David Brings the Ark to Jerusalem",
+          "ref": "2S6:1-15",
+          "label": "AH′"
+        },
+        {
+          "sourcePericope": 49,
+          "title": "Michal Despises",
+          "ref": "2S6:16-23",
+          "label": "AG′"
+        },
+        {
+          "sourcePericope": 50,
+          "title": "God's Covenant With David",
+          "ref": "2S7:1-17",
+          "label": "AF′"
+        },
+        {
+          "sourcePericope": 51,
+          "title": "David's Prayer",
+          "ref": "2S7:18-29",
+          "label": "AE′"
+        },
+        {
+          "sourcePericope": 52,
+          "title": "David's Wars",
+          "ref": "2S8:1-14",
+          "label": "AD′"
+        },
+        {
+          "sourcePericope": 53,
+          "title": "David's Officers",
+          "ref": "2S8:15-18",
+          "label": "AC′"
+        },
+        {
+          "sourcePericope": 54,
+          "title": "David's Kindness to Mephibosheth",
+          "ref": "2S9:1-13",
+          "label": "AB′"
+        },
+        {
+          "sourcePericope": 55,
+          "title": "The Ammonites and Arameans Are Defeated",
+          "ref": "2S10:1-19",
+          "label": "AA′"
+        },
+        {
+          "sourcePericope": 56,
+          "title": "David Commits Adultery With Bathsheba",
+          "ref": "2S11:1-27",
+          "label": "Z′"
+        },
+        {
+          "sourcePericope": 57,
+          "title": "Nathan Condemns David",
+          "ref": "2S12:1-14",
+          "label": "Y′"
+        },
+        {
+          "sourcePericope": 58,
+          "title": "Solomon Is Born",
+          "ref": "2S12:15-25",
+          "label": "X′"
+        },
+        {
+          "sourcePericope": 59,
+          "title": "The Ammonites Crushed",
+          "ref": "2S12:26-31",
+          "label": "W′"
+        },
+        {
+          "sourcePericope": 60,
+          "title": "Amnon and Tamar",
+          "ref": "2S13:1-22",
+          "label": "V′"
+        },
+        {
+          "sourcePericope": 61,
+          "title": "Absalom Avenges the Violation of His Sister",
+          "ref": "2S13:23-2S14:33",
+          "label": "U′"
+        },
+        {
+          "sourcePericope": 62,
+          "title": "Absalom Usurps the Throne",
+          "ref": "2S15:1-12",
+          "label": "T′"
+        },
+        {
+          "sourcePericope": 63,
+          "title": "David Flees From Jerusalem",
+          "ref": "2S15:13-29",
+          "label": "S′"
+        },
+        {
+          "sourcePericope": 64,
+          "title": "Hushai Becomes David's Spy",
+          "ref": "2S15:30-37",
+          "label": "R′"
+        },
+        {
+          "sourcePericope": 65,
+          "title": "David's Adversaries",
+          "ref": "2S16:1-14",
+          "label": "Q′"
+        },
+        {
+          "sourcePericope": 66,
+          "title": "The Counsel of Ahithophel",
+          "ref": "2S16:15-2S17:26",
+          "label": "P′"
+        },
+        {
+          "sourcePericope": 67,
+          "title": "Preparation for War",
+          "ref": "2S17:27-2S18:5",
+          "label": "O′"
+        },
+        {
+          "sourcePericope": 68,
+          "title": "The Defeat and Death of Absalom",
+          "ref": "2S18:6-18",
+          "label": "N′"
+        },
+        {
+          "sourcePericope": 69,
+          "title": "David Hears of Absalom's Death",
+          "ref": "2S18:19-2S19:9b",
+          "label": "M′"
+        },
+        {
+          "sourcePericope": 70,
+          "title": "David Recalled to Jerusalem",
+          "ref": "2S19:9c-15",
+          "label": "L′"
+        },
+        {
+          "sourcePericope": 71,
+          "title": "Simei, Mephibosheth",
+          "ref": "2S19:16-31",
+          "label": "K′"
+        },
+        {
+          "sourcePericope": 72,
+          "title": "Barzillai",
+          "ref": "2S19:32-40",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 73,
+          "title": "Israel and Judah",
+          "ref": "2S19:41-44",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 74,
+          "title": "The Rebellion of Sheba",
+          "ref": "2S20:1-22",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 75,
+          "title": "David's officers",
+          "ref": "2S20:23-26",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 76,
+          "title": "David Avenges the Gibeonites",
+          "ref": "2S21:1-14",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 77,
+          "title": "Exploits of David's Men",
+          "ref": "2S21:15-22",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 78,
+          "title": "David's Song of Thanksgiving",
+          "ref": "2S22:1-51",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 79,
+          "title": "The Last Words of David",
+          "ref": "2S23:1-7",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 80,
+          "title": "David's Mighty Men",
+          "ref": "2S23:8-39",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 81,
+          "title": "David's Census of Israel and Judah",
+          "ref": "2S24:1-25",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Offering",
+        "B": "Name",
+        "C": "Praise the Lord song",
+        "D": "Punishment against arrogant people",
+        "E": "Extinction of descendants",
+        "F": "Sin of a family",
+        "G": "Role of person in Israel",
+        "H": "A corpus interrupted movements of others",
+        "I": "Return of the ark / the king",
+        "J": "Return to home",
+        "K": "People request the king",
+        "L": "Pouring oil",
+        "M": "Fortune-telling",
+        "N": "King's victory",
+        "O": "Offering to a ruler",
+        "P": "King's mistake",
+        "Q": "Curse; Saul's descendants",
+        "R": "Ahimaaz",
+        "S": "Consideration to foreigner",
+        "T": "Becoming king; Peace",
+        "U": "Promising youth",
+        "V": "Anger to disgrace",
+        "W": "Subordinate's military results",
+        "X": "Beloved person",
+        "Y": "David escapes from a death",
+        "Z": "David pretends",
+        "AA": "Victory against foreign country",
+        "AB": "Covenant with Jonathan",
+        "AC": "Judgment",
+        "AD": "Tribute is paid to David",
+        "AE": "Blessing for David",
+        "AF": "Settling down",
+        "AG": "The Lord doesn't select Saul but David; Cloth not suitable for king",
+        "AH": "Fear for movement",
+        "AI": "David inquires of the Lord and wins",
+        "AJ": "Sons of king",
+        "AK": "David orders beating",
+        "AL": "David is anointed and becomes king",
+        "AM": "As the LORD lives",
+        "AN": "Sons"
+      },
+      "centerLabel": "AO",
+      "boundaries": "1S1:1-8 … 2S24:1-25",
+      "note": "Complete multi-book outline 1-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-samuel-2-1",
+      "title": "Samuel · division 2-1",
+      "sourceFile": "09_Samuel_e_2.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/09_Samuel_e_2.html#2-1",
+      "locator": "2-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 1,
+          "title": "Prologue of Samuel's Birth",
+          "ref": "1S1:1-8",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 2,
+          "title": "Samuel's Birth",
+          "ref": "1S1:9-28",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 3,
+          "title": "Hannah's Prayer",
+          "ref": "1S2:1-10",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 4,
+          "title": "The Child Samuel at Shiloh",
+          "ref": "1S2:11-26",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 5,
+          "title": "Prophecy Against Eli's Household",
+          "ref": "1S2:27-36",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 6,
+          "title": "Samuel's Calling and Prophetic Activity",
+          "ref": "1S3:1-21_1S4:1a",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 7,
+          "title": "The Ark of God Captured",
+          "ref": "1S4:1b-22",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 8,
+          "title": "The Pilistines and the Ark",
+          "ref": "1S5:1-12",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 9,
+          "title": "The Ark Returned to Israel",
+          "ref": "1S6:1-21_1S7:1",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 10,
+          "title": "Samuel at Judge",
+          "ref": "1S7:2-17",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 11,
+          "title": "Israel Demands a King",
+          "ref": "1S8:1-22",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "Saul Chosen to Be King",
+          "ref": "1S9:1-1S10:16",
+          "label": "L"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "Saul Proclaimed King",
+          "ref": "1S10:17-27",
+          "label": "M"
+        },
+        {
+          "sourcePericope": 14,
+          "title": "Saul Defeats the Ammonites",
+          "ref": "1S11:1-15",
+          "label": "N"
+        },
+        {
+          "sourcePericope": 15,
+          "title": "Samuel's Farewell Address",
+          "ref": "1S12:1-25",
+          "label": "O"
+        },
+        {
+          "sourcePericope": 16,
+          "title": "Saul's Unlawfull Sacrifice",
+          "ref": "1S13:1-23",
+          "label": "P"
+        },
+        {
+          "sourcePericope": 17,
+          "title": "Jonathan Surprises and Routs the Philistines",
+          "ref": "1S14:1-46",
+          "label": "Q"
+        },
+        {
+          "sourcePericope": 18,
+          "title": "Saul's Continuing Wars",
+          "ref": "1S14:47-52",
+          "label": "R"
+        },
+        {
+          "sourcePericope": 19,
+          "title": "Saul Defeats the Amalekites",
+          "ref": "1S15:1-35",
+          "label": "S"
+        },
+        {
+          "sourcePericope": 20,
+          "title": "David Anointed as King",
+          "ref": "1S16:1-13",
+          "label": "T"
+        },
+        {
+          "sourcePericope": 21,
+          "title": "David Plays the Lyte for Saul",
+          "ref": "1S16:14-23",
+          "label": "U"
+        },
+        {
+          "sourcePericope": 22,
+          "title": "David and Goliath",
+          "ref": "1S17:1-58",
+          "label": "T′"
+        },
+        {
+          "sourcePericope": 23,
+          "title": "Saul Tries to Kill David",
+          "ref": "1S18:1-30",
+          "label": "S′"
+        },
+        {
+          "sourcePericope": 24,
+          "title": "David Escapes",
+          "ref": "1S19:1-24",
+          "label": "R′"
+        },
+        {
+          "sourcePericope": 25,
+          "title": "The Friendship of David and Jonathan",
+          "ref": "1S20:1-42",
+          "label": "Q′"
+        },
+        {
+          "sourcePericope": 26,
+          "title": "David and Ahimelech",
+          "ref": "1S21:1-1S22:23",
+          "label": "P′"
+        },
+        {
+          "sourcePericope": 27,
+          "title": "David at Keilah",
+          "ref": "1S23:1-14",
+          "label": "O′"
+        },
+        {
+          "sourcePericope": 28,
+          "title": "David at Ziph",
+          "ref": "1S23:15-28",
+          "label": "N′"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "David Spares Saul's Life",
+          "ref": "1S24:1-23",
+          "label": "M′"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Death of Samuel, David and the Wife of Nabal",
+          "ref": "1S25:1-44",
+          "label": "L′"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "David Spares Saul's Life a Second Time",
+          "ref": "1S26:1-25",
+          "label": "K′"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "David Serves King Achish of Gath",
+          "ref": "1S27:1-12",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Saul Consults a Medium",
+          "ref": "1S28:1-25",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "The Philistines Reject David",
+          "ref": "1S29:1-11",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "David Avenges the Destruction of Ziklag",
+          "ref": "1S30:1-31",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "The Death of Saul and His Sons",
+          "ref": "1S31:1-13",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "David Mourns for Saul and Jonathan",
+          "ref": "2S1:1-27",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "David Anointed King of Judah",
+          "ref": "2S2:1-11",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "The Battle of Gibeon",
+          "ref": "2S2:12-32_2S3:1",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Birth of David's Son at Hebron",
+          "ref": "2S3:2-5",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Abner Defects to David",
+          "ref": "2S3:6-21c",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Two consorts",
+        "B": "Birth of son",
+        "C": "Victory of Messiah",
+        "D": "Blessed person",
+        "E": "Death of two people",
+        "F": "judgement against a family",
+        "G": "Robbery",
+        "H": "The Philistines want to return",
+        "I": "Taking from Philistines / giving to Philistines",
+        "J": "Thinking in mind",
+        "K": "The LORD appoints a king",
+        "L": "Becoming a commander over Israel",
+        "M": "Saul as a king",
+        "N": "A treaty",
+        "O": "Listening to the LORD",
+        "P": "There is no sword; Escaping to Gad",
+        "Q": "Jonathan's activity",
+        "R": "Hero in fight with Philistines; Michal",
+        "S": "Robbed kingship",
+        "T": "David stands before king"
+      },
+      "centerLabel": "U",
+      "boundaries": "1S1:1-8 … 2S3:6-21c",
+      "note": "Complete multi-book outline 2-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-samuel-3-2",
+      "title": "Samuel · division 3-2",
+      "sourceFile": "09_Samuel_e_3.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/09_Samuel_e_3.html#3-2",
+      "locator": "3-2",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 28,
+          "title": "David at Ziph",
+          "ref": "1S23:15-28",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "David Spares Saul's Life",
+          "ref": "1S24:1-23",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Death of Samuel, David and the Wife of Nabal",
+          "ref": "1S25:1-44",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "David Spares Saul's Life a Second Time",
+          "ref": "1S26:1-25",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "David Serves King Achish of Gath",
+          "ref": "1S27:1-12",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Saul Consults a Medium",
+          "ref": "1S28:1-25",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "The Philistines Reject David",
+          "ref": "1S29:1-11",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "David Avenges the Destruction of Ziklag",
+          "ref": "1S30:1-31",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "The Death of Saul and His Sons",
+          "ref": "1S31:1-13",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "David Mourns for Saul and Jonathan",
+          "ref": "2S1:1-27",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "David Anointed King of Judah",
+          "ref": "2S2:1-11",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "The Battle of Gibeon",
+          "ref": "2S2:12-32_2S3:1",
+          "label": "L"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Birth of David's Son at Hebron",
+          "ref": "2S3:2-5",
+          "label": "M"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Abner Defects to David",
+          "ref": "2S3:6-21c",
+          "label": "N"
+        },
+        {
+          "sourcePericope": 42,
+          "title": "Abner Id Killed by Joab",
+          "ref": "2S3:21d-39",
+          "label": "M′"
+        },
+        {
+          "sourcePericope": 43,
+          "title": "Ishbaal Assassinated",
+          "ref": "2S4:1-12",
+          "label": "L′"
+        },
+        {
+          "sourcePericope": 44,
+          "title": "David Anointed King of All Israel",
+          "ref": "2S5:1-5",
+          "label": "K′"
+        },
+        {
+          "sourcePericope": 45,
+          "title": "Jerusalem Made Capital of the United Kingdom",
+          "ref": "2S5:6-12",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 46,
+          "title": "Birth of David's Son at Jerusalem",
+          "ref": "2S5:13-16",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 47,
+          "title": "Philistine Attack Repulsed",
+          "ref": "2S5:17-25",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 48,
+          "title": "David Brings the Ark to Jerusalem",
+          "ref": "2S6:1-15",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 49,
+          "title": "Michal Despises",
+          "ref": "2S6:16-23",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 50,
+          "title": "God's Covenant With David",
+          "ref": "2S7:1-17",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 51,
+          "title": "David's Prayer",
+          "ref": "2S7:18-29",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 52,
+          "title": "David's Wars",
+          "ref": "2S8:1-14",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 53,
+          "title": "David's Officers",
+          "ref": "2S8:15-18",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 54,
+          "title": "David's Kindness to Mephibosheth",
+          "ref": "2S9:1-13",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "see 1-1",
+        "B": "see 1-1",
+        "C": "see 1-1",
+        "D": "see 1-1",
+        "E": "see 1-1",
+        "F": "see 1-1",
+        "G": "see 1-1",
+        "H": "see 1-1",
+        "I": "see 1-1",
+        "J": "see 1-1",
+        "K": "see 1-1",
+        "L": "see 1-1",
+        "M": "see 1-1"
+      },
+      "centerLabel": "N",
+      "boundaries": "1S23:15-28 … 2S9:1-13",
+      "note": "Complete multi-book outline 3-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-samuel-3-2-1",
+      "title": "Samuel · division 3-2-1",
+      "sourceFile": "09_Samuel_e_3.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/09_Samuel_e_3.html#3-2-1",
+      "locator": "3-2-1",
+      "kind": "Chiasm",
+      "nodes": [
+        {
+          "sourcePericope": 28,
+          "title": "David at Ziph",
+          "ref": "1S23:15-28",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "David Spares Saul's Life",
+          "ref": "1S24:1-23",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Death of Samuel, David and the Wife of Nabal",
+          "ref": "1S25:1-44",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "David Spares Saul's Life a Second Time",
+          "ref": "1S26:1-25",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "David Serves King Achish of Gath",
+          "ref": "1S27:1-12",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Saul Consults a Medium",
+          "ref": "1S28:1-25",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "The Philistines Reject David",
+          "ref": "1S29:1-11",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "David Avenges the Destruction of Ziklag",
+          "ref": "1S30:1-31",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "The Death of Saul and His Sons",
+          "ref": "1S31:1-13",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "David Mourns for Saul and Jonathan",
+          "ref": "2S1:1-27",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "David Anointed King of Judah",
+          "ref": "2S2:1-11",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "The Battle of Gibeon",
+          "ref": "2S2:12-32_2S3:1",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Birth of David's Son at Hebron",
+          "ref": "2S3:2-5",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Abner Defects to David",
+          "ref": "2S3:6-21c",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "David became the king",
+        "B": "King's descendants",
+        "C": "Burial",
+        "D": "Messiah",
+        "E": "David defeats Amalekite",
+        "F": "Death of Saul",
+        "G": "David is denied"
+      },
+      "boundaries": "1S23:15-28 … 2S3:6-21c",
+      "note": "Complete multi-book outline 3-2-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-samuel-4-2",
+      "title": "Samuel · division 4-2",
+      "sourceFile": "09_Samuel_e_4.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/09_Samuel_e_4.html#4-2",
+      "locator": "4-2",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 21,
+          "title": "David Plays the Lyte for Saul",
+          "ref": "1S16:14-23",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 22,
+          "title": "David and Goliath",
+          "ref": "1S17:1-58",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 23,
+          "title": "Saul Tries to Kill David",
+          "ref": "1S18:1-30",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 24,
+          "title": "David Escapes",
+          "ref": "1S19:1-24",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 25,
+          "title": "The Friendship of David and Jonathan",
+          "ref": "1S20:1-42",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 26,
+          "title": "David and Ahimelech",
+          "ref": "1S21:1-1S22:23",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 27,
+          "title": "David at Keilah",
+          "ref": "1S23:1-14",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 28,
+          "title": "David at Ziph",
+          "ref": "1S23:15-28",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "David Spares Saul's Life",
+          "ref": "1S24:1-23",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Death of Samuel, David and the Wife of Nabal",
+          "ref": "1S25:1-44",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "David Spares Saul's Life a Second Time",
+          "ref": "1S26:1-25",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "David Serves King Achish of Gath",
+          "ref": "1S27:1-12",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Saul Consults a Medium",
+          "ref": "1S28:1-25",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "The Philistines Reject David",
+          "ref": "1S29:1-11",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "David Avenges the Destruction of Ziklag",
+          "ref": "1S30:1-31",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "The Death of Saul and His Sons",
+          "ref": "1S31:1-13",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "David Mourns for Saul and Jonathan",
+          "ref": "2S1:1-27",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "David Anointed King of Judah",
+          "ref": "2S2:1-11",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "The Battle of Gibeon",
+          "ref": "2S2:12-32_2S3:1",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Birth of David's Son at Hebron",
+          "ref": "2S3:2-5",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Abner Defects to David",
+          "ref": "2S3:6-21c",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "David's promotion",
+        "B": "List of sons",
+        "C": "Conflict of David and Saul",
+        "D": "Escape / return of David",
+        "E": "Death of Jonathan",
+        "F": "Deprived armor",
+        "G": "Divine revelation",
+        "H": "Going to Philistines",
+        "I": "David became a king",
+        "J": "David's two wives"
+      },
+      "centerLabel": "K",
+      "boundaries": "1S16:14-23 … 2S3:6-21c",
+      "note": "Complete multi-book outline 4-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-samuel-4-2-2",
+      "title": "Samuel · division 4-2-2",
+      "sourceFile": "09_Samuel_e_4.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/09_Samuel_e_4.html#4-2-2",
+      "locator": "4-2-2",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 31,
+          "title": "David Spares Saul's Life a Second Time",
+          "ref": "1S26:1-25",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "David Serves King Achish of Gath",
+          "ref": "1S27:1-12",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Saul Consults a Medium",
+          "ref": "1S28:1-25",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "The Philistines Reject David",
+          "ref": "1S29:1-11",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "David Avenges the Destruction of Ziklag",
+          "ref": "1S30:1-31",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "The Death of Saul and His Sons",
+          "ref": "1S31:1-13",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "David Mourns for Saul and Jonathan",
+          "ref": "2S1:1-27",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "David Anointed King of Judah",
+          "ref": "2S2:1-11",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "The Battle of Gibeon",
+          "ref": "2S2:12-32_2S3:1",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Birth of David's Son at Hebron",
+          "ref": "2S3:2-5",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Abner Defects to David",
+          "ref": "2S3:6-21c",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "David and Abner",
+        "B": "Family of David",
+        "C": "Divided kingdom",
+        "D": "Jezreel, movement of David and his soldier",
+        "E": "Amalekites is killed"
+      },
+      "centerLabel": "F",
+      "boundaries": "1S26:1-25 … 2S3:6-21c",
+      "note": "Complete multi-book outline 4-2-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-samuel-5-3",
+      "title": "Samuel · division 5-3",
+      "sourceFile": "09_Samuel_e_5.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/09_Samuel_e_5.html#5-3",
+      "locator": "5-3",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 33,
+          "title": "Saul Consults a Medium",
+          "ref": "1S28:1-25",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "The Philistines Reject David",
+          "ref": "1S29:1-11",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "David Avenges the Destruction of Ziklag",
+          "ref": "1S30:1-31",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "The Death of Saul and His Sons",
+          "ref": "1S31:1-13",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "David Mourns for Saul and Jonathan",
+          "ref": "2S1:1-27",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "David Anointed King of Judah",
+          "ref": "2S2:1-11",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "The Battle of Gibeon",
+          "ref": "2S2:12-32_2S3:1",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Birth of David's Son at Hebron",
+          "ref": "2S3:2-5",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Abner Defects to David",
+          "ref": "2S3:6-21c",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 42,
+          "title": "Abner Id Killed by Joab",
+          "ref": "2S3:21d-39",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 43,
+          "title": "Ishbaal Assassinated",
+          "ref": "2S4:1-12",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 44,
+          "title": "David Anointed King of All Israel",
+          "ref": "2S5:1-5",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 45,
+          "title": "Jerusalem Made Capital of the United Kingdom",
+          "ref": "2S5:6-12",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 46,
+          "title": "Birth of David's Son at Jerusalem",
+          "ref": "2S5:13-16",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 47,
+          "title": "Philistine Attack Repulsed",
+          "ref": "2S5:17-25",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 48,
+          "title": "David Brings the Ark to Jerusalem",
+          "ref": "2S6:1-15",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 49,
+          "title": "Michal Despises",
+          "ref": "2S6:16-23",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "see 1-1",
+        "B": "see 1-1",
+        "C": "see 1-1",
+        "D": "see 1-1",
+        "E": "see 1-1",
+        "F": "see 1-1",
+        "G": "see 1-1",
+        "H": "see 1-1"
+      },
+      "centerLabel": "I",
+      "boundaries": "1S28:1-25 … 2S6:16-23",
+      "note": "Complete multi-book outline 5-3 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-samuel-5-3-1",
+      "title": "Samuel · division 5-3-1",
+      "sourceFile": "09_Samuel_e_5.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/09_Samuel_e_5.html#5-3-1",
+      "locator": "5-3-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 33,
+          "title": "Saul Consults a Medium",
+          "ref": "1S28:1-25",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "The Philistines Reject David",
+          "ref": "1S29:1-11",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "David Avenges the Destruction of Ziklag",
+          "ref": "1S30:1-31",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "The Death of Saul and His Sons",
+          "ref": "1S31:1-13",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "David Mourns for Saul and Jonathan",
+          "ref": "2S1:1-27",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "David Anointed King of Judah",
+          "ref": "2S2:1-11",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "The Battle of Gibeon",
+          "ref": "2S2:12-32_2S3:1",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Birth of David's Son at Hebron",
+          "ref": "2S3:2-5",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Abner Defects to David",
+          "ref": "2S3:6-21c",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "The Lord's swear to make David king",
+        "B": "Jezreel",
+        "C": "Pursuit",
+        "D": "Burial of Saul"
+      },
+      "centerLabel": "E",
+      "boundaries": "1S28:1-25 … 2S3:6-21c",
+      "note": "Complete multi-book outline 5-3-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-kings-1-1",
+      "title": "Kings · whole-book fold",
+      "sourceFile": "11_Kings_e_1.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/11_Kings_e_1.html#1-1",
+      "locator": "1-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 1,
+          "title": "The struggle for the succession",
+          "ref": "1K1:1-21",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 2,
+          "title": "The accession of Solomon",
+          "ref": "1K1:22-40",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 3,
+          "title": "Fear of Adonijah",
+          "ref": "1K1:41-53",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 4,
+          "title": "Death of David",
+          "ref": "1K2:1-46",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 5,
+          "title": "Solomon's wisdom",
+          "ref": "1K3:1-28",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 6,
+          "title": "Magnificense of Solomon's rule",
+          "ref": "1K4:1-1K5:14",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 7,
+          "title": "Preparation for the Temple",
+          "ref": "1K5:15-32",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 8,
+          "title": "Solomon builds the Temple",
+          "ref": "1K6:1-38",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 9,
+          "title": "Solomon's palace and other buildings",
+          "ref": "1K7:1-12",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 10,
+          "title": "Products of Hiram the bronzeworker",
+          "ref": "1K7:13-51",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 11,
+          "title": "Dedication of the Temple",
+          "ref": "1K8:1-53",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "Solomon blesses the assembly",
+          "ref": "1K8:54-66",
+          "label": "L"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "God appears again to Solomon",
+          "ref": "1K9:1-9",
+          "label": "M"
+        },
+        {
+          "sourcePericope": 14,
+          "title": "Other acts of Solomon",
+          "ref": "1K9:10-28",
+          "label": "N"
+        },
+        {
+          "sourcePericope": 15,
+          "title": "Visits of the queen of Sheba",
+          "ref": "1K10:1-13",
+          "label": "O"
+        },
+        {
+          "sourcePericope": 16,
+          "title": "Wealth of Solomon",
+          "ref": "1K10:14-29",
+          "label": "P"
+        },
+        {
+          "sourcePericope": 17,
+          "title": "Solomon's errors",
+          "ref": "1K11:1-43",
+          "label": "Q"
+        },
+        {
+          "sourcePericope": 18,
+          "title": "The northern tribes secede",
+          "ref": "1K12:1-19",
+          "label": "R"
+        },
+        {
+          "sourcePericope": 19,
+          "title": "A man of God from Judah",
+          "ref": "1K12:20-1K13:34",
+          "label": "S"
+        },
+        {
+          "sourcePericope": 20,
+          "title": "Judgment on the house of Jeroboam",
+          "ref": "1K14:1-20",
+          "label": "T"
+        },
+        {
+          "sourcePericope": 21,
+          "title": "Rehoboam reigns over Judah",
+          "ref": "1K14:21-31",
+          "label": "U"
+        },
+        {
+          "sourcePericope": 22,
+          "title": "Abijam reigns over Judah",
+          "ref": "1K15:1-8",
+          "label": "V"
+        },
+        {
+          "sourcePericope": 23,
+          "title": "Asa reigns over Judah",
+          "ref": "1K15:9-24",
+          "label": "W"
+        },
+        {
+          "sourcePericope": 24,
+          "title": "Nadab reigns over Israel",
+          "ref": "1K15:25-32",
+          "label": "X"
+        },
+        {
+          "sourcePericope": 25,
+          "title": "Bassha reigns over Israel",
+          "ref": "1K15:33-1K16:7",
+          "label": "Y"
+        },
+        {
+          "sourcePericope": 26,
+          "title": "Elah reigns over Israel",
+          "ref": "1K16:8-14",
+          "label": "Z"
+        },
+        {
+          "sourcePericope": 27,
+          "title": "Zimri reigns over Israel",
+          "ref": "1K16:15-22",
+          "label": "AA"
+        },
+        {
+          "sourcePericope": 28,
+          "title": "Omri reigns over Israel",
+          "ref": "1K16:23-28",
+          "label": "AB"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "Ahab reigns over Israel",
+          "ref": "1K16:29-34",
+          "label": "AC"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Elijah predicts a drought",
+          "ref": "1K17:1-24",
+          "label": "AD"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "Elijah's message to Ahab",
+          "ref": "1K18:1-15",
+          "label": "AE"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Elijah's triumph over the priests of Baal",
+          "ref": "1K18:16-40",
+          "label": "AF"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "The drought ends",
+          "ref": "1K18:41-46",
+          "label": "AG"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Elijah flees from Jezebel",
+          "ref": "1K19:1-21",
+          "label": "AH"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Ahab's wars with the Arameans",
+          "ref": "1K20:1-43",
+          "label": "AI"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Naboth's vineyard",
+          "ref": "1K21:1-29",
+          "label": "AJ"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "Defeat and death of Ahab",
+          "ref": "1K22:1-40",
+          "label": "AK"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Jehoshaphat reigns over Judah",
+          "ref": "1K22:41-51",
+          "label": "AL"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Ahaziah reigns over Israel",
+          "ref": "1K22:52-54",
+          "label": "AM"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Elijah denounces Ahaziah",
+          "ref": "2K1:1-18",
+          "label": "AN"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Elisha succeeds Elijah",
+          "ref": "2K2:1-25",
+          "label": "AO"
+        },
+        {
+          "sourcePericope": 42,
+          "title": "Jehoram reigns over Israel",
+          "ref": "2K3:1-27",
+          "label": "AN′"
+        },
+        {
+          "sourcePericope": 43,
+          "title": "Elisha performs miracles",
+          "ref": "2K4:1-2K6:7",
+          "label": "AM′"
+        },
+        {
+          "sourcePericope": 44,
+          "title": "The Aramean attack is thwarted",
+          "ref": "2K6:8-2K7:20",
+          "label": "AL′"
+        },
+        {
+          "sourcePericope": 45,
+          "title": "Elisha performs miracles",
+          "ref": "2K8:1-15",
+          "label": "AK′"
+        },
+        {
+          "sourcePericope": 46,
+          "title": "Jehoram reigns over Judah",
+          "ref": "2K8:16-24",
+          "label": "AJ′"
+        },
+        {
+          "sourcePericope": 47,
+          "title": "Ahaziah reigns over Judah",
+          "ref": "2K8:25-29",
+          "label": "AI′"
+        },
+        {
+          "sourcePericope": 48,
+          "title": "Rebellion of Jehu",
+          "ref": "2K9:1-37",
+          "label": "AH′"
+        },
+        {
+          "sourcePericope": 49,
+          "title": "Slaughter of worshipers of Baal",
+          "ref": "2K10:1-36",
+          "label": "AG′"
+        },
+        {
+          "sourcePericope": 50,
+          "title": "Athaliah and Jehoiada",
+          "ref": "2K11:1-20_2K12:1",
+          "label": "AF′"
+        },
+        {
+          "sourcePericope": 51,
+          "title": "Joash reigns over Judah",
+          "ref": "2K12:2-22",
+          "label": "AE′"
+        },
+        {
+          "sourcePericope": 52,
+          "title": "Jehoahaz reigns over Israel",
+          "ref": "2K13:1-9",
+          "label": "AD′"
+        },
+        {
+          "sourcePericope": 53,
+          "title": "Jehoash reigns over Israel",
+          "ref": "2K13:10-13",
+          "label": "AC′"
+        },
+        {
+          "sourcePericope": 54,
+          "title": "Death of Elisha",
+          "ref": "2K13:14-21",
+          "label": "AB′"
+        },
+        {
+          "sourcePericope": 55,
+          "title": "Israel recaptures cities from Aram",
+          "ref": "2K13:22-25",
+          "label": "AA′"
+        },
+        {
+          "sourcePericope": 56,
+          "title": "Amaziah reigns over Judah",
+          "ref": "2K14:1-22",
+          "label": "Z′"
+        },
+        {
+          "sourcePericope": 57,
+          "title": "Jeroboam II reigns over Israel",
+          "ref": "2K14:23-29",
+          "label": "Y′"
+        },
+        {
+          "sourcePericope": 58,
+          "title": "Azariah reigns over Judah",
+          "ref": "2K15:1-7",
+          "label": "X′"
+        },
+        {
+          "sourcePericope": 59,
+          "title": "Zechariah reigns over Israel",
+          "ref": "2K15:8-12",
+          "label": "W′"
+        },
+        {
+          "sourcePericope": 60,
+          "title": "Shallum reigns over Israel",
+          "ref": "2K15:13-16",
+          "label": "V′"
+        },
+        {
+          "sourcePericope": 61,
+          "title": "Menahem reigns over Israel",
+          "ref": "2K15:17-22",
+          "label": "U′"
+        },
+        {
+          "sourcePericope": 62,
+          "title": "Pekahiah reigns over Israel",
+          "ref": "2K15:23-26",
+          "label": "T′"
+        },
+        {
+          "sourcePericope": 63,
+          "title": "Pekah reigns over Israel",
+          "ref": "2K15:27-31",
+          "label": "S′"
+        },
+        {
+          "sourcePericope": 64,
+          "title": "Jotham reigns over Judah",
+          "ref": "2K15:32-38",
+          "label": "R′"
+        },
+        {
+          "sourcePericope": 65,
+          "title": "Ahaz reigns over Judah",
+          "ref": "2K16:1-20",
+          "label": "Q′"
+        },
+        {
+          "sourcePericope": 66,
+          "title": "Hoshea reigns over Israel",
+          "ref": "2K17:1-6",
+          "label": "P′"
+        },
+        {
+          "sourcePericope": 67,
+          "title": "Israel carried captive to Assyria",
+          "ref": "2K17:7-41",
+          "label": "O′"
+        },
+        {
+          "sourcePericope": 68,
+          "title": "Hezekiah's reign over Judah",
+          "ref": "2K18:1-16",
+          "label": "N′"
+        },
+        {
+          "sourcePericope": 69,
+          "title": "Sennacherib invades Judah",
+          "ref": "2K18:17-2K19:37",
+          "label": "M′"
+        },
+        {
+          "sourcePericope": 70,
+          "title": "Hezekiah's illness",
+          "ref": "2K20:1-21",
+          "label": "L′"
+        },
+        {
+          "sourcePericope": 71,
+          "title": "Manasseh reigns over Judah",
+          "ref": "2K21:1-18",
+          "label": "K′"
+        },
+        {
+          "sourcePericope": 72,
+          "title": "Amon reigns over Judah",
+          "ref": "2K21:19-26",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 73,
+          "title": "Josiah reigns over Judah",
+          "ref": "2K22:1-20",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 74,
+          "title": "Josiah's reformation",
+          "ref": "2K23:1-30",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 75,
+          "title": "Reign and captivity of Jehoahaz",
+          "ref": "2K23:31-35",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 76,
+          "title": "Jehoiakim reigns over Judah",
+          "ref": "2K23:36-2K24:7",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 77,
+          "title": "Reign and captivity of Jehoiachin",
+          "ref": "2K24:8-17",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 78,
+          "title": "Zedekiah reigns over Judah",
+          "ref": "2K24:18-2K25:7",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 79,
+          "title": "The fall and captivity of Judah",
+          "ref": "2K25:8-21",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 80,
+          "title": "Gedaliah made governor of Judah",
+          "ref": "2K25:22-26",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 81,
+          "title": "Jehoiachin released from prison",
+          "ref": "2K25:27-30",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "King's cloth",
+        "B": "King selects a ruler",
+        "C": "King's judgment",
+        "D": "Blessing and curse for royal family",
+        "E": "Objects that was made by Solomon",
+        "F": "Good / evil in the sight of the Lord",
+        "G": "Relationship with foreign country",
+        "H": "Obeying all commands of the Lord; The temple",
+        "I": "Stones and wood for building",
+        "J": "Following exactly the path of own father",
+        "K": "From the day their fathers came forth from Egypt",
+        "L": "Kings prayer for the Lord",
+        "M": "The Lord promises to save for the sake of David",
+        "N": "Captivity; Occupation by foreign country",
+        "O": "Love / denial of Israel; Foreign people fear the Lord",
+        "P": "Tribute",
+        "Q": "Foreign altar",
+        "R": "The Lord makes king against Judah",
+        "S": "Ruin of royal family",
+        "T": "Ruin of royal family",
+        "U": "Robbed treasures",
+        "V": "Ruin of Israel, succession of Judah",
+        "W": "Ruin of Israel, succession of Judah",
+        "X": "King is punished by the Lord",
+        "Y": "The words of prophet",
+        "Z": "Rebellion",
+        "AA": "Taking back a city",
+        "AB": "Provoking anger",
+        "AC": "Sins of Jeroboam",
+        "AD": "Man of God",
+        "AE": "Murder",
+        "AF": "To kill pagan prophets",
+        "AG": "Ahab at Jezreel",
+        "AH": "Rebellion of Jehu",
+        "AI": "Wars against Aram",
+        "AJ": "The Lord's promise for royal family",
+        "AK": "False prophecy about death of king",
+        "AL": "Relationship with foreign country",
+        "AM": "The Lord rage about kneeling to idol",
+        "AN": "Inquiring to idol"
+      },
+      "centerLabel": "AO",
+      "boundaries": "1K1:1-21 … 2K25:27-30",
+      "note": "Complete multi-book outline 1-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-kings-2-1",
+      "title": "Kings · division 2-1",
+      "sourceFile": "11_Kings_e_2.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/11_Kings_e_2.html#2-1",
+      "locator": "2-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 1,
+          "title": "The struggle for the succession",
+          "ref": "1K1:1-21",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 2,
+          "title": "The accession of Solomon",
+          "ref": "1K1:22-40",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 3,
+          "title": "Fear of Adonijah",
+          "ref": "1K1:41-53",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 4,
+          "title": "Death of David",
+          "ref": "1K2:1-46",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 5,
+          "title": "Solomon's wisdom",
+          "ref": "1K3:1-28",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 6,
+          "title": "Magnificense of Solomon's rule",
+          "ref": "1K4:1-1K5:14",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 7,
+          "title": "Preparation for the Temple",
+          "ref": "1K5:15-32",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 8,
+          "title": "Solomon builds the Temple",
+          "ref": "1K6:1-38",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 9,
+          "title": "Solomon's palace and other buildings",
+          "ref": "1K7:1-12",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 10,
+          "title": "Products of Hiram the bronzeworker",
+          "ref": "1K7:13-51",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 11,
+          "title": "Dedication of the Temple",
+          "ref": "1K8:1-53",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "Solomon blesses the assembly",
+          "ref": "1K8:54-66",
+          "label": "L"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "God appears again to Solomon",
+          "ref": "1K9:1-9",
+          "label": "M"
+        },
+        {
+          "sourcePericope": 14,
+          "title": "Other acts of Solomon",
+          "ref": "1K9:10-28",
+          "label": "N"
+        },
+        {
+          "sourcePericope": 15,
+          "title": "Visits of the queen of Sheba",
+          "ref": "1K10:1-13",
+          "label": "O"
+        },
+        {
+          "sourcePericope": 16,
+          "title": "Wealth of Solomon",
+          "ref": "1K10:14-29",
+          "label": "P"
+        },
+        {
+          "sourcePericope": 17,
+          "title": "Solomon's errors",
+          "ref": "1K11:1-43",
+          "label": "Q"
+        },
+        {
+          "sourcePericope": 18,
+          "title": "The northern tribes secede",
+          "ref": "1K12:1-19",
+          "label": "R"
+        },
+        {
+          "sourcePericope": 19,
+          "title": "A man of God from Judah",
+          "ref": "1K12:20-1K13:34",
+          "label": "S"
+        },
+        {
+          "sourcePericope": 20,
+          "title": "Judgment on the house of Jeroboam",
+          "ref": "1K14:1-20",
+          "label": "T"
+        },
+        {
+          "sourcePericope": 21,
+          "title": "Rehoboam reigns over Judah",
+          "ref": "1K14:21-31",
+          "label": "U"
+        },
+        {
+          "sourcePericope": 22,
+          "title": "Abijam reigns over Judah",
+          "ref": "1K15:1-8",
+          "label": "T′"
+        },
+        {
+          "sourcePericope": 23,
+          "title": "Asa reigns over Judah",
+          "ref": "1K15:9-24",
+          "label": "S′"
+        },
+        {
+          "sourcePericope": 24,
+          "title": "Nadab reigns over Israel",
+          "ref": "1K15:25-32",
+          "label": "R′"
+        },
+        {
+          "sourcePericope": 25,
+          "title": "Bassha reigns over Israel",
+          "ref": "1K15:33-1K16:7",
+          "label": "Q′"
+        },
+        {
+          "sourcePericope": 26,
+          "title": "Elah reigns over Israel",
+          "ref": "1K16:8-14",
+          "label": "P′"
+        },
+        {
+          "sourcePericope": 27,
+          "title": "Zimri reigns over Israel",
+          "ref": "1K16:15-22",
+          "label": "O′"
+        },
+        {
+          "sourcePericope": 28,
+          "title": "Omri reigns over Israel",
+          "ref": "1K16:23-28",
+          "label": "N′"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "Ahab reigns over Israel",
+          "ref": "1K16:29-34",
+          "label": "M′"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Elijah predicts a drought",
+          "ref": "1K17:1-24",
+          "label": "L′"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "Elijah's message to Ahab",
+          "ref": "1K18:1-15",
+          "label": "K′"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Elijah's triumph over the priests of Baal",
+          "ref": "1K18:16-40",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "The drought ends",
+          "ref": "1K18:41-46",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Elijah flees from Jezebel",
+          "ref": "1K19:1-21",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Ahab's wars with the Arameans",
+          "ref": "1K20:1-43",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Naboth's vineyard",
+          "ref": "1K21:1-29",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "Defeat and death of Ahab",
+          "ref": "1K22:1-40",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Jehoshaphat reigns over Judah",
+          "ref": "1K22:41-51",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Ahaziah reigns over Israel",
+          "ref": "1K22:52-54",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Elijah denounces Ahaziah",
+          "ref": "2K1:1-18",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Elisha succeeds Elijah",
+          "ref": "2K2:1-25",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Hope to become successor",
+        "B": "Saving a life",
+        "C": "Evil; Becoming a king",
+        "D": "Following the ways of the Lord",
+        "E": "King judges righteously / wrongly",
+        "F": "Exiled Amorites",
+        "G": "Agreement with foreign country",
+        "H": "The altar",
+        "I": "Clouds (ab)",
+        "J": "The altar",
+        "K": "Death of livestock",
+        "L": "Daily food is given",
+        "M": "Kneeling to other gods; Construction of the temple",
+        "N": "Construction of a town",
+        "O": "Wish to make someone king",
+        "P": "Chariots",
+        "Q": "Curse for kingdom",
+        "R": "Fulfillment of the word of the Lord",
+        "S": "Rejecting other gods; Illness of king",
+        "T": "Faithful David, faithless other kings"
+      },
+      "centerLabel": "U",
+      "boundaries": "1K1:1-21 … 2K2:1-25",
+      "note": "Complete multi-book outline 2-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-kings-3-2",
+      "title": "Kings · division 3-2",
+      "sourceFile": "11_Kings_e_3.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/11_Kings_e_3.html#3-2",
+      "locator": "3-2",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 28,
+          "title": "Omri reigns over Israel",
+          "ref": "1K16:23-28",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "Ahab reigns over Israel",
+          "ref": "1K16:29-34",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Elijah predicts a drought",
+          "ref": "1K17:1-24",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "Elijah's message to Ahab",
+          "ref": "1K18:1-15",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Elijah's triumph over the priests of Baal",
+          "ref": "1K18:16-40",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "The drought ends",
+          "ref": "1K18:41-46",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Elijah flees from Jezebel",
+          "ref": "1K19:1-21",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Ahab's wars with the Arameans",
+          "ref": "1K20:1-43",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Naboth's vineyard",
+          "ref": "1K21:1-29",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "Defeat and death of Ahab",
+          "ref": "1K22:1-40",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Jehoshaphat reigns over Judah",
+          "ref": "1K22:41-51",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Ahaziah reigns over Israel",
+          "ref": "1K22:52-54",
+          "label": "L"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Elijah denounces Ahaziah",
+          "ref": "2K1:1-18",
+          "label": "M"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Elisha succeeds Elijah",
+          "ref": "2K2:1-25",
+          "label": "N"
+        },
+        {
+          "sourcePericope": 42,
+          "title": "Jehoram reigns over Israel",
+          "ref": "2K3:1-27",
+          "label": "M′"
+        },
+        {
+          "sourcePericope": 43,
+          "title": "Elisha performs miracles",
+          "ref": "2K4:1-2K6:7",
+          "label": "L′"
+        },
+        {
+          "sourcePericope": 44,
+          "title": "The Aramean attack is thwarted",
+          "ref": "2K6:8-2K7:20",
+          "label": "K′"
+        },
+        {
+          "sourcePericope": 45,
+          "title": "Elisha performs miracles",
+          "ref": "2K8:1-15",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 46,
+          "title": "Jehoram reigns over Judah",
+          "ref": "2K8:16-24",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 47,
+          "title": "Ahaziah reigns over Judah",
+          "ref": "2K8:25-29",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 48,
+          "title": "Rebellion of Jehu",
+          "ref": "2K9:1-37",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 49,
+          "title": "Slaughter of worshipers of Baal",
+          "ref": "2K10:1-36",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 50,
+          "title": "Athaliah and Jehoiada",
+          "ref": "2K11:1-20_2K12:1",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 51,
+          "title": "Joash reigns over Judah",
+          "ref": "2K12:2-22",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 52,
+          "title": "Jehoahaz reigns over Israel",
+          "ref": "2K13:1-9",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 53,
+          "title": "Jehoash reigns over Israel",
+          "ref": "2K13:10-13",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 54,
+          "title": "Death of Elisha",
+          "ref": "2K13:14-21",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "see 1-1",
+        "B": "see 1-1",
+        "C": "see 1-1",
+        "D": "see 1-1",
+        "E": "see 1-1",
+        "F": "see 1-1",
+        "G": "see 1-1",
+        "H": "see 1-1",
+        "I": "see 1-1",
+        "J": "see 1-1",
+        "K": "see 1-1",
+        "L": "see 1-1",
+        "M": "see 1-1"
+      },
+      "centerLabel": "N",
+      "boundaries": "1K16:23-28 … 2K13:14-21",
+      "note": "Complete multi-book outline 3-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-kings-3-2-1",
+      "title": "Kings · division 3-2-1",
+      "sourceFile": "11_Kings_e_3.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/11_Kings_e_3.html#3-2-1",
+      "locator": "3-2-1",
+      "kind": "Chiasm",
+      "nodes": [
+        {
+          "sourcePericope": 28,
+          "title": "Omri reigns over Israel",
+          "ref": "1K16:23-28",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "Ahab reigns over Israel",
+          "ref": "1K16:29-34",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Elijah predicts a drought",
+          "ref": "1K17:1-24",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "Elijah's message to Ahab",
+          "ref": "1K18:1-15",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Elijah's triumph over the priests of Baal",
+          "ref": "1K18:16-40",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "The drought ends",
+          "ref": "1K18:41-46",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Elijah flees from Jezebel",
+          "ref": "1K19:1-21",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Ahab's wars with the Arameans",
+          "ref": "1K20:1-43",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Naboth's vineyard",
+          "ref": "1K21:1-29",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "Defeat and death of Ahab",
+          "ref": "1K22:1-40",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Jehoshaphat reigns over Judah",
+          "ref": "1K22:41-51",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Ahaziah reigns over Israel",
+          "ref": "1K22:52-54",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Elijah denounces Ahaziah",
+          "ref": "2K1:1-18",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Elisha succeeds Elijah",
+          "ref": "2K2:1-25",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Going to Samaria",
+        "B": "Death exactly same as the word of the Lord",
+        "C": "Sin",
+        "D": "What was right in the LORD'S sight",
+        "E": "False Prophecy",
+        "F": "Prophecy of Elijah",
+        "G": "Mountain and the LORD"
+      },
+      "boundaries": "1K16:23-28 … 2K2:1-25",
+      "note": "Complete multi-book outline 3-2-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-kings-4-2",
+      "title": "Kings · division 4-2",
+      "sourceFile": "11_Kings_e_4.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/11_Kings_e_4.html#4-2",
+      "locator": "4-2",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 21,
+          "title": "Rehoboam reigns over Judah",
+          "ref": "1K14:21-31",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 22,
+          "title": "Abijam reigns over Judah",
+          "ref": "1K15:1-8",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 23,
+          "title": "Asa reigns over Judah",
+          "ref": "1K15:9-24",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 24,
+          "title": "Nadab reigns over Israel",
+          "ref": "1K15:25-32",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 25,
+          "title": "Bassha reigns over Israel",
+          "ref": "1K15:33-1K16:7",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 26,
+          "title": "Elah reigns over Israel",
+          "ref": "1K16:8-14",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 27,
+          "title": "Zimri reigns over Israel",
+          "ref": "1K16:15-22",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 28,
+          "title": "Omri reigns over Israel",
+          "ref": "1K16:23-28",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "Ahab reigns over Israel",
+          "ref": "1K16:29-34",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Elijah predicts a drought",
+          "ref": "1K17:1-24",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "Elijah's message to Ahab",
+          "ref": "1K18:1-15",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Elijah's triumph over the priests of Baal",
+          "ref": "1K18:16-40",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "The drought ends",
+          "ref": "1K18:41-46",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Elijah flees from Jezebel",
+          "ref": "1K19:1-21",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Ahab's wars with the Arameans",
+          "ref": "1K20:1-43",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Naboth's vineyard",
+          "ref": "1K21:1-29",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "Defeat and death of Ahab",
+          "ref": "1K22:1-40",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Jehoshaphat reigns over Judah",
+          "ref": "1K22:41-51",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Ahaziah reigns over Israel",
+          "ref": "1K22:52-54",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Elijah denounces Ahaziah",
+          "ref": "2K1:1-18",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Elisha succeeds Elijah",
+          "ref": "2K2:1-25",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Rage and revenge",
+        "B": "King's heart is not with the Lord",
+        "C": "Good / evil in the sight of the Lord like own father",
+        "D": "Evil / good in the sight of the Lord like own father",
+        "E": "Dog eats king",
+        "F": "Prophecy about ruin of house of Baasha",
+        "G": "Siege",
+        "H": "Sins of Israel",
+        "I": "Ahab",
+        "J": "Repeating three times"
+      },
+      "centerLabel": "K",
+      "boundaries": "1K14:21-31 … 2K2:1-25",
+      "note": "Complete multi-book outline 4-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-kings-4-2-2",
+      "title": "Kings · division 4-2-2",
+      "sourceFile": "11_Kings_e_4.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/11_Kings_e_4.html#4-2-2",
+      "locator": "4-2-2",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 31,
+          "title": "Elijah's message to Ahab",
+          "ref": "1K18:1-15",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Elijah's triumph over the priests of Baal",
+          "ref": "1K18:16-40",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "The drought ends",
+          "ref": "1K18:41-46",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Elijah flees from Jezebel",
+          "ref": "1K19:1-21",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Ahab's wars with the Arameans",
+          "ref": "1K20:1-43",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Naboth's vineyard",
+          "ref": "1K21:1-29",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "Defeat and death of Ahab",
+          "ref": "1K22:1-40",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Jehoshaphat reigns over Judah",
+          "ref": "1K22:41-51",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Ahaziah reigns over Israel",
+          "ref": "1K22:52-54",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Elijah denounces Ahaziah",
+          "ref": "2K1:1-18",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Elisha succeeds Elijah",
+          "ref": "2K2:1-25",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Elijah was taken away",
+        "B": "Fire of the LORD",
+        "C": "Ahab",
+        "D": "Ancestors",
+        "E": "Wars against Aram"
+      },
+      "centerLabel": "F",
+      "boundaries": "1K18:1-15 … 2K2:1-25",
+      "note": "Complete multi-book outline 4-2-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-kings-5-3",
+      "title": "Kings · division 5-3",
+      "sourceFile": "11_Kings_e_5.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/11_Kings_e_5.html#5-3",
+      "locator": "5-3",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 33,
+          "title": "The drought ends",
+          "ref": "1K18:41-46",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Elijah flees from Jezebel",
+          "ref": "1K19:1-21",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Ahab's wars with the Arameans",
+          "ref": "1K20:1-43",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Naboth's vineyard",
+          "ref": "1K21:1-29",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "Defeat and death of Ahab",
+          "ref": "1K22:1-40",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Jehoshaphat reigns over Judah",
+          "ref": "1K22:41-51",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Ahaziah reigns over Israel",
+          "ref": "1K22:52-54",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Elijah denounces Ahaziah",
+          "ref": "2K1:1-18",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Elisha succeeds Elijah",
+          "ref": "2K2:1-25",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 42,
+          "title": "Jehoram reigns over Israel",
+          "ref": "2K3:1-27",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 43,
+          "title": "Elisha performs miracles",
+          "ref": "2K4:1-2K6:7",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 44,
+          "title": "The Aramean attack is thwarted",
+          "ref": "2K6:8-2K7:20",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 45,
+          "title": "Elisha performs miracles",
+          "ref": "2K8:1-15",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 46,
+          "title": "Jehoram reigns over Judah",
+          "ref": "2K8:16-24",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 47,
+          "title": "Ahaziah reigns over Judah",
+          "ref": "2K8:25-29",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 48,
+          "title": "Rebellion of Jehu",
+          "ref": "2K9:1-37",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 49,
+          "title": "Slaughter of worshipers of Baal",
+          "ref": "2K10:1-36",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "see 1-1",
+        "B": "see 1-1",
+        "C": "see 1-1",
+        "D": "see 1-1",
+        "E": "see 1-1",
+        "F": "see 1-1",
+        "G": "see 1-1",
+        "H": "see 1-1"
+      },
+      "centerLabel": "I",
+      "boundaries": "1K18:41-46 … 2K10:1-36",
+      "note": "Complete multi-book outline 5-3 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-kings-5-3-1",
+      "title": "Kings · division 5-3-1",
+      "sourceFile": "11_Kings_e_5.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/11_Kings_e_5.html#5-3-1",
+      "locator": "5-3-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 33,
+          "title": "The drought ends",
+          "ref": "1K18:41-46",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Elijah flees from Jezebel",
+          "ref": "1K19:1-21",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Ahab's wars with the Arameans",
+          "ref": "1K20:1-43",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Naboth's vineyard",
+          "ref": "1K21:1-29",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "Defeat and death of Ahab",
+          "ref": "1K22:1-40",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Jehoshaphat reigns over Judah",
+          "ref": "1K22:41-51",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Ahaziah reigns over Israel",
+          "ref": "1K22:52-54",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Elijah denounces Ahaziah",
+          "ref": "2K1:1-18",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Elisha succeeds Elijah",
+          "ref": "2K2:1-25",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "The sky",
+        "B": "Fire",
+        "C": "Ahab",
+        "D": "Repentance"
+      },
+      "centerLabel": "E",
+      "boundaries": "1K18:41-46 … 2K2:1-25",
+      "note": "Complete multi-book outline 5-3-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-kings-9-5",
+      "title": "Kings · division 9-5",
+      "sourceFile": "11_Kings_e_9.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/11_Kings_e_9.html#9-5",
+      "locator": "9-5",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 37,
+          "title": "Defeat and death of Ahab",
+          "ref": "1K22:1-40",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Jehoshaphat reigns over Judah",
+          "ref": "1K22:41-51",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Ahaziah reigns over Israel",
+          "ref": "1K22:52-54",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Elijah denounces Ahaziah",
+          "ref": "2K1:1-18",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Elisha succeeds Elijah",
+          "ref": "2K2:1-25",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 42,
+          "title": "Jehoram reigns over Israel",
+          "ref": "2K3:1-27",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 43,
+          "title": "Elisha performs miracles",
+          "ref": "2K4:1-2K6:7",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 44,
+          "title": "The Aramean attack is thwarted",
+          "ref": "2K6:8-2K7:20",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 45,
+          "title": "Elisha performs miracles",
+          "ref": "2K8:1-15",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "see 1-1",
+        "B": "see 1-1",
+        "C": "see 1-1",
+        "D": "see 1-1"
+      },
+      "centerLabel": "E",
+      "boundaries": "1K22:1-40 … 2K8:1-15",
+      "note": "Complete multi-book outline 9-5 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-kings-9-5-1",
+      "title": "Kings · division 9-5-1",
+      "sourceFile": "11_Kings_e_9.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/11_Kings_e_9.html#9-5-1",
+      "locator": "9-5-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 37,
+          "title": "Defeat and death of Ahab",
+          "ref": "1K22:1-40",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Jehoshaphat reigns over Judah",
+          "ref": "1K22:41-51",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Ahaziah reigns over Israel",
+          "ref": "1K22:52-54",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Elijah denounces Ahaziah",
+          "ref": "2K1:1-18",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "Elisha succeeds Elijah",
+          "ref": "2K2:1-25",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Giving a spirit",
+        "B": "Not going together"
+      },
+      "centerLabel": "C",
+      "boundaries": "1K22:1-40 … 2K2:1-25",
+      "note": "Complete multi-book outline 9-5-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-chronicles-1-1",
+      "title": "Chronicles · whole-book fold",
+      "sourceFile": "13_Chronicles_e_1.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_1.html#1-1",
+      "locator": "1-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 1,
+          "title": "Genealogy of Adam",
+          "ref": "1Ch1:1-27",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 2,
+          "title": "Genealogy of Abraham",
+          "ref": "1Ch1:28-34",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 3,
+          "title": "Kings in Edom",
+          "ref": "1Ch1:35-54",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 4,
+          "title": "Genealogy of children of Israel",
+          "ref": "1Ch2:1-1Ch8:40",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 5,
+          "title": "Genealogy of Israel after the captivity",
+          "ref": "1Ch9:1-44",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 6,
+          "title": "Death of Saul and his sons",
+          "ref": "1Ch10:1-14",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 7,
+          "title": "David anointed king of all Israel",
+          "ref": "1Ch11:1-3",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 8,
+          "title": "Jerusalem",
+          "ref": "1Ch11:4-9",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 9,
+          "title": "David's mighty men",
+          "ref": "1Ch11:10-47",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 10,
+          "title": "David's followers in the wilderness",
+          "ref": "1Ch12:1-22",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 11,
+          "title": "David's army at Hebron",
+          "ref": "1Ch12:23-41",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "The Ark brought from Kiriath-jearim",
+          "ref": "1Ch13:1-14",
+          "label": "L"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "Envoys of Hiram",
+          "ref": "1Ch14:1-2",
+          "label": "M"
+        },
+        {
+          "sourcePericope": 14,
+          "title": "David's sons",
+          "ref": "1Ch14:3-7",
+          "label": "N"
+        },
+        {
+          "sourcePericope": 15,
+          "title": "Defeat of the Philistines",
+          "ref": "1Ch14:8-17",
+          "label": "O"
+        },
+        {
+          "sourcePericope": 16,
+          "title": "The Ark brought to Jerusalem",
+          "ref": "1Ch15:1-24",
+          "label": "P"
+        },
+        {
+          "sourcePericope": 17,
+          "title": "The Ark placed in the tent",
+          "ref": "1Ch15:25-1Ch16:7",
+          "label": "Q"
+        },
+        {
+          "sourcePericope": 18,
+          "title": "David's psalm of thanksgiving",
+          "ref": "1Ch16:8-36",
+          "label": "R"
+        },
+        {
+          "sourcePericope": 19,
+          "title": "Regular worship maintained",
+          "ref": "1Ch16:37-45",
+          "label": "S"
+        },
+        {
+          "sourcePericope": 20,
+          "title": "God's covenant with David",
+          "ref": "1Ch17:1-15",
+          "label": "T"
+        },
+        {
+          "sourcePericope": 21,
+          "title": "David's prayer",
+          "ref": "1Ch17:16-27",
+          "label": "U"
+        },
+        {
+          "sourcePericope": 22,
+          "title": "Wars against foreign countries",
+          "ref": "1Ch18:1-13",
+          "label": "V"
+        },
+        {
+          "sourcePericope": 23,
+          "title": "David's administration",
+          "ref": "1Ch18:14-17",
+          "label": "W"
+        },
+        {
+          "sourcePericope": 24,
+          "title": "Defeats of Ammonites and Arameans",
+          "ref": "1Ch19:1-19",
+          "label": "X"
+        },
+        {
+          "sourcePericope": 25,
+          "title": "Siege and capture of Rabbah",
+          "ref": "1Ch20:1-3",
+          "label": "Y"
+        },
+        {
+          "sourcePericope": 26,
+          "title": "Wars against Rapha",
+          "ref": "1Ch20:4-8",
+          "label": "Z"
+        },
+        {
+          "sourcePericope": 27,
+          "title": "The census and plague",
+          "ref": "1Ch21:1-30",
+          "label": "AA"
+        },
+        {
+          "sourcePericope": 28,
+          "title": "David prepares to build the temple",
+          "ref": "1Ch22:1-19",
+          "label": "AB"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "Families of the Levites and their functions",
+          "ref": "1Ch23:1-1Ch27:34",
+          "label": "AC"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Solomon instructed to build the temple",
+          "ref": "1Ch28:1-21",
+          "label": "AD"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "Offerings for building the temple",
+          "ref": "1Ch29:1-20",
+          "label": "AE"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Solomon anointed King",
+          "ref": "1Ch29:21-25",
+          "label": "AF"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Reign of David",
+          "ref": "1Ch29:26-30",
+          "label": "AG"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Solomon's wisdom",
+          "ref": "2Ch1:1-17",
+          "label": "AH"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Preparation for building the temple",
+          "ref": "2Ch1:18-2Ch2:17",
+          "label": "AI"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Solomon builds the temple",
+          "ref": "2Ch3:1-2Ch4:22",
+          "label": "AJ"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "The ark brought into the temple",
+          "ref": "2Ch5:1-2Ch6:2",
+          "label": "AK"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Dedication of the temple",
+          "ref": "2Ch6:3-11",
+          "label": "AL"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Solomon's prayer of dedication",
+          "ref": "2Ch6:12-42",
+          "label": "AM"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Solomon dedicates the temple",
+          "ref": "2Ch7:1-11",
+          "label": "AN"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "The words of the LORD",
+          "ref": "2Ch7:12-22",
+          "label": "AO"
+        },
+        {
+          "sourcePericope": 42,
+          "title": "Solomon's great wealth",
+          "ref": "2Ch8:1-18",
+          "label": "AN′"
+        },
+        {
+          "sourcePericope": 43,
+          "title": "The queen of Sheba",
+          "ref": "2Ch9:1-12",
+          "label": "AM′"
+        },
+        {
+          "sourcePericope": 44,
+          "title": "Solomon's great wealth",
+          "ref": "2Ch9:13-31",
+          "label": "AL′"
+        },
+        {
+          "sourcePericope": 45,
+          "title": "The revolt against Rehoboam",
+          "ref": "2Ch10:1-19",
+          "label": "AK′"
+        },
+        {
+          "sourcePericope": 46,
+          "title": "Political measures of Rehoboam",
+          "ref": "2Ch11:1-17",
+          "label": "AJ′"
+        },
+        {
+          "sourcePericope": 47,
+          "title": "Rehoboam's marriages",
+          "ref": "2Ch11:18-23",
+          "label": "AI′"
+        },
+        {
+          "sourcePericope": 48,
+          "title": "Egypt attacks Judah",
+          "ref": "2Ch12:1-12",
+          "label": "AH′"
+        },
+        {
+          "sourcePericope": 49,
+          "title": "Reign of Rehoboam",
+          "ref": "2Ch12:13-16",
+          "label": "AG′"
+        },
+        {
+          "sourcePericope": 50,
+          "title": "Abijah",
+          "ref": "2Ch13:1-22",
+          "label": "AF′"
+        },
+        {
+          "sourcePericope": 51,
+          "title": "Asa",
+          "ref": "2Ch13:23-2Ch14:6",
+          "label": "AE′"
+        },
+        {
+          "sourcePericope": 52,
+          "title": "Ethiopian invasion repulsed",
+          "ref": "2Ch14:7-14",
+          "label": "AD′"
+        },
+        {
+          "sourcePericope": 53,
+          "title": "The Reforms of Asa",
+          "ref": "2Ch15:1-19",
+          "label": "AC′"
+        },
+        {
+          "sourcePericope": 54,
+          "title": "Invasion of Israel",
+          "ref": "2Ch16:1-14",
+          "label": "AB′"
+        },
+        {
+          "sourcePericope": 55,
+          "title": "Jehoshaphat",
+          "ref": "2Ch17:1-19",
+          "label": "AA′"
+        },
+        {
+          "sourcePericope": 56,
+          "title": "Prophecy of Micaiah",
+          "ref": "2Ch18:1-34",
+          "label": "Z′"
+        },
+        {
+          "sourcePericope": 57,
+          "title": "The Reforms of Jehoshaphat",
+          "ref": "2Ch19:1-11",
+          "label": "Y′"
+        },
+        {
+          "sourcePericope": 58,
+          "title": "Invasion from the east",
+          "ref": "2Ch20:1-30",
+          "label": "X′"
+        },
+        {
+          "sourcePericope": 59,
+          "title": "Reign of Jehoshaphat",
+          "ref": "2Ch20:31-37",
+          "label": "W′"
+        },
+        {
+          "sourcePericope": 60,
+          "title": "Jehoram killed his brothers",
+          "ref": "2Ch21:1-4",
+          "label": "V′"
+        },
+        {
+          "sourcePericope": 61,
+          "title": "Jehoram",
+          "ref": "2Ch21:5-20",
+          "label": "U′"
+        },
+        {
+          "sourcePericope": 62,
+          "title": "Ahaziah",
+          "ref": "2Ch22:1-9",
+          "label": "T′"
+        },
+        {
+          "sourcePericope": 63,
+          "title": "Athaliah seizes the throne",
+          "ref": "2Ch22:10-12",
+          "label": "S′"
+        },
+        {
+          "sourcePericope": 64,
+          "title": "Athaliah",
+          "ref": "2Ch23:1-21",
+          "label": "R′"
+        },
+        {
+          "sourcePericope": 65,
+          "title": "The Reforms of Joash",
+          "ref": "2Ch24:1-16",
+          "label": "Q′"
+        },
+        {
+          "sourcePericope": 66,
+          "title": "Apostasy of Joash",
+          "ref": "2Ch24:17-27",
+          "label": "P′"
+        },
+        {
+          "sourcePericope": 67,
+          "title": "Amaziah",
+          "ref": "2Ch25:1-2Ch26:2",
+          "label": "O′"
+        },
+        {
+          "sourcePericope": 68,
+          "title": "Uzziah",
+          "ref": "2Ch26:3-23",
+          "label": "N′"
+        },
+        {
+          "sourcePericope": 69,
+          "title": "Jotham",
+          "ref": "2Ch27:1-9",
+          "label": "M′"
+        },
+        {
+          "sourcePericope": 70,
+          "title": "Ahaz",
+          "ref": "2Ch28:1-27",
+          "label": "L′"
+        },
+        {
+          "sourcePericope": 71,
+          "title": "Hezekiah",
+          "ref": "2Ch29:1-2Ch31:21",
+          "label": "K′"
+        },
+        {
+          "sourcePericope": 72,
+          "title": "Sennacherib's invasion",
+          "ref": "2Ch32:1-33",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 73,
+          "title": "Manasseh",
+          "ref": "2Ch33:1-20",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 74,
+          "title": "Amon",
+          "ref": "2Ch33:21-25",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 75,
+          "title": "Josiah",
+          "ref": "2Ch34:1-2Ch35:19",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 76,
+          "title": "Neco's invasion",
+          "ref": "2Ch35:20-27_2Ch36:1",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 77,
+          "title": "Jehoahaz",
+          "ref": "2Ch36:2-4",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 78,
+          "title": "Jehoiakim",
+          "ref": "2Ch36:5-8",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 79,
+          "title": "Jehoiachin",
+          "ref": "2Ch36:9-10",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 80,
+          "title": "Zedekiah",
+          "ref": "2Ch36:11-21",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 81,
+          "title": "Cyrus",
+          "ref": "2Ch36:22-23",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "People of the LORD",
+        "B": "Ancestors",
+        "C": "Absence of a king",
+        "D": "Captivity",
+        "E": "Captivity",
+        "F": "Defeat of kings",
+        "G": "Covenant",
+        "H": "Battles at Jerusalem",
+        "I": "Conversion of kings",
+        "J": "To come to kings",
+        "K": "Celebration",
+        "L": "Wrath of the LORD",
+        "M": "Construction",
+        "N": "Children of kings",
+        "O": "Wars and prophecies",
+        "P": "Punishments",
+        "Q": "Restoration of the temple",
+        "R": "Covenant",
+        "S": "Royal family",
+        "T": "Royal family",
+        "U": "Blessing and curse for kings",
+        "V": "To give treasures",
+        "W": "Reign of kings",
+        "X": "Wars against Ammonites",
+        "Y": "Return to Jerusalem",
+        "Z": "Wars against foreign countries",
+        "AA": "Number of soldiers",
+        "AB": "Silver and gold",
+        "AC": "People of Israel",
+        "AD": "Wars",
+        "AE": "Reforms of rituals",
+        "AF": "Kingship of David",
+        "AG": "Reign of kings",
+        "AH": "Lord grant a wish",
+        "AI": "Children of kings",
+        "AJ": "Construction",
+        "AK": "The people gathered",
+        "AL": "Egypt",
+        "AM": "Visit of foreigners",
+        "AN": "Offerings"
+      },
+      "centerLabel": "AO",
+      "boundaries": "1Ch1:1-27 … 2Ch36:22-23",
+      "note": "Complete multi-book outline 1-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-chronicles-2-1",
+      "title": "Chronicles · division 2-1",
+      "sourceFile": "13_Chronicles_e_2.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_2.html#2-1",
+      "locator": "2-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 1,
+          "title": "Genealogy of Adam",
+          "ref": "1Ch1:1-27",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 2,
+          "title": "Genealogy of Abraham",
+          "ref": "1Ch1:28-34",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 3,
+          "title": "Kings in Edom",
+          "ref": "1Ch1:35-54",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 4,
+          "title": "Genealogy of children of Israel",
+          "ref": "1Ch2:1-1Ch8:40",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 5,
+          "title": "Genealogy of Israel after the captivity",
+          "ref": "1Ch9:1-44",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 6,
+          "title": "Death of Saul and his sons",
+          "ref": "1Ch10:1-14",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 7,
+          "title": "David anointed king of all Israel",
+          "ref": "1Ch11:1-3",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 8,
+          "title": "Jerusalem",
+          "ref": "1Ch11:4-9",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 9,
+          "title": "David's mighty men",
+          "ref": "1Ch11:10-47",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 10,
+          "title": "David's followers in the wilderness",
+          "ref": "1Ch12:1-22",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 11,
+          "title": "David's army at Hebron",
+          "ref": "1Ch12:23-41",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "The Ark brought from Kiriath-jearim",
+          "ref": "1Ch13:1-14",
+          "label": "L"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "Envoys of Hiram",
+          "ref": "1Ch14:1-2",
+          "label": "M"
+        },
+        {
+          "sourcePericope": 14,
+          "title": "David's sons",
+          "ref": "1Ch14:3-7",
+          "label": "N"
+        },
+        {
+          "sourcePericope": 15,
+          "title": "Defeat of the Philistines",
+          "ref": "1Ch14:8-17",
+          "label": "O"
+        },
+        {
+          "sourcePericope": 16,
+          "title": "The Ark brought to Jerusalem",
+          "ref": "1Ch15:1-24",
+          "label": "P"
+        },
+        {
+          "sourcePericope": 17,
+          "title": "The Ark placed in the tent",
+          "ref": "1Ch15:25-1Ch16:7",
+          "label": "Q"
+        },
+        {
+          "sourcePericope": 18,
+          "title": "David's psalm of thanksgiving",
+          "ref": "1Ch16:8-36",
+          "label": "R"
+        },
+        {
+          "sourcePericope": 19,
+          "title": "Regular worship maintained",
+          "ref": "1Ch16:37-45",
+          "label": "S"
+        },
+        {
+          "sourcePericope": 20,
+          "title": "God's covenant with David",
+          "ref": "1Ch17:1-15",
+          "label": "T"
+        },
+        {
+          "sourcePericope": 21,
+          "title": "David's prayer",
+          "ref": "1Ch17:16-27",
+          "label": "U"
+        },
+        {
+          "sourcePericope": 22,
+          "title": "Wars against foreign countries",
+          "ref": "1Ch18:1-13",
+          "label": "T′"
+        },
+        {
+          "sourcePericope": 23,
+          "title": "David's administration",
+          "ref": "1Ch18:14-17",
+          "label": "S′"
+        },
+        {
+          "sourcePericope": 24,
+          "title": "Defeats of Ammonites and Arameans",
+          "ref": "1Ch19:1-19",
+          "label": "R′"
+        },
+        {
+          "sourcePericope": 25,
+          "title": "Siege and capture of Rabbah",
+          "ref": "1Ch20:1-3",
+          "label": "Q′"
+        },
+        {
+          "sourcePericope": 26,
+          "title": "Wars against Rapha",
+          "ref": "1Ch20:4-8",
+          "label": "P′"
+        },
+        {
+          "sourcePericope": 27,
+          "title": "The census and plague",
+          "ref": "1Ch21:1-30",
+          "label": "O′"
+        },
+        {
+          "sourcePericope": 28,
+          "title": "David prepares to build the temple",
+          "ref": "1Ch22:1-19",
+          "label": "N′"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "Families of the Levites and their functions",
+          "ref": "1Ch23:1-1Ch27:34",
+          "label": "M′"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Solomon instructed to build the temple",
+          "ref": "1Ch28:1-21",
+          "label": "L′"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "Offerings for building the temple",
+          "ref": "1Ch29:1-20",
+          "label": "K′"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Solomon anointed King",
+          "ref": "1Ch29:21-25",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Reign of David",
+          "ref": "1Ch29:26-30",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Solomon's wisdom",
+          "ref": "2Ch1:1-17",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Preparation for building the temple",
+          "ref": "2Ch1:18-2Ch2:17",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Solomon builds the temple",
+          "ref": "2Ch3:1-2Ch4:22",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "The ark brought into the temple",
+          "ref": "2Ch5:1-2Ch6:2",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Dedication of the temple",
+          "ref": "2Ch6:3-11",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Solomon's prayer of dedication",
+          "ref": "2Ch6:12-42",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Solomon dedicates the temple",
+          "ref": "2Ch7:1-11",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "The words of the LORD",
+          "ref": "2Ch7:12-22",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Ancestors",
+        "B": "The people of Israel",
+        "C": "Absence of a king",
+        "D": "The people of Israel",
+        "E": "Family of Levites",
+        "F": "Offering to the temple",
+        "G": "To become a king",
+        "H": "The LORD was with him",
+        "I": "Reign of David",
+        "J": "Warriors",
+        "K": "Offerings",
+        "L": "The ark",
+        "M": "The people of Israel",
+        "N": "Children of David",
+        "O": "Faith of David",
+        "P": "List of people",
+        "Q": "Clothing of David",
+        "R": "Wars against nations",
+        "S": "List of vassal",
+        "T": "Victory against enemies"
+      },
+      "centerLabel": "U",
+      "boundaries": "1Ch1:1-27 … 2Ch7:12-22",
+      "note": "Complete multi-book outline 2-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-chronicles-3-2",
+      "title": "Chronicles · division 3-2",
+      "sourceFile": "13_Chronicles_e_3.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_3.html#3-2",
+      "locator": "3-2",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 28,
+          "title": "David prepares to build the temple",
+          "ref": "1Ch22:1-19",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "Families of the Levites and their functions",
+          "ref": "1Ch23:1-1Ch27:34",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Solomon instructed to build the temple",
+          "ref": "1Ch28:1-21",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "Offerings for building the temple",
+          "ref": "1Ch29:1-20",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Solomon anointed King",
+          "ref": "1Ch29:21-25",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Reign of David",
+          "ref": "1Ch29:26-30",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Solomon's wisdom",
+          "ref": "2Ch1:1-17",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Preparation for building the temple",
+          "ref": "2Ch1:18-2Ch2:17",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Solomon builds the temple",
+          "ref": "2Ch3:1-2Ch4:22",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "The ark brought into the temple",
+          "ref": "2Ch5:1-2Ch6:2",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Dedication of the temple",
+          "ref": "2Ch6:3-11",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Solomon's prayer of dedication",
+          "ref": "2Ch6:12-42",
+          "label": "L"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Solomon dedicates the temple",
+          "ref": "2Ch7:1-11",
+          "label": "M"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "The words of the LORD",
+          "ref": "2Ch7:12-22",
+          "label": "N"
+        },
+        {
+          "sourcePericope": 42,
+          "title": "Solomon's great wealth",
+          "ref": "2Ch8:1-18",
+          "label": "M′"
+        },
+        {
+          "sourcePericope": 43,
+          "title": "The queen of Sheba",
+          "ref": "2Ch9:1-12",
+          "label": "L′"
+        },
+        {
+          "sourcePericope": 44,
+          "title": "Solomon's great wealth",
+          "ref": "2Ch9:13-31",
+          "label": "K′"
+        },
+        {
+          "sourcePericope": 45,
+          "title": "The revolt against Rehoboam",
+          "ref": "2Ch10:1-19",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 46,
+          "title": "Political measures of Rehoboam",
+          "ref": "2Ch11:1-17",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 47,
+          "title": "Rehoboam's marriages",
+          "ref": "2Ch11:18-23",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 48,
+          "title": "Egypt attacks Judah",
+          "ref": "2Ch12:1-12",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 49,
+          "title": "Reign of Rehoboam",
+          "ref": "2Ch12:13-16",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 50,
+          "title": "Abijah",
+          "ref": "2Ch13:1-22",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 51,
+          "title": "Asa",
+          "ref": "2Ch13:23-2Ch14:6",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 52,
+          "title": "Ethiopian invasion repulsed",
+          "ref": "2Ch14:7-14",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 53,
+          "title": "The Reforms of Asa",
+          "ref": "2Ch15:1-19",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 54,
+          "title": "Invasion of Israel",
+          "ref": "2Ch16:1-14",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "see 1-1",
+        "B": "see 1-1",
+        "C": "see 1-1",
+        "D": "see 1-1",
+        "E": "see 1-1",
+        "F": "see 1-1",
+        "G": "see 1-1",
+        "H": "see 1-1",
+        "I": "see 1-1",
+        "J": "see 1-1",
+        "K": "see 1-1",
+        "L": "see 1-1",
+        "M": "see 1-1"
+      },
+      "centerLabel": "N",
+      "boundaries": "1Ch22:1-19 … 2Ch16:1-14",
+      "note": "Complete multi-book outline 3-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-chronicles-3-2-1",
+      "title": "Chronicles · division 3-2-1",
+      "sourceFile": "13_Chronicles_e_3.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_3.html#3-2-1",
+      "locator": "3-2-1",
+      "kind": "Chiasm",
+      "nodes": [
+        {
+          "sourcePericope": 28,
+          "title": "David prepares to build the temple",
+          "ref": "1Ch22:1-19",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "Families of the Levites and their functions",
+          "ref": "1Ch23:1-1Ch27:34",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Solomon instructed to build the temple",
+          "ref": "1Ch28:1-21",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "Offerings for building the temple",
+          "ref": "1Ch29:1-20",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Solomon anointed King",
+          "ref": "1Ch29:21-25",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Reign of David",
+          "ref": "1Ch29:26-30",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Solomon's wisdom",
+          "ref": "2Ch1:1-17",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Preparation for building the temple",
+          "ref": "2Ch1:18-2Ch2:17",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Solomon builds the temple",
+          "ref": "2Ch3:1-2Ch4:22",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "The ark brought into the temple",
+          "ref": "2Ch5:1-2Ch6:2",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Dedication of the temple",
+          "ref": "2Ch6:3-11",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Solomon's prayer of dedication",
+          "ref": "2Ch6:12-42",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Solomon dedicates the temple",
+          "ref": "2Ch7:1-11",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "The words of the LORD",
+          "ref": "2Ch7:12-22",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "The promise of the LORD",
+        "B": "Praise of Levites",
+        "C": "The promise of the LORD",
+        "D": "Preparation of David",
+        "E": "Offerings",
+        "F": "Reign",
+        "G": "Wisdom of Solomon"
+      },
+      "boundaries": "1Ch22:1-19 … 2Ch7:12-22",
+      "note": "Complete multi-book outline 3-2-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-chronicles-4-2",
+      "title": "Chronicles · division 4-2",
+      "sourceFile": "13_Chronicles_e_4.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_4.html#4-2",
+      "locator": "4-2",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 21,
+          "title": "David's prayer",
+          "ref": "1Ch17:16-27",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 22,
+          "title": "Wars against foreign countries",
+          "ref": "1Ch18:1-13",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 23,
+          "title": "David's administration",
+          "ref": "1Ch18:14-17",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 24,
+          "title": "Defeats of Ammonites and Arameans",
+          "ref": "1Ch19:1-19",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 25,
+          "title": "Siege and capture of Rabbah",
+          "ref": "1Ch20:1-3",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 26,
+          "title": "Wars against Rapha",
+          "ref": "1Ch20:4-8",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 27,
+          "title": "The census and plague",
+          "ref": "1Ch21:1-30",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 28,
+          "title": "David prepares to build the temple",
+          "ref": "1Ch22:1-19",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "Families of the Levites and their functions",
+          "ref": "1Ch23:1-1Ch27:34",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Solomon instructed to build the temple",
+          "ref": "1Ch28:1-21",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "Offerings for building the temple",
+          "ref": "1Ch29:1-20",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Solomon anointed King",
+          "ref": "1Ch29:21-25",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Reign of David",
+          "ref": "1Ch29:26-30",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Solomon's wisdom",
+          "ref": "2Ch1:1-17",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Preparation for building the temple",
+          "ref": "2Ch1:18-2Ch2:17",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Solomon builds the temple",
+          "ref": "2Ch3:1-2Ch4:22",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "The ark brought into the temple",
+          "ref": "2Ch5:1-2Ch6:2",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Dedication of the temple",
+          "ref": "2Ch6:3-11",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Solomon's prayer of dedication",
+          "ref": "2Ch6:12-42",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Solomon dedicates the temple",
+          "ref": "2Ch7:1-11",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "The words of the LORD",
+          "ref": "2Ch7:12-22",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Promise of the LORD",
+        "B": "Consecration",
+        "C": "Judgement (mshpt)",
+        "D": "All Israel",
+        "E": "Treasures",
+        "F": "Length (mdh)",
+        "G": "The census",
+        "H": "Wishing for wisdom",
+        "I": "Longevity of David",
+        "J": "Coronation of Solomon"
+      },
+      "centerLabel": "K",
+      "boundaries": "1Ch17:16-27 … 2Ch7:12-22",
+      "note": "Complete multi-book outline 4-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-chronicles-4-2-2",
+      "title": "Chronicles · division 4-2-2",
+      "sourceFile": "13_Chronicles_e_4.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_4.html#4-2-2",
+      "locator": "4-2-2",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 31,
+          "title": "Offerings for building the temple",
+          "ref": "1Ch29:1-20",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Solomon anointed King",
+          "ref": "1Ch29:21-25",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Reign of David",
+          "ref": "1Ch29:26-30",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Solomon's wisdom",
+          "ref": "2Ch1:1-17",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Preparation for building the temple",
+          "ref": "2Ch1:18-2Ch2:17",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Solomon builds the temple",
+          "ref": "2Ch3:1-2Ch4:22",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "The ark brought into the temple",
+          "ref": "2Ch5:1-2Ch6:2",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Dedication of the temple",
+          "ref": "2Ch6:3-11",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Solomon's prayer of dedication",
+          "ref": "2Ch6:12-42",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Solomon dedicates the temple",
+          "ref": "2Ch7:1-11",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "The words of the LORD",
+          "ref": "2Ch7:12-22",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Commandments and statutes",
+        "B": "Offerings",
+        "C": "King David",
+        "D": "Promise of the LORD",
+        "E": "Construction of the temple"
+      },
+      "centerLabel": "F",
+      "boundaries": "1Ch29:1-20 … 2Ch7:12-22",
+      "note": "Complete multi-book outline 4-2-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-chronicles-5-3",
+      "title": "Chronicles · division 5-3",
+      "sourceFile": "13_Chronicles_e_5.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_5.html#5-3",
+      "locator": "5-3",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 33,
+          "title": "Reign of David",
+          "ref": "1Ch29:26-30",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Solomon's wisdom",
+          "ref": "2Ch1:1-17",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Preparation for building the temple",
+          "ref": "2Ch1:18-2Ch2:17",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Solomon builds the temple",
+          "ref": "2Ch3:1-2Ch4:22",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "The ark brought into the temple",
+          "ref": "2Ch5:1-2Ch6:2",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Dedication of the temple",
+          "ref": "2Ch6:3-11",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Solomon's prayer of dedication",
+          "ref": "2Ch6:12-42",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Solomon dedicates the temple",
+          "ref": "2Ch7:1-11",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "The words of the LORD",
+          "ref": "2Ch7:12-22",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 42,
+          "title": "Solomon's great wealth",
+          "ref": "2Ch8:1-18",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 43,
+          "title": "The queen of Sheba",
+          "ref": "2Ch9:1-12",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 44,
+          "title": "Solomon's great wealth",
+          "ref": "2Ch9:13-31",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 45,
+          "title": "The revolt against Rehoboam",
+          "ref": "2Ch10:1-19",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 46,
+          "title": "Political measures of Rehoboam",
+          "ref": "2Ch11:1-17",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 47,
+          "title": "Rehoboam's marriages",
+          "ref": "2Ch11:18-23",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 48,
+          "title": "Egypt attacks Judah",
+          "ref": "2Ch12:1-12",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 49,
+          "title": "Reign of Rehoboam",
+          "ref": "2Ch12:13-16",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "see 1-1",
+        "B": "see 1-1",
+        "C": "see 1-1",
+        "D": "see 1-1",
+        "E": "see 1-1",
+        "F": "see 1-1",
+        "G": "see 1-1",
+        "H": "see 1-1"
+      },
+      "centerLabel": "I",
+      "boundaries": "1Ch29:26-30 … 2Ch12:13-16",
+      "note": "Complete multi-book outline 5-3 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-chronicles-5-3-1",
+      "title": "Chronicles · division 5-3-1",
+      "sourceFile": "13_Chronicles_e_5.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_5.html#5-3-1",
+      "locator": "5-3-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 33,
+          "title": "Reign of David",
+          "ref": "1Ch29:26-30",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Solomon's wisdom",
+          "ref": "2Ch1:1-17",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Preparation for building the temple",
+          "ref": "2Ch1:18-2Ch2:17",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Solomon builds the temple",
+          "ref": "2Ch3:1-2Ch4:22",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 37,
+          "title": "The ark brought into the temple",
+          "ref": "2Ch5:1-2Ch6:2",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 38,
+          "title": "Dedication of the temple",
+          "ref": "2Ch6:3-11",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 39,
+          "title": "Solomon's prayer of dedication",
+          "ref": "2Ch6:12-42",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 40,
+          "title": "Solomon dedicates the temple",
+          "ref": "2Ch7:1-11",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 41,
+          "title": "The words of the LORD",
+          "ref": "2Ch7:12-22",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Reign of David",
+        "B": "Offerings",
+        "C": "There is no god like you",
+        "D": "Construction of the temple"
+      },
+      "centerLabel": "E",
+      "boundaries": "1Ch29:26-30 … 2Ch7:12-22",
+      "note": "Complete multi-book outline 5-3-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-chronicles-9-4",
+      "title": "Chronicles · division 9-4",
+      "sourceFile": "13_Chronicles_e_9.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_9.html#9-4",
+      "locator": "9-4",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 28,
+          "title": "David prepares to build the temple",
+          "ref": "1Ch22:1-19",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 29,
+          "title": "Families of the Levites and their functions",
+          "ref": "1Ch23:1-1Ch27:34",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 30,
+          "title": "Solomon instructed to build the temple",
+          "ref": "1Ch28:1-21",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 31,
+          "title": "Offerings for building the temple",
+          "ref": "1Ch29:1-20",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 32,
+          "title": "Solomon anointed King",
+          "ref": "1Ch29:21-25",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Reign of David",
+          "ref": "1Ch29:26-30",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Solomon's wisdom",
+          "ref": "2Ch1:1-17",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Preparation for building the temple",
+          "ref": "2Ch1:18-2Ch2:17",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Solomon builds the temple",
+          "ref": "2Ch3:1-2Ch4:22",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Preparation for construction of the temple",
+        "B": "The census",
+        "C": "The ark",
+        "D": "All Israel"
+      },
+      "centerLabel": "E",
+      "boundaries": "1Ch22:1-19 … 2Ch3:1-2Ch4:22",
+      "note": "Complete multi-book outline 9-4 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-chronicles-9-4-2",
+      "title": "Chronicles · division 9-4-2",
+      "sourceFile": "13_Chronicles_e_9.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/13_Chronicles_e_9.html#9-4-2",
+      "locator": "9-4-2",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 32,
+          "title": "Solomon anointed King",
+          "ref": "1Ch29:21-25",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 33,
+          "title": "Reign of David",
+          "ref": "1Ch29:26-30",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 34,
+          "title": "Solomon's wisdom",
+          "ref": "2Ch1:1-17",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 35,
+          "title": "Preparation for building the temple",
+          "ref": "2Ch1:18-2Ch2:17",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 36,
+          "title": "Solomon builds the temple",
+          "ref": "2Ch3:1-2Ch4:22",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Prosperity of Solomon",
+        "B": "All Israel"
+      },
+      "centerLabel": "C",
+      "boundaries": "1Ch29:21-25 … 2Ch3:1-2Ch4:22",
+      "note": "Complete multi-book outline 9-4-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-ezranehemiah-1-1",
+      "title": "Ezra–Nehemiah · whole-book fold",
+      "sourceFile": "15_EzraNehemiah_e_1.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_1.html#1-1",
+      "locator": "1-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 1,
+          "title": "End of the Babylonian captivity",
+          "ref": "Ezr1:1-11",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 2,
+          "title": "List of the returned exiles",
+          "ref": "Ezr2:1-70",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 3,
+          "title": "Worship restored at Jerusalem",
+          "ref": "Ezr3:1-7",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 4,
+          "title": "Resistance to rebuilding the Temple",
+          "ref": "Ezr4:1-24",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 5,
+          "title": "Restoration of the Temple resumed",
+          "ref": "Ezr5:1-Ezr6:14",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 6,
+          "title": "Completion of the temple",
+          "ref": "Ezr6:14-18",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 7,
+          "title": "Passover",
+          "ref": "Ezr6:19-22",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 8,
+          "title": "Heads of families who returned with Ezra",
+          "ref": "Ezr7:1-Ezr8:14",
+          "label": "H"
+        },
+        {
+          "sourcePericope": 9,
+          "title": "The return to Jerusalem",
+          "ref": "Ezr8:15-36",
+          "label": "I"
+        },
+        {
+          "sourcePericope": 10,
+          "title": "Denunciation of mixed marriages",
+          "ref": "Ezr9:1-Ezr10:4",
+          "label": "J"
+        },
+        {
+          "sourcePericope": 11,
+          "title": "Foreign wives and their children rejected",
+          "ref": "Ezr10:5-17",
+          "label": "K"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "List of the sinned people",
+          "ref": "Ezr10:18-44",
+          "label": "L"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "Nehemiah prays for his people",
+          "ref": "Ne1:1-Ne2:20",
+          "label": "M"
+        },
+        {
+          "sourcePericope": 14,
+          "title": "Organization of the work",
+          "ref": "Ne3:1-32",
+          "label": "L′"
+        },
+        {
+          "sourcePericope": 15,
+          "title": "Hostile plots thwarted",
+          "ref": "Ne4:1-23",
+          "label": "K′"
+        },
+        {
+          "sourcePericope": 16,
+          "title": "Nehemiah deals with oppression",
+          "ref": "Ne5:1-19",
+          "label": "J′"
+        },
+        {
+          "sourcePericope": 17,
+          "title": "Intrigues of enemies foiled",
+          "ref": "Ne6:1-19",
+          "label": "I′"
+        },
+        {
+          "sourcePericope": 18,
+          "title": "List of the returned exiles",
+          "ref": "Ne7:1-72a",
+          "label": "H′"
+        },
+        {
+          "sourcePericope": 19,
+          "title": "Ezra summons the people to obey the law",
+          "ref": "Ne7:72b-Ne8:18",
+          "label": "G′"
+        },
+        {
+          "sourcePericope": 20,
+          "title": "National confession",
+          "ref": "Ne9:1-37",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 21,
+          "title": "List of covenant",
+          "ref": "Ne10:1-30",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 22,
+          "title": "Covenant",
+          "ref": "Ne10:31-40",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 23,
+          "title": "People live inside and outside Jerusalem",
+          "ref": "Ne11:1-36",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 24,
+          "title": "Dedication of the city wall",
+          "ref": "Ne12:1-47",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 25,
+          "title": "The reforms of Nehemiah",
+          "ref": "Ne13:1-31",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Reading a book",
+        "B": "List of people who returned",
+        "C": "People in Jerusalem",
+        "D": "Exclusion of foreigners",
+        "E": "Observance of a command",
+        "F": "Forgiveness of sins",
+        "G": "Joining to the festival",
+        "H": "Return of people",
+        "I": "Protect from enemies",
+        "J": "Sin of the people",
+        "K": "Interference",
+        "L": "List of people"
+      },
+      "centerLabel": "M",
+      "boundaries": "Ezr1:1-11 … Ne13:1-31",
+      "note": "Complete multi-book outline 1-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-ezranehemiah-1-1-1",
+      "title": "Ezra–Nehemiah · division 1-1-1",
+      "sourceFile": "15_EzraNehemiah_e_1.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_1.html#1-1-1",
+      "locator": "1-1-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 1,
+          "title": "End of the Babylonian captivity",
+          "ref": "Ezr1:1-11",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 2,
+          "title": "List of the returned exiles",
+          "ref": "Ezr2:1-70",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 3,
+          "title": "Worship restored at Jerusalem",
+          "ref": "Ezr3:1-7",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 4,
+          "title": "Resistance to rebuilding the Temple",
+          "ref": "Ezr4:1-24",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 5,
+          "title": "Restoration of the Temple resumed",
+          "ref": "Ezr5:1-Ezr6:14",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 6,
+          "title": "Completion of the temple",
+          "ref": "Ezr6:14-18",
+          "label": "F"
+        },
+        {
+          "sourcePericope": 7,
+          "title": "Passover",
+          "ref": "Ezr6:19-22",
+          "label": "G"
+        },
+        {
+          "sourcePericope": 8,
+          "title": "Heads of families who returned with Ezra",
+          "ref": "Ezr7:1-Ezr8:14",
+          "label": "F′"
+        },
+        {
+          "sourcePericope": 9,
+          "title": "The return to Jerusalem",
+          "ref": "Ezr8:15-36",
+          "label": "E′"
+        },
+        {
+          "sourcePericope": 10,
+          "title": "Denunciation of mixed marriages",
+          "ref": "Ezr9:1-Ezr10:4",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 11,
+          "title": "Foreign wives and their children rejected",
+          "ref": "Ezr10:5-17",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "List of the sinned people",
+          "ref": "Ezr10:18-44",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "Nehemiah prays for his people",
+          "ref": "Ne1:1-Ne2:20",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Permission by king and plan to restoration",
+        "B": "List of people",
+        "C": "The people gather",
+        "D": "Exclusion of foreigners",
+        "E": "Commands of a king",
+        "F": "The book of Moses"
+      },
+      "centerLabel": "G",
+      "boundaries": "Ezr1:1-11 … Ne1:1-Ne2:20",
+      "note": "Complete multi-book outline 1-1-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-2",
+      "title": "Ezra–Nehemiah · division 3-2",
+      "sourceFile": "15_EzraNehemiah_e_3.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_3.html#3-2",
+      "locator": "3-2",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 9,
+          "title": "The return to Jerusalem",
+          "ref": "Ezr8:15-36",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 10,
+          "title": "Denunciation of mixed marriages",
+          "ref": "Ezr9:1-Ezr10:4",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 11,
+          "title": "Foreign wives and their children rejected",
+          "ref": "Ezr10:5-17",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "List of the sinned people",
+          "ref": "Ezr10:18-44",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "Nehemiah prays for his people",
+          "ref": "Ne1:1-Ne2:20",
+          "label": "E"
+        },
+        {
+          "sourcePericope": 14,
+          "title": "Organization of the work",
+          "ref": "Ne3:1-32",
+          "label": "D′"
+        },
+        {
+          "sourcePericope": 15,
+          "title": "Hostile plots thwarted",
+          "ref": "Ne4:1-23",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 16,
+          "title": "Nehemiah deals with oppression",
+          "ref": "Ne5:1-19",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 17,
+          "title": "Intrigues of enemies foiled",
+          "ref": "Ne6:1-19",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "see 1-1",
+        "B": "see 1-1",
+        "C": "see 1-1",
+        "D": "see 1-1"
+      },
+      "centerLabel": "E",
+      "boundaries": "Ezr8:15-36 … Ne6:1-19",
+      "note": "Complete multi-book outline 3-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-ezranehemiah-3-2-1",
+      "title": "Ezra–Nehemiah · division 3-2-1",
+      "sourceFile": "15_EzraNehemiah_e_3.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_3.html#3-2-1",
+      "locator": "3-2-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 9,
+          "title": "The return to Jerusalem",
+          "ref": "Ezr8:15-36",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 10,
+          "title": "Denunciation of mixed marriages",
+          "ref": "Ezr9:1-Ezr10:4",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 11,
+          "title": "Foreign wives and their children rejected",
+          "ref": "Ezr10:5-17",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "List of the sinned people",
+          "ref": "Ezr10:18-44",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "Nehemiah prays for his people",
+          "ref": "Ne1:1-Ne2:20",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Favoring hand of God",
+        "B": "Divorced Gentile wives"
+      },
+      "centerLabel": "C",
+      "boundaries": "Ezr8:15-36 … Ne1:1-Ne2:20",
+      "note": "Complete multi-book outline 3-2-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-2",
+      "title": "Ezra–Nehemiah · division 4-2",
+      "sourceFile": "15_EzraNehemiah_e_4.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_4.html#4-2",
+      "locator": "4-2",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 7,
+          "title": "Passover",
+          "ref": "Ezr6:19-22",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 8,
+          "title": "Heads of families who returned with Ezra",
+          "ref": "Ezr7:1-Ezr8:14",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 9,
+          "title": "The return to Jerusalem",
+          "ref": "Ezr8:15-36",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 10,
+          "title": "Denunciation of mixed marriages",
+          "ref": "Ezr9:1-Ezr10:4",
+          "label": "D"
+        },
+        {
+          "sourcePericope": 11,
+          "title": "Foreign wives and their children rejected",
+          "ref": "Ezr10:5-17",
+          "label": "C′"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "List of the sinned people",
+          "ref": "Ezr10:18-44",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "Nehemiah prays for his people",
+          "ref": "Ne1:1-Ne2:20",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "The LORD changes the mind of kings",
+        "B": "List of people",
+        "C": "Wrath of God"
+      },
+      "centerLabel": "D",
+      "boundaries": "Ezr6:19-22 … Ne1:1-Ne2:20",
+      "note": "Complete multi-book outline 4-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-ezranehemiah-4-2-2",
+      "title": "Ezra–Nehemiah · division 4-2-2",
+      "sourceFile": "15_EzraNehemiah_e_4.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_4.html#4-2-2",
+      "locator": "4-2-2",
+      "kind": "Chiasm",
+      "nodes": [
+        {
+          "sourcePericope": 10,
+          "title": "Denunciation of mixed marriages",
+          "ref": "Ezr9:1-Ezr10:4",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 11,
+          "title": "Foreign wives and their children rejected",
+          "ref": "Ezr10:5-17",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "List of the sinned people",
+          "ref": "Ezr10:18-44",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "Nehemiah prays for his people",
+          "ref": "Ne1:1-Ne2:20",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Grief",
+        "B": "Divorced Gentile wives"
+      },
+      "boundaries": "Ezr9:1-Ezr10:4 … Ne1:1-Ne2:20",
+      "note": "Complete multi-book outline 4-2-2 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-3",
+      "title": "Ezra–Nehemiah · division 5-3",
+      "sourceFile": "15_EzraNehemiah_e_5.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_5.html#5-3",
+      "locator": "5-3",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 11,
+          "title": "Foreign wives and their children rejected",
+          "ref": "Ezr10:5-17",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "List of the sinned people",
+          "ref": "Ezr10:18-44",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "Nehemiah prays for his people",
+          "ref": "Ne1:1-Ne2:20",
+          "label": "C"
+        },
+        {
+          "sourcePericope": 14,
+          "title": "Organization of the work",
+          "ref": "Ne3:1-32",
+          "label": "B′"
+        },
+        {
+          "sourcePericope": 15,
+          "title": "Hostile plots thwarted",
+          "ref": "Ne4:1-23",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "see 1-1",
+        "B": "see 1-1"
+      },
+      "centerLabel": "C",
+      "boundaries": "Ezr10:5-17 … Ne4:1-23",
+      "note": "Complete multi-book outline 5-3 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    },
+    {
+      "id": "murai-web-ezranehemiah-5-3-1",
+      "title": "Ezra–Nehemiah · division 5-3-1",
+      "sourceFile": "15_EzraNehemiah_e_5.html",
+      "sourceUrl": "http://www.bible.literarystructure.info/bible/15_EzraNehemiah_e_5.html#5-3-1",
+      "locator": "5-3-1",
+      "kind": "Concentric structure",
+      "nodes": [
+        {
+          "sourcePericope": 11,
+          "title": "Foreign wives and their children rejected",
+          "ref": "Ezr10:5-17",
+          "label": "A"
+        },
+        {
+          "sourcePericope": 12,
+          "title": "List of the sinned people",
+          "ref": "Ezr10:18-44",
+          "label": "B"
+        },
+        {
+          "sourcePericope": 13,
+          "title": "Nehemiah prays for his people",
+          "ref": "Ne1:1-Ne2:20",
+          "label": "A′"
+        }
+      ],
+      "relationships": {
+        "A": "Confession of sin"
+      },
+      "centerLabel": "B",
+      "boundaries": "Ezr10:5-17 … Ne1:1-Ne2:20",
+      "note": "Complete multi-book outline 5-3-1 from Murai’s hierarchy page. Source pericope numbers and references are retained; ChiFold supplies letter labels following the explicit Former half / Latter half relationship table. Quoted Bible text is excluded. Source-reference numbering requires edition-specific verification; no automatic identity mapping is asserted."
+    }
+  ]
+}

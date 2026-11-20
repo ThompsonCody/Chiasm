@@ -1,0 +1,60 @@
+// Figure 1 checked visually against the deposited author manuscript.
+// Source labels are deliberately preserved, including B4″ and the unmatched A.
+// Tuple fourth item supplies the grouping key and the printed reference.
+export const pitkanenSource = {
+  id: 'pitkanen-2014',
+  author: 'Pekka M. A. Pitkänen',
+  title: 'Pentateuch–Joshua: a settler-colonial document of a supplanting society · Settler Colonial Studies 4(3) (2014), 245–276',
+  url: 'https://eprints.glos.ac.uk/1128/1/Pentateuch-Joshua%20A%20Settler-Colonial%20Document%20of%20a%20Supplanting%20Society.pdf',
+  license: 'All Rights Reserved · factual reference outline and original ChiFold paraphrases only; manuscript and figure not redistributed',
+  credit: 'Pekka M. A. Pitkänen, Settler Colonial Studies 4, no. 3 (2014), 245–276, DOI 10.1080/2201473X.2013.842626; published online 17 October 2013. Figure 1, author-manuscript printed p. 21 (PDF p. 23), describes this outline as based on Jacob Milgrom, Numbers (JPS, 1989), p. xviii. The whole-work claim appears on manuscript p. 3. The deposited manuscript is explicitly marked All Rights Reserved.',
+  verification: {
+    cachedFile: 'scripts/cache/structures/pitkanen-2014.pdf',
+    sha256: '86986ec4c024f72d7c16986bb63d2d598e4d3d831c5e4fd6abb335ace2860f47',
+    figure: 'Figure 1, printed p. 21; PDF page 23 (zero-based index 22)',
+    checkedImage: 'scripts/cache/structures/pitkanen-2014-figure1.png',
+  },
+};
+
+export const pitkanenMaps = [{
+  id: 'pitkanen-hexateuch',
+  sourceId: 'pitkanen-2014',
+  author: 'Pekka M. A. Pitkänen, following Jacob Milgrom',
+  title: 'Genesis–Joshua: promise, presence and settlement',
+  boundaries: 'Genesis 1–Joshua 24',
+  locator: 'Figure 1, author-manuscript p. 21 (PDF p. 23); argument p. 3; after Milgrom, Numbers, p. xviii',
+  centerLabel: 'B8',
+  defaultSelectionId: 'pitkanen-hexateuch-g-B1',
+  kind: 'Concentric / multi-part structure',
+  note: 'All 17 source elements are retained. A (Genesis 1–11) is an unmatched introductory element. The source gives B4′ (Numbers) and B4″ (Deuteronomy) on the returning side, so B4 is a three-element group, not two invented mirror pairs. B8 (Exodus 33) is the proposed center. Full chapters and books are expanded mechanically to first and last numbered verses as reading context; those endpoint verses are not finer boundaries claimed by Pitkänen. Leviticus 1–Numbers 10:10 is split into two book-specific anchors without omitting intervening chapters. This is Pitkänen’s published adaptation of Milgrom, not an independent transcription of Milgrom’s original diagram.',
+  sections: [
+    ['A', 'Gen1:1-11:32', 'The world before Israel’s ancestral story', { groupLabel: 'A', sourceRef: 'Genesis 1–11' }],
+    ['B1', 'Gen12:1-50:26', 'The ancestors receive the promise of land', { groupLabel: 'B1', sourceRef: 'Genesis 12–50' }],
+    ['B2', 'Ex1:1-12:51', 'Deliverance from Egypt', { groupLabel: 'B2', sourceRef: 'Exodus 1–12' }],
+    ['B3', 'Ex13:1-15:27', 'Through the sea into the wilderness', { groupLabel: 'B3', sourceRef: 'Exodus 13–15' }],
+    ['B4', 'Ex16:1-18:27', 'Wilderness provision before Sinai', { groupLabel: 'B4', sourceRef: 'Exodus 16–18' }],
+    ['B5', 'Ex19:1-24:18', 'Covenant and laws at Sinai', { groupLabel: 'B5', sourceRef: 'Exodus 19–24' }],
+    ['B6', 'Ex25:1-31:18', 'Instructions for God’s dwelling', { groupLabel: 'B6', sourceRef: 'Exodus 25–31' }],
+    ['B7', 'Ex32:1-32:35', 'The covenant broken', { groupLabel: 'B7', sourceRef: 'Exodus 32' }],
+    ['B8', 'Ex33:1-33:23', 'God’s presence reaffirmed', { groupLabel: 'B8', sourceRef: 'Exodus 33' }],
+    ['B7′', 'Ex34:1-34:35', 'The covenant renewed', { groupLabel: 'B7', sourceRef: 'Exodus 34' }],
+    ['B6′', 'Ex35:1-40:38', 'God’s dwelling constructed', { groupLabel: 'B6', sourceRef: 'Exodus 35–40' }],
+    ['B5′', 'Lev1:1-27:34; Num1:1-10:10', 'Further covenant laws', { groupLabel: 'B5', sourceRef: 'Leviticus 1–Numbers 10:10' }],
+    ['B4′', 'Num10:11-36:13', 'Wilderness provision and rebellion after Sinai', { groupLabel: 'B4', sourceRef: 'Numbers 10:11–36' }],
+    ['B4″', 'Deut1:1-34:12', 'Covenant renewal for the next generation', { groupLabel: 'B4', sourceRef: 'Deuteronomy 1–34' }],
+    ['B3′', 'Josh1:1-4:24', 'Through the Jordan into the land', { groupLabel: 'B3', sourceRef: 'Joshua 1–4' }],
+    ['B2′', 'Josh5:1-12:24', 'The conquest begins', { groupLabel: 'B2', sourceRef: 'Joshua 5–12' }],
+    ['B1′', 'Josh13:1-24:33', 'The promised land is apportioned and settled', { groupLabel: 'B1', sourceRef: 'Joshua 13–24' }],
+  ],
+  relationships: {
+    A: 'Pitkänen places the primeval story before the concentric movement. It supplies the world setting and has no matching A′ in his figure.',
+    B1: 'The promise of land to the ancestors is answered by settlement and land division. Pitkänen also points to Shechem, removal of foreign gods and the burial of Joseph.',
+    B2: 'The departure from Egypt and the beginning of conquest both feature Passover, circumcision and a divine encounter that commissions a leader.',
+    B3: 'A miraculous water crossing marks each transition: the sea on the way into the wilderness and the Jordan on the way into Canaan.',
+    B4: 'The wilderness blocks before and after Sinai repeat food and water provision. The source adds Deuteronomy as a further returning element focused on the next generation and renewed covenant; this is a three-part group.',
+    B5: 'The initial Sinai covenant laws are followed, on the returning side, by further covenant stipulations across Leviticus and early Numbers.',
+    B6: 'Instructions for the tabernacle are answered by its construction and inauguration.',
+    B7: 'The golden-calf breach is answered by covenant renewal.',
+    B8: 'Pitkänen places the reaffirmation of God’s presence at the innermost position of the outline.',
+  },
+}];

@@ -6,6 +6,7 @@ import { useInlineComparison } from "../hooks/useInlineComparison";
 import { FoldSequence } from "./FoldSequence";
 import { MapEvidence } from "./MapEvidence";
 import { EditionPicker } from "./EditionPicker";
+import { StudyCompanion } from "./StudyCompanion";
 
 export function StructureStudy({ structureId, selectionId, preferredEditionId, onSelect, onEdition, onRead, onTrace, restoreScroll, navigationKey }: {
   structureId: string;
@@ -37,7 +38,8 @@ export function StructureStudy({ structureId, selectionId, preferredEditionId, o
     const key = `${structureId}/${navigationKey ?? 0}`;
     if (focusedNavigation.current === key) return;
     focusedNavigation.current = key;
-    const selected = studyRef.current?.querySelector<HTMLElement>('[data-passage][aria-pressed="true"]');
+    const selected = studyRef.current?.querySelector<HTMLElement>('.mobile-selection-title')
+      ?? studyRef.current?.querySelector<HTMLElement>('[data-passage][aria-pressed="true"]');
     selected?.focus({ preventScroll: true });
     if (restoreScroll !== undefined) window.scrollTo({ top: restoreScroll, behavior: "instant" });
     else window.scrollTo({ top: 0, behavior: "instant" });
@@ -49,20 +51,17 @@ export function StructureStudy({ structureId, selectionId, preferredEditionId, o
   const map = loaded.map;
 
   const evidence = <MapEvidence map={map} selectionId={selectionId} preferredEditionId={preferredEditionId}
-    onRead={onRead} variant="workspace"
-    controls={<EditionPicker value={preferredEditionId} onChange={onEdition} />} />;
+    onRead={onRead} variant="workspace" showProvenance={false}
+    controls={<EditionPicker label="Reading edition" value={preferredEditionId} onChange={onEdition} />} />;
 
   return (
-    <div className="structure-workspace" ref={studyRef}>
+    <div className="structure-workspace study-desk" ref={studyRef}>
       <div className="study-body">
         <FoldSequence key={map.id} map={map} selectionId={selectionId} onSelect={onSelect}
           comparison={evidence} isNarrow={inline} />
       </div>
-      {structureId === "wenham-flood" ? <section className="study-next" aria-label="A connection beyond the structure">
-        <div><span className="eyebrow">Beyond the fold</span><h2>The Flood across texts</h2>
-          <p>Genesis 6:13–18 ↔ 1 Enoch 10:1–3 · Narrative parallel</p></div>
-        <button type="button" className="study-action" onClick={onTrace}>Explore Across texts →</button>
-      </section> : null}
+      <StudyCompanion key={map.id} map={map} selectionId={selectionId} preferredEditionId={preferredEditionId}
+        compact={inline} onRead={onRead} onTrace={onTrace} />
     </div>
   );
 }

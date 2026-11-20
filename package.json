@@ -12,7 +12,8 @@
     "verify:texts": "node scripts/verify-texts.mjs",
     "report:coverage": "node --experimental-strip-types scripts/report-coverage.mjs",
     "fetch:structures": "node scripts/fetch-structures.mjs",
-    "import:structures": "node --experimental-strip-types scripts/import-structures.mjs"
+    "import:structures": "node --experimental-strip-types scripts/import-structures.mjs",
+    "verify:structures": "node scripts/verify-structures.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",

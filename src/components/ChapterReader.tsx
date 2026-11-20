@@ -157,8 +157,8 @@ export function ChapterReader({
     reference.verseStart ?? book.verseNumbers[chapterIndex]?.[0] ?? 1;
   const selectedReference = {
     ...reference,
-    verseStart: activeVerse,
-    verseEnd: reference.verseEnd ?? activeVerse,
+    verseStart: book.unversified ? undefined : activeVerse,
+    verseEnd: book.unversified ? undefined : reference.verseEnd ?? activeVerse,
   };
   return (
     <section className="chapter-reader" aria-labelledby="chapter-title">
@@ -325,7 +325,7 @@ export function ChapterReader({
       <div className="study-layout">
         <div className="chapter-text">
           <p className="reader-instruction">
-            Select a verse to explore curated structures and cross-references.
+            {book.unversified ? "Unversified chapter text · OCR-derived transcription; errors may remain." : "Select a verse to explore curated structures and cross-references."}
           </p>
           {chapterIndex === 0 && loaded.key === key && loaded.data?.preamble ? (
             <section className="unnumbered-text">
@@ -343,6 +343,10 @@ export function ChapterReader({
                 ? "This chapter is not available in this source edition. Choose a chapter from the browser."
                 : "Loading chapter…"}
             </p>
+          ) : book.unversified ? (
+            <section className="unnumbered-text" aria-label="Unversified chapter text">
+              {chapter.verses.map(block => <p key={block.number}>{block.text}</p>)}
+            </section>
           ) : (
             chapter.verses.map((verse) => (
               <button

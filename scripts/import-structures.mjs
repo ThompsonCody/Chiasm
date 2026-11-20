@@ -6,7 +6,11 @@ import crypto from 'node:crypto';
 import { corpusBooks } from '../src/data/corpus.ts';
 import { works } from '../src/data/catalog.ts';
 import { structureSources } from '../src/data/structureSources.ts';
-import { wenham, domka, citationLeads } from './structure-sources/curated.mjs';
+import { wenham, domka, multiBook, citationLeads } from './structure-sources/curated.mjs';
+import { wolfeMaps } from './structure-sources/wolfe.mjs';
+import { pitkanenMaps } from './structure-sources/pitkanen.mjs';
+import { patrickMaps } from './structure-sources/patrick.mjs';
+import { normalizeSourceMap } from './normalize-source-maps.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const input = JSON.parse(await fs.readFile(path.join(root,'scripts/structure-sources/murai.json'),'utf8'));
@@ -19,7 +23,8 @@ const byTitle = Object.fromEntries(works.map(w=>[w.title.replace(/\s/g,''),w.id]
 const sheetWorks = {...byTitle, SongofSolomon:'song-of-songs', Lamentation:'lamentations',
   Samuel:'1-samuel', Kings:'1-kings', Chronicles:'1-chronicles', 'Ezra-Nehemiah':'ezra'};
 const prefixes = {'1S':'1-samuel','2S':'2-samuel','1K':'1-kings','2K':'2-kings',
-  '1Ch':'1-chronicles','2Ch':'2-chronicles',Ezr:'ezra',Neh:'nehemiah'};
+  '1Ch':'1-chronicles','2Ch':'2-chronicles',Ezr:'ezra',Neh:'nehemiah',
+  Gen:'genesis',Ex:'exodus',Lev:'leviticus',Num:'numbers',Deut:'deuteronomy'};
 // These source book systems have known chapter/verse shifts, or witness-dependent
 // subdivisions. Do not infer identity merely because a number fits the target.
 const needsCrosswalk = new Set(['leviticus','psalms','daniel','hosea','joel','jonah','nahum',
@@ -56,9 +61,9 @@ function anchorsFor(raw, workId, sourceId) {
   text=text.replace(/(\d+:\d+)([a-z])-([a-z])\b/g,'$1$2-$1$3');
   text=text.replace(/^[123]\s+[A-Za-z]+\s*/,'');
   // The combined-book workbooks explicitly use these prefixes.
-  if(!/^(1S|2S|1K|2K|1Ch|2Ch|Ezr|Neh)\d/.test(text))
+  if(!/^(1S|2S|1K|2K|1Ch|2Ch|Ezr|Neh|Gen|Ex|Lev|Num|Deut)\d/.test(text))
     text=text.replace(/^[1-3]?[A-Za-z]+\s*/, '');
-  const token=/(1Ch|2Ch|1S|2S|1K|2K|Ezr|Neh)?\s*(\d+):(\d+)([a-z])?(?:-\s*(?:(\d+):)?(\d+)([a-z])?)?|(?:^|,)\s*(\d+)([a-z])?/g;
+  const token=/(1Ch|2Ch|1S|2S|1K|2K|Ezr|Neh|Gen|Ex|Lev|Num|Deut)?\s*(\d+):(\d+)([a-z])?(?:-\s*(?:(\d+):)?(\d+)([a-z])?)?|(?:^|,)\s*(\d+)([a-z])?/g;
   const anchors=[]; let lastChapter; let consumed=''; let found;
   while((found=token.exec(text))) {
     let chapter,verse,endChapter,endVerse;
@@ -122,7 +127,7 @@ function finish(meta, rawNodes, descriptions={}, details=[]) {
         : 'This is a separately labeled element in Murai’s outline. The download gives no additional relationship note.';
   }
   try {
-    const boundary=anchorsFor(meta.reference,meta.work,meta.sourceId);
+    const boundary=(meta.boundaryRefs??[meta.reference]).flatMap(ref=>anchorsFor(ref,meta.work,meta.sourceId));
     for(const node of nodes) for(const anchor of node.anchors)
       if(!boundary.some(area=>area.workId===anchor.workId&&score(area.start)<=score(anchor.start)&&score(area.end)>=score(anchor.end)))
         errors.push('Source element lies outside the supplied outline boundary: '+node.sourceRef);
@@ -174,7 +179,7 @@ for(const raw of input.records) {
     note:'2022 downloadable source snapshot. Relationship labels are source data; explanation wording is ChiFold editorial. Source Bible quotations are excluded. Subverse elements show whole verses as context.'},nodes,descriptions));
 }
 
-for(const raw of [wenham,...domka]) {
+for(const raw of [wenham,...domka,...multiBook]) {
   const first=[],last=[],descriptions={},groupIds={};
   for(const [label,id,a,b,ta,tb,basis]of raw.pairs??[]) {
     first.push({label,ref:a,title:ta});last.unshift({label:label+'′',ref:b,title:tb});
@@ -184,9 +189,35 @@ for(const raw of [wenham,...domka]) {
   if(raw.center) {descriptions[raw.center[0]]=raw.sourceId==='wenham-1978'?'God remembering Noah is Wenham’s proposed turn.':'Domka places the narrative transition at the angels’ response to human distress.';groupIds[raw.center[0]]=raw.center[1];}
   const sections=(raw.sections??[]).map(([label,ref,title])=>({label,ref,title}));
   for(const [label,,title]of raw.sections??[]) descriptions[label]=title;
-  maps.unshift(finish({...raw,groupIds,centerLabel:raw.center?.[0]},[...first,...middle,...last,...sections],descriptions,raw.details));
+  Object.assign(descriptions,raw.relationships);
+  maps.unshift(finish({...raw,groupIds,centerLabel:raw.center?.[0]??raw.centerLabel,
+    ...(raw.sourceId==='sacks-2017'?{boundaryRefs:raw.sections.map(section=>section[1])}:{})},[...first,...middle,...last,...sections],descriptions,raw.details));
 }
-for(const lead of citationLeads) {
+const expandedInputs=[];
+const expandedCollections=[];
+for(const file of ['murai-hierarchy.json','crossbook-murai.json','crossbook-meyer.json','murai-twelve.json']) {
+  const bytes=await fs.readFile(path.join(root,'scripts/structure-sources',file));
+  const collection=JSON.parse(bytes);
+  for(const source of collection.inputs) {
+    if(!sourceLock.inputs.some(locked=>locked.file===source.file&&locked.sha256===source.sha256))throw Error('Unreviewed expansion input: '+source.file);
+    if(!expandedInputs.some(locked=>locked.file===source.file))expandedInputs.push(source);
+  }
+  const records=collection.records??collection.maps;
+  const unique=records.filter(record=>!record.duplicateOf);
+  for(const raw of unique) maps.push(normalizeSourceMap(raw,structureSources,corpusBooks,
+    file==='crossbook-meyer.json'?'meyer-2020':'murai-web-2026'));
+  expandedCollections.push({file,sha256:crypto.createHash('sha256').update(bytes).digest('hex'),
+    sourceOccurrences:records.length,uniqueMaps:unique.length,duplicateOccurrences:records.length-unique.length,
+    inventory:collection.sourceInventory??collection.inventory});
+}
+for(const raw of [...wolfeMaps,...pitkanenMaps,...patrickMaps]) maps.push(normalizeSourceMap({...raw,
+  nodes:raw.sections.map(([label,ref,title,extra])=>({label,ref,title,...extra}))},structureSources,corpusBooks));
+const additionalLeads=[...citationLeads,{
+  id:'strawbridge-twelve',sourceId:'strawbridge-2009',workIds:['hosea','joel','amos','obadiah','jonah','micah','nahum','habakkuk','zephaniah','haggai','zechariah','malachi'],
+  title:'The Twelve: proposed chiastic relationship',boundaries:'Hosea–Malachi',
+  reason:'Primary outline checked: the twelve-book list is labeled chiastic, but explicit pair labels are absent and indentation is ambiguous. No pair assignments have been invented.'
+}];
+for(const lead of additionalLeads) {
   const source=structureSources.find(s=>s.id===lead.sourceId);
   maps.push({...lead,author:lead.author??source.author,sourceUrl:source.url,sourceLocator:'Source access / review lead',kind:'Citation lead',status:'citation-only',defaultSelectionId:'',selectionIds:[],compatiblePairs:false,coverage:[],nodes:[],groups:[]});
 }
@@ -207,6 +238,7 @@ const textId=text=>{if(text===undefined)return undefined;let id=sharedText.index
 const compact=index.map(map=>{
   const source=structureSources.find(source=>source.id===map.sourceId);
   return {id:map.id,title:map.title,workIds:map.workIds,sourceId:map.sourceId,sourceLocator:map.sourceLocator,boundaries:map.boundaries,kind:map.kind,
+    ...(map.readingAlignment?{readingAlignment:map.readingAlignment,unmappedNodeCount:map.unmappedNodeCount}:{}),
     ...(map.author!==source.author?{author:map.author}:{}),...(map.sourceUrl!==source.url?{sourceUrl:map.sourceUrl}:{}),
     ...(map.reason?{reason:textId(map.reason)}:{}),...(map.center?{center:map.center}:{}),...(map.note?{note:textId(map.note)}:{}),
     ...(map.status==='mapped'?{defaultSelectionId:map.defaultSelectionId,compatiblePairs:map.compatiblePairs,
@@ -217,13 +249,13 @@ const generated=`// Generated by scripts/import-structures.mjs. Edit source inpu
 import type { StructureSummary } from "./structureTypes.ts";
 import { structureSources } from "./structureSources.ts";
 type CompactAnchor = [string, number, number, number, number, string[], number | null];
-type CompactSummary = { id:string; title:string; workIds:string[]; sourceId:string; sourceLocator:string; boundaries:string; kind:string; author?:string; sourceUrl?:string; reason?:number; center?:string; note?:number; defaultSelectionId?:string; compatiblePairs?:boolean; coverage?:[string, CompactAnchor[]][] };
+type CompactSummary = { id:string; title:string; workIds:string[]; sourceId:string; sourceLocator:string; boundaries:string; kind:string; readingAlignment?:StructureSummary['readingAlignment']; unmappedNodeCount?:number; author?:string; sourceUrl?:string; reason?:number; center?:string; note?:number; defaultSelectionId?:string; compatiblePairs?:boolean; coverage?:[string, CompactAnchor[]][] };
 const sharedText: string[] = ${JSON.stringify(sharedText)};
-const rows: CompactSummary[] = ${JSON.stringify(compact)};
+const rows = JSON.parse(${JSON.stringify(JSON.stringify(compact))}) as CompactSummary[];
 export const structureIndex: readonly StructureSummary[] = rows.map(row => {
   const source = structureSources.find(source => source.id === row.sourceId)!;
   const coverage = (row.coverage ?? []).map(([selectionId, anchors]) => ({selectionId, anchors: anchors.map(([workId,c1,v1,c2,v2,editionIds,note]) => ({workId, start:[c1,v1] as [number,number], end:[c2,v2] as [number,number], editionIds, ...(note == null ? {} : {note:sharedText[note]})}))}));
-  return {id:row.id, title:row.title, workIds:row.workIds, sourceId:row.sourceId, author:row.author ?? source.author, sourceUrl:row.sourceUrl ?? source.url, sourceLocator:row.sourceLocator, boundaries:row.boundaries, kind:row.kind, status:row.reason === undefined ? "mapped" : "citation-only", ...(row.reason === undefined ? {} : {reason:sharedText[row.reason]}), ...(row.note === undefined ? {} : {note:sharedText[row.note]}), ...(row.center ? {center:row.center} : {}), defaultSelectionId:row.defaultSelectionId ?? "", selectionIds:coverage.map(part => part.selectionId), compatiblePairs:row.compatiblePairs ?? false, coverage};
+  return {id:row.id, title:row.title, workIds:row.workIds, sourceId:row.sourceId, author:row.author ?? source.author, sourceUrl:row.sourceUrl ?? source.url, sourceLocator:row.sourceLocator, boundaries:row.boundaries, kind:row.kind, status:row.reason === undefined ? "mapped" : "citation-only", ...(row.readingAlignment?{readingAlignment:row.readingAlignment,unmappedNodeCount:row.unmappedNodeCount}:{}), ...(row.reason === undefined ? {} : {reason:sharedText[row.reason]}), ...(row.note === undefined ? {} : {note:sharedText[row.note]}), ...(row.center ? {center:row.center} : {}), defaultSelectionId:row.defaultSelectionId ?? "", selectionIds:coverage.map(part => part.selectionId), compatiblePairs:row.compatiblePairs ?? false, coverage};
 });
 `;
 await fs.writeFile(path.join(root,'src/data/structureIndex.ts'),generated);
@@ -235,7 +267,9 @@ const mapFiles=[];
 for(const file of [...expectedFiles].sort()) mapFiles.push({id:file.slice(0,-5),sha256:crypto.createHash('sha256').update(await fs.readFile(path.join(out,file))).digest('hex')});
 const report={sourceOutlines:input.records.length,workingMaps:index.filter(m=>m.status==='mapped').length,mapFiles,
   citationOnly:index.filter(m=>m.status==='citation-only').length,byBookAndSource:grouped,
-  sourceInputs:input.inputs,normalizedInputSha256:crypto.createHash('sha256').update(await fs.readFile(path.join(root,'scripts/structure-sources/murai.json'))).digest('hex')};
+  sourceInputs:[...input.inputs,...expandedInputs],expandedCollections,
+  multiBookMaps:index.filter(m=>m.status==='mapped'&&m.workIds.length>1).map(m=>({id:m.id,kind:m.kind,books:m.workIds,sourceId:m.sourceId,readingAlignment:m.readingAlignment??'verified'})),
+  normalizedInputSha256:crypto.createHash('sha256').update(await fs.readFile(path.join(root,'scripts/structure-sources/murai.json'))).digest('hex')};
 await fs.writeFile(path.join(root,'public/structures/manifest.json'),JSON.stringify(report,null,2));
 const leads=index.filter(map=>map.status==='citation-only');
 const csvCell=value=>'"'+String(value??'').replaceAll('"','""')+'"';
@@ -247,16 +281,21 @@ for(const map of leads.filter(map=>map.id.startsWith('murai-ot-')||map.id.starts
   pendingReasons[category]=(pendingReasons[category]??0)+1;
 }
 const lines=['# Structure coverage','',`Working maps: **${report.workingMaps}**. Citation-only records: **${report.citationOnly}**.`,
-  '',`All **${input.records.length}** source entries extracted from the four downloaded Murai workbooks are accounted for, including entries with no outline supplied. The three manually reviewed maps are Wenham’s complete Flood outline and two Domka outlines.`,
+  '', 'A working map means a complete checked source diagram. Reading-edition alignment is independent: unavailable source coordinates are labeled explicitly, excluded from reader discovery and never filled by guessed KJV/WEB verse mappings.',
+  '', `Multi-book maps: **${report.multiBookMaps.length}**; chiastic/concentric outlines: **${report.multiBookMaps.filter(m=>/chiasm|concentric|narrative symmetry/i.test(m.kind)).length}**; other/parallel outlines: **${report.multiBookMaps.filter(m=>!/chiasm|concentric|narrative symmetry/i.test(m.kind)).length}**. These counts include source subdivisions and independently attributed variants, not that many unrelated scholarly hypotheses.`,
+  '',`All **${input.records.length}** source entries extracted from the four downloaded Murai workbooks are accounted for, including entries with no outline supplied. Additional reviewed web collections and manual sources are listed below. This is not an exhaustive catalogue of all proposed biblical chiasms.`,
+  '', '## Expanded source collections', '', ...expandedCollections.map(c=>`- **${c.file}**: ${c.sourceOccurrences} source occurrences; ${c.uniqueMaps} unique maps; ${c.duplicateOccurrences} exact duplicate occurrences retained as source locators.`),
+  '', '## Multi-book catalogue', '', '| Books | Source | Type | Reading alignment |', '| --- | --- | --- | --- |',
+  ...report.multiBookMaps.map(m=>`| ${m.books.map(id=>works.find(w=>w.id===id).title).join('; ')} | ${structureSources.find(s=>s.id===m.sourceId).author} · ${m.id} | ${m.kind} | ${m.readingAlignment} |`),
   '', '| Book | Source | Maps that open |','| --- | --- | ---: |',
   ...Object.entries(grouped).sort().map(([key,count])=>{const [workId,sourceId]=key.split(' / ');return '| '+works.find(work=>work.id===workId).title+' | '+structureSources.find(source=>source.id===sourceId).author+' | '+count+' |';}),
   '', 'Counts are map records, not pair counts. A multi-work map would appear under each covered book; the total above counts unique IDs.',
   '', '## Citation-only records and gaps','',
   'Citation-only records have no Open map control. They retain source locators and reasons in the app catalogue. Known alternative-numbering books are held for checked crosswalks, even where numbers happen to fit. Malformed source ranges and unavailable verses are not repaired by guesswork.',
-  '', `Full export: [STRUCTURE_LEADS.csv](STRUCTURE_LEADS.csv), all ${leads.length} records with individual reasons. Of these, ${leads.filter(map=>map.id.startsWith('murai-ot-')||map.id.startsWith('murai-nt-')).length} are source entries from the Murai download; the remaining ${citationLeads.length} research leads are listed below.`,
+  '', `Full export: [STRUCTURE_LEADS.csv](STRUCTURE_LEADS.csv), all ${leads.length} records with individual reasons. Of these, ${leads.filter(map=>map.id.startsWith('murai-ot-')||map.id.startsWith('murai-nt-')).length} are source entries from the Murai download; the remaining ${additionalLeads.length} research leads are listed below.`,
   '', '| Primary hold reason for Murai entries | Records |','| --- | ---: |',...Object.entries(pendingReasons).map(([reason,count])=>'| '+reason+' | '+count+' |'),
   '', 'Reasons can overlap within a record; the table assigns each to its first applicable category. The CSV retains every reported issue.',
-  '', ...citationLeads.map(l=>'- **'+l.title+'**: '+l.reason),
+  '', ...additionalLeads.map(l=>'- **'+l.title+'**: '+l.reason),
   '', 'No catalogue map is a claim of settled authorial intent. No maps are generated to fill uncovered texts. Jubilees and the remaining broader Tewahedo-only works have no verified maps in these sources. The Church-list collection and work identities are unchanged.',
   '', '## Books with no opening map in this import', '', gaps.map(work=>work.title).join(', ')+'.',
   '', 'See STRUCTURE_SOURCES.md for provenance, licences, reproducible import steps and verification limits.'];
