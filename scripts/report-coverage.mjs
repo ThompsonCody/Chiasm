@@ -15,5 +15,5 @@ const report = [
   '## Complete imported works', '', '| Work | Verified edition coverage |', '| --- | --- |', ...rows, '',
   '## Text not yet available', '', ...missing.map(work => `- **${work.title}** — ${work.description}`), '',
 ].join('\n');
-await fs.writeFile(new URL('../COVERAGE.md', import.meta.url), report);
+await fs.writeFile(new URL('../docs/COVERAGE.md', import.meta.url), report);
 console.log(`Reported ${complete.length} complete works and ${missing.length} gaps.`);

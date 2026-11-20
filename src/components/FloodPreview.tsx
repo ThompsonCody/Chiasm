@@ -1,7 +1,9 @@
 import { useId, useRef, useState } from "react";
+import type { CSSProperties } from "react";
 import type { StructureMap } from "../data/structureTypes";
 import { buildFloodPreview, previewChoices, previewPair, previewSelectionForNode } from "../lib/floodPreview";
 import type { PreviewSelection } from "../lib/floodPreview";
+import { foldPairColors } from "../lib/foldColors";
 
 export function FloodPreview({ map, selectionId, onSelect }: {
   map: StructureMap;
@@ -11,6 +13,9 @@ export function FloodPreview({ map, selectionId, onSelect }: {
   const graph = buildFloodPreview(map);
   const selection = previewPair(map, selectionId);
   const selectedNodes = new Set(selection.nodeIds);
+  // Resolve against the full map so the excerpt keeps the study's pair colours.
+  const colors = foldPairColors(map);
+  const pairStyle = (id: string) => ({ "--pair-color": colors.get(id) ?? "var(--gold)" } as CSSProperties);
   const [hoveredId, setHoveredId] = useState<PreviewSelection>();
   const markers = useRef<(HTMLButtonElement | null)[]>([]);
   const hintId = useId();
@@ -27,6 +32,7 @@ export function FloodPreview({ map, selectionId, onSelect }: {
           {graph.arcs.map(arc => {
             const id = previewSelectionForNode(map, arc.nodes[0].id)!;
             return <g key={id} className={`preview-relationship${id === selectionId ? " is-selected" : ""}${id === hoveredId ? " is-emphasized" : ""}`}
+              style={pairStyle(id)}
               onPointerEnter={() => setHoveredId(id)} onPointerLeave={() => setHoveredId(undefined)} onClick={() => onSelect(id)}>
               <path className="preview-arc-hit" d={arc.path} />
               <path className="preview-arc" d={arc.path} pathLength={1} />
@@ -37,7 +43,7 @@ export function FloodPreview({ map, selectionId, onSelect }: {
           {graph.arcs.map(arc => {
             const choice = previewChoices.find(choice => choice.id === arc.group.id)!;
             return <button key={choice.id} type="button" className="preview-arc-choice"
-              style={{ top: `${(graph.height - arc.rise) / graph.height * 100}%` }}
+              style={{ ...pairStyle(choice.id), top: `${(graph.height - arc.rise) / graph.height * 100}%` }}
               aria-pressed={selectionId === choice.id} aria-controls={evidenceId} aria-describedby={hintId}
               onPointerEnter={() => setHoveredId(choice.id)} onPointerLeave={() => setHoveredId(undefined)}
               onFocus={() => setHoveredId(choice.id)} onBlur={() => setHoveredId(undefined)} onClick={() => onSelect(choice.id)}>
@@ -50,6 +56,7 @@ export function FloodPreview({ map, selectionId, onSelect }: {
           {graph.positions.map(({ node }, index) => {
             const id = previewSelectionForNode(map, node.id)!;
             return <button type="button" key={node.id} ref={element => { markers.current[index] = element; }}
+              style={pairStyle(id)}
               className={`preview-marker${node.role === "center" ? " is-center" : ""}${selectedNodes.has(node.id) ? " is-selected" : ""}${id === hoveredId ? " is-emphasized" : ""}`}
               aria-label={`${node.label}: ${node.title}, Genesis ${node.sourceRef}${node.role === "center" ? ", proposed center" : ""}`}
               aria-pressed={selectedNodes.has(node.id)} aria-controls={evidenceId}
@@ -72,7 +79,7 @@ export function FloodPreview({ map, selectionId, onSelect }: {
         </button>
       </figcaption>
     </figure>
-    <div className={`preview-match${selection.isCenter ? " is-center" : ""}`} id={evidenceId} role="status" aria-live="polite" aria-atomic="true">
+    <div className={`preview-match${selection.isCenter ? " is-center" : ""}`} style={pairStyle(selectionId)} id={evidenceId} role="status" aria-live="polite" aria-atomic="true">
       <div className="preview-match-content" key={selectionId}>
         <div className="preview-match-heading"><strong>{title}</strong>
           <span>{selection.isCenter ? "Proposed center · " : ""}{selection.nodes.map(node => node.label).join(" ↔ ")}</span></div>

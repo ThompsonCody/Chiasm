@@ -2,6 +2,8 @@
 
 A React + TypeScript + Vite study reader, with regular CSS. The homepage introduces the app through a working preview of Gordon Wenham’s proposed Flood chiasm; the library opens complete books in a chapter reader. Runs locally or as a static site on Netlify, without accounts, a Discord service or a database.
 
+Supporting documentation lives in [`docs/`](docs/): text sources and licences in [SOURCES.md](docs/SOURCES.md), structure provenance in [STRUCTURE_SOURCES.md](docs/STRUCTURE_SOURCES.md), and the route guide in [NAVIGATION.md](docs/NAVIGATION.md). The other design and verification documents are development history; the app does not load them.
+
 ## Run locally
 
 Use Node.js 24+:
@@ -39,7 +41,7 @@ Build settings follow [Netlify's Vite guide](https://docs.netlify.com/build/fram
 
 ## Read and study
 
-The shared navigation is **Library · Read · Structures**. The ChiFold logo returns to the homepage at `/`. Its 40-day and 150-day preview controls carry their choice into the full Flood study, where **The chiasm** and **Across texts** remain local tabs. Existing study and passage deep links open directly. See [NAVIGATION.md](NAVIGATION.md) for the screen map, shareable route examples, return behavior and editing guide.
+The shared navigation is **Library · Read · Structures**. The ChiFold logo returns to the homepage at `/`. Its 40-day and 150-day preview controls carry their choice into the full Flood study, where **The chiasm** and **Across texts** remain local tabs. Existing study and passage deep links open directly. See [NAVIGATION.md](docs/NAVIGATION.md) for the screen map, shareable route examples, return behavior and editing guide.
 
 - **Go to passage** accepts `Gen 7:24`, `Romans 8` and `1 Enoch 10:1–3`. It opens the full chapter and highlights a requested verse/range. References are checked against actual source numbering, including omissions and joined source verse blocks.
 - **Library** starts at **All texts**. Browse a work, then choose a chapter or use Previous/Next. The named **Ethiopian Orthodox Tewahedo** filter follows the Church’s published list; it includes honest unavailable entries.
@@ -50,18 +52,18 @@ The shared navigation is **Library · Read · Structures**. The ChiFold logo ret
 
 ## Imported coverage
 
-The checked import contains 151 edition-books across 85 readable works, including the historical Ethiopic Didascalia, Tizaz and Gitsew translations. [COVERAGE.md](COVERAGE.md) lists every complete book and all remaining gaps; regenerate it with `npm run report:coverage`. [MISSING_TEXTS.md](MISSING_TEXTS.md) records the latest source audit and import limits.
+The checked import contains 151 edition-books across 85 readable works, including the historical Ethiopic Didascalia, Tizaz and Gitsew translations. [COVERAGE.md](docs/COVERAGE.md) lists every complete book and all remaining gaps; regenerate it with `npm run report:coverage`. [MISSING_TEXTS.md](docs/MISSING_TEXTS.md) records the latest source audit and import limits.
 
 - KJV `eng-kjv`: all 80 source books, including its 14 separately identified Apocrypha works.
 - WEB `engwebp`: all 66 books in this specific browser edition.
 - 1 Enoch: all 108 numbered chapters of Charles’s 1917 edition, Gutenberg transcription (1962 impression).
 - Jubilees: all 50 chapters of Charles’s 1913 translation, CCEL transcription. Its unnumbered prologue/subscription are separately labeled, not fabricated verse numbers.
 
-A complete badge means complete against that particular source edition, not an official Ethiopian edition or identical traditional book boundaries. [COLLECTIONS.md](COLLECTIONS.md) explains grouped and unresolved names. Sixteen Tewahedo catalog identities remain **Text not yet available**; none are filled with a similarly named Western work. The library reports actual availability from the import manifest.
+A complete badge means complete against that particular source edition, not an official Ethiopian edition or identical traditional book boundaries. [COLLECTIONS.md](docs/COLLECTIONS.md) explains grouped and unresolved names. Sixteen Tewahedo catalog identities remain **Text not yet available**; none are filled with a similarly named Western work. The library reports actual availability from the import manifest.
 
 ## Repeat the imports
 
-The source-backed Structures catalogue contains **1,323 opening maps across 57 works**, including **57 multi-book maps** (55 chiastic/concentric outlines and two parallel comparisons), plus **1,008 citation-only records** with individual reasons. Counts include nested source diagrams and separately attributed versions. Source outlines and reading-edition alignment are independent: unavailable mappings are labeled, not guessed. The complete book/source breakdown is in [STRUCTURE_COVERAGE.md](STRUCTURE_COVERAGE.md); [STRUCTURE_EXPANSION.md](STRUCTURE_EXPANSION.md) documents the complete reviewed collections and remaining gaps. [STRUCTURE_SOURCES.md](STRUCTURE_SOURCES.md) records licences and repeatable extraction. [STRUCTURE_VERIFICATION.md](STRUCTURE_VERIFICATION.md) records automated checks and actual desktop/mobile reading checks. `npm run import:structures` regenerates the catalogue from checked-in source records without downloading anything; `npm run verify:structures` checks the pinned sources and generated payloads against their recorded hashes. The same viewer opens the complete Wenham Flood outline, multi-book proposals, Murai diagrams and Domka’s independent Enoch outlines.
+The source-backed Structures catalogue contains **1,323 opening maps across 57 works**, including **57 multi-book maps** (55 chiastic/concentric outlines and two parallel comparisons), plus **1,008 citation-only records** with individual reasons. Counts include nested source diagrams and separately attributed versions. Source outlines and reading-edition alignment are independent: unavailable mappings are labeled, not guessed. The complete book/source breakdown is in [STRUCTURE_COVERAGE.md](docs/STRUCTURE_COVERAGE.md); [STRUCTURE_EXPANSION.md](docs/STRUCTURE_EXPANSION.md) documents the complete reviewed collections and remaining gaps. [STRUCTURE_SOURCES.md](docs/STRUCTURE_SOURCES.md) records licences and repeatable extraction. [STRUCTURE_VERIFICATION.md](docs/STRUCTURE_VERIFICATION.md) records automated checks and actual desktop/mobile reading checks. `npm run import:structures` regenerates the catalogue from checked-in source records without downloading anything; `npm run verify:structures` checks the pinned sources and generated payloads against their recorded hashes. The same viewer opens the complete Wenham Flood outline, multi-book proposals, Murai diagrams and Domka’s independent Enoch outlines.
 
 ```sh
 npm run import:texts
@@ -70,7 +72,7 @@ npm run verify:texts
 
 The importer uses Node 24+, and PowerShell `Expand-Archive` for eBible ZIP files on this Windows workspace. Missing inputs are downloaded; existing cached inputs are reused. `scripts/source-lock.json` pins source hashes. A changed upstream input fails until it has been reviewed; see [scripts/README.md](scripts/README.md) for refresh/update commands and parsing details. `verify:texts` needs the source cache, which an import populates. Unit tests check shipped payloads and do not require downloads.
 
-The generated `public/texts/manifest.json` records source hashes, every imported book’s source coverage, output hashes, omissions and edition credits. Text is loaded one book at a time rather than importing the corpus into React components. [SOURCES.md](SOURCES.md) links rights notices and records transcription choices.
+The generated `public/texts/manifest.json` records source hashes, every imported book’s source coverage, output hashes, omissions and edition credits. Text is loaded one book at a time rather than importing the corpus into React components. [SOURCES.md](docs/SOURCES.md) links rights notices and records transcription choices.
 
 ## Edit it yourself
 
@@ -109,6 +111,6 @@ Start with the shared `--type-*` rem tokens at the top of `src/styles.css` to ch
 
 The structure workspace defaults to the horizontal **Fold map** for nested source proposals, preserving all source elements. It occupies the full shared grid, with the selected passages side by side below it. Compact markers follow reading order; each arc comes from one actual pair, with the proposed center in amber. **Mirrored pairs** and **Reading order** remain alternate views. If the graph cannot fit readable markers, it falls back to a paired list and an inline comparison. The center remains visible with its innermost pair. Selection stays the same across views and editions. The reader's separate study panel remains dismissible on mobile.
 
-`src/fold-map.css` owns the current full-width grid, graph and below-map comparison. `FoldMap.tsx` renders data-driven arcs and accessible marker buttons; `src/lib/foldLayout.ts` checks whether the source pairs are nested and calculates ordinal passage positions. `FoldSequence.tsx` owns the three local views and inline comparison position. `MapEvidence.tsx` keeps one explanation, author/source credit and full Sources & notes. See [FOLD_MAP.md](FOLD_MAP.md) for the current verification; [STUDY_WORKSPACE.md](STUDY_WORKSPACE.md) records the preceding two-column design.
+`src/fold-map.css` owns the current full-width grid, graph and below-map comparison. `FoldMap.tsx` renders data-driven arcs and accessible marker buttons; `src/lib/foldLayout.ts` checks whether the source pairs are nested and calculates ordinal passage positions. `FoldSequence.tsx` owns the three local views and inline comparison position. `MapEvidence.tsx` keeps one explanation, author/source credit and full Sources & notes. See [FOLD_MAP.md](docs/FOLD_MAP.md) for the current verification; [STUDY_WORKSPACE.md](docs/STUDY_WORKSPACE.md) records the preceding two-column design.
 
 The ignored `.verification/text-200.html` harness from the earlier typography pass loads the real app with a 200% root font size for text-only resize checks; it is not shipped in the production build.

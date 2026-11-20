@@ -273,7 +273,7 @@ const report={sourceOutlines:input.records.length,workingMaps:index.filter(m=>m.
 await fs.writeFile(path.join(root,'public/structures/manifest.json'),JSON.stringify(report,null,2));
 const leads=index.filter(map=>map.status==='citation-only');
 const csvCell=value=>'"'+String(value??'').replaceAll('"','""')+'"';
-await fs.writeFile(path.join(root,'STRUCTURE_LEADS.csv'),[['id','title','author','books','boundaries','source','source_locator','reason'],...leads.map(map=>[map.id,map.title,map.author,map.workIds.join('; '),map.boundaries,map.sourceUrl,map.sourceLocator,map.reason])].map(row=>row.map(csvCell).join(',')).join('\n')+'\n');
+await fs.writeFile(path.join(root,'docs','STRUCTURE_LEADS.csv'),[['id','title','author','books','boundaries','source','source_locator','reason'],...leads.map(map=>[map.id,map.title,map.author,map.workIds.join('; '),map.boundaries,map.sourceUrl,map.sourceLocator,map.reason])].map(row=>row.map(csvCell).join(',')).join('\n')+'\n');
 const gaps=works.filter(work=>!index.some(map=>map.status==='mapped'&&map.workIds.includes(work.id)));
 const pendingReasons={};
 for(const map of leads.filter(map=>map.id.startsWith('murai-ot-')||map.id.startsWith('murai-nt-'))) {
@@ -299,5 +299,5 @@ const lines=['# Structure coverage','',`Working maps: **${report.workingMaps}**.
   '', 'No catalogue map is a claim of settled authorial intent. No maps are generated to fill uncovered texts. Jubilees and the remaining broader Tewahedo-only works have no verified maps in these sources. The Church-list collection and work identities are unchanged.',
   '', '## Books with no opening map in this import', '', gaps.map(work=>work.title).join(', ')+'.',
   '', 'See STRUCTURE_SOURCES.md for provenance, licences, reproducible import steps and verification limits.'];
-await fs.writeFile(path.join(root,'STRUCTURE_COVERAGE.md'),lines.join('\n')+'\n');
+await fs.writeFile(path.join(root,'docs','STRUCTURE_COVERAGE.md'),lines.join('\n')+'\n');
 console.log(JSON.stringify({workingMaps:report.workingMaps,citationOnly:report.citationOnly,sourceOutlines:report.sourceOutlines}));
