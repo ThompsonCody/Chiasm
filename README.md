@@ -82,7 +82,7 @@ The generated `public/texts/manifest.json` records source hashes, every imported
 | Reader markup and navigation controls | `src/components/ChapterReader.tsx` |
 | Chapter, verse highlight, desktop evidence and mobile sheet layout | `src/styles.css`, section **Study reader**; `.study-layout`, `.verse-button[aria-pressed='true']`, `.study-evidence` |
 | Evidence panel content | `src/components/StudyEvidence.tsx` in Read; `MapEvidence.tsx` and `StructureStudy.tsx` in the structure workspace |
-| Structure grid, horizontal Fold map and comparison styling | `src/fold-map.css`; base paired rows/header in `src/study-workspace.css`; palette/type tokens at the top of `src/styles.css` |
+| Structure grid, horizontal Fold map and comparison styling | `src/study.css` (study layout, graph, paired rows and header); palette/type tokens at the top of `src/styles.css` |
 | Prominent reference jump | `src/components/GoToPassage.tsx`; parsing in `src/lib/study.ts` |
 | Edition picker | `src/components/EditionPicker.tsx`; chapter-specific picker in `ChapterReader.tsx` |
 | Work identities, aliases, collection membership and source labels | `src/data/catalog.ts` |
@@ -111,6 +111,6 @@ Start with the shared `--type-*` rem tokens at the top of `src/styles.css` to ch
 
 The structure workspace defaults to the horizontal **Fold map** for nested source proposals, preserving all source elements. It occupies the full shared grid, with the selected passages side by side below it. Compact markers follow reading order; each arc comes from one actual pair, with the proposed center in amber. **Mirrored pairs** and **Reading order** remain alternate views. If the graph cannot fit readable markers, it falls back to a paired list and an inline comparison. The center remains visible with its innermost pair. Selection stays the same across views and editions. The reader's separate study panel remains dismissible on mobile.
 
-`src/fold-map.css` owns the current full-width grid, graph and below-map comparison. `FoldMap.tsx` renders data-driven arcs and accessible marker buttons; `src/lib/foldLayout.ts` checks whether the source pairs are nested and calculates ordinal passage positions. `FoldSequence.tsx` owns the three local views and inline comparison position. `MapEvidence.tsx` keeps one explanation, author/source credit and full Sources & notes. See [FOLD_MAP.md](docs/FOLD_MAP.md) for the current verification; [STUDY_WORKSPACE.md](docs/STUDY_WORKSPACE.md) records the preceding two-column design.
+`src/study.css` owns the current full-width grid, graph and below-map comparison. `FoldMap.tsx` renders data-driven arcs and accessible marker buttons; `src/lib/foldLayout.ts` checks whether the source pairs are nested and calculates ordinal passage positions. `FoldSequence.tsx` owns the three local views and inline comparison position. `MapEvidence.tsx` keeps one explanation, author/source credit and full Sources & notes. See [FOLD_MAP.md](docs/FOLD_MAP.md) for the current verification; [STUDY_WORKSPACE.md](docs/STUDY_WORKSPACE.md) records the preceding two-column design.
 
 The ignored `.verification/text-200.html` harness from the earlier typography pass loads the real app with a 200% root font size for text-only resize checks; it is not shipped in the production build.

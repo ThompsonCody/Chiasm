@@ -1,7 +1,7 @@
-import { useEffect, useRef, useState } from "react";
-import type { StructureMap } from "../data/structureTypes";
+import { useEffect, useRef } from "react";
+import { useStructure } from "../hooks/useStructure";
 import type { Reference } from "../lib/study";
-import { getStructureSummary, loadStructure } from "../lib/structures";
+import { getStructureSummary } from "../lib/structures";
 import { useInlineComparison } from "../hooks/useInlineComparison";
 import { FoldSequence } from "./FoldSequence";
 import { MapEvidence } from "./MapEvidence";
@@ -19,19 +19,11 @@ export function StructureStudy({ structureId, selectionId, preferredEditionId, o
   restoreScroll?: number;
   navigationKey?: number;
 }) {
-  const [loaded, setLoaded] = useState<{ id: string; map?: StructureMap; error?: string }>({ id: "" });
+  const loaded = useStructure(structureId);
   const studyRef = useRef<HTMLDivElement>(null);
   const focusedNavigation = useRef<string | undefined>(undefined);
   const inline = useInlineComparison();
   const summary = getStructureSummary(structureId);
-
-  useEffect(() => {
-    let active = true;
-    loadStructure(structureId, import.meta.env.BASE_URL)
-      .then(map => { if (active) setLoaded({ id: structureId, map }); })
-      .catch((error: Error) => { if (active) setLoaded({ id: structureId, error: error.message }); });
-    return () => { active = false; };
-  }, [structureId]);
 
   useEffect(() => {
     if (loaded.id !== structureId || !loaded.map) return;

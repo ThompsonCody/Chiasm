@@ -4,6 +4,7 @@ import type { StructureMap } from "../data/structureTypes";
 import { buildFloodPreview, previewChoices, previewPair, previewSelectionForNode } from "../lib/floodPreview";
 import type { PreviewSelection } from "../lib/floodPreview";
 import { foldPairColors } from "../lib/foldColors";
+import { TracedStroke } from "./TracedStroke";
 
 export function FloodPreview({ map, selectionId, onSelect }: {
   map: StructureMap;
@@ -35,7 +36,8 @@ export function FloodPreview({ map, selectionId, onSelect }: {
               style={pairStyle(id)}
               onPointerEnter={() => setHoveredId(id)} onPointerLeave={() => setHoveredId(undefined)} onClick={() => onSelect(id)}>
               <path className="preview-arc-hit" d={arc.path} />
-              <path className="preview-arc" d={arc.path} pathLength={1} />
+              {id === selectionId ? <TracedStroke horizontal className="preview-arc" d={arc.path} />
+                : <path className="preview-arc" d={arc.path} />}
             </g>;
           })}
         </svg>

@@ -137,12 +137,9 @@ h1 em { color: var(--green); font-weight: 400; }
 .excerpt-note { margin: 12px 0 0 31px; color: var(--muted); font-size: var(--type-label); line-height: 1.7; }
 
 /* Evidence sits alongside the sequence, then stacks below it on smaller screens. */
-.evidence-column { min-width: 0; }
-.evidence-panel { background: var(--surface); border: 1px solid var(--line); border-radius: 5px; padding: 23px 25px 0; }
 .evidence-topline { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding-bottom: 20px; }
 .evidence-topline .eyebrow { font-size: var(--type-label); }
 .selected-tag { color: var(--green); background: var(--selected); border-radius: 3px; font-size: var(--type-label); letter-spacing: .4px; padding: 5px 7px; font-weight: 650; white-space: nowrap; }
-.evidence-panel h2 { font-family: var(--serif); font-size: var(--type-title); font-weight: 400; letter-spacing: -.8px; line-height: 1.2; margin-bottom: 6px; }
 .evidence-subtitle { color: var(--muted); font-size: var(--type-label); margin-bottom: 24px; }
 .evidence-passages { display: flex; flex-direction: column; gap: 21px; }
 .evidence-passage { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 9px; }
@@ -158,15 +155,6 @@ h1 em { color: var(--green); font-weight: 400; }
 .why-it-mirrors p { font-size: var(--type-label); line-height: 1.9; color: var(--muted); margin: 8px 0 19px; }
 .interpretation-note { margin: 0 -25px; padding: 13px 25px; border-top: 1px solid var(--line); background: var(--surface); border-radius: 0 0 5px 5px; color: var(--muted); font-size: var(--type-label); line-height: 1.7; display: flex; gap: 8px; }
 .interpretation-note > span { font-size: var(--type-label); }
-.trace-card { margin-top: 17px; display: flex; width: 100%; gap: 14px; align-items: center; padding: 19px 17px; border: 1px solid var(--line); border-radius: 5px; background: var(--selected); text-align: left; }
-.trace-card > svg:first-child { width: 31px; height: 31px; color: var(--green); }
-.trace-card > span { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
-.trace-card .eyebrow { font-size: var(--type-label); letter-spacing: 1.3px; color: var(--muted); }
-.trace-card strong { font-size: var(--type-label); font-weight: 600; line-height: 1.5; }
-.trace-card-detail { font-size: var(--type-label); color: var(--muted); line-height: 1.7; }
-.trace-card-detail > span { padding: 0 3px; }
-.trace-card > svg:last-child { margin-left: auto; width: 18px; }
-.trace-card:hover { background: var(--hover); border-color: var(--green); }
 .source-note { max-width: 650px; padding-top: 26px; margin-top: 28px; border-top: 1px solid var(--line); }
 .source-note .eyebrow { font-size: var(--type-label); }
 .source-note p { font-size: var(--type-label); line-height: 1.9; color: var(--muted); margin: 8px 0; }
@@ -219,15 +207,11 @@ h1 em { color: var(--green); font-weight: 400; }
   .reader-layout { gap: 20px; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
   .sequence-body { grid-template-columns: minmax(0, 1fr) 63px; }
   .sequence-key span:last-child { width: 58px; }
-  .evidence-panel { padding: 20px 19px 0; }
   .interpretation-note { margin-right: -19px; margin-left: -19px; padding-right: 19px; padding-left: 19px; }
   .passage-row { gap: 9px; padding-right: 9px; }
   .panel-heading { align-items: flex-start; }
   .panel-heading h2 { font-size: var(--type-scripture); }
   .reading-direction { display: none; }
-  .trace-card { padding: 15px 12px; gap: 9px; }
-  .trace-card > svg:first-child { width: 25px; }
-  .trace-card strong { font-size: var(--type-label); }
   .site-footer { margin: 0 28px; }
   .account-card { padding: 21px; }
   .warning-path { gap: 8px; padding-right: 9px; padding-left: 9px; }
@@ -263,16 +247,10 @@ h1 em { color: var(--green); font-weight: 400; }
   .passage-title { font-size: var(--type-label); }
   .passage-reference { font-size: var(--type-label); }
   .excerpt-note { font-size: var(--type-label); }
-  .evidence-panel { padding: 23px 23px 0; }
   .evidence-topline .eyebrow { font-size: var(--type-label); }
-  .evidence-panel h2 { font-size: var(--type-title); }
   .evidence-passage p { font-size: var(--type-label); }
   .why-it-mirrors p { font-size: var(--type-label); }
   .interpretation-note { margin: 0 -23px; padding: 14px 23px; font-size: var(--type-label); }
-  .trace-card { padding: 20px; }
-  .trace-card strong { font-size: var(--type-label); }
-  .trace-card-detail { font-size: var(--type-label); }
-  .trace-card > svg:first-child { width: 32px; margin-right: 4px; }
   .source-note { margin-top: 26px; padding-top: 21px; }
   .source-note p { font-size: var(--type-label); }
   .source-link { font-size: var(--type-label); }
@@ -440,7 +418,6 @@ mark { color: var(--green-dark); background: var(--selected); border-bottom: 2px
 .sources-notes h3 { font-size: var(--type-label); margin: 18px 0 7px; }
 .sources-notes[open] { padding-bottom: 10px; }
 .pair-study .evidence-topline { padding-bottom: 18px; }
-.evidence-panel { padding-bottom: 0; }
 .study-layout { grid-template-columns: minmax(0, 1fr) clamp(350px, 35%, 430px); gap: 40px; }
 .study-evidence { top: 130px; max-height: calc(100vh - 150px); padding: 23px; }
 .study-evidence .pair-lead { font: var(--type-ui)/1.65 var(--serif); color: var(--ink); }
@@ -484,14 +461,11 @@ mark { color: var(--green-dark); background: var(--selected); border-bottom: 2px
   .pair-study > h2 { font-size: var(--type-title); }
   .chapter-heading h2 { font-size: var(--type-title); }
   .chapter-controls { padding: 13px; }
-  .evidence-panel { padding-left: 19px; padding-right: 19px; }
   .library-book-chapters { gap: 13px; }
 }
 @media (prefers-reduced-motion: reduce) { .fold-connector.is-selected path, .center-connector.is-selected { animation: none; } }
 .current-reading { position: absolute; top: 18px; right: 0; max-width: 60%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: var(--type-label); color: var(--muted); }
 @media (max-width: 720px) { .current-reading { top: 13px; font-size: var(--type-label); } }
-.pair-edition-control { margin-bottom: 18px; }
-.pair-edition-control .edition-picker { width: 100%; }
 
 /* Editorial reading system: rem tokens above are ChiFold's design targets. */
 html { font-size: 100%; scroll-padding-top: 10rem; }
@@ -538,11 +512,10 @@ h1 { font-size: var(--type-display); letter-spacing: -.035em; }
 .center-tag { margin-left: 0; }
 .passage-row--center { flex-wrap: wrap; }
 .row-selection-mark { font-size: var(--type-label); width: auto; }
-.pair-study > h2,.study-evidence .pair-study h2,.evidence-panel h2 { font-size: var(--type-title); margin-block: .5rem 1rem; }
+.pair-study > h2,.study-evidence .pair-study h2 { font-size: var(--type-title); margin-block: .5rem 1rem; }
 .pair-lead,.study-evidence .pair-lead { font: var(--type-scripture)/1.65 var(--serif); }
 .pair-study .evidence-topline { padding-bottom: .5rem; flex-wrap: wrap; }
 .proposal-attribution { padding-bottom: 1rem; margin-bottom: 1.5rem; }
-.evidence-panel { padding: 1.75rem; border-color: var(--connector); }
 .pair-verses { gap: 1.5rem; }
 .pair-verse,.study-evidence .pair-verse { grid-template-columns: 1.6rem minmax(0,1fr); gap: .5rem; }
 .evidence-letter { font-size: var(--type-ui); }
@@ -554,10 +527,6 @@ h1 { font-size: var(--type-display); letter-spacing: -.035em; }
 .passage-actions .study-action { font-size: var(--type-ui); min-height: 2.75rem; padding-block: .6rem; }
 .sources-notes,.sources-notes p,.account-summary .sources-notes p,.sources-notes summary,.sources-notes a,.edition-credit,.edition-credit p,.reader-edition-credit,.reader-edition-credit p { font-size: var(--type-label); line-height: 1.75; }
 .study-evidence .sources-notes p,.study-evidence .edition-credit p { font: var(--type-label)/1.75 'Segoe UI',sans-serif; }
-.trace-card { padding: 1.5rem; gap: 1rem; }
-.trace-card strong { font-size: var(--type-ui); }
-.trace-card-detail { font-size: var(--type-label); }
-.trace-card > svg { width: 1.5rem; }
 .study-layout { grid-template-columns: minmax(0,1fr) minmax(22rem,.8fr); gap: 2.5rem; }
 .study-evidence { top: 12rem; max-height: calc(100vh - 13rem); padding: 1.5rem; }
 .study-evidence p,.related-passage strong { font-size: var(--type-label); }
@@ -591,7 +560,6 @@ h1 { font-size: var(--type-display); letter-spacing: -.035em; }
 .site-footer { font-size: var(--type-label); flex-wrap: wrap; padding-block: 1.5rem; }
 @media (max-width: 70rem) {
   .reader-layout,.study-layout { grid-template-columns: minmax(0,1fr); }
-  .reader-layout .evidence-column { grid-row: 1; }
   .study-evidence { position: static; max-height: none; }
 }
 @media (max-width: 720px) {
@@ -606,13 +574,10 @@ h1 { font-size: var(--type-display); letter-spacing: -.035em; }
   .page-heading { padding-block: 1.5rem; }
   .view-nav { gap: .5rem 1rem; }
   .structure-context { gap: 1rem; }
-  .evidence-panel { padding: 1rem; }
   .pair-verse,.study-evidence .pair-verse { display: block; }
   .pair-verse .evidence-letter { display: block; padding: 0 0 .4rem; }
   .passage-actions { flex-direction: column; align-items: stretch; }
   .passage-actions button { text-align: left; }
-  .trace-card { flex-wrap: wrap; padding: 1rem; }
-  .trace-card > span { flex: 1 1 10rem; }
   .sequence-body { grid-template-columns: minmax(0,1fr) 2.5rem; }
   .fold-connectors { width: 2.5rem; }
   .sequence-key span:last-child { width: auto; }
@@ -632,7 +597,6 @@ h1 { font-size: var(--type-display); letter-spacing: -.035em; }
 .reading-workspace { container-type: inline-size; container-name: workspace; }
 @container workspace (max-width: 65rem) {
   .reader-layout,.study-layout { grid-template-columns: minmax(0,1fr); }
-  .reader-layout .evidence-column { grid-row: 1; }
   .study-evidence { position: static; max-height: none; }
 }
 

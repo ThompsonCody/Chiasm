@@ -1,15 +1,10 @@
 import { useLayoutEffect, useRef } from "react";
-import type { MouseEvent, ReactNode } from "react";
+import { followLocally } from "../lib/navigation";
+import type { ReactNode } from "react";
 import type { ReaderState, View } from "../lib/reader";
 import { readerReducer } from "../lib/reader";
 import { destinationForView, routeForState } from "../lib/routes";
 
-function followLocally(event: MouseEvent<HTMLAnchorElement>, navigate: () => void) {
-  // Keep normal link semantics for new tabs, keyboard modifiers and copying.
-  if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-  event.preventDefault();
-  navigate();
-}
 
 export function AppHeader({ state, onNavigate, children }: {
   state: ReaderState;

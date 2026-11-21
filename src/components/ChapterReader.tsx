@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { works } from "../data/catalog";
+import { EditionPicker } from "./EditionPicker";
 import { corpusBooks, corpusEditions } from "../data/corpus";
 import {
   formatReference,
@@ -8,16 +9,13 @@ import {
 } from "../lib/study";
 import type { Reference } from "../lib/study";
 import { StudyEvidence } from "./StudyEvidence";
-import type { CorpusText } from "../data/corpus";
+import { useBook } from "../hooks/useBook";
 import { PassageText } from "./PassageText";
 import { getReferenceForPassage } from "../lib/study";
 import { getPassage } from "../lib/lookup";
 import type { StructureAnchor } from "../data/structureTypes";
 import { formatAnchor } from "../lib/structures";
 import { AnchorText } from "./AnchorText";
-
-type BookText = CorpusText;
-type LoadState = { key: string; data?: BookText; error?: string };
 
 export function ChapterReader({
   reference,
@@ -46,7 +44,7 @@ export function ChapterReader({
     reference.workId,
     readingEditionId ?? preferredEditionId,
   );
-  const [loaded, setLoaded] = useState<LoadState>({ key: "" });
+
   const [panelOpen, setPanelOpen] = useState(false);
   const [previewId, setPreviewId] = useState<string | null>(null);
   const [previewAnchor, setPreviewAnchor] = useState<StructureAnchor | null>(null);
@@ -61,44 +59,18 @@ export function ChapterReader({
     works.find((work) => work.id === reference.workId)?.title ??
     reference.workId;
   const editionId = resolved?.edition.id;
-  const key = `${editionId}/${reference.workId}`;
+  const loaded = useBook(editionId, reference.workId);
+  const key = loaded.key;
   useEffect(() => {
     const media = window.matchMedia("(max-width: 720px)");
     const update = () => setIsMobile(media.matches);
     media.addEventListener("change", update);
     return () => media.removeEventListener("change", update);
   }, []);
-  useEffect(() => {
-    if (!editionId) return;
-    const controller = new AbortController();
-    fetch(
-      `${import.meta.env.BASE_URL}texts/${editionId}/${reference.workId}.json`,
-      { signal: controller.signal },
-    )
-      .then((response) => {
-        if (!response.ok)
-          throw new Error("The local book file could not be loaded.");
-        return response.json() as Promise<BookText>;
-      })
-      .then((data) => {
-        if (data.workId !== reference.workId || data.editionId !== editionId)
-          throw new Error(
-            "The book file does not match the requested edition.",
-          );
-        if (!controller.signal.aborted) setLoaded({ key, data });
-      })
-      .catch((error: Error) => {
-        if (!controller.signal.aborted)
-          setLoaded({ key, error: error.message });
-      });
-    return () => controller.abort();
-  }, [key, editionId, reference.workId]);
   const chapter =
-    loaded.key === key
-      ? loaded.data?.chapters.find(
+    loaded.data?.chapters.find(
           (chapter) => chapter.number === reference.chapter,
-        )
-      : undefined;
+        );
   useEffect(() => {
     if (chapter && reference.verseStart) {
       const target = chapter.verses.find(
@@ -251,38 +223,12 @@ export function ChapterReader({
             ))}
           </select>
         </label>
-        <label>
-          Reading edition
-          <select
-            aria-label="Chapter edition"
-            value={edition.id}
-            onChange={(event) => {
-              const checked = parseReference(
-                formatReference(reference),
-                event.target.value,
-              );
-              if ("error" in checked) setEditionError(checked.error);
-              else {
-                setEditionError("");
-                onEdition(event.target.value);
-              }
-            }}
-          >
-            {corpusEditions
-              .filter((item) =>
-                corpusBooks.some(
-                  (book) =>
-                    book.workId === reference.workId &&
-                    book.editionId === item.id,
-                ),
-              )
-              .map((item) => (
-                <option key={item.id} value={item.id}>
-                  {item.shortName}
-                </option>
-              ))}
-          </select>
-        </label>
+        <EditionPicker value={edition.id} label="Reading edition" ariaLabel="Chapter edition"
+          workId={reference.workId} shortLabels onChange={value => {
+            const checked = parseReference(formatReference(reference), value);
+            if ("error" in checked) setEditionError(checked.error);
+            else { setEditionError(""); onEdition(value); }
+          }} />
       </div>
       {editionError ? (
         <p className="fallback-note" role="alert">
@@ -335,7 +281,7 @@ export function ChapterReader({
               <p>{loaded.data.preamble}</p>
             </section>
           ) : null}
-          {loaded.key === key && loaded.error ? (
+          {loaded.error ? (
             <p role="alert">{loaded.error}</p>
           ) : !chapter ? (
             <p role="status">

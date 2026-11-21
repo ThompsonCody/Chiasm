@@ -110,6 +110,18 @@ export function FoldSequence({ map, selectionId, onSelect, comparison, isNarrow 
     return <div className={inline ? "inline-comparison" : "below-map-comparison"} id="evidence-panel">{comparison}</div>;
   }
 
+  function pairedRows(showComparison: boolean) {
+    return pairs.map(({ group, nodes }) => <li
+      className={`mirrored-pair-row${current.id === group.id ? " is-selected" : ""}`}
+      key={group.id} data-pair={group.id}>
+      <div className="pair-row-passages">{row(nodes[0])}<FoldHinge />{row(nodes[1])}</div>
+      {showComparison && current.id === group.id ? <>
+        {centerWithInnerPair ? centers.map(node => <div className="inline-fold-center" key={node.id}>{row(node)}</div>) : null}
+        {comparisonPanel(true)}
+      </> : null}
+    </li>);
+  }
+
   return <section ref={sequenceRef} className={`sequence-panel fold-layout-${layout}`} aria-labelledby="sequence-title">
     <div className="panel-heading fold-heading">
       <h2 id="sequence-title">Read the fold</h2>
@@ -142,23 +154,14 @@ export function FoldSequence({ map, selectionId, onSelect, comparison, isNarrow 
         <details className="full-structure-browser" open={browseOpen} onToggle={event => setBrowseOpen(event.currentTarget.open)}>
           <summary>Browse the full structure · {map.nodes.length} passages</summary>
           <p>Pairs run from outermost to innermost. Select either half to compare.</p>
-          <ol className="mirrored-pair-list">{pairs.map(({ group, nodes }) => <li className={`mirrored-pair-row${current.id === group.id ? " is-selected" : ""}`} key={group.id}>
-            <div className="pair-row-passages">{row(nodes[0])}<FoldHinge />{row(nodes[1])}</div>
-          </li>)}
+          <ol className="mirrored-pair-list">{pairedRows(false)}
           {singletons.filter(group => !centers.some(node => group.nodeIds.includes(node.id)) || current.isCenter).map(group => <li key={group.id} className="mirrored-turning-point">{row(map.nodes.find(node => node.id === group.nodeIds[0])!)}</li>)}
           </ol>
         </details>
       </> : layout === "mirrored-pairs" ? <>
         <div className="fold-column-headings" aria-hidden="true"><span>Earlier passage</span><span>Later passage</span></div>
         <ol className="mirrored-pair-list">
-          {pairs.map(({ group, nodes }) => <li className={`mirrored-pair-row${current.id === group.id ? " is-selected" : ""}`}
-            key={group.id} data-pair={group.id}>
-            <div className="pair-row-passages">{row(nodes[0])}<FoldHinge />{row(nodes[1])}</div>
-            {current.id === group.id ? <>
-              {centerWithInnerPair ? centers.map(node => <div className="inline-fold-center" key={node.id}>{row(node)}</div>) : null}
-              {comparisonPanel(true)}
-            </> : null}
-          </li>)}
+          {pairedRows(true)}
           {!centerWithInnerPair ? singletons.map(group => {
             const node = map.nodes.find(node => node.id === group.nodeIds[0])!;
             return <li key={group.id} className="mirrored-turning-point">{row(node)}{current.id === group.id ? comparisonPanel(true) : null}</li>;

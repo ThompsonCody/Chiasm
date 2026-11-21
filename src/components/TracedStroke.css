@@ -1,0 +1,26 @@
+/* One timing and reveal implementation for preview arcs, study arcs and connectors. */
+:root {
+  --fold-trace-duration: 720ms;
+  --fold-trace-easing: cubic-bezier(.42, 0, .58, 1);
+}
+.traced-stroke .fold-trace-sweep {
+  transform-origin: 0 0;
+  animation: fold-trace-sweep var(--fold-trace-duration) var(--fold-trace-easing) both;
+}
+.traced-stroke defs path.fold-trace-mask {
+  fill: none; stroke: white; stroke-width: 16; vector-effect: none;
+  stroke-dasharray: 1; stroke-dashoffset: 0;
+  animation: fold-trace-draw var(--fold-trace-duration) var(--fold-trace-easing) both;
+}
+@keyframes fold-trace-sweep {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+@keyframes fold-trace-draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .traced-stroke .fold-trace-sweep { animation: none; transform: none; }
+  .traced-stroke defs path.fold-trace-mask { animation: none; stroke-dasharray: none; }
+}

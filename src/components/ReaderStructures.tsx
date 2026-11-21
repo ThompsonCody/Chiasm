@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useStructure } from "../hooks/useStructure";
+import { useState } from "react";
 import type { Reference } from "../lib/study";
-import type { StructureAnchor, StructureMap, StructureSummary } from "../data/structureTypes";
-import { getStructureSource, loadStructure, structureSelectionForReference } from "../lib/structures";
+import type { StructureAnchor, StructureSummary } from "../data/structureTypes";
+import { getStructureSource, structureSelectionForReference } from "../lib/structures";
 import { MapEvidence } from "./MapEvidence";
 
 export function ReaderStructures({matches,reference,editionId,onMap,onOpen,onPreview}: {
@@ -11,13 +12,7 @@ export function ReaderStructures({matches,reference,editionId,onMap,onOpen,onPre
 }) {
   const [inspected,setInspected]=useState<string>();
   const active=matches.find(map=>map.id===inspected)??matches[0];
-  const [loaded,setLoaded]=useState<{id:string;map?:StructureMap;error?:string}>({id:''});
-  useEffect(()=>{
-    let live=true;
-    if(active) loadStructure(active.id,import.meta.env.BASE_URL).then(map=>{if(live)setLoaded({id:active.id,map});})
-      .catch((error:Error)=>{if(live)setLoaded({id:active.id,error:error.message});});
-    return ()=>{live=false;};
-  },[active?.id]);
+  const loaded = useStructure(active?.id);
   return <section className="reader-structures"><h2>Structures in this passage</h2>
     {!matches.length?<p>No curated structures yet</p>:<>
       <p>{matches.length} source-backed proposal{matches.length===1?'':'s'} overlap this passage. Each opens independently.</p>

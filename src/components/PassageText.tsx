@@ -1,11 +1,10 @@
-import { useEffect, useState } from "react";
+import { useBook } from "../hooks/useBook";
+import { EditionText, VerseExcerpt } from "./EditionText";
 import { passageMappings } from "../data/mappings";
 import { getPassage } from "../lib/lookup";
 import { resolveBookEdition } from "../lib/study";
-import { loadBook } from "../lib/textLoader";
-import type { CorpusText } from "../data/corpus";
+
 import { corpusEditions } from "../data/corpus";
-import { DurationText } from "./DurationText";
 
 export function EditionNotes({
   workId,
@@ -60,27 +59,7 @@ export function PassageText({
       resolved &&
       item.editionIds.includes(resolved.edition.id),
   );
-  const [loaded, setLoaded] = useState<{
-    key: string;
-    data?: CorpusText;
-    error?: string;
-  }>({ key: "" });
-  const editionId = resolved?.edition.id;
-  const key = `${editionId}/${passage.workId}`;
-  useEffect(() => {
-    let active = true;
-    if (editionId)
-      loadBook(editionId, passage.workId, import.meta.env.BASE_URL)
-        .then((data) => {
-          if (active) setLoaded({ key, data });
-        })
-        .catch((error: Error) => {
-          if (active) setLoaded({ key, error: error.message });
-        });
-    return () => {
-      active = false;
-    };
-  }, [editionId, passage.workId, key]);
+  const loaded = useBook(mapping ? resolved?.edition.id : undefined, passage.workId);
   if (!resolved || !mapping)
     return (
       <p role="status">
@@ -89,9 +68,7 @@ export function PassageText({
     );
   const { edition } = resolved;
   const selected = new Set(mapping.verseKeys);
-  const verses =
-    loaded.key === key
-      ? loaded.data?.chapters.flatMap((chapter) =>
+  const verses = loaded.data?.chapters.flatMap((chapter) =>
           chapter.verses
             .filter((verse) =>
               Array.from(
@@ -105,72 +82,17 @@ export function PassageText({
               ...verse,
               reference: `${chapter.number}:${verse.label ?? verse.number}`,
             })),
-        )
-      : undefined;
-  return (
-    <section
-      className="edition-text"
-      aria-label={`${mapping.reference} in ${edition.shortName}`}
-    >
-      <div className="edition-text-heading">
-        <strong>{mapping.reference}</strong>
-        <span>{edition.shortName}</span>
-      </div>
-      {!compact ? (
-        <p className="summary-label">EDITION TEXT · {edition.title}</p>
-      ) : null}
-      {resolved.isFallback ? (
-        <p className="fallback-note" role="status">
-          {corpusEditions.find((item) => item.id === preferredEditionId)
-            ?.shortName ?? preferredEditionId}{" "}
-          is unavailable for this work. Showing {edition.shortName}; your
-          preference is kept.
-        </p>
-      ) : null}
-      {loaded.key === key && loaded.error ? (
-        <p role="alert">{loaded.error}</p>
-      ) : !verses ? (
-        <p role="status">Loading passage…</p>
-      ) : (
-        <blockquote>
-          {verses.map((verse) => (
-            <p key={verse.reference}>
-              {!compact ? <sup>{verse.reference}</sup> : null}{" "}
-              <DurationText text={verse.text} emphasize={emphasizeDuration} />
-            </p>
-          ))}
-        </blockquote>
-      )}
-      {showNotes ? (
-        <details className="edition-credit">
-          <summary>Sources &amp; notes</summary>
-          {mapping.note ? <p>{mapping.note}</p> : null}
-          <EditionNotes
-            workId={passage.workId}
-            preferredEditionId={preferredEditionId}
-          />
-        </details>
-      ) : null}
-      <div className="passage-actions">
-        {onPreview ? (
-          <button
-            type="button"
-            className="study-action"
-            onClick={() => onPreview(passageId)}
-          >
-            Preview →
-          </button>
-        ) : null}
-        {onRead ? (
-          <button
-            type="button"
-            className="study-action"
-            onClick={() => onRead(passageId)}
-          >
-            Open chapter →
-          </button>
-        ) : null}
-      </div>
-    </section>
-  );
+        );
+  return <EditionText reference={mapping.reference} editionName={edition.shortName}
+    label={!compact ? `EDITION TEXT · ${edition.title}` : undefined}
+    fallback={resolved.isFallback ? `${corpusEditions.find(item => item.id === preferredEditionId)?.shortName ?? preferredEditionId} is unavailable for this work. Showing ${edition.shortName}; your preference is kept.` : undefined}
+    error={loaded.error} loading={!verses}
+    onPreview={onPreview ? () => onPreview(passageId) : undefined}
+    onRead={onRead ? () => onRead(passageId) : undefined}
+    notes={showNotes ? <details className="edition-credit"><summary>Sources &amp; notes</summary>
+      {mapping.note ? <p>{mapping.note}</p> : null}
+      <EditionNotes workId={passage.workId} preferredEditionId={preferredEditionId} />
+    </details> : null}>
+    <VerseExcerpt verses={verses ?? []} showNumbers={!compact} emphasizeDuration={emphasizeDuration} />
+  </EditionText>;
 }

@@ -31,7 +31,7 @@
 .preview-arc { fill: none; stroke: var(--pair-color, var(--connector)); stroke-width: 1.75; vector-effect: non-scaling-stroke; pointer-events: none; transition: stroke 160ms ease,stroke-width 160ms ease; }
 .preview-arc-hit { fill: none; stroke: transparent; stroke-width: 22; vector-effect: non-scaling-stroke; pointer-events: stroke; cursor: pointer; }
 .preview-relationship.is-emphasized .preview-arc { stroke: var(--pair-color, var(--ink)); stroke-width: 2.5; }
-.preview-relationship.is-selected .preview-arc { stroke: var(--pair-color, var(--accent)); stroke-width: 4; stroke-dasharray: 1; animation: preview-trace 280ms ease-out; }
+.preview-relationship.is-selected .preview-arc { stroke: var(--pair-color, var(--accent)); stroke-width: 4; }
 .preview-arc-labels { position: absolute; inset: 0 0 auto; height: var(--preview-arc-height); pointer-events: none; }
 .preview-arc-choice { position: absolute; left: 50%; transform: translate(-50%,-50%); display: inline-flex; align-items: center; justify-content: center; gap: .375rem; min-height: 2.75rem; padding: .375rem .875rem .375rem .5rem; border: 0; border-radius: 2rem; color: var(--muted); background: var(--surface); font: 500 var(--type-ui)/1.4 'Segoe UI',Arial,sans-serif; white-space: nowrap; cursor: pointer; pointer-events: auto; }
 .preview-choice-indicator { width: 1rem; font-size: var(--type-label); }
@@ -64,7 +64,7 @@
 .preview-explanation { font-size: var(--type-ui); line-height: 1.5; color: var(--muted); margin: 0; }
 .preview-match.is-center .preview-passages { grid-template-columns: minmax(0,1fr); }
 .preview-match.is-center .preview-match-heading > span, .preview-match.is-center .preview-passage-label { color: var(--gold); }
-@keyframes preview-trace { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+
 @keyframes preview-evidence { from { opacity: .55; transform: translateY(.2rem); } to { opacity: 1; transform: translateY(0); } }
 /* Large text gets the same choices as a readable list when the graph cannot fit. */
 @container preview (max-width: 14rem) {
@@ -137,5 +137,7 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .preview-arc, .preview-marker-label { transition: none; }
-  .preview-relationship.is-selected .preview-arc, .preview-match-content { animation: none; }
+  .preview-match-content { animation: none; }
 }
+
+.preview-relationship.is-selected .preview-arc.fold-trace-baseline { stroke-width: 1.75; }

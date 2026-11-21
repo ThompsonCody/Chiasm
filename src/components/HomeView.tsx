@@ -1,19 +1,14 @@
-import { useEffect, useState } from "react";
-import type { MouseEvent } from "react";
-import type { StructureMap } from "../data/structureTypes";
+import { useState } from "react";
+import { followLocally } from "../lib/navigation";
+
+import { useStructure } from "../hooks/useStructure";
 import type { ReaderState } from "../lib/reader";
 import { floodTrace } from "../data/crossReferences";
 import { getPassage } from "../lib/lookup";
-import { FEATURED_STRUCTURE_ID, loadStructure } from "../lib/structures";
+import { FEATURED_STRUCTURE_ID } from "../lib/structures";
 import { previewSelection } from "../lib/floodPreview";
 import { routeForState } from "../lib/routes";
 import { FloodPreview } from "./FloodPreview";
-
-function followLocally(event: MouseEvent<HTMLAnchorElement>, navigate: () => void) {
-  if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-  event.preventDefault();
-  navigate();
-}
 
 export function HomeView({ state, onStudy, onLibrary, onComparison }: {
   state: ReaderState;
@@ -22,14 +17,7 @@ export function HomeView({ state, onStudy, onLibrary, onComparison }: {
   onComparison: (pairId: string) => void;
 }) {
   const [selectionId, setSelectionId] = useState(() => previewSelection(state.selectionId));
-  const [loaded, setLoaded] = useState<{ map?: StructureMap; error?: string }>({});
-  useEffect(() => {
-    let active = true;
-    loadStructure(FEATURED_STRUCTURE_ID, import.meta.env.BASE_URL)
-      .then(map => { if (active) setLoaded({ map }); })
-      .catch((error: Error) => { if (active) setLoaded({ error: error.message }); });
-    return () => { active = false; };
-  }, []);
+  const loaded = useStructure(FEATURED_STRUCTURE_ID);
 
   const studyState = { ...state, view: "chiasm" as const, structureId: FEATURED_STRUCTURE_ID, selectionId };
   const studyHref = routeForState(studyState);
