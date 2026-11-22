@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { followLocally } from "../lib/navigation";
 
 import { useStructure } from "../hooks/useStructure";
@@ -9,6 +9,7 @@ import { FEATURED_STRUCTURE_ID } from "../lib/structures";
 import { previewSelection } from "../lib/floodPreview";
 import { routeForState } from "../lib/routes";
 import { FloodPreview } from "./FloodPreview";
+import { WaterScene } from "./WaterScene";
 
 export function HomeView({ state, onStudy, onLibrary, onComparison }: {
   state: ReaderState;
@@ -18,6 +19,7 @@ export function HomeView({ state, onStudy, onLibrary, onComparison }: {
 }) {
   const [selectionId, setSelectionId] = useState(() => previewSelection(state.selectionId));
   const loaded = useStructure(FEATURED_STRUCTURE_ID);
+  const previewRef = useRef<HTMLElement>(null);
 
   const studyState = { ...state, view: "chiasm" as const, structureId: FEATURED_STRUCTURE_ID, selectionId };
   const studyHref = routeForState(studyState);
@@ -27,25 +29,20 @@ export function HomeView({ state, onStudy, onLibrary, onComparison }: {
   return <div className="home-content">
     <section className="home-hero" aria-labelledby="home-title">
       <div className="home-message">
-        <p className="home-kicker">Read closely. Follow the echoes.</p>
-        <h1 id="home-title" tabIndex={-1}>See how Scripture <em>folds.</em></h1>
-        <p className="home-intro">Discover patterns within a passage. Follow its echoes into other texts. Read the evidence for yourself.</p>
+        <h1 id="home-title" tabIndex={-1}><span>See how</span> Scripture <em>folds.</em></h1>
+        <p className="home-intro">Explore proposed patterns within a passage,<br className="desktop-break" /> then follow its echoes into other texts.</p>
         <div className="home-actions">
           <a className="home-primary" href={studyHref} onClick={event => followLocally(event, () => onStudy(selectionId))}>
-            Explore the Flood study <span aria-hidden="true">↗</span>
+            Explore the Flood study <span aria-hidden="true">→</span>
           </a>
           <a className="home-secondary" href={libraryHref} onClick={event => followLocally(event, onLibrary)}>
             Browse the library <span aria-hidden="true">→</span>
           </a>
         </div>
-        <p className="home-invitation">A real passage. A proposed pattern. Your reading begins here.</p>
       </div>
-      <section className="home-preview" aria-labelledby="preview-title">
-        <div className="preview-heading">
-          <p className="home-kicker">Try a fold · Genesis 7–8</p>
-          <h2 id="preview-title">The Flood, <em>folded.</em></h2>
-        </div>
-        {loaded.map ? <FloodPreview map={loaded.map} selectionId={selectionId} onSelect={setSelectionId} />
+      <section ref={previewRef} className="home-preview" aria-labelledby="preview-title">
+        <h2 id="preview-title" className="sr-only">The Flood, folded. An interactive preview.</h2>
+        {loaded.map ? <FloodPreview map={loaded.map} selectionId={selectionId} onSelect={setSelectionId} preferredEditionId={state.preferredEditionId} />
           : loaded.error ? <p role="alert">{loaded.error} You can still open the study below.</p>
           : <p className="preview-loading" role="status">Loading the Flood preview…</p>}
         <div className="preview-footnote">
@@ -59,10 +56,11 @@ export function HomeView({ state, onStudy, onLibrary, onComparison }: {
         </div>
       </section>
     </section>
+    <WaterScene graphRef={previewRef} />
 
     <section className="home-paths" aria-labelledby="home-paths-title">
       <div className="home-paths-heading">
-        <h2 id="home-paths-title">Notice the shape.<br /><em>Follow the echo.</em></h2></div>
+        <h2 id="home-paths-title">Notice the shape. <em>Follow the echo.</em></h2></div>
       <article className="home-example">
         <div className="home-example-heading">
           <p className="home-example-label"><span className="home-step">01</span><span>Within one story</span></p>

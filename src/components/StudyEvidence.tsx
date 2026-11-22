@@ -40,20 +40,15 @@ export function StudyEvidence({
         <h2>Connections to other passages</h2>
         {inFloodStudy || evidence.crossReferences.length ? (
           <article>
-            <span className="parallel-badge">
-              Narrative parallel · Flood story
-            </span>
-            <p className="connection-strength">{connectionTypes.find(type=>type.label===floodTrace.kind)?.strength} · no borrowing claim</p>
+            <span className="parallel-badge">{floodTrace.kind} · Flood story</span>
             <h3>The warning before the Flood</h3>
-            <p>Genesis 6:13–18 ↔ 1 Enoch 10:1–3</p>
+            <p className="connection-reference">
+              {floodTrace.passageIds.map(id => getPassage(id).reference).join(" ↔ ")}
+            </p>
             <p>
               This connection concerns the wider Flood story; it is not an echo
               of the 150-day pair or a claim of direct borrowing.
             </p>
-            <p className="summary-label">OBSERVATIONS FROM THE CITED PRIMARY TEXTS</p>
-            <p>{floodTrace.sourceClaim}</p>
-            <p className="summary-label">CHIFOLD EDITORIAL COMPARISON</p>
-            <p>{floodTrace.basis}</p>
             {floodTrace.passageIds.map((id) => (
               <div className="related-passage" key={id}>
                 <strong>{getPassage(id).reference}</strong>
@@ -81,6 +76,9 @@ export function StudyEvidence({
             ))}
             <details className="sources-notes">
               <summary>Sources &amp; notes</summary>
+              <p className="connection-strength">{connectionTypes.find(type => type.label === floodTrace.kind)?.strength} · no borrowing claim</p>
+              <p><strong>Source observations:</strong> {floodTrace.sourceClaim}</p>
+              <p><strong>ChiFold editorial basis:</strong> {floodTrace.basis}</p>
               <p>{floodTrace.explanation}</p>
               <p>Source observations come from the two primary passages. The connection classification and comparison wording are ChiFold editorial judgments.</p>
               {floodTrace.sourceIds.map(id=><SourceLink key={id} sourceId={id}>Primary passage source</SourceLink>)}

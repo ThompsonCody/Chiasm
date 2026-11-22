@@ -30,7 +30,7 @@ export function MapEvidence({ map, selectionId, preferredEditionId, onRead, onPr
       <div>
       <div className="evidence-topline">
         <span className="selected-tag">{selection.nodes.map(node => node.label).join(" ↔ ")}</span>
-        <span className="eyebrow">{selection.isCenter ? "Proposed center" : selection.nodes.length === 2 ? "Selected pair" : selection.nodes.length>2 ? "Selected correspondence group" : "Selected element"}</span>
+        <span className={workspace ? "sr-only" : "eyebrow"}>{selection.isCenter ? "Proposed center" : selection.nodes.length === 2 ? "Selected pair" : selection.nodes.length>2 ? "Selected correspondence group" : "Selected element"}</span>
       </div>
       <h2 id="evidence-title" tabIndex={-1}>{title}</h2>
       </div>

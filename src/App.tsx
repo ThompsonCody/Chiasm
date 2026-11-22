@@ -100,54 +100,18 @@ export default function App() {
           }
         />
       </AppHeader>
-      <main className={`reading-workspace app-grid${inStudy ? " study-page" : ""}${view === "home" ? " home-page" : ""}`} id="reading" tabIndex={-1}>
-        {view !== "home" && view !== "reader" && !inStudy ? (
-          <div className="page-heading">
-            <div>
-              <p className="eyebrow breadcrumb">
-                {view === "library"
-                  ? "THE LIBRARY / WORKS & EDITIONS"
-                  : view === "structures"
-                    ? "STRUCTURES / PUBLISHED PROPOSALS"
-                  : `${proposal?.boundaries ?? "SOURCE"} / LITERARY STRUCTURES`}
-              </p>
-              <h1>
-                {view === "library" ? (
-                  <>
-                    A library for <em>close reading.</em>
-                  </>
-                ) : view === "structures" ? (
-                  <>Patterns for <em>close reading.</em></>
-                ) : (
-                  <>
-                    {isFlood ? <>The Flood, <em>folded.</em></> : proposal?.title ?? 'Structure unavailable'}
-                  </>
-                )}
-              </h1>
-              <p className="page-description">
-                {view === "library"
-                  ? "Browse complete books, with sources and honest gaps."
-                  : view === "structures"
-                    ? "Read the evidence behind a proposed structure."
-                  : "Read the story in reflection. Then follow its echoes."}
-              </p>
-            </div>
-            <div className="reading-index">
-              <span>
-                {view === "library" ? "ALL TEXTS & COLLECTIONS" : view === "structures" ? "CURATED STUDIES" : proposal?.boundaries}
-              </span>
-            </div>
-          </div>
-        ) : view === "reader" ? (
+      <main className={`reading-workspace app-grid${inStudy ? " study-page" : ""}${view === "home" ? " home-page" : ""}`} id="reading" tabIndex={-1} data-view={view}>
+        {view === "reader" ? (
           <h1 className="sr-only">Study reader</h1>
         ) : null}
         {inStudy ? <header className="study-heading">
           <div className="study-heading-title">
-            {view === "chiasm" && returnLabel ? <button className="study-return" type="button" onClick={reader.returnToReading}>← {returnLabel}</button> : null}
             <h1>{isFlood ? <>The Flood, <em>folded.</em></> : proposal?.title ?? "Structure unavailable"}</h1>
-            <p className="study-kicker">{proposal?.boundaries} <span>· Published literary interpretation</span></p>
+            <p className="study-kicker">{proposal?.boundaries}</p>
+            <p className="study-attribution">{proposal?.author} · Published literary interpretation</p>
           </div>
           <div className="study-heading-actions">
+          {view === "chiasm" && returnLabel ? <button className="study-return" type="button" onClick={reader.returnToReading}>← {returnLabel}</button> : null}
           <nav className="view-nav" aria-label="Structure study navigation">
           <button
             type="button"
@@ -171,6 +135,7 @@ export default function App() {
             <EditionPicker
               value={preferredEditionId}
               onChange={reader.selectEdition}
+              shortLabels
             />
             <span>
               Each work shows its available edition. Your preference stays with

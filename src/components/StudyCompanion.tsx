@@ -11,7 +11,6 @@ export function StudyCompanion({ map, selectionId, preferredEditionId, compact, 
   map: StructureMap; selectionId: string; preferredEditionId: string; compact: boolean;
   onRead: (reference: Reference, editionId?: string) => void; onTrace: () => void;
 }) {
-  const [expanded, setExpanded] = useState(!compact);
   const [preview, setPreview] = useState(false);
   const previewButton = useRef<HTMLButtonElement>(null);
   const heading = useRef<HTMLHeadingElement>(null);
@@ -25,18 +24,17 @@ export function StudyCompanion({ map, selectionId, preferredEditionId, compact, 
     setPreview(false);
     previewButton.current?.focus();
   }
-  return <aside className="study-companion" aria-label="Study companion">
-    <details className="companion-disclosure" open={expanded}
-      onToggle={event => setExpanded(event.currentTarget.open)}>
-      <summary><span className="companion-title">Study companion</span><span className="companion-summary-hint">Sources{map.id === "wenham-flood" ? " & a related passage" : " & notes"}</span></summary>
+  return <aside className={`study-companion${compact ? " is-compact" : ""}`} aria-label="Study sources and related passages">
       <div className="companion-source">
-        <h3>A proposed literary structure</h3>
-        <p>{map.author}</p>
         <ProposalNotes map={map} selectionId={selectionId} preferredEditionId={preferredEditionId} />
       </div>
       {map.id === "wenham-flood" ? <section className="companion-connection" aria-labelledby="companion-connection-title">
-        <h3 id="companion-connection-title">Beyond this structure</h3>
+        <div>
+        <p className="eyebrow">Beyond the fold</p>
+        <h3 id="companion-connection-title">The Flood across texts</h3>
         <span className="parallel-badge">{floodTrace.kind}</span>
+        </div>
+        <div>
         <h4>A warning before the Flood</h4>
         <p className="companion-refs">Genesis 6:13–18<br />1 Enoch 10:1–3</p>
         <p>God speaks directly in Genesis; Uriel carries the warning in 1 Enoch.</p>
@@ -56,7 +54,7 @@ export function StudyCompanion({ map, selectionId, preferredEditionId, compact, 
         <button className="companion-compare" type="button" onClick={onTrace}>Compare the accounts →</button>
         <details className="sources-notes"><summary>Connection basis</summary><p>{floodTrace.sourceClaim}</p><p>{floodTrace.basis}</p><p>{floodTrace.explanation}</p></details>
         <p className="companion-place-note">Your Genesis place and {preferred} preference stay with you.</p>
+        </div>
       </section> : null}
-    </details>
   </aside>;
 }

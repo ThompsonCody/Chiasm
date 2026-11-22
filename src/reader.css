@@ -1,0 +1,551 @@
+/* Chapter reading, its study rail, and the cross-text comparison share this file. */
+.chapter-reader,
+.comparison-view {
+  padding-block: 2rem 4rem;
+  min-width: 0;
+}
+
+.reading-back {
+  border: 0;
+  padding: .5rem 0;
+  color: var(--mint);
+}
+
+.chapter-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem 2rem;
+  margin-block: 1rem 1.5rem;
+}
+
+.chapter-heading h2 {
+  font-size: clamp(2.75rem, 5vw, 4.5rem);
+  line-height: 1.1;
+  margin: .375rem 0 0;
+}
+
+.chapter-heading .source-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+}
+
+.reader-share-status {
+  color: var(--mint);
+  font-size: var(--text-small);
+}
+
+.reader-share-status:empty {
+  display: none;
+}
+
+.chapter-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(5rem, .5fr) minmax(0, 1fr);
+  gap: 1rem;
+  max-width: 54rem;
+  margin-block: 1.5rem;
+}
+
+.chapter-controls label,
+.reader-proposal-picker {
+  display: grid;
+  align-content: start;
+  gap: .5rem;
+  min-width: 0;
+  font-size: var(--text-small);
+  color: var(--muted);
+}
+
+.chapter-controls select,
+.reader-proposal-picker select {
+  width: 100%;
+  min-width: 0;
+  color: var(--text);
+}
+
+.chapter-pagination {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: .5rem 1rem;
+  border-block: 1px solid var(--line);
+  padding-block: .5rem;
+  margin-block: 1.5rem;
+}
+
+.chapter-pagination button {
+  padding: .5rem 0;
+  border: 0;
+  color: var(--mint);
+  text-align: start;
+}
+
+.chapter-pagination button:last-child {
+  text-align: end;
+}
+
+.chapter-pagination button:disabled {
+  opacity: .45;
+  color: var(--muted);
+  cursor: default;
+}
+
+.chapter-pagination > span {
+  color: var(--muted);
+  font-size: var(--text-small);
+  text-align: center;
+}
+
+.study-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.75fr) minmax(17rem, 1fr);
+  align-items: start;
+  gap: clamp(1.5rem, 4vw, 4rem);
+}
+
+.chapter-text {
+  min-width: 0;
+  max-width: 52rem;
+}
+
+.reader-instruction {
+  color: var(--muted);
+  font-size: var(--text-small);
+  line-height: 1.65;
+  margin: 0 0 1.25rem;
+}
+
+.chapter-text .verse-button {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  align-items: baseline;
+  gap: .625rem;
+  width: calc(100% + 1rem);
+  margin-inline-start: -1rem;
+  padding: .625rem .875rem;
+  border: 0;
+  border-inline-start: 3px solid transparent;
+  border-radius: 0 .375rem .375rem 0;
+  color: var(--text);
+  background: transparent;
+  text-align: start;
+  font: 400 var(--text-scripture)/1.8 var(--font-display);
+  letter-spacing: normal;
+  cursor: pointer;
+  scroll-margin-block: calc(var(--app-header-height, 7rem) + 2rem);
+}
+
+.chapter-text .verse-button:hover {
+  background: color-mix(in srgb, var(--mint) 5%, transparent);
+}
+
+.chapter-text .verse-button[aria-pressed="true"] {
+  border-inline-start-color: var(--mint);
+  background: color-mix(in srgb, var(--mint) 11%, transparent);
+}
+
+.verse-number {
+  color: var(--muted);
+  font: 500 var(--text-small)/1.8 var(--font-body);
+  font-variant-numeric: tabular-nums;
+}
+
+.verse-button[aria-pressed="true"] .verse-number {
+  color: var(--mint);
+  font-weight: 750;
+}
+
+.unnumbered-text p {
+  font: 400 var(--text-scripture)/1.8 var(--font-display);
+}
+
+.reader-edition-credit {
+  border-top: 1px solid var(--line);
+  padding-block: 1.5rem;
+  margin-top: 2rem;
+  color: var(--muted);
+  font-size: var(--text-small);
+  line-height: 1.75;
+}
+
+.reader-edition-credit summary {
+  min-height: 2.75rem;
+  color: var(--mint);
+  cursor: pointer;
+}
+
+.study-evidence {
+  position: sticky;
+  top: calc(var(--app-header-height, 7rem) + 1.25rem);
+  max-height: calc(100svh - var(--app-header-height, 7rem) - 2.5rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+  padding: 0 0 1rem 1.5rem;
+  border-inline-start: 1px solid var(--line);
+  min-width: 0;
+}
+
+.evidence-reference {
+  margin: 0 0 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  font: 400 1.75rem/1.25 var(--font-display);
+}
+
+.study-evidence h2 {
+  font-size: 1.75rem;
+  line-height: 1.25;
+  margin-block: 1rem;
+}
+
+.study-evidence h3,
+.study-evidence h4 {
+  font: 400 1.5rem/1.3 var(--font-display);
+  margin-block: .75rem .5rem;
+}
+
+.study-evidence p {
+  color: var(--muted);
+  font-size: var(--text-ui);
+  line-height: 1.7;
+  margin-block: .75rem;
+}
+
+.study-evidence .evidence-reference,
+.study-evidence .pair-lead {
+  color: var(--text);
+}
+
+.study-evidence .evidence-reference {
+  font: 400 1.75rem/1.25 var(--font-display);
+}
+
+.reader-proposal {
+  padding-block: .5rem 0;
+}
+
+.reader-proposal .proposal-attribution {
+  font-size: var(--text-small);
+  margin-block: .25rem 1rem;
+}
+
+.reader-pair-label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem;
+  color: var(--muted);
+  font-size: var(--text-small);
+}
+
+.reader-counterpart {
+  margin-block: 1rem;
+  padding-top: .875rem;
+  border-top: 1px solid var(--line);
+}
+
+.reader-counterpart .edition-text {
+  padding: 0;
+}
+
+.study-evidence .edition-text blockquote p {
+  color: var(--text);
+  font: 400 var(--text-scripture)/1.75 var(--font-display);
+}
+
+.reader-open-structure {
+  margin-block: .5rem;
+  font-weight: 650;
+}
+
+.story-connections {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.connection-reference {
+  color: var(--text);
+}
+
+.related-passage {
+  padding-block: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.related-passage strong {
+  display: block;
+  color: var(--text);
+  font-size: var(--text-small);
+  margin-bottom: .5rem;
+}
+
+.study-evidence .sources-notes {
+  margin-block: 1rem;
+}
+
+.study-evidence .sources-notes p {
+  font-size: var(--text-small);
+}
+
+.connection-types dl > div {
+  margin-block: 1rem;
+}
+
+.connection-types dd {
+  margin: .375rem 0 0;
+}
+
+.passage-preview > .study-action {
+  margin-bottom: 1rem;
+}
+
+.passage-preview > h2 {
+  font-size: 2rem;
+}
+
+.study-evidence .preview-context,
+.study-evidence .fallback-note {
+  font-size: var(--text-small);
+}
+
+.reader-study-toggle,
+.evidence-close,
+.evidence-backdrop {
+  display: none;
+}
+
+/* Across-text accounts use the same edition renderer as every other passage. */
+.comparison-intro {
+  max-width: 60rem;
+  margin-bottom: 2.5rem;
+}
+
+.comparison-intro h2 {
+  font-size: clamp(2.5rem, 4.5vw, 4rem);
+  line-height: 1.15;
+  margin-block: .75rem 1rem;
+}
+
+.comparison-intro p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.comparison-intro .comparison-references {
+  color: var(--text);
+  font-size: 1.25rem;
+  margin-block: 1rem;
+}
+
+.comparison-accounts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  border-block: 1px solid var(--line);
+  padding-block: 2rem;
+}
+
+.comparison-accounts .account-card {
+  min-width: 0;
+  padding-inline-end: 2rem;
+}
+
+.comparison-accounts .account-card + .account-card {
+  padding-inline: 2rem 0;
+  border-inline-start: 1px solid var(--line);
+}
+
+.account-topline {
+  margin-bottom: .5rem;
+}
+
+.account-card h3 {
+  font-size: 2rem;
+  margin-block: .5rem 1rem;
+}
+
+.warning-path {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .75rem 1.75rem;
+  list-style: none;
+  margin: 0;
+  padding: .75rem 0;
+}
+
+.warning-path li {
+  display: grid;
+  position: relative;
+  gap: .25rem;
+  color: var(--mint);
+}
+
+.warning-path li + li::before {
+  content: "→";
+  position: absolute;
+  inset-inline-start: -1.4rem;
+  bottom: 0;
+  color: var(--muted);
+}
+
+.warning-path small {
+  color: var(--muted);
+  font-size: var(--text-small);
+}
+
+.warning-path strong {
+  font-size: var(--text-ui);
+  font-weight: 500;
+}
+
+.account-description {
+  color: var(--text);
+  font: italic 400 1.5rem/1.5 var(--font-display);
+  margin-block: 1rem 1.5rem;
+}
+
+.account-summary .edition-text {
+  padding: 0;
+}
+
+.account-editorial {
+  margin-block: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.account-editorial p {
+  color: var(--muted);
+  font-size: var(--text-ui);
+  line-height: 1.7;
+}
+
+.comparison-note {
+  max-width: 65rem;
+  padding-block: 2rem;
+}
+
+.comparison-note h3 {
+  font-size: 2rem;
+  margin-block: .625rem 1rem;
+}
+
+.comparison-note p {
+  color: var(--muted);
+  font-size: var(--text-ui);
+  line-height: 1.75;
+}
+
+.comparison-return {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 2rem;
+  padding-block: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.comparison-return > span {
+  color: var(--muted);
+  font-size: var(--text-small);
+}
+
+@media (max-width: 60rem) {
+  .chapter-controls { max-width: none; }
+  .comparison-accounts { gap: 1.5rem; }
+  .comparison-accounts .account-card { padding-inline-end: 1.5rem; }
+  .comparison-accounts .account-card + .account-card { padding-inline-start: 1.5rem; }
+}
+
+@media (max-width: 720px) {
+  .chapter-reader { padding-block: 1.25rem 6rem; }
+  .chapter-heading { align-items: start; flex-direction: column; gap: .5rem; }
+  .chapter-heading h2 { font-size: 3rem; }
+  .chapter-controls { grid-template-columns: minmax(0, 1fr) minmax(0, .6fr); }
+  .chapter-controls .edition-picker { grid-column: 1 / -1; }
+  .chapter-pagination { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .chapter-pagination > span { grid-column: 1 / -1; grid-row: 2; }
+  .study-layout { display: block; }
+  .chapter-text .verse-button {
+    width: 100%;
+    margin-inline-start: 0;
+    grid-template-columns: 1.5rem minmax(0, 1fr);
+    gap: .375rem;
+    padding: .75rem .5rem;
+    line-height: 1.75;
+  }
+  .reader-study-toggle {
+    position: fixed;
+    z-index: 9;
+    inset: auto 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 1px solid var(--mint);
+    background: var(--mint);
+    color: var(--bg);
+    padding: .875rem 1rem;
+    box-shadow: 0 .5rem 2rem #0008;
+    font-weight: 650;
+  }
+  .study-evidence { display: none; }
+  .study-evidence.is-open {
+    display: block;
+    position: fixed;
+    z-index: 31;
+    inset: auto .5rem .5rem;
+    max-height: min(85svh, 54rem);
+    padding: 0 1rem 1.5rem;
+    border: 1px solid var(--line);
+    border-top: 2px solid var(--mint);
+    border-radius: .875rem .875rem .375rem .375rem;
+    background: var(--bg);
+    box-shadow: 0 -1rem 4rem #0008;
+  }
+  .evidence-backdrop {
+    display: block;
+    position: fixed;
+    z-index: 30;
+    inset: 0;
+    border: 0;
+    border-radius: 0;
+    background: #0009;
+    padding: 0;
+    backdrop-filter: blur(2px);
+  }
+  .evidence-close {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    min-height: 3.5rem;
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 1.25rem;
+    padding: .75rem 0;
+    background: var(--bg);
+    color: var(--mint);
+    text-align: end;
+  }
+  .comparison-view { padding-top: 1.25rem; }
+  .comparison-intro h2 { font-size: 2.5rem; }
+  .comparison-accounts { grid-template-columns: minmax(0, 1fr); gap: 0; padding-block: 0; }
+  .comparison-accounts .account-card,
+  .comparison-accounts .account-card + .account-card { padding: 1.5rem 0; border-inline-start: 0; }
+  .comparison-accounts .account-card + .account-card { border-top: 1px solid var(--line); }
+  .comparison-return { align-items: start; flex-direction: column; }
+}
+
+@media (max-width: 360px) {
+  .chapter-heading h2 { font-size: 2.5rem; }
+  .warning-path { gap: .75rem 1.5rem; }
+}

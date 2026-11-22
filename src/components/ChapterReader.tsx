@@ -16,6 +16,37 @@ import { getPassage } from "../lib/lookup";
 import type { StructureAnchor } from "../data/structureTypes";
 import { formatAnchor } from "../lib/structures";
 import { AnchorText } from "./AnchorText";
+import { DurationText } from "./DurationText";
+import "../reader.css";
+
+type LinkedPreview =
+  | { kind: "passage"; id: string }
+  | { kind: "anchor"; anchor: StructureAnchor };
+
+/** Both ends of a chapter use the same navigation and availability rules. */
+function ChapterNavigation({ chapter, chapters, bookTitle, context, label, onChange }: {
+  chapter: number;
+  chapters: readonly number[];
+  bookTitle: string;
+  context: string;
+  label: string;
+  onChange: (chapter: number) => void;
+}) {
+  const index = chapters.indexOf(chapter);
+  const previous = chapters[index - 1];
+  const next = chapters[index + 1];
+  return <nav className="chapter-pagination" aria-label={label}>
+    <button type="button" disabled={previous === undefined}
+      onClick={() => { if (previous !== undefined) onChange(previous); }}>
+      ← {previous === undefined ? "Previous chapter" : `${bookTitle} ${previous}`}
+    </button>
+    <span>{context}</span>
+    <button type="button" disabled={next === undefined}
+      onClick={() => { if (next !== undefined) onChange(next); }}>
+      {next === undefined ? "Next chapter" : `${bookTitle} ${next}`} →
+    </button>
+  </nav>;
+}
 
 export function ChapterReader({
   reference,
@@ -46,14 +77,14 @@ export function ChapterReader({
   );
 
   const [panelOpen, setPanelOpen] = useState(false);
-  const [previewId, setPreviewId] = useState<string | null>(null);
-  const [previewAnchor, setPreviewAnchor] = useState<StructureAnchor | null>(null);
+  const [preview, setPreview] = useState<LinkedPreview | null>(null);
   const [isMobile, setIsMobile] = useState(
     () => window.matchMedia("(max-width: 720px)").matches,
   );
   const [shareStatus, setShareStatus] = useState("");
   const [editionError, setEditionError] = useState("");
   const closeButton = useRef<HTMLButtonElement>(null);
+  const studyButton = useRef<HTMLButtonElement>(null);
   const lastVerse = useRef<HTMLButtonElement | null>(null);
   const bookTitle =
     works.find((work) => work.id === reference.workId)?.title ??
@@ -106,10 +137,14 @@ export function ChapterReader({
     return () => {
       document.body.style.overflow = oldOverflow;
     };
-  }, [panelOpen, isMobile, previewId, previewAnchor]);
+  }, [panelOpen, isMobile, preview]);
   function closePanel() {
     setPanelOpen(false);
-    lastVerse.current?.focus({ preventScroll: true });
+    setPreview(null);
+    requestAnimationFrame(() => {
+      const selectedVerse = document.getElementById(`verse-${reference.verseStart}`);
+      (lastVerse.current ?? selectedVerse ?? studyButton.current)?.focus({ preventScroll: true });
+    });
   }
   if (!resolved)
     return (
@@ -132,6 +167,15 @@ export function ChapterReader({
     verseStart: book.unversified ? undefined : activeVerse,
     verseEnd: book.unversified ? undefined : reference.verseEnd ?? activeVerse,
   };
+  const openChapter = (chapter: number) => onOpen({ workId: reference.workId, chapter }, edition.id);
+  const openLinkedPassage = (id: string) => {
+    const target = getReferenceForPassage(id);
+    if (target) {
+      setPreview(null);
+      setPanelOpen(false);
+      onOpen(target);
+    }
+  };
   return (
     <section className="chapter-reader" aria-labelledby="chapter-title">
       <button type="button" className="reading-back" onClick={onBack}>
@@ -147,22 +191,20 @@ export function ChapterReader({
         <a
           className="source-link"
           href={window.location.href}
-          onClick={(event) => {
+          onClick={async (event) => {
             event.preventDefault();
-            navigator.clipboard
-              ?.writeText(window.location.href)
-              .then(() => setShareStatus("Passage link copied"))
-              .catch(() =>
-                setShareStatus("Copy the URL from your address bar."),
-              );
+            try {
+              await navigator.clipboard.writeText(window.location.href);
+              setShareStatus("Passage link copied");
+            } catch {
+              setShareStatus("Copy the URL from your address bar.");
+            }
           }}
         >
           Copy passage link ↗
         </a>
       </div>
-      <p className="reader-share-status" role="status">
-        {shareStatus}
-      </p>
+      <p className="reader-share-status" role="status">{shareStatus}</p>
       {edition.id !== preferredEditionId ? (
         <p className="fallback-note">
           Your preference is{" "}
@@ -235,41 +277,16 @@ export function ChapterReader({
           {editionError} Your reading has not changed.
         </p>
       ) : null}
-      <nav className="chapter-pagination" aria-label="Chapter navigation">
-        <button
-          disabled={chapterIndex <= 0}
-          onClick={() =>
-            onOpen(
-              {
-                workId: reference.workId,
-                chapter: book.chapterNumbers[chapterIndex - 1],
-              },
-              edition.id,
-            )
-          }
-        >
-          ← Previous chapter
-        </button>
-        <span>
-          Chapter {reference.chapter} · {book.chapterCount} chapters
-        </span>
-        <button
-          disabled={chapterIndex >= book.chapterCount - 1}
-          onClick={() =>
-            onOpen(
-              {
-                workId: reference.workId,
-                chapter: book.chapterNumbers[chapterIndex + 1],
-              },
-              edition.id,
-            )
-          }
-        >
-          Next chapter →
-        </button>
-      </nav>
+      <ChapterNavigation chapter={reference.chapter} chapters={book.chapterNumbers}
+        bookTitle={bookTitle} context={`Chapter ${reference.chapter} of ${book.chapterCount}`}
+        label="Chapter navigation" onChange={openChapter} />
+      {!panelOpen ? <button ref={studyButton} type="button" className="reader-study-toggle"
+        aria-controls="study-evidence" aria-haspopup="dialog"
+        onClick={() => setPanelOpen(true)}>
+        Study {formatReference(selectedReference)} <span aria-hidden="true">↗</span>
+      </button> : null}
       <div className="study-layout">
-        <div className="chapter-text">
+        <div className="chapter-text" inert={isMobile && panelOpen}>
           <p className="reader-instruction">
             {book.unversified ? "Unversified chapter text · OCR-derived transcription; errors may remain." : "Select a verse to explore curated structures and cross-references."}
           </p>
@@ -307,6 +324,7 @@ export function ChapterReader({
                 aria-controls="study-evidence"
                 onClick={(event) => {
                   lastVerse.current = event.currentTarget;
+                  setPreview(null);
                   onVerse(verse.number);
                   setPanelOpen(true);
                 }}
@@ -314,7 +332,10 @@ export function ChapterReader({
                 <span className="verse-number">
                   {verse.label ?? verse.number}
                 </span>
-                <span>{verse.text}</span>
+                <span><DurationText text={verse.text}
+                  emphasize={reference.workId === "genesis" &&
+                    (verse.endNumber ?? verse.number) >= activeVerse &&
+                    verse.number <= (reference.verseEnd ?? activeVerse)} /></span>
               </button>
             ))
           )}
@@ -328,39 +349,9 @@ export function ChapterReader({
               <p>{loaded.data.subscription}</p>
             </section>
           ) : null}
-          <nav className="chapter-pagination" aria-label="Continue reading">
-            <button
-              disabled={chapterIndex <= 0}
-              onClick={() =>
-                onOpen(
-                  {
-                    workId: reference.workId,
-                    chapter: book.chapterNumbers[chapterIndex - 1],
-                  },
-                  edition.id,
-                )
-              }
-            >
-              ← Previous chapter
-            </button>
-            <span>
-              {edition.shortName} · {bookTitle}
-            </span>
-            <button
-              disabled={chapterIndex >= book.chapterCount - 1}
-              onClick={() =>
-                onOpen(
-                  {
-                    workId: reference.workId,
-                    chapter: book.chapterNumbers[chapterIndex + 1],
-                  },
-                  edition.id,
-                )
-              }
-            >
-              Next chapter →
-            </button>
-          </nav>
+          <ChapterNavigation chapter={reference.chapter} chapters={book.chapterNumbers}
+            bookTitle={bookTitle} context={`${edition.shortName} · ${bookTitle}`}
+            label="Continue reading" onChange={openChapter} />
           <details className="reader-edition-credit">
             <summary>Sources &amp; notes</summary>
             <p>{edition.title}</p>
@@ -414,12 +405,12 @@ export function ChapterReader({
             className="evidence-close"
             onClick={closePanel}
           >
-            Close evidence ×
+            {preview ? "Close preview" : "Close study"} ×
           </button>
           <p className="evidence-reference">
             {formatReference(selectedReference)}
           </p>
-          {previewId || previewAnchor ? (
+          {preview ? (
             <section
               className="passage-preview"
               aria-label="Linked passage preview"
@@ -427,36 +418,29 @@ export function ChapterReader({
               <button
                 className="study-action"
                 type="button"
-                onClick={() => { setPreviewId(null); setPreviewAnchor(null); }}
+                onClick={() => setPreview(null)}
               >
                 ← Back to study
               </button>
               <span className="eyebrow">PREVIEW · YOUR CHAPTER STAYS OPEN</span>
-              <h2>{previewAnchor ? formatAnchor(previewAnchor) : getPassage(previewId!).reference}</h2>
+              <h2>{preview.kind === "anchor" ? formatAnchor(preview.anchor) : getPassage(preview.id).reference}</h2>
               <p className="preview-context">
-                {previewAnchor ? "Reading context for an element of the inspected structure proposal." : previewId === "enoch-10-1-3" || previewId === "gen-6-13-18"
+                {preview.kind === "anchor" ? "Reading context for an element of the inspected structure proposal." : preview.id === "enoch-10-1-3" || preview.id === "gen-6-13-18"
                   ? "Narrative parallel to the Flood story, separate from the 150-day pair."
                   : "The counterpart in Wenham’s proposed structure."}
               </p>
-              {previewAnchor ? <AnchorText anchor={previewAnchor} preferredEditionId={edition.id} onRead={(target, targetEdition) => {
-                setPreviewAnchor(null);
+              {preview.kind === "anchor" ? <AnchorText anchor={preview.anchor} preferredEditionId={edition.id} onRead={(target, targetEdition) => {
+                setPreview(null);
                 setPanelOpen(false);
                 onOpen(target, targetEdition);
               }}/> : <PassageText
-                passageId={previewId!}
+                passageId={preview.id}
                 preferredEditionId={preferredEditionId}
                 compact
                 emphasizeDuration={
-                  previewId === "gen-8-3" || previewId === "gen-7-24"
+                  preview.id === "gen-8-3" || preview.id === "gen-7-24"
                 }
-                onRead={(id) => {
-                  const target = getReferenceForPassage(id);
-                  if (target) {
-                    setPreviewId(null);
-                    setPanelOpen(false);
-                    onOpen(target);
-                  }
-                }}
+                onRead={openLinkedPassage}
               />}
             </section>
           ) : (
@@ -464,20 +448,17 @@ export function ChapterReader({
               reference={selectedReference}
               editionId={edition.id}
               onOpen={(ref) => {
-                setPreviewId(null);
-                setPreviewAnchor(null);
+                setPreview(null);
                 setPanelOpen(false);
                 onOpen(ref);
               }}
               onMap={onMap}
               onPreview={(id) => {
-                setPreviewAnchor(null);
-                setPreviewId(id);
+                setPreview({ kind: "passage", id });
                 setPanelOpen(true);
               }}
               onPreviewAnchor={(anchor) => {
-                setPreviewId(null);
-                setPreviewAnchor(anchor);
+                setPreview({ kind: "anchor", anchor });
                 setPanelOpen(true);
               }}
             />

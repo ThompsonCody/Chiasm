@@ -24,8 +24,8 @@ function PassageRow({ node, selected, paired, onSelect }: {
     <span className="pair-label">{node.label}</span>
     <span className="passage-content"><span className="passage-title">{node.title}</span><span className="passage-reference">{node.sourceRef}</span></span>
     {isCenter ? <span className="center-tag">Proposed center</span> : null}
-    {selected ? <span className="row-selection-mark"><span aria-hidden="true">✓</span>
-      <span className="sr-only">{isCenter ? "Selected center" : paired ? "Selected pair" : "Selected element"}</span>
+    {selected ? <span className="row-selection-mark">
+      <span>{isCenter ? "Selected center" : paired ? "Selected pair" : "Selected element"}</span>
     </span> : null}
   </button>;
 }
@@ -125,7 +125,7 @@ export function FoldSequence({ map, selectionId, onSelect, comparison, isNarrow 
   return <section ref={sequenceRef} className={`sequence-panel fold-layout-${layout}`} aria-labelledby="sequence-title">
     <div className="panel-heading fold-heading">
       <h2 id="sequence-title">Read the fold</h2>
-      <div className="fold-layout-switch" role="group" aria-label="Passage layout">
+      <div className="fold-layout-switch text-tabs" role="group" aria-label="Passage layout">
         {graphSupported ? <button type="button" aria-pressed={layout === "fold-map"}
           aria-controls="fold-passages"
           onClick={() => setLayout("fold-map")}>Fold map</button> : null}

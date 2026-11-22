@@ -44,7 +44,7 @@ export function StructureStudy({ structureId, selectionId, preferredEditionId, o
 
   const evidence = <MapEvidence map={map} selectionId={selectionId} preferredEditionId={preferredEditionId}
     onRead={onRead} variant="workspace" showProvenance={false}
-    controls={<EditionPicker label="Reading edition" value={preferredEditionId} onChange={onEdition} />} />;
+    controls={<EditionPicker label="Reading edition" value={preferredEditionId} onChange={onEdition} shortLabels />} />;
 
   return (
     <div className="structure-workspace study-desk" ref={studyRef}>

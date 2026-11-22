@@ -1,0 +1,36 @@
+/* One visual and interaction system for every horizontal Fold graph. */
+.fold-center { display: flex; justify-content: center; text-align: center; margin-block: .75rem; }
+.fold-center button { border: 0; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: .25rem .75rem; padding: .375rem .75rem; color: var(--amber); }
+.fold-center button:hover { background: var(--gold-surface); }
+.fold-center span { font-size: var(--text-small); }
+.fold-center strong { font: italic 400 1.375rem/1.35 var(--font-display); }
+.fold-center button[aria-pressed='true'] { outline: 1px solid var(--amber); }
+.fold-graph { position: relative; min-width: 0; padding-bottom: .75rem; }
+.fold-graph-arcs { display: block; width: 100%; height: var(--fold-graph-height, clamp(13rem, 21vw, 21rem)); overflow: visible; }
+.fold-arc, .fold-arc-hit { fill: none; vector-effect: non-scaling-stroke; }
+.fold-arc { stroke: var(--pair-color, var(--connector)); stroke-width: 1.8; pointer-events: none; transition: stroke-width 160ms ease; }
+.fold-arc-hit { stroke: transparent; stroke-width: 22; pointer-events: stroke; cursor: pointer; }
+.fold-relationship.is-emphasized .fold-arc { stroke-width: 2.5; }
+.fold-relationship.is-selected .fold-arc.is-active { stroke-width: 3.75; filter: drop-shadow(0 0 .35rem var(--pair-color)); }
+.fold-relationship .fold-arc.fold-trace-baseline { stroke-width: 1.8; opacity: .38; filter: none; }
+.fold-graph-axis { position: relative; display: grid; align-items: center; margin-top: -1.375rem; }
+.fold-graph-axis::before { content: ""; position: absolute; inset: 50% 0 auto; height: 1px; background: var(--line); pointer-events: none; }
+.fold-node { position: relative; display: grid; place-items: center; width: 100%; min-width: 0; height: 2.75rem; padding: 0; border: 0; background: transparent; color: var(--pair-color, var(--connector)); cursor: pointer; }
+.fold-node:hover { background: transparent; border-color: transparent; }
+.fold-node::before { content: ""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: .625rem; height: .625rem; border: 1px solid currentColor; border-radius: 50%; background: currentColor; }
+.fold-node-label { position: absolute; top: calc(50% + .7rem); font: 400 1.125rem/1.2 var(--serif); }
+.fold-node:hover .fold-node-label, .fold-node.is-emphasized .fold-node-label { text-decoration: underline; text-underline-offset: .15em; }
+.fold-node.is-active::before { width: .875rem; height: .875rem; border-color: var(--ink); box-shadow: 0 0 .9rem color-mix(in srgb, var(--pair-color, var(--accent)) 80%, transparent); }
+.fold-node.is-active .fold-node-label { font-weight: 700; text-decoration: underline; text-underline-offset: .15em; }
+.fold-node.is-center { color: var(--gold); }
+.fold-node.is-center::before { width: .875rem; height: .875rem; background: var(--gold); }
+.fold-node:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; border-radius: .125rem; }
+.fold-graph.is-compact { padding-bottom: 1.25rem; }
+.fold-graph.is-compact .fold-node-label { display: none; }
+.fold-graph.is-compact .fold-node::before { width: .45rem; height: .45rem; border: 0; }
+.fold-graph.is-compact .fold-node.is-active::before { width: .75rem; height: .75rem; border: 1px solid var(--ink); }
+.fold-graph.is-compact .fold-node.is-center::before { width: .75rem; height: .75rem; }
+.fold-compact-label { position: absolute; top: 100%; left: 50%; padding-right: .5rem; transform: translateX(-100%); color: var(--pair-color); font: 600 1rem/1.2 var(--serif); white-space: nowrap; }
+.fold-compact-label.is-later { transform: none; padding-left: .5rem; padding-right: 0; }
+.fold-compact-label.is-center { transform: translateX(-50%); padding: 0; color: var(--gold); }
+@media (prefers-reduced-motion: reduce) { .fold-arc { transition: none; } }
