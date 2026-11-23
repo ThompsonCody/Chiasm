@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { RefObject } from "react";
 import { createWaterRenderer } from "../lib/waterRenderer";
+import { createWaterInteraction } from "../lib/waterInteraction";
 import "./WaterScene.css";
 
 /** Decorative only. Graph bounds and color drive its reflected light; no passage data is copied. */
@@ -15,12 +16,14 @@ export function WaterScene({ graphRef }: { graphRef: RefObject<HTMLElement | nul
     const renderer=createWaterRenderer(canvas,()=>{dirty=true;});
     if (!renderer) return; // The CSS photograph remains a full-screen fallback.
     const reduced=matchMedia("(prefers-reduced-motion: reduce)");
+    const interaction=createWaterInteraction();
     let frame=0, lastFrame=0, waterTime=0;
     let light=[.5,.35,.3,0], color=[.47,.87,.91];
     const invalidate=()=>{dirty=true;};
     const resize=()=>{
       const scale=Math.min(devicePixelRatio || 1,1.5);
       canvas.width=Math.round(innerWidth*scale); canvas.height=Math.round(innerHeight*scale);
+      interaction.clear();
       invalidate();
     };
     const observer=new MutationObserver(invalidate);
@@ -36,7 +39,7 @@ export function WaterScene({ graphRef }: { graphRef: RefObject<HTMLElement | nul
         dirty=false;
       }
       if(!reduced.matches && !pausedRef.current) waterTime+=Math.min((now-lastFrame)/1000,.1);
-      renderer!.draw(waterTime,light,color);
+      renderer!.draw(waterTime,light,color,interaction.sample(waterTime));
       lastFrame=now;
     }
     function tick(now: number){
@@ -45,12 +48,23 @@ export function WaterScene({ graphRef }: { graphRef: RefObject<HTMLElement | nul
       frame=requestAnimationFrame(tick);
     }
     resize(); frame=requestAnimationFrame(tick);
+    function disturb(event: PointerEvent) {
+      if(reduced.matches || pausedRef.current || document.hidden || !event.isPrimary) return;
+      if(event.target instanceof Element && event.target.closest("a,button,input,select,textarea,summary,.preview-match")) {
+        interaction.resetPointer(); return;
+      }
+      interaction.add(event.clientX,event.clientY,waterTime,innerWidth,innerHeight,event.type === "pointerdown",event.timeStamp/1000);
+    }
+    const clearInteraction=()=>{interaction.clear(); invalidate();};
+    addEventListener("pointermove",disturb,{passive:true}); addEventListener("pointerdown",disturb,{passive:true});
+    addEventListener("blur",clearInteraction);
     addEventListener("resize",resize); addEventListener("scroll",invalidate,{passive:true});
-    document.addEventListener("visibilitychange",invalidate); reduced.addEventListener("change",invalidate);
+    document.addEventListener("visibilitychange",clearInteraction); reduced.addEventListener("change",clearInteraction);
     return ()=>{
       cancelAnimationFrame(frame); observer.disconnect(); renderer.dispose();
       removeEventListener("resize",resize); removeEventListener("scroll",invalidate);
-      document.removeEventListener("visibilitychange",invalidate); reduced.removeEventListener("change",invalidate);
+      removeEventListener("pointermove",disturb); removeEventListener("pointerdown",disturb); removeEventListener("blur",clearInteraction);
+      document.removeEventListener("visibilitychange",clearInteraction); reduced.removeEventListener("change",clearInteraction);
     };
   },[graphRef]);
   return <>

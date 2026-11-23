@@ -2,9 +2,10 @@ import { corpusBooks } from "../data/corpus.ts";
 import { getCollectionWorks } from "./reader.ts";
 
 const readableIds = new Set(corpusBooks.map(book => book.workId));
+export type LibraryAvailability = "all" | "readable" | "unavailable";
 
 /** Collection membership and reading-edition availability are separate. */
-export function getLibraryView(collectionId: string, query = "") {
+export function getLibraryView(collectionId: string, query = "", availability: LibraryAvailability = "all") {
   const allWorks = getCollectionWorks("all").flatMap(group => group.works);
   const tewahedoWorks = getCollectionWorks("tewahedo").flatMap(group => group.works);
   const tewahedoIds = new Set(tewahedoWorks.map(work => work.id));
@@ -13,7 +14,8 @@ export function getLibraryView(collectionId: string, query = "") {
   const collectionIds = new Set(collectionWorks.map(work => work.id));
   const search = query.trim().toLowerCase();
   const matches = (work: typeof allWorks[number]) =>
-    [work.title, work.id, ...(work.aliases ?? [])].join(" ").toLowerCase().includes(search);
+    [work.title, work.id, ...(work.aliases ?? [])].join(" ").toLowerCase().includes(search) &&
+    (availability === "all" || readableIds.has(work.id) === (availability === "readable"));
   const groups = sourceGroups
     .map(group => ({ ...group, works: group.works.filter(matches) }))
     .filter(group => group.works.length > 0);
@@ -23,6 +25,8 @@ export function getLibraryView(collectionId: string, query = "") {
     total: collectionWorks.length,
     readable,
     unavailable: collectionWorks.length - readable,
+    editionCount: new Set(corpusBooks.filter(book => collectionIds.has(book.workId)).map(book => book.editionId)).size,
+    unavailableWorks: collectionWorks.filter(work => !readableIds.has(work.id)),
     matchCount: groups.reduce((count, group) => count + group.works.length, 0),
     outsideMatches: search ? allWorks.filter(work => !collectionIds.has(work.id) && matches(work)) : [],
     additionalWorks: allWorks.filter(work => !tewahedoIds.has(work.id)),

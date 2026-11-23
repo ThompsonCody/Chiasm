@@ -3,6 +3,7 @@ import { collections } from "../data/catalog";
 import type { Work } from "../data/catalog";
 import { corpusBooks, corpusEditions } from "../data/corpus";
 import { getLibraryView } from "../lib/library";
+import type { LibraryAvailability } from "../lib/library";
 import { resolveBookEdition } from "../lib/study";
 import "../library.css";
 
@@ -85,9 +86,10 @@ export function LibraryView({ collectionId, onCollection, onOpen, preferredEditi
 }) {
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState("genesis");
+  const [availability, setAvailability] = useState<LibraryAvailability>("all");
   const selectedHeading = useRef<HTMLHeadingElement>(null);
   const collection = collections.find(item => item.id === collectionId)!;
-  const library = getLibraryView(collectionId, query);
+  const library = getLibraryView(collectionId, query, availability);
   const visibleWorks = library.groups.flatMap(group => group.works);
   const selectedWork = visibleWorks.find(work => work.id === selectedId) ?? visibleWorks[0];
 
@@ -121,6 +123,40 @@ export function LibraryView({ collectionId, onCollection, onOpen, preferredEditi
       </fieldset>
     </div>
 
+    <section className="library-coverage" aria-label="Collection coverage">
+      <div className="library-coverage-counts" aria-live="polite">
+        <strong>{library.readable} works ready to read</strong>
+        <span>{library.editionCount} reading editions</span>
+        <span>{library.unavailable} texts not yet available</span>
+      </div>
+      <p>{collectionId === "all"
+        ? "Every catalogued work, across the available collections."
+        : "The Church’s published book list, in its own order and groups."} Library and Read open the same texts.</p>
+      <p>A collection chooses the works you browse. An edition—such as KJV or WEB—chooses the text you read.</p>
+      <div className="library-coverage-actions">
+        <fieldset>
+          <legend>Text availability</legend>
+          <div className="text-tabs" aria-label="Filter by text availability">
+            {([
+              ["all", `All works (${library.total})`],
+              ["readable", `Ready to read (${library.readable})`],
+              ["unavailable", `Text missing (${library.unavailable})`],
+            ] as const).map(([id, title]) => <button key={id} type="button" aria-pressed={availability === id}
+              onClick={() => setAvailability(id)}>{title}</button>)}
+          </div>
+        </fieldset>
+        <label>Browse a group
+          <select aria-label="Browse a book group" value="" onChange={event => {
+            const heading = document.getElementById(`work-group-${event.target.value}`);
+            if (event.target.value && heading) { heading.focus({preventScroll:true}); heading.scrollIntoView({block:"start"}); }
+          }}>
+            <option value="">Choose a book group</option>
+            {library.groups.map((group,index) => <option key={group.title} value={index}>{group.title} · {group.works.length} works</option>)}
+          </select>
+        </label>
+      </div>
+    </section>
+
     <details className="sources-notes collection-notes">
       <summary>Collection source &amp; scope notes</summary>
       <p>{collection.note}</p>
@@ -133,9 +169,9 @@ export function LibraryView({ collectionId, onCollection, onOpen, preferredEditi
       <p>Counts describe catalogue entries, not a traditional canon total. Collection membership does not change your reading edition.</p>
     </details>
 
-    {query.trim() ? <p className="browse-result-count" role="status">{library.matchCount} {library.matchCount === 1 ? "match" : "matches"} in {collection.title}.</p> : null}
+    <p className="browse-result-count" role="status">Showing {library.matchCount} {library.matchCount === 1 ? "work" : "works"} in {collection.title}{query.trim() ? ` matching “${query.trim()}”` : ""}.</p>
     {!selectedWork ? <div className="library-empty">
-      <p>No works match “{query.trim()}” in {collection.title}.</p>
+      <p>No works match these search and availability filters in {collection.title}.</p>
       {library.outsideMatches.length ? <>
         <p>Found in All texts: {library.outsideMatches.map(work => work.title).join("; ")}.</p>
         <button className="return-button" type="button" onClick={() => onCollection("all")}>Search All texts →</button>
@@ -143,8 +179,8 @@ export function LibraryView({ collectionId, onCollection, onOpen, preferredEditi
     </div> : <div className="library-browser">
       <nav className="library-work-index" aria-label="Browse works">
         <a className="library-chapters-link" href="#selected-work-title">Jump to chapters ↓</a>
-        {library.groups.map(group => <section key={group.title}>
-          <h2>{group.title}</h2>
+        {library.groups.map((group,index) => <section key={group.title}>
+          <h2 id={`work-group-${index}`} tabIndex={-1}>{group.title} · {group.works.length}</h2>
           <ul>{group.works.map(work => <li key={work.id}>
             <button type="button" aria-pressed={work.id === selectedWork.id}
               onClick={() => selectWork(work.id)}>

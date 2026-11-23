@@ -1,4 +1,6 @@
 .browse-view { padding-block: 2rem 4rem; }
+.library-view { padding-top: .5rem; }
+.library-view .browse-heading { margin-bottom: 1.5rem; }
 .browse-heading { max-width: 58rem; margin: 0 auto 3rem; text-align: center; }
 .browse-heading h1 { margin: .75rem 0 1rem; font: 400 clamp(2.5rem, 4.2vw, 4.5rem)/1.08 var(--font-display, Georgia, serif); letter-spacing: -.035em; }
 .browse-heading > p { font: italic 1.375rem/1.5 var(--font-display, Georgia, serif); color: var(--muted); }
@@ -8,6 +10,12 @@
 .browse-tabs { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.5rem; }
 .browse-tabs button span { margin-left: .375rem; color: var(--muted); font-size: 1rem; font-weight: 400; }
 .library-discovery { display: grid; grid-template-columns: minmax(14rem, 1fr) minmax(20rem, 1.2fr); gap: 2.5rem; align-items: start; }
+.library-coverage { padding-block: 1.5rem; border-bottom: 1px solid var(--line); margin-top: 1rem; }
+.library-coverage-counts { display: flex; flex-wrap: wrap; gap: .5rem 2rem; margin-bottom: .75rem; }
+.library-coverage-counts strong { color: var(--mint); font-weight: 600; }
+.library-coverage-counts span, .library-coverage p { color: var(--muted); font-size: 1rem; }
+.library-coverage-actions { display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: 1rem 2rem; margin-top: 1.25rem; }
+.library-coverage-actions label { flex: 0 1 22rem; }
 .collection-options { min-width: 0; padding: 0 0 0 2rem; margin: 0; border: 0; border-left: 1px solid var(--line); }
 .collection-options legend { padding: 0; margin-bottom: .625rem; font-size: 1rem; }
 .collection-notes { margin-block: 1.25rem 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--line); }
@@ -85,8 +93,8 @@
   .collection-options { border-left: 0; padding-left: 0; }
   .browse-tabs { gap: .5rem 1.25rem; }
   .library-browser { grid-template-columns: minmax(0, 1fr); gap: 2.5rem; }
-  .library-work-detail { grid-row: 1; padding: 0 0 2rem; border-left: 0; border-bottom: 1px solid var(--line); }
-  .library-work-index { max-height: none; overflow: visible; padding-right: 0; }
+  .library-work-detail { padding: 0; border-left: 0; }
+  .library-work-index { max-height: 22rem; overflow-y: auto; padding-right: .5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--line); }
   .library-work-meta { gap: .5rem; }
   .library-work-meta p { flex-basis: 100%; }
   .library-open-chapter { align-items: start; flex-direction: column; gap: 1rem; }

@@ -336,7 +336,13 @@ export const collections: readonly Collection[] = [
     id: "all",
     title: "All texts",
     note: "Every work in the shared catalog, including works whose text is not yet available. Editions never filter this list.",
-    groups: [{ title: "Works", workIds: works.map((item) => item.id) }],
+    groups: [
+      { title: "Old Testament works", workIds: oldTestamentWorks.map(item => item.id) },
+      { title: "New Testament works", workIds: newTestamentWorks.map(item => item.id) },
+      { title: "Further works & church texts", workIds: works.filter(item =>
+        !oldTestamentWorks.some(book => book.id === item.id) &&
+        !newTestamentWorks.some(book => book.id === item.id)).map(item => item.id) },
+    ],
   },
   {
     id: "tewahedo",
