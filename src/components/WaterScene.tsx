@@ -2,9 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import type { RefObject } from "react";
 import { createWaterRenderer } from "../lib/waterRenderer";
 import { createWaterInteraction } from "../lib/waterInteraction";
+import { arcReflection } from "../lib/waterReflection";
 import "./WaterScene.css";
 
-/** Decorative only. Graph bounds and color drive its reflected light; no passage data is copied. */
+/** Graph geometry, color and the shared stroke reveal drive the reflected light. */
 export function WaterScene({ graphRef }: { graphRef: RefObject<HTMLElement | null> }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const pausedRef = useRef(false);
@@ -19,6 +20,8 @@ export function WaterScene({ graphRef }: { graphRef: RefObject<HTMLElement | nul
     const interaction=createWaterInteraction();
     let frame=0, lastFrame=0, waterTime=0;
     let light=[.5,.35,.3,0], color=[.47,.87,.91];
+    let path: SVGPathElement | null = null, sweep: SVGRectElement | null = null;
+    let bounds: DOMRect | undefined, tracing = false;
     const invalidate=()=>{dirty=true;};
     const resize=()=>{
       const scale=Math.min(devicePixelRatio || 1,1.5);
@@ -27,24 +30,29 @@ export function WaterScene({ graphRef }: { graphRef: RefObject<HTMLElement | nul
       invalidate();
     };
     const observer=new MutationObserver(invalidate);
-    if(graphRef.current) observer.observe(graphRef.current,{subtree:true,attributes:true,attributeFilter:["class","style"],childList:true});
+    if(graphRef.current) observer.observe(graphRef.current,{subtree:true,attributes:true,attributeFilter:["class","style","clip-path","d"],childList:true});
     function draw(now: number) {
       if(dirty){
-        const path=graphRef.current?.querySelector<SVGPathElement>(".fold-arc.is-active:not(.fold-trace-baseline)");
-        const bounds=path?.getBoundingClientRect();
-        if(path && bounds){
-          light=[(bounds.left+bounds.width/2)/innerWidth,1-bounds.bottom/innerHeight,bounds.width/innerWidth,bounds.bottom>0&&bounds.top<innerHeight?1:0];
-          color=(getComputedStyle(path).stroke.match(/[\d.]+/g)?.slice(0,3).map(Number) ?? [120,221,231]).map(channel=>channel/255);
-        }else light[3]=0;
+        path=graphRef.current?.querySelector<SVGPathElement>(".fold-arc.is-active:not(.fold-trace-baseline)") ?? null;
+        bounds=path?.getBoundingClientRect();
+        sweep=path?.closest(".traced-stroke")?.querySelector<SVGRectElement>(".fold-trace-sweep") ?? null;
+        if(path) color=(getComputedStyle(path).stroke.match(/[\d.]+/g)?.slice(0,3).map(Number) ?? [120,221,231]).map(channel=>channel/255);
         dirty=false;
       }
+      // Sample the scaling clip itself: this includes CSS easing, duration overrides,
+      // reduced motion and rapid re-selection, without duplicating an animation clock.
+      const clipped=path?.hasAttribute("clip-path") && sweep;
+      const transform=clipped ? getComputedStyle(clipped).transform : "none";
+      const progress=transform === "none" ? 1 : new DOMMatrixReadOnly(transform).a;
+      tracing=!!clipped && progress<1 && !reduced.matches;
+      light=bounds ? arcReflection(bounds,{width:innerWidth,height:innerHeight},progress) : [0,0,0,0];
       if(!reduced.matches && !pausedRef.current) waterTime+=Math.min((now-lastFrame)/1000,.1);
       renderer!.draw(waterTime,light,color,interaction.sample(waterTime));
       lastFrame=now;
     }
     function tick(now: number){
-      if(!document.hidden && (dirty || (!reduced.matches && !pausedRef.current && now-lastFrame>32))) draw(now);
-      if(pausedRef.current || document.hidden) lastFrame=now;
+      if(!document.hidden && (dirty || (!reduced.matches && (tracing || !pausedRef.current) && now-lastFrame>32))) draw(now);
+      if((pausedRef.current && !tracing) || document.hidden) lastFrame=now;
       frame=requestAnimationFrame(tick);
     }
     resize(); frame=requestAnimationFrame(tick);

@@ -59,7 +59,7 @@ void main(){
   color+=vec3(.015,.055,.075)*crest;
   // The selected arc illuminates the rippling surface below its actual screen position.
   float below=light.y-surfaceUV.y;
-  float spread=max(.05,light.z*.52)+max(0.,below)*.24;
+  float spread=max(.004,light.z*.52)+max(0.,below)*.24;
   float lateral=(surfaceUV.x-light.x+wave*.012)/spread;
   float pool=exp(-lateral*lateral*2.5)*exp(-abs(below)*4.)
             *smoothstep(-.035,.065,below)*light.w;
